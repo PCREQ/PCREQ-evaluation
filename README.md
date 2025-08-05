@@ -16,7 +16,7 @@ This repository contains the evaluation results of [PCREQ](https://github.com/PC
   - Uses the **REQBench-PyEGo and REQBench-ReadPyE** datasets.  
 
 - **`RQ3/`**  
-  Compares PCREQ against DeepSeek (V3, R1) and ChatGPT (GPT-40) on compatible requirements inference of TPL upgrades in Python projects.    
+  Compares PCREQ against DeepSeek (V3, R1) and ChatGPT (GPT-4o) on compatible requirements inference of TPL upgrades in Python projects.    
   - Uses the **REQBench** dataset.  
 
 - **`RQ4/`**  
