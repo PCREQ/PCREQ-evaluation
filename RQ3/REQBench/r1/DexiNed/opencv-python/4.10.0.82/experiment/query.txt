@@ -1,0 +1,85 @@
+
+                **Task**
+                Upgrade opencv-python to 4.10.0.82 in requirements.txt while maintaining full dependency compatibility.
+
+                **Input Context**
+                - Full requirements.txt: absl-py==0.9.0
+cachetools==4.1.0
+certifi==2020.4.5.1
+chardet==3.0.4
+coloredlogs==15.0.1
+correlation-cuda==0.0.0
+cycler==0.10.0
+future==1.0.0
+gast==0.2.2
+google-auth==1.14.1
+google-auth-oauthlib==0.4.1
+google-pasta==0.1.8
+grpcio==1.26.0
+h5py==2.10.0
+humanfriendly==10.0
+idna==2.9
+Keras-Applications==1.0.8
+Keras-Preprocessing==1.1.0
+kiwisolver==1.4.5
+kornia==0.3.2
+Markdown==3.1.1
+matplotlib==3.1.2
+mock==4.0.2
+mpmath==1.2.1
+numpy==1.18.1
+oauthlib==3.1.0
+opencv-python==4.6.0.66
+opt-einsum==3.2.1
+protobuf==3.11.2
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+pyparsing==2.4.6
+python-dateutil==2.8.1
+requests==2.23.0
+requests-oauthlib==1.3.0
+resample2d-cuda==0.0.0
+rsa==4.0
+six==1.14.0
+sympy==1.10.1
+termcolor==1.1.0
+torch==1.5.0
+typing_extensions==4.7.1
+urllib3==1.25.11
+Werkzeug==0.16.1
+wrapt==1.11.2
+
+                - Python version: 3.7
+
+                **Resolution Protocol**
+                1. Dependency Tree Analysis: Map all library interdependencies
+                2. Conflict Detection: Identify version clashes through:
+                a. Library-to-library constraints 
+                b. Python version compatibility
+                3. Version Negotiation: Resolve conflicts by:
+                a. Prioritizing opencv-python==4.10.0.82 retention
+                b. Making minimal version adjustments to other libraries
+                c. Preserving original library set
+
+                **Hard Constraints**
+                - STRICTLY MAINTAIN: Original library names/quantity
+                - MUST ENSURE: Full compatibility chain from Python 3.7 → opencv-python → dependencies
+                - FORBIDDEN: 
+                • Downgrading opencv-python from 4.10.0.82
+                • Adding/removing packages
+                • Explanatory content
+
+                **Output Mandates**
+                STRICT FORMAT:
+                lib1==x.y.z  
+                lib2==a.b.c
+                ...
+                PROHIBITED:
+                • Any non-version text.
+                • Library additions/removals
+                • Version placeholders
+                MANDATORY:
+                • Preserve original library names and count
+                • Pin EXACT versions
+                • Zero explanations/comments
+                

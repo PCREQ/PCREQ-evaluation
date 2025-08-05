@@ -1,0 +1,7 @@
+2025-06-29 10:51:06,857 - INFO - *************Upgrade pillow from 9.3.0 to 9.4.0 in sepconv-slomo*************
+2025-06-29 10:51:06,857 - INFO - Checking sepconv-slomo is compatible with pillow9.4.0?...
+2025-06-29 10:51:07,007 - INFO - sepconv-slomo is compatible with pillow9.4.0
+2025-06-29 10:51:08,203 - INFO - Checking scikit-image0.19.3 is compatible with pillow9.4.0?...
+2025-06-29 10:51:16,040 - INFO - scikit-image0.19.3 is compatible with pillow9.4.0
+2025-06-29 10:51:16,376 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 10:51:16,377 - INFO - Time cost: 9.520859956741333 s

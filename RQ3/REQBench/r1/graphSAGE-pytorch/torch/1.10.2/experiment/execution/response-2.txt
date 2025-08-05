@@ -1,0 +1,12 @@
+certifi==2021.10.8
+numpy==1.16.6
+Pillow==8.3.2
+pyhocon==0.3.59
+pyparsing==2.4.7
+scikit-learn==0.20.3
+scipy==1.2.1
+six==1.16.0
+sklearn==0.0.post1
+torch==1.10.2
+torchvision==0.11.3
+tqdm==4.66.1

@@ -1,0 +1,28 @@
+segment parameters: 12.4M
+Add Mosaic: ./imgs/ruoruo.jpg
+--------------------ERROR--------------------
+--------------Environment--------------
+DeepMosaics: 0.5.1
+Python: 3.7.13 (default, Mar 29 2022, 02:18:16) 
+[GCC 7.5.0]
+Pytorch: 1.8.0
+OpenCV: 4.9.0
+Platform: Linux-5.4.0-150-generic-x86_64-with-debian-buster-sid
+--------------BUG--------------
+Error Type: <class 'RuntimeError'>
+cuDNN error: CUDNN_STATUS_NOT_INITIALIZED
+<FrameSummary file deepmosaic.py, line 77 in <module>>
+<FrameSummary file deepmosaic.py, line 28 in main>
+<FrameSummary file /home/lei/compatibility_analysis/pytorch/1.7/DeepMosaics/cores/add.py, line 20 in addmosaic_img>
+<FrameSummary file /home/lei/compatibility_analysis/pytorch/1.7/DeepMosaics/models/runmodel.py, line 64 in get_ROI_position>
+<FrameSummary file /home/lei/compatibility_analysis/pytorch/1.7/DeepMosaics/models/runmodel.py, line 13 in run_segment>
+<FrameSummary file /home/lei/anaconda3/envs/py37-5/lib/python3.7/site-packages/torch/nn/modules/module.py, line 889 in _call_impl>
+<FrameSummary file /home/lei/compatibility_analysis/pytorch/1.7/DeepMosaics/models/BiSeNet_model.py, line 236 in forward>
+<FrameSummary file /home/lei/anaconda3/envs/py37-5/lib/python3.7/site-packages/torch/nn/modules/module.py, line 889 in _call_impl>
+<FrameSummary file /home/lei/compatibility_analysis/pytorch/1.7/DeepMosaics/models/BiSeNet_model.py, line 122 in forward>
+<FrameSummary file /home/lei/anaconda3/envs/py37-5/lib/python3.7/site-packages/torch/nn/modules/module.py, line 889 in _call_impl>
+<FrameSummary file /home/lei/compatibility_analysis/pytorch/1.7/DeepMosaics/models/BiSeNet_model.py, line 111 in forward>
+<FrameSummary file /home/lei/anaconda3/envs/py37-5/lib/python3.7/site-packages/torch/nn/modules/module.py, line 889 in _call_impl>
+<FrameSummary file /home/lei/anaconda3/envs/py37-5/lib/python3.7/site-packages/torch/nn/modules/conv.py, line 399 in forward>
+<FrameSummary file /home/lei/anaconda3/envs/py37-5/lib/python3.7/site-packages/torch/nn/modules/conv.py, line 396 in _conv_forward>
+Please press any key to exit.

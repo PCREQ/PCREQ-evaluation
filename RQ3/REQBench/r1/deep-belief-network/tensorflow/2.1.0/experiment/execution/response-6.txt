@@ -1,0 +1,7 @@
+numpy==1.18.5
+tensorflow==2.1.0
+h5py==2.10.0
+keras==2.3.1
+protobuf==3.11.3
+scikit-learn==0.22.2.post1
+dbn==3.3.0

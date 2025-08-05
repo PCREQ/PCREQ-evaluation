@@ -1,0 +1,99 @@
+
+                        **Debug Mission** 
+                        Resolve runtime crash caused by code-level incompatibilities in dependency chain.
+
+                        **Input Context**
+                        - Current environment: charset-normalizer==2.0.12
+click==8.0.4
+coverage==6.5.0
+cupy==11.3.0
+dataclasses==0.6
+decorator==4.4.2
+dill==0.3.7
+fastrlock==0.8.1
+Flask==2.0.3
+future==0.18.3
+gevent==21.12.0
+greenlet==1.1.2
+h5py==3.1.0
+idna==3.4
+imageio==2.9.0
+imageio-ffmpeg==0.4.2
+importlib-metadata==4.13.0
+itsdangerous==2.0.1
+Jinja2==3.0.3
+MarkupSafe==2.0.1
+moviepy==1.0.3
+numpy==1.20.0
+opencv-contrib-python==4.5.4.58
+Pillow==8.4.0
+proglog==0.1.10
+requests==2.26.0
+scipy==1.5.4
+torch==1.8.0
+torchvision==0.9.0
+tqdm==4.62.3
+typing_extensions==3.7.4.3
+urllib3==1.26.8
+Werkzeug==2.0.3
+zipp==3.6.0
+zope.event==4.5.0
+zope.interface==5.4.0
+
+                        - Python version: 3.7
+                        - Crash traceback: Traceback (most recent call last):
+  File "depthestim.py", line 69, in <module>
+    tenDisparity = disparity_estimation(tenImage)
+  File "<string>", line 207, in disparity_estimation
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "<string>", line 108, in forward
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/torch/nn/modules/container.py", line 119, in forward
+    input = module(input)
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/torch/nn/modules/container.py", line 119, in forward
+    input = module(input)
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/torch/nn/modules/conv.py", line 399, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/torch/nn/modules/conv.py", line 396, in _conv_forward
+    self.padding, self.dilation, self.groups)
+RuntimeError: cuDNN error: CUDNN_STATUS_NOT_INITIALIZED
+
+
+                        **Analysis Protocol**
+                        1. Traceback Pattern Matching：
+                        a. Identify error type (ImportError/AttributeError/TypeError)
+                        b. Map to possible API changes in torch v1.8.0 or its dependencies
+                        2. Compatibility Matrix Check：
+                        a. Verify library-to-library API compatibility through version ranges
+                        b. Confirm project-to-library interface compatibility
+                        3. Breakpoint Isolation：
+                        b. Determine if conflict originates from：
+                            • Direct API changes in torch
+                            • Transitive dependency API shifts
+
+                        **Resolution Rules**
+                        - PRIMARY CONSTRAINT: Maintain torch==1.8.0
+                        - SECONDARY ADJUSTMENTS: 
+                        • Modify dependency versions only when API contracts allow
+                        • Prefer backward-compatible minor version changes
+
+                        **Output Mandates**
+                        STRICT FORMAT:
+                        lib1==x.y.z  
+                        lib2==a.b.c
+                        ...
+                        PROHIBITED:
+                        • Any non-version text.
+                        • Library additions/removals
+                        • Version placeholders
+                        MANDATORY:
+                        • Preserve original library names and count
+                        • Pin EXACT versions
+                        • Zero explanations/comments
+                        

@@ -1,0 +1,12 @@
+torch==1.7.1
+scipy==1.9
+pystoi==0.3.3
+omegaconf==2.2.2
+soundfile==0.10.3.post1
+torchaudio==0.5.1
+tqdm==4.64
+numpy==1.23.2
+librosa==0.7.2
+hydra-core==1.2
+pesq==0.0.4
+irgen==0.2

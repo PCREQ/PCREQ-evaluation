@@ -1,0 +1,25 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting seqeval==1.0.0
+  Using cached seqeval-1.0.0-py3-none-any.whl
+Collecting scikit-learn==0.23.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f4/cb/64623369f348e9bfb29ff898a57ac7c91ed4921f228e9726546614d63ccb/scikit_learn-0.23.2-cp37-cp37m-manylinux1_x86_64.whl (6.8 MB)
+Collecting numpy==1.19.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/9b/04/c3846024ddc7514cde17087f62f0502abf85c53e8f69f6312c70db6d144e/numpy-1.19.2-cp37-cp37m-manylinux2010_x86_64.whl (14.5 MB)
+Collecting threadpoolctl>=2.0.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/61/cf/6e354304bcb9c6413c4e02a747b600061c21d38ba51e7e544ac7bc66aecc/threadpoolctl-3.1.0-py3-none-any.whl (14 kB)
+Requirement already satisfied: joblib>=0.11 in /home/lei/anaconda3/envs/BERT-NER-seqeval/lib/python3.7/site-packages (from scikit-learn==0.23.2->seqeval==1.0.0) (1.3.2)
+Collecting scipy>=0.19.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/58/4f/11f34cfc57ead25752a7992b069c36f5d18421958ebd6466ecd849aeaf86/scipy-1.7.3-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (38.1 MB)
+Installing collected packages: threadpoolctl, numpy, scipy, scikit-learn, seqeval
+  Attempting uninstall: numpy
+    Found existing installation: numpy 1.21.6
+    Uninstalling numpy-1.21.6:
+      Successfully uninstalled numpy-1.21.6
+  Attempting uninstall: seqeval
+    Found existing installation: seqeval 0.0.19
+    Uninstalling seqeval-0.0.19:
+      Successfully uninstalled seqeval-0.0.19
+Successfully installed numpy-1.19.2 scikit-learn-0.23.2 scipy-1.7.3 seqeval-1.0.0 threadpoolctl-3.1.0
+
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+tensorflow 2.11.0 requires numpy>=1.20, but you have numpy 1.19.2 which is incompatible.

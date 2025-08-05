@@ -1,0 +1,14 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting absl-py==1.4.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/dd/87/de5c32fa1b1c6c3305d576e299801d8655c175ca9557019906247b994331/absl_py-1.4.0-py3-none-any.whl (126 kB)
+Collecting bleach==3.3.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f0/46/2bbd92086a4c6f051214cb48df6d9132b5f32c5e881d3f4991b16ec7e499/bleach-3.3.0-py2.py3-none-any.whl (283 kB)
+Collecting certifi==2021.5.30
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/05/1b/0a0dece0e8aa492a6ec9e4ad2fe366b511558cdc73fd3abc82ba7348e875/certifi-2021.5.30-py2.py3-none-any.whl (145 kB)
+Collecting dataclasses==0.8
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/fe/ca/75fac5856ab5cfa51bbbcefa250182e50441074fdc3f803f6e76451fab43/dataclasses-0.8-py3-none-any.whl (19 kB)
+Collecting html5lib==1.0.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a5/62/bbd2be0e7943ec8504b517e62bab011b4946e1258842bc159e5dfde15b96/html5lib-1.0.1-py2.py3-none-any.whl (117 kB)
+WARNING: Skipping page https://pypi.tuna.tsinghua.edu.cn/simple/importlib-metadata/ because the GET request got Content-Type: application/vnd.pypi.simple.v1+json.The only supported Content-Type is text/html
+ERROR: Could not find a version that satisfies the requirement importlib-metadata==2.1.1 (from versions: none)
+ERROR: No matching distribution found for importlib-metadata==2.1.1

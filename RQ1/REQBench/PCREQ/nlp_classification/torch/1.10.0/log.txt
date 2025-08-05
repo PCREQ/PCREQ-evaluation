@@ -1,0 +1,9 @@
+2025-06-29 09:46:40,391 - INFO - *************Upgrade torch from 1.5.0 to 1.10.0 in nlp_classification*************
+2025-06-29 09:46:40,391 - INFO - Checking nlp_classification is compatible with torch1.10.0?...
+2025-06-29 09:46:42,519 - INFO - nlp_classification is compatible with torch1.10.0
+2025-06-29 09:47:08,662 - INFO - Checking nlp_classification is compatible with tensorboard2.1.1?...
+2025-06-29 09:47:08,662 - INFO - nlp_classification is compatible with tensorboard2.1.1
+2025-06-29 09:47:08,687 - INFO - Checking nlp_classification is compatible with torchvision0.11.1?...
+2025-06-29 09:47:08,687 - INFO - nlp_classification is compatible with torchvision0.11.1
+2025-06-29 09:47:10,909 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 09:47:10,909 - INFO - Time cost: 30.51913809776306 s

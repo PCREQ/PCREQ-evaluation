@@ -1,0 +1,4 @@
+tqdm==4.64
+numpy==1.21.6
+torch==1.8.1
+transformers==4.1.1

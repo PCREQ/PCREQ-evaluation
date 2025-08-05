@@ -1,0 +1,39 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting click==7.1.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d2/3d/fa76db83bf75c4f8d338c2fd15c8d33fdd7ad23a9b5e57eb6c5de26b430e/click-7.1.2-py2.py3-none-any.whl (82 kB)
+Collecting coloredlogs==10.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/08/0f/7877fc42fff0b9d70b6442df62d53b3868d3a6ad1b876bdb54335b30ff23/coloredlogs-10.0-py2.py3-none-any.whl (47 kB)
+Collecting future==0.18.2
+  Using cached future-0.18.2-py3-none-any.whl
+Collecting humanfriendly==9.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/93/66/363d01a81da2108a5cf446daf619779f06d49a0c4426dd02b40734f10e2f/humanfriendly-9.1-py2.py3-none-any.whl (86 kB)
+Collecting importlib-metadata==3.10.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/52/d0/bdb31463f2d9ca111e39b268518e9baa3542ef73ca449b711a7b4da69764/importlib_metadata-3.10.1-py3-none-any.whl (14 kB)
+Collecting joblib==1.0.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/55/85/70c6602b078bd9e6f3da4f467047e906525c355a4dacd4f71b97a35d9897/joblib-1.0.1-py3-none-any.whl (303 kB)
+Collecting mpmath==1.2.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d4/cf/3965bddbb4f1a61c49aacae0e78fd1fe36b5dc36c797b31f30cf07dcbbb7/mpmath-1.2.1-py3-none-any.whl (532 kB)
+Collecting nltk==3.6.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/aa/b8/09ac15436591cefc0adc882798d5cf629f13addae0495b20b682219e3afe/nltk-3.6.5-py3-none-any.whl (1.5 MB)
+Collecting numpy==1.19.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/08/d6/a6aaa29fea945bc6c61d11f6e0697b325ff7446de5ffd62c2fa02f627048/numpy-1.19.5-cp37-cp37m-manylinux2010_x86_64.whl (14.8 MB)
+Collecting protobuf==3.15.8
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/51/4e/de63de3cd9a83d3c1753a4566b11fc9d90b845f2448a132cfd36d3cb3cd1/protobuf-3.15.8-cp37-cp37m-manylinux1_x86_64.whl (1.0 MB)
+Collecting regex==2021.8.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d7/87/8bf2bf24ea296f327b18e6dc36843a8fefa4bfa46486ae352c4758c616ff/regex-2021.8.3-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (722 kB)
+Collecting six==1.16.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting sympy==1.7.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ff/69/b16fc81b939d3efdd0b552f2e3e54f7fa1423d0c320cced2e69e675dde26/sympy-1.7.1-py3-none-any.whl (5.9 MB)
+Collecting tensorboardX==2.4.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/98/88/977b2f03fd0f8a2490fc7a1ad691d5e44cee5f1dc90c57078c5c168e2e70/tensorboardX-2.4.1-py2.py3-none-any.whl (124 kB)
+Collecting torch==1.8.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/94/99/5861239a6e1ffe66e120f114a4d67e96e5c4b17c1a785dfc6ca6769585fc/torch-1.8.0-cp37-cp37m-manylinux1_x86_64.whl (735.5 MB)
+Collecting tqdm==4.56.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/80/02/8f8880a4fd6625461833abcf679d4c12a44c76f9925f92bf212bb6cefaad/tqdm-4.56.0-py2.py3-none-any.whl (72 kB)
+Collecting typing_extensions==3.7.4.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/60/7a/e881b5abb54db0e6e671ab088d079c57ce54e8a01a3ca443f561ccadb37e/typing_extensions-3.7.4.3-py3-none-any.whl (22 kB)
+Collecting zipp==3.4.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/0f/8c/715c54e9e34c0c4820f616a913a7de3337d0cd79074dd1bed4dd840f16ae/zipp-3.4.1-py3-none-any.whl (5.2 kB)
+Installing collected packages: typing_extensions, regex, mpmath, zipp, tqdm, sympy, six, numpy, joblib, humanfriendly, future, click, torch, protobuf, nltk, importlib-metadata, coloredlogs, tensorboardX
+Successfully installed click-7.1.2 coloredlogs-10.0 future-0.18.2 humanfriendly-9.1 importlib-metadata-3.10.1 joblib-1.0.1 mpmath-1.2.1 nltk-3.6.5 numpy-1.19.5 protobuf-3.15.8 regex-2021.8.3 six-1.16.0 sympy-1.7.1 tensorboardX-2.4.1 torch-1.8.0 tqdm-4.56.0 typing_extensions-3.7.4.3 zipp-3.4.1

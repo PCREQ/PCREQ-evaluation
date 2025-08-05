@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/home/lei/anaconda3/envs/py36-5/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/home/lei/anaconda3/envs/py36-5/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/lei/compatibility_analysis/pytorch/1.0/graphSAGE-pytorch/src/main.py", line 72, in <module>
+    graphSage, classification = apply_model(dataCenter, ds, graphSage, classification, unsupervised_loss, args.b_sz, args.unsup_loss, device, args.learn_method)
+  File "/home/lei/compatibility_analysis/pytorch/1.0/graphSAGE-pytorch/src/utils.py", line 157, in apply_model
+    embs_batch = graphSage(nodes_batch)
+  File "/home/lei/anaconda3/envs/py36-5/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/lei/compatibility_analysis/pytorch/1.0/graphSAGE-pytorch/src/models.py", line 260, in forward
+    aggregate_feats = self.aggregate(nb, pre_hidden_embs, pre_neighs)
+  File "/home/lei/compatibility_analysis/pytorch/1.0/graphSAGE-pytorch/src/models.py", line 314, in aggregate
+    aggregate_feats = mask.mm(embed_matrix)
+RuntimeError: CUDA error: CUBLAS_STATUS_INTERNAL_ERROR when calling `cublasCreate(handle)`
+using device 0 NVIDIA GeForce RTX 2080 Ti
+DEVICE: cuda
+GraphSage with Net Unsupervised Learning
+----------------------EPOCH 0-----------------------

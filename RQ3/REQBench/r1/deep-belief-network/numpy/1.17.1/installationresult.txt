@@ -1,0 +1,9 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting numpy==1.17.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/75/92/57179ed45307ec6179e344231c47da7f3f3da9e2eee5c8ab506bd279ce4e/numpy-1.17.1-cp36-cp36m-manylinux1_x86_64.whl (20.4 MB)
+Collecting scikit-learn==0.20.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/5e/82/c0de5839d613b82bddd088599ac0bbfbbbcbd8ca470680658352d2c435bd/scikit_learn-0.20.3-cp36-cp36m-manylinux1_x86_64.whl (5.4 MB)
+Collecting scipy>=0.13.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c8/89/63171228d5ced148f5ced50305c89e8576ffc695a90b58fe5bb602b910c2/scipy-1.5.4-cp36-cp36m-manylinux1_x86_64.whl (25.9 MB)
+Installing collected packages: numpy, scipy, scikit-learn
+Successfully installed numpy-1.17.1 scikit-learn-0.20.3 scipy-1.5.4

@@ -1,0 +1,9 @@
+2025-06-29 06:34:17,720 - INFO - *************Upgrade torchvision from 0.3.0 to 0.13.1 in Deep-SAD-PyTorch*************
+2025-06-29 06:34:17,721 - INFO - Checking Deep-SAD-PyTorch is compatible with torchvision0.13.1?...
+2025-06-29 06:34:18,255 - INFO - Deep-SAD-PyTorch is compatible with torchvision0.13.1
+2025-06-29 06:34:19,716 - INFO - Checking torchvision0.13.1 is compatible with torch1.12.1?...
+2025-06-29 06:34:24,089 - INFO - torchvision0.13.1 is compatible with torch1.12.1
+2025-06-29 06:34:24,092 - INFO - Checking Deep-SAD-PyTorch is compatible with torch1.12.1?...
+2025-06-29 06:34:25,089 - INFO - Deep-SAD-PyTorch is compatible with torch1.12.1
+2025-06-29 06:34:25,569 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 06:34:25,569 - INFO - Time cost: 7.84984016418457 s

@@ -1,0 +1,23 @@
+use gpu: 1 to train.
+begin loading training dataset to memory
+finish loading training dataset to memory
+begin loading test dataset to memory
+finish loading test dataset to memory
+/home/lei/anaconda3/envs/py37-5/lib/python3.7/site-packages/torch/nn/_reduction.py:49: UserWarning: size_average and reduce args will be deprecated, please use reduction='mean' instead.
+  warnings.warn(warning.format(ret))
+THCudaCheck FAIL file=/pytorch/aten/src/THC/THCGeneral.cpp line=405 error=11 : invalid argument
+[10]	loss:	0.69192	time lapsed:	1.35 s
+[20]	loss:	0.66489	time lapsed:	0.94 s
+[30]	loss:	0.61782	time lapsed:	0.94 s
+[40]	loss:	0.62048	time lapsed:	0.94 s
+[50]	loss:	0.59739	time lapsed:	0.94 s
+[60]	loss:	0.58115	time lapsed:	0.94 s
+[70]	loss:	0.56454	time lapsed:	0.94 s
+[80]	loss:	0.55030	time lapsed:	0.95 s
+[90]	loss:	0.54995	time lapsed:	0.94 s
+[100]	loss:	0.53151	time lapsed:	0.94 s
+**********************************************************************
+[100]	Test set	correct:	62	error:	338	precision:	0.155000
+**********************************************************************
+######################################################################
+final accuracy:  0.00775

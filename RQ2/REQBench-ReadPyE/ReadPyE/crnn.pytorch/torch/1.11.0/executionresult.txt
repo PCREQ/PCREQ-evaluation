@@ -1,0 +1,3 @@
+loading pretrained model from ./data/crnn.pth
+True
+a-----v--a-i-l-a-bb-l-e--- => available           

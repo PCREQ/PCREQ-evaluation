@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "example_classification.py", line 4, in <module>
+    from sklearn.datasets import load_digits
+  File "/home/lei/anaconda3/envs/py36-1/lib/python3.6/site-packages/sklearn/__init__.py", line 134, in <module>
+    from .base import clone
+  File "/home/lei/anaconda3/envs/py36-1/lib/python3.6/site-packages/sklearn/base.py", line 11, in <module>
+    from scipy import sparse
+ModuleNotFoundError: No module named 'scipy'

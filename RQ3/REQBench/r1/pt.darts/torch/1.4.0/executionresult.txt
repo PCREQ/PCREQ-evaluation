@@ -1,0 +1,42 @@
+05/30 03:29:54 PM | 
+05/30 03:29:54 PM | Parameters:
+05/30 03:29:54 PM | AUX_WEIGHT=0.4
+05/30 03:29:54 PM | BATCH_SIZE=256
+05/30 03:29:54 PM | CUTOUT_LENGTH=16
+05/30 03:29:54 PM | DATA_PATH=./data/
+05/30 03:29:54 PM | DATASET=cifar10
+05/30 03:29:54 PM | DROP_PATH_PROB=0.2
+05/30 03:29:54 PM | EPOCHS=1
+05/30 03:29:54 PM | GENOTYPE=Genotype(normal=[[('sep_conv_3x3', 0), ('dil_conv_5x5', 1)], [('skip_connect', 0), ('dil_conv_3x3', 2)], [('sep_conv_3x3', 1), ('skip_connect', 0)], [('sep_conv_3x3', 1), ('skip_connect', 0)]], normal_concat=range(2, 6), reduce=[[('max_pool_3x3', 0), ('max_pool_3x3', 1)], [('max_pool_3x3', 0), ('skip_connect', 2)], [('skip_connect', 3), ('max_pool_3x3', 0)], [('skip_connect', 2), ('max_pool_3x3', 0)]], reduce_concat=range(2, 6))
+05/30 03:29:54 PM | GPUS=[0, 1, 2]
+05/30 03:29:54 PM | GRAD_CLIP=5.0
+05/30 03:29:54 PM | INIT_CHANNELS=36
+05/30 03:29:54 PM | LAYERS=20
+05/30 03:29:54 PM | LR=0.025
+05/30 03:29:54 PM | MOMENTUM=0.9
+05/30 03:29:54 PM | NAME=cifar10
+05/30 03:29:54 PM | PATH=augments/cifar10
+05/30 03:29:54 PM | PRINT_FREQ=200
+05/30 03:29:54 PM | SEED=2
+05/30 03:29:54 PM | WEIGHT_DECAY=0.0003
+05/30 03:29:54 PM | WORKERS=4
+05/30 03:29:54 PM | 
+05/30 03:29:54 PM | Logger is set - training start
+05/30 03:29:59 PM | Model size = 3.159 MB
+/home/lei/anaconda3/envs/py37-6/lib/python3.7/site-packages/torch/optim/lr_scheduler.py:122: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  "https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate", UserWarning)
+05/30 03:29:59 PM | Epoch 0 LR 0.0
+Files already downloaded and verified
+Files already downloaded and verified
+Traceback (most recent call last):
+  File "augment.py", line 177, in <module>
+    main()
+  File "augment.py", line 75, in main
+    train(train_loader, model, optimizer, criterion, epoch)
+  File "augment.py", line 111, in train
+    logits, aux_logits = model(X)
+  File "/home/lei/anaconda3/envs/py37-6/lib/python3.7/site-packages/torch/nn/modules/module.py", line 532, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/home/lei/anaconda3/envs/py37-6/lib/python3.7/site-packages/torch/nn/parallel/data_parallel.py", line 146, in forward
+    "them on device: {}".format(self.src_device_obj, t.device))
+RuntimeError: module must have its parameters and buffers on device cuda:0 (device_ids[0]) but found one of them on device: cuda:2

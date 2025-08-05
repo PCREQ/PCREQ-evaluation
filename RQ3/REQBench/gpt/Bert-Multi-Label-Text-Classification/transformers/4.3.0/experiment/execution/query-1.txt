@@ -1,0 +1,92 @@
+
+                        **Debug Mission** 
+                        Resolve runtime crash caused by code-level incompatibilities in dependency chain.
+
+                        **Input Context**
+                        - Current environment: boto3==1.9.227
+botocore==1.12.227
+certifi==2019.9.11
+chardet==3.0.4
+Click==7.0
+cycler==0.10.0
+docutils==0.15.2
+filelock==3.0.12
+idna==2.8
+jmespath==0.9.4
+joblib==0.13.2
+kiwisolver==1.1.0
+matplotlib==3.1.1
+numpy==1.17.2
+pandas==0.25.1
+Pillow==6.2.0
+pyparsing==2.4.2
+python-dateutil==2.8.0
+pytorch-transformers==1.2.0
+pytz==2019.2
+regex==2019.8.19
+requests==2.22.0
+s3transfer==0.2.1
+sacremoses==0.0.43
+scikit-learn==0.21.3
+scipy==1.3.1
+sentencepiece==0.1.83
+six==1.12.0
+tokenizers==0.10.1
+torch==1.3.0
+tqdm==4.35.0
+transformers==4.3.0
+urllib3==1.25.3
+
+                        - Python version: 3.7
+                        - Crash traceback: Traceback (most recent call last):
+  File "run_bert.py", line 10, in <module>
+    from pybert.io.bert_processor import BertProcessor
+  File "/home/lei/compatibility_analysis/pytorch/1.0/Bert-Multi-Label-Text-Classification/pybert/io/bert_processor.py", line 8, in <module>
+    from transformers import BertTokenizer
+  File "/home/lei/anaconda3/envs/py37-6/lib/python3.7/site-packages/transformers/__init__.py", line 43, in <module>
+    from . import dependency_versions_check
+  File "/home/lei/anaconda3/envs/py37-6/lib/python3.7/site-packages/transformers/dependency_versions_check.py", line 41, in <module>
+    require_version_core(deps[pkg])
+  File "/home/lei/anaconda3/envs/py37-6/lib/python3.7/site-packages/transformers/utils/versions.py", line 94, in require_version_core
+    return require_version(requirement, hint)
+  File "/home/lei/anaconda3/envs/py37-6/lib/python3.7/site-packages/transformers/utils/versions.py", line 85, in require_version
+    if want_ver is not None and not ops[op](version.parse(got_ver), version.parse(want_ver)):
+  File "/home/lei/anaconda3/envs/py37-6/lib/python3.7/site-packages/packaging/version.py", line 54, in parse
+    return Version(version)
+  File "/home/lei/anaconda3/envs/py37-6/lib/python3.7/site-packages/packaging/version.py", line 200, in __init__
+    raise InvalidVersion(f"Invalid version: '{version}'")
+packaging.version.InvalidVersion: Invalid version: '0.10.1,<0.11'
+
+
+                        **Analysis Protocol**
+                        1. Traceback Pattern Matching：
+                        a. Identify error type (ImportError/AttributeError/TypeError)
+                        b. Map to possible API changes in transformers v4.3.0 or its dependencies
+                        2. Compatibility Matrix Check：
+                        a. Verify library-to-library API compatibility through version ranges
+                        b. Confirm project-to-library interface compatibility
+                        3. Breakpoint Isolation：
+                        b. Determine if conflict originates from：
+                            • Direct API changes in transformers
+                            • Transitive dependency API shifts
+
+                        **Resolution Rules**
+                        - PRIMARY CONSTRAINT: Maintain transformers==4.3.0
+                        - SECONDARY ADJUSTMENTS: 
+                        • Modify dependency versions only when API contracts allow
+                        • Prefer backward-compatible minor version changes
+
+                        **Output Mandates**
+                        STRICT FORMAT:
+                        lib1==x.y.z  
+                        lib2==a.b.c
+                        ...
+                        PROHIBITED:
+                        • Any non-version text.
+                        • Library additions/removals
+                        • Version placeholders
+                        MANDATORY:
+                        • Preserve original library names and count
+                        • Pin EXACT versions
+                        • Zero explanations/comments
+                        

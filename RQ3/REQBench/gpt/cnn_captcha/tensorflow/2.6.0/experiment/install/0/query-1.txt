@@ -1,0 +1,88 @@
+
+            **Task**
+            Resolve pip install conflict in requirements.txt while preserving library integrity.
+
+            **Input Context**
+            - Current requirements.txt: absl-py==0.12.0
+astor==0.8.1
+bleach==3.3.0
+captcha==0.3
+certifi==2019.3.9
+chardet==3.0.4
+Click==7.0
+cycler==0.10.0
+easydict==1.8
+Flask==1.0.2
+gast==0.4.0
+grpcio==1.34.0
+html5lib==1.1
+idna==2.7
+itsdangerous==1.1.0
+Jinja2==2.10.1
+Markdown==3.3.4
+MarkupSafe==1.1.1
+matplotlib==3.3.4
+numpy==1.19.5
+olefile==0.46
+Pillow==8.3.1
+protobuf==3.17.3
+pyparsing==2.4.7
+python-dateutil==2.8.2
+pytz==2018.9
+requests==2.19.1
+six==1.15.0
+tensorboard==2.6.0
+tensorflow==2.6.0
+termcolor==1.1.0
+urllib3==1.23
+Werkzeug==0.15.2
+
+            - Python version: 3.6
+            - Conflict error message: conflicting dependencies.
+
+The conflict is caused by:
+    The user requested requests==2.19.1
+    tensorboard 2.6.0 depends on requests<3 and >=2.21.0
+
+To fix this you could try to:
+1. loosen the range of package versions you've specified
+2. remove package versions to allow pip attempt to solve the dependency conflict
+
+ERROR: ResolutionImpossible: for help visit https://pip.pypa.io/en/latest/user_guide/#fixing-conflicting-dependencies
+
+
+            **Resolution Protocol**
+            1. Parse conflict_info to identify:
+            a. Direct conflicting packages
+            b. Common dependency chains
+            c. Python version constraints
+            2. Apply minimum version adjustment strategy:
+            a. Prioritize keeping tensorflow==2.6.0
+            b. Modify other package versions only when necessary
+            c. Maintain original library set
+
+            **Hard Constraints**
+            - STRICTLY MAINTAIN: 
+            • tensorflow==2.6.0
+            • Original library count
+            - MUST ENSURE: 
+            • Complete dependency tree compatibility
+            • Python 3.6 support for all packages
+            - STRICTLY PROHIBITED:
+            • Adding/removing libraries
+            • Version speculation without error evidence
+
+            **Output Mandates**
+            STRICT FORMAT:
+            lib1==x.y.z  
+            lib2==a.b.c
+            ...
+            PROHIBITED:
+            • Any non-version text.
+            • Library additions/removals
+            • Version placeholders
+            MANDATORY:
+            • Preserve original library names and count
+            • Pin EXACT versions
+            • Zero explanations/comments
+            

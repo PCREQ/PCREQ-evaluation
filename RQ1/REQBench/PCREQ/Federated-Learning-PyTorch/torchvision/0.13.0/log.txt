@@ -1,0 +1,9 @@
+2025-06-29 13:14:04,749 - INFO - *************Upgrade torchvision from 0.4.0 to 0.13.0 in Federated-Learning-PyTorch*************
+2025-06-29 13:14:04,749 - INFO - Checking Federated-Learning-PyTorch is compatible with torchvision0.13.0?...
+2025-06-29 13:14:05,028 - INFO - Federated-Learning-PyTorch is compatible with torchvision0.13.0
+2025-06-29 13:14:05,487 - INFO - Checking torchvision0.13.0 is compatible with torch1.12.0?...
+2025-06-29 13:14:09,955 - INFO - torchvision0.13.0 is compatible with torch1.12.0
+2025-06-29 13:14:09,958 - INFO - Checking Federated-Learning-PyTorch is compatible with torch1.12.0?...
+2025-06-29 13:14:10,948 - INFO - Federated-Learning-PyTorch is compatible with torch1.12.0
+2025-06-29 13:14:11,692 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 13:14:11,692 - INFO - Time cost: 6.943814992904663 s

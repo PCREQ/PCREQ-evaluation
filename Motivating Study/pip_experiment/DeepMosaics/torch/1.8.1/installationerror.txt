@@ -1,0 +1,14 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting torch==1.8.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/56/74/6fc9dee50f7c93d6b7d9644554bdc9692f3023fa5d1de779666e6bf8ae76/torch-1.8.1-cp37-cp37m-manylinux1_x86_64.whl (804.1 MB)
+Requirement already satisfied: numpy in /home/lei/anaconda3/envs/DeepMosaics-torch/lib/python3.7/site-packages (from torch==1.8.1) (1.19.3)
+Requirement already satisfied: typing-extensions in /home/lei/anaconda3/envs/DeepMosaics-torch/lib/python3.7/site-packages (from torch==1.8.1) (4.7.1)
+Installing collected packages: torch
+  Attempting uninstall: torch
+    Found existing installation: torch 1.8.0
+    Uninstalling torch-1.8.0:
+      Successfully uninstalled torch-1.8.0
+Successfully installed torch-1.8.1
+
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+torchvision 0.8.2 requires torch==1.7.1, but you have torch 1.8.1 which is incompatible.

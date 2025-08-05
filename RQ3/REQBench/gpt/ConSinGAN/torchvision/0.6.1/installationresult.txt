@@ -1,0 +1,104 @@
+DEPRECATION: Python 3.5 reached the end of its life on September 13th, 2020. Please upgrade your Python as Python 3.5 is no longer maintained. pip 21.0 will drop support for Python 3.5 in January 2021. pip 21.0 will remove support for this functionality.
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting absl-py==0.9.0
+  Using cached absl_py-0.9.0-cp35-none-any.whl
+Collecting albumentations==0.4.3
+  Using cached albumentations-0.4.3-cp35-none-any.whl
+Collecting cachetools==3.1.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/2f/a6/30b0a0bef12283e83e58c1d6e7b5aabc7acfc4110df81a4471655d33e704/cachetools-3.1.1-py2.py3-none-any.whl (11 kB)
+Collecting certifi==2019.11.28
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/b9/63/df50cac98ea0d5b006c55a399c3bf1db9da7b5a24de7890bc9cfd5dd9e99/certifi-2019.11.28-py2.py3-none-any.whl (156 kB)
+Collecting chardet==3.0.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/bc/a9/01ffebfb562e4274b6487b4bb1ddec7ca55ec7510b22e4c51f14098443b8/chardet-3.0.4-py2.py3-none-any.whl (133 kB)
+Collecting cycler==0.10.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f7/d2/e07d3ebb2bd7af696440ce7e754c59dd546ffe1bbe732c8ab68b9c834e61/cycler-0.10.0-py2.py3-none-any.whl (6.5 kB)
+Collecting decorator==4.4.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ed/1b/72a1821152d07cf1d8b6fce298aeb06a7eb90f4d6d41acec9861e7cc6df0/decorator-4.4.2-py2.py3-none-any.whl (9.2 kB)
+Collecting future==0.18.2
+  Using cached future-0.18.2-cp35-none-any.whl
+Collecting google-auth==1.7.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ec/11/1d90cbfa72a084b08498e8cea1fee199bc965cdac391d241f5ae6257073e/google_auth-1.7.2-py2.py3-none-any.whl (74 kB)
+Collecting google-auth-oauthlib==0.4.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/7b/b8/88def36e74bee9fce511c9519571f4e485e890093ab7442284f4ffaef60b/google_auth_oauthlib-0.4.1-py2.py3-none-any.whl (18 kB)
+Collecting grpcio==1.27.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/cd/14/31410a349f3d8aaf455d35722608d99c996945cfbc4a8c3fa4d704c3cef2/grpcio-1.27.2-cp35-cp35m-manylinux2010_x86_64.whl (2.7 MB)
+Collecting idna==2.8
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/14/2c/cd551d81dbe15200be1cf41cd03869a46fe7226e7450af7a6545bfc474c9/idna-2.8-py2.py3-none-any.whl (58 kB)
+Collecting imageio==2.6.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/1a/de/f7f985018f462ceeffada7f6e609919fbcc934acd9301929cba14bc2c24a/imageio-2.6.1-py3-none-any.whl (3.3 MB)
+Collecting imgaug==0.2.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d2/60/a06a48d85a7e9062f5870347a3e3e953da30b37928d43b380c949bca458a/imgaug-0.2.5.tar.gz (562 kB)
+Collecting joblib==0.14.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/28/5c/cf6a2b65a321c4a209efcdf64c2689efae2cb62661f8f6f4bb28547cf1bf/joblib-0.14.1-py2.py3-none-any.whl (294 kB)
+Collecting kiwisolver==1.1.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ee/18/4cd2e84c6aff0c6a50479118083d20b9e676e5175a913c0ea76d700fc244/kiwisolver-1.1.0-cp35-cp35m-manylinux1_x86_64.whl (90 kB)
+Collecting Markdown==3.1.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c0/4e/fd492e91abdc2d2fcb70ef453064d980688762079397f779758e055f6575/Markdown-3.1.1-py2.py3-none-any.whl (87 kB)
+Collecting matplotlib==3.0.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/89/61/465fb3bfba684b0f53b5c4829c3c89e86e6fe9fdcdfda93e38f1788090f0/matplotlib-3.0.3-cp35-cp35m-manylinux1_x86_64.whl (13.0 MB)
+Collecting networkx==2.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/41/8f/dd6a8e85946def36e4f2c69c84219af0fa5e832b018c970e92f2ad337e45/networkx-2.4-py3-none-any.whl (1.6 MB)
+Collecting numpy==1.17.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/7b/5b/69bbe767592b1137c5d4501b6d66ced8078ad29b02141529bbd9c315ef44/numpy-1.17.5-cp35-cp35m-manylinux1_x86_64.whl (19.8 MB)
+Collecting oauthlib==3.1.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/05/57/ce2e7a8fa7c0afb54a0581b14a65b56e62b5759dbc98e80627142b8a3704/oauthlib-3.1.0-py2.py3-none-any.whl (147 kB)
+Collecting opencv-python==4.2.0.32
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d2/d4/02daf2fdd0a3d6607cd51df5b8fca9c9ab6ba9c8fb47c0d4a759e3f1438a/opencv_python-4.2.0.32-cp35-cp35m-manylinux1_x86_64.whl (28.2 MB)
+Collecting opencv-python-headless==4.2.0.32
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/03/6f/2473992c2b22e9c6164756995862f2699e24803a8984643f25cbf8a80a79/opencv_python_headless-4.2.0.32-cp35-cp35m-manylinux1_x86_64.whl (21.6 MB)
+Collecting Pillow==6.2.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/31/46/002a35265b3e4bb18e64b949cc8439e4478b46bb75c330e8c98d8063d750/Pillow-6.2.2-cp35-cp35m-manylinux1_x86_64.whl (2.1 MB)
+Collecting protobuf==3.11.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ef/56/10999d97e62eba72a12ebd147d806fa702ab82a620e28f6bc3e5d2c59e34/protobuf-3.11.3-cp35-cp35m-manylinux1_x86_64.whl (1.3 MB)
+Collecting pyasn1==0.4.8
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/62/1e/a94a8d635fa3ce4cfc7f506003548d0a2447ae76fd5ca53932970fe3053f/pyasn1-0.4.8-py2.py3-none-any.whl (77 kB)
+Collecting pyasn1-modules==0.2.8
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/95/de/214830a981892a3e286c3794f41ae67a4495df1108c3da8a9f62159b9a9d/pyasn1_modules-0.2.8-py2.py3-none-any.whl (155 kB)
+Collecting pyparsing==2.4.6
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/5d/bc/1e58593167fade7b544bfe9502a26dc860940a79ab306e651e7f13be68c2/pyparsing-2.4.6-py2.py3-none-any.whl (67 kB)
+Collecting python-dateutil==2.7.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/0c/57/19f3a65bcf6d5be570ee8c35a5398496e10a0ddcbc95393b2d17f86aaaf8/python_dateutil-2.7.2-py2.py3-none-any.whl (212 kB)
+Collecting PyWavelets==1.0.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/6a/3f/d92fbd9b65f879197620f404c1603bfeaa54560743bb9fb3a6b48b66a707/PyWavelets-1.0.3-cp35-cp35m-manylinux1_x86_64.whl (4.4 MB)
+Collecting PyYAML==5.3.1
+  Using cached PyYAML-5.3.1-cp35-cp35m-linux_x86_64.whl
+Collecting requests==2.22.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/51/bd/23c926cd341ea6b7dd0b2a00aba99ae0f828be89d72b2190f27c11d4b7fb/requests-2.22.0-py2.py3-none-any.whl (57 kB)
+Collecting requests-oauthlib==1.2.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c2/e2/9fd03d55ffb70fe51f587f20bcf407a6927eb121de86928b34d162f0b1ac/requests_oauthlib-1.2.0-py2.py3-none-any.whl (22 kB)
+Collecting rsa==4.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/02/e5/38518af393f7c214357079ce67a317307936896e961e35450b70fad2a9cf/rsa-4.0-py2.py3-none-any.whl (38 kB)
+Collecting scikit-image==0.15.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/00/ba/9688afba6ab3714875a8d22284ce0362086e47f3cda60243e5d4de5e5943/scikit_image-0.15.0-cp35-cp35m-manylinux1_x86_64.whl (26.2 MB)
+Collecting scikit-learn==0.22.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a8/01/a37d1ae4191ef09adc6385ae9f9306409e93370f7e85338152b608e7d6a3/scikit_learn-0.22.1-cp35-cp35m-manylinux1_x86_64.whl (7.0 MB)
+Collecting scipy==1.4.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c1/60/8cbf00c0deb50a971e6e3a015fb32513960a92867df979870a454481817c/scipy-1.4.1-cp35-cp35m-manylinux1_x86_64.whl (26.0 MB)
+Collecting six==1.13.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/65/26/32b8464df2a97e6dd1b656ed26b2c194606c16fe163c695a992b36c11cdf/six-1.13.0-py2.py3-none-any.whl (10 kB)
+Collecting sklearn==0.0
+  Using cached sklearn-0.0-py2.py3-none-any.whl
+Collecting tensorboard==2.0.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/76/54/99b9d5d52d5cb732f099baaaf7740403e83fe6b0cedde940fabd2b13d75a/tensorboard-2.0.2-py3-none-any.whl (3.8 MB)
+Collecting torch==1.5.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/77/0c/c70f85961ad643801e82276087c8d816ae9b3d9119645313232b73840579/torch-1.5.1-cp35-cp35m-manylinux1_x86_64.whl (753.2 MB)
+Collecting torchvision==0.6.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d9/72/7b094db5bc202e80a0e7120c654df88e43dcee6d388984da12271e9e7ff0/torchvision-0.6.1-cp35-cp35m-manylinux1_x86_64.whl (6.6 MB)
+Collecting tqdm==4.19.9
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/b3/c4/b67cf1ab472b770e08e94105a0c7ca7032cd070627c435f5998c9cf6e64f/tqdm-4.19.9-py2.py3-none-any.whl (52 kB)
+Collecting urllib3==1.25.8
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/e8/74/6e4f91745020f967d09332bb2b8b9b10090957334692eb88ea4afe91b77f/urllib3-1.25.8-py2.py3-none-any.whl (125 kB)
+Collecting Werkzeug==1.0.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ba/a5/d6f8a6e71f15364d35678a4ec8a0186f980b3bd2545f40ad51dd26a87fb1/Werkzeug-1.0.0-py2.py3-none-any.whl (298 kB)
+Requirement already satisfied: setuptools>=40.3.0 in /home/lei/anaconda3/envs/py35-6/lib/python3.5/site-packages (from google-auth==1.7.2->-r /home/lei/compatibility_analysis/compare/LLM/result/chatgpt/ConSinGAN-torchvision-0.6.1.txt (line 9)) (50.3.2)
+Requirement already satisfied: wheel>=0.26 in /home/lei/anaconda3/envs/py35-6/lib/python3.5/site-packages (from tensorboard==2.0.2->-r /home/lei/compatibility_analysis/compare/LLM/result/chatgpt/ConSinGAN-torchvision-0.6.1.txt (line 40)) (0.37.1)
+WARNING: The candidate selected for download or install is a yanked version: 'opencv-python-headless' candidate (version 4.2.0.32 at https://pypi.tuna.tsinghua.edu.cn/packages/03/6f/2473992c2b22e9c6164756995862f2699e24803a8984643f25cbf8a80a79/opencv_python_headless-4.2.0.32-cp35-cp35m-manylinux1_x86_64.whl#sha256=b4549c71277e2cc427cc32fbec6cb2dd92f0f839467cdb22381b4e5b0e53f35c (from https://pypi.tuna.tsinghua.edu.cn/simple/opencv-python-headless/))
+Reason for being yanked: Deprecated, use 4.2.0.34
+Building wheels for collected packages: imgaug
+  Building wheel for imgaug (setup.py): started
+  Building wheel for imgaug (setup.py): finished with status 'done'
+  Created wheel for imgaug: filename=imgaug-0.2.5-py3-none-any.whl size=561438 sha256=67c495c7210894c4fe27cee5bc67a3ca18bcc10355ea42cfc6b7fd252e389b14
+  Stored in directory: /home/lei/.cache/pip/wheels/83/a9/80/c4a4de37e687147e3a9bea193983f44442455bd7227f1b8822
+Successfully built imgaug
+Installing collected packages: six, urllib3, python-dateutil, pyparsing, pyasn1, Pillow, numpy, kiwisolver, idna, decorator, cycler, chardet, certifi, scipy, rsa, requests, PyWavelets, pyasn1-modules, oauthlib, networkx, matplotlib, imageio, cachetools, scikit-image, requests-oauthlib, joblib, google-auth, future, Werkzeug, torch, scikit-learn, PyYAML, protobuf, opencv-python-headless, Markdown, imgaug, grpcio, google-auth-oauthlib, absl-py, tqdm, torchvision, tensorboard, sklearn, opencv-python, albumentations
+Successfully installed Markdown-3.1.1 Pillow-6.2.2 PyWavelets-1.0.3 PyYAML-5.3.1 Werkzeug-1.0.0 absl-py-0.9.0 albumentations-0.4.3 cachetools-3.1.1 certifi-2019.11.28 chardet-3.0.4 cycler-0.10.0 decorator-4.4.2 future-0.18.2 google-auth-1.7.2 google-auth-oauthlib-0.4.1 grpcio-1.27.2 idna-2.8 imageio-2.6.1 imgaug-0.2.5 joblib-0.14.1 kiwisolver-1.1.0 matplotlib-3.0.3 networkx-2.4 numpy-1.17.5 oauthlib-3.1.0 opencv-python-4.2.0.32 opencv-python-headless-4.2.0.32 protobuf-3.11.3 pyasn1-0.4.8 pyasn1-modules-0.2.8 pyparsing-2.4.6 python-dateutil-2.7.2 requests-2.22.0 requests-oauthlib-1.2.0 rsa-4.0 scikit-image-0.15.0 scikit-learn-0.22.1 scipy-1.4.1 six-1.13.0 sklearn-0.0 tensorboard-2.0.2 torch-1.5.1 torchvision-0.6.1 tqdm-4.19.9 urllib3-1.25.8

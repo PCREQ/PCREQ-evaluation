@@ -1,0 +1,61 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting certifi==2021.5.30
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/05/1b/0a0dece0e8aa492a6ec9e4ad2fe366b511558cdc73fd3abc82ba7348e875/certifi-2021.5.30-py2.py3-none-any.whl (145 kB)
+Collecting charset-normalizer==2.0.12
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/06/b3/24afc8868eba069a7f03650ac750a778862dc34941a4bebeb58706715726/charset_normalizer-2.0.12-py3-none-any.whl (39 kB)
+Collecting click==8.0.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/4a/a8/0b2ced25639fb20cc1c9784de90a8c25f9504a7f18cd8b5397bd61696d7d/click-8.0.4-py3-none-any.whl (97 kB)
+Collecting dataclasses==0.8
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/fe/ca/75fac5856ab5cfa51bbbcefa250182e50441074fdc3f803f6e76451fab43/dataclasses-0.8-py3-none-any.whl (19 kB)
+Collecting filelock==3.4.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/84/ce/8916d10ef537f3f3b046843255f9799504aa41862bfa87844b9bdc5361cd/filelock-3.4.1-py3-none-any.whl (9.9 kB)
+Collecting future==1.0.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/da/71/ae30dadffc90b9006d77af76b393cb9dfbfc9629f339fc1574a1c52e6806/future-1.0.0-py3-none-any.whl (491 kB)
+Collecting idna==3.7
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/e5/3e/741d8c82801c347547f8a2a06aa57dbb1992be9e948df2ea0eda2c8b79e8/idna-3.7-py3-none-any.whl (66 kB)
+Collecting importlib-metadata==4.8.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a0/a1/b153a0a4caf7a7e3f15c2cd56c7702e2cf3d89b1b359d1f1c5e59d68f4ce/importlib_metadata-4.8.3-py3-none-any.whl (17 kB)
+Collecting importlib-resources==5.4.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/24/1b/33e489669a94da3ef4562938cd306e8fa915e13939d7b8277cb5569cb405/importlib_resources-5.4.0-py3-none-any.whl (28 kB)
+Collecting joblib==1.1.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/7c/91/d3ba0401e62d7e42816bc7d97b82d19c95c164b3e149a87c0a1c026a735e/joblib-1.1.1-py2.py3-none-any.whl (309 kB)
+Collecting keras==2.7.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/6b/8b/065f94ba03282fa41b2d76942b87a180a9913312c4611ea7d6508fbbc114/keras-2.7.0-py2.py3-none-any.whl (1.3 MB)
+Collecting numpy==1.19.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/14/32/d3fa649ad7ec0b82737b92fefd3c4dd376b0bb23730715124569f38f3a08/numpy-1.19.5-cp36-cp36m-manylinux2010_x86_64.whl (14.8 MB)
+Collecting packaging==21.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/05/8e/8de486cbd03baba4deef4142bd643a3e7bbe954a784dc1bb17142572d127/packaging-21.3-py3-none-any.whl (40 kB)
+Collecting pyparsing==3.0.9
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/6c/10/a7d0fa5baea8fe7b50f448ab742f26f52b80bfca85ac2be9d35cdd9a3246/pyparsing-3.0.9-py3-none-any.whl (98 kB)
+Collecting pytorch-crf==0.7.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/96/7d/4c4688e26ea015fc118a0327e5726e6596836abce9182d3738be8ec2e32a/pytorch_crf-0.7.2-py3-none-any.whl (9.5 kB)
+Collecting regex==2023.8.8
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/18/02/d7ba6749c5b7a6f75d6cf287942c800f63e98440dd03e406ed5f01c2b9db/regex-2023.8.8-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (759 kB)
+Collecting requests==2.27.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/2d/61/08076519c80041bc0ffa1a8af0cbd3bf3e2b62af10435d269a9d0f40564d/requests-2.27.1-py2.py3-none-any.whl (63 kB)
+Collecting sacremoses==0.0.53
+  Using cached sacremoses-0.0.53-py3-none-any.whl
+Collecting sentencepiece==0.1.91
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d4/a4/d0a884c4300004a78cca907a6ff9a5e9fe4f090f5d95ab341c53d28cbc58/sentencepiece-0.1.91-cp36-cp36m-manylinux1_x86_64.whl (1.1 MB)
+Collecting seqeval==0.0.12
+  Using cached seqeval-0.0.12-py3-none-any.whl
+Collecting six==1.15.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ee/ff/48bde5c0f013094d729fe4b0316ba2a24774b3ff1c52d924a8a4cb04078a/six-1.15.0-py2.py3-none-any.whl (10 kB)
+Collecting tokenizers==0.9.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/7c/a5/78be1a55b2ac8d6a956f0a211d372726e2b1dd2666bb537fea9b03abd62c/tokenizers-0.9.2-cp36-cp36m-manylinux1_x86_64.whl (2.9 MB)
+Collecting torch==1.9.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/9a/f1/735e39ed0e3877ff02ffe625989bb421747c3dfd256e37ed92ad32c986be/torch-1.9.1-cp36-cp36m-manylinux1_x86_64.whl (831.4 MB)
+Collecting tqdm==4.64.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/47/bb/849011636c4da2e44f1253cd927cfb20ada4374d8b3a4e425416e84900cc/tqdm-4.64.1-py2.py3-none-any.whl (78 kB)
+Collecting transformers==3.4.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/2c/4e/4f1ede0fd7a36278844a277f8d53c21f88f37f3754abf76a5d6224f76d4a/transformers-3.4.0-py3-none-any.whl (1.3 MB)
+Collecting typing_extensions==3.7.4.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/60/7a/e881b5abb54db0e6e671ab088d079c57ce54e8a01a3ca443f561ccadb37e/typing_extensions-3.7.4.3-py3-none-any.whl (22 kB)
+Collecting urllib3==1.26.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/0c/cd/1e2ec680ec7b09846dc6e605f5a7709dfb9d7128e51a026e7154e18a234e/urllib3-1.26.5-py2.py3-none-any.whl (138 kB)
+Collecting zipp==3.4.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/41/ad/6a4f1a124b325618a7fb758b885b68ff7b058eec47d9220a12ab38d90b1f/zipp-3.4.0-py3-none-any.whl (5.2 kB)
+Collecting protobuf
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/8f/8e/06fc0df62dd80a32739b51bb3256f1417349eb5c3899f6ccab3796937458/protobuf-3.19.6-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.1 MB)
+Installing collected packages: zipp, typing-extensions, importlib-resources, importlib-metadata, urllib3, tqdm, six, regex, pyparsing, joblib, idna, click, charset-normalizer, certifi, tokenizers, sentencepiece, sacremoses, requests, protobuf, packaging, numpy, keras, filelock, dataclasses, transformers, torch, seqeval, pytorch-crf, future
+Successfully installed certifi-2021.5.30 charset-normalizer-2.0.12 click-8.0.4 dataclasses-0.8 filelock-3.4.1 future-1.0.0 idna-3.7 importlib-metadata-4.8.3 importlib-resources-5.4.0 joblib-1.1.1 keras-2.7.0 numpy-1.19.5 packaging-21.3 protobuf-3.19.6 pyparsing-3.0.9 pytorch-crf-0.7.2 regex-2023.8.8 requests-2.27.1 sacremoses-0.0.53 sentencepiece-0.1.91 seqeval-0.0.12 six-1.15.0 tokenizers-0.9.2 torch-1.9.1 tqdm-4.64.1 transformers-3.4.0 typing-extensions-3.7.4.3 urllib3-1.26.5 zipp-3.4.0

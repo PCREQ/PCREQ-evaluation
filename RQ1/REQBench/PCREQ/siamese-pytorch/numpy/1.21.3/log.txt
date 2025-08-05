@@ -1,0 +1,7 @@
+2025-06-29 18:30:20,613 - INFO - *************Upgrade numpy from 1.16.1 to 1.21.3 in siamese-pytorch*************
+2025-06-29 18:30:20,613 - INFO - Checking siamese-pytorch is compatible with numpy1.21.3?...
+2025-06-29 18:30:26,767 - INFO - siamese-pytorch is compatible with numpy1.21.3
+2025-06-29 18:30:27,158 - INFO - Checking torchvision0.2.2 is compatible with numpy1.21.3?...
+2025-06-29 18:30:27,682 - INFO - torchvision0.2.2 is compatible with numpy1.21.3
+2025-06-29 18:30:29,859 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 18:30:29,859 - INFO - Time cost: 9.246750593185425 s

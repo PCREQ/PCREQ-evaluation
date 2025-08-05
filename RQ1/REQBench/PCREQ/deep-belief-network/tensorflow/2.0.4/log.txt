@@ -1,0 +1,20 @@
+2025-06-28 16:44:15,703 - INFO - *************Upgrade tensorflow from 1.5.0 to 2.0.4 in deep-belief-network*************
+2025-06-28 16:44:15,703 - INFO - Checking deep-belief-network is compatible with tensorflow2.0.4?...
+2025-06-28 16:44:24,040 - INFO - deep-belief-network-tensorflow-1.5.0-2.0.4（装饰器改变）python.ops.math_ops.to_float--@tf_export(v1=["to_float"])
+2025-06-28 16:44:24,069 - INFO - deep-belief-network is not compatible with tensorflow-2.0.4, change to tensorflow-2.0.3
+2025-06-28 16:44:24,069 - INFO - Checking deep-belief-network is compatible with tensorflow2.0.3?...
+2025-06-28 16:44:33,114 - INFO - deep-belief-network-tensorflow-1.5.0-2.0.3（装饰器改变）python.ops.math_ops.to_float--@tf_export(v1=["to_float"])
+2025-06-28 16:44:33,133 - INFO - deep-belief-network is not compatible with tensorflow-2.0.3, change to tensorflow-2.0.2
+2025-06-28 16:44:33,133 - INFO - Checking deep-belief-network is compatible with tensorflow2.0.2?...
+2025-06-28 16:44:41,414 - INFO - deep-belief-network-tensorflow-1.5.0-2.0.2（装饰器改变）python.ops.math_ops.to_float--@tf_export(v1=["to_float"])
+2025-06-28 16:44:41,432 - INFO - deep-belief-network is not compatible with tensorflow-2.0.2, change to tensorflow-2.0.1
+2025-06-28 16:44:41,432 - INFO - Checking deep-belief-network is compatible with tensorflow2.0.1?...
+2025-06-28 16:44:50,417 - INFO - deep-belief-network-tensorflow-1.5.0-2.0.1（装饰器改变）python.ops.math_ops.to_float--@tf_export(v1=["to_float"])
+2025-06-28 16:44:50,435 - INFO - deep-belief-network is not compatible with tensorflow-2.0.1, change to tensorflow-2.0.0
+2025-06-28 16:44:50,435 - INFO - Checking deep-belief-network is compatible with tensorflow2.0.0?...
+2025-06-28 16:44:58,976 - INFO - deep-belief-network-tensorflow-1.5.0-2.0.0（装饰器改变）python.ops.math_ops.to_float--@tf_export(v1=["to_float"])
+2025-06-28 16:44:58,987 - INFO - deep-belief-network is not compatible with tensorflow-2.0.0, change to tensorflow-1.15.5
+2025-06-28 16:44:58,987 - INFO - Checking deep-belief-network is compatible with tensorflow1.15.5?...
+2025-06-28 16:45:07,794 - INFO - deep-belief-network is compatible with tensorflow1.15.5
+2025-06-28 16:45:14,100 - INFO - *************New requirements.txt has been generated!*************
+2025-06-28 16:45:14,100 - INFO - Time cost: 58.39798927307129 s

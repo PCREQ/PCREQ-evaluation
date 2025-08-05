@@ -1,0 +1,38 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting coloredlogs==15.0.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a7/06/3d6badcf13db419e25b07041d9c7b4a2c331d3f4e7134445ec5df57714cd/coloredlogs-15.0.1-py2.py3-none-any.whl (46 kB)
+Collecting cycler==0.10.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f7/d2/e07d3ebb2bd7af696440ce7e754c59dd546ffe1bbe732c8ab68b9c834e61/cycler-0.10.0-py2.py3-none-any.whl (6.5 kB)
+Collecting humanfriendly==10.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f0/0f/310fb31e39e2d734ccaa2c0fb981ee41f7bd5056ce9bc29b2248bd569169/humanfriendly-10.0-py2.py3-none-any.whl (86 kB)
+Collecting kiwisolver==1.1.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/93/f8/518fb0bb89860eea6ff1b96483fbd9236d5ee991485d0f3eceff1770f654/kiwisolver-1.1.0-cp37-cp37m-manylinux1_x86_64.whl (90 kB)
+Collecting matplotlib==3.3.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/23/3d/db9a6b3c83c9511301152dbb64a029c3a4313c86eaef12c237b13ecf91d6/matplotlib-3.3.4-cp37-cp37m-manylinux1_x86_64.whl (11.5 MB)
+Collecting mpmath==1.2.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d4/cf/3965bddbb4f1a61c49aacae0e78fd1fe36b5dc36c797b31f30cf07dcbbb7/mpmath-1.2.1-py3-none-any.whl (532 kB)
+Collecting numpy==1.21.6
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/6d/ad/ff3b21ebfe79a4d25b4a4f8e5cf9fd44a204adb6b33c09010f566f51027a/numpy-1.21.6-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (15.7 MB)
+Collecting Pillow==8.3.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/41/07/ecb2a0d55460385163c82a4bd65263a00510966dddbd54876796bd18857c/Pillow-8.3.2-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.0 MB)
+Collecting pyparsing==2.4.7
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/8a/bb/488841f56197b13700afd5658fc279a2025a39e22449b7cf29864669b15d/pyparsing-2.4.7-py2.py3-none-any.whl (67 kB)
+Collecting python-dateutil==2.8.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/36/7a/87837f39d0296e723bb9b62bbb257d0355c7f6128853c78955f57342a56d/python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+Collecting python-gflags==3.1.2
+  Using cached python_gflags-3.1.2-py3-none-any.whl
+Collecting six==1.15.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ee/ff/48bde5c0f013094d729fe4b0316ba2a24774b3ff1c52d924a8a4cb04078a/six-1.15.0-py2.py3-none-any.whl (10 kB)
+Collecting sympy==1.10.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d0/04/66be21ceb305c66a4b326b0ae44cc4f027a43bc08cac204b48fb45bb3653/sympy-1.10.1-py3-none-any.whl (6.4 MB)
+Collecting torch==1.10.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/01/73/a8dcb6da2193980309bf2d605d0ff56698a7c6977ea954413b163baddf77/torch-1.10.2-cp37-cp37m-manylinux1_x86_64.whl (881.9 MB)
+Collecting torchvision==0.11.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/58/11/d8b150c7990f04be7dd379bc003b6cc6f7adb19d296ea2203280dddce2aa/torchvision-0.11.3-cp37-cp37m-manylinux1_x86_64.whl (23.2 MB)
+Collecting tqdm==4.62.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/63/f3/b7a1b8e40fd1bd049a34566eb353527bb9b8e9b98f8b6cf803bb64d8ce95/tqdm-4.62.3-py2.py3-none-any.whl (76 kB)
+Requirement already satisfied: setuptools in /home/lei/anaconda3/envs/py37-5/lib/python3.7/site-packages (from kiwisolver==1.1.0->-r /home/lei/compatibility_analysis/compare/LLM/result/chatgpt/siamese-pytorch-torch-1.10.2.txt (line 4)) (59.5.0)
+Collecting typing-extensions
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ec/6b/63cc3df74987c36fe26157ee12e09e8f9db4de771e0f3404263117e75b95/typing_extensions-4.7.1-py3-none-any.whl (33 kB)
+Installing collected packages: python-gflags, mpmath, typing-extensions, tqdm, sympy, six, pyparsing, Pillow, numpy, kiwisolver, humanfriendly, torch, python-dateutil, cycler, coloredlogs, torchvision, matplotlib
+Successfully installed Pillow-8.3.2 coloredlogs-15.0.1 cycler-0.10.0 humanfriendly-10.0 kiwisolver-1.1.0 matplotlib-3.3.4 mpmath-1.2.1 numpy-1.21.6 pyparsing-2.4.7 python-dateutil-2.8.2 python-gflags-3.1.2 six-1.15.0 sympy-1.10.1 torch-1.10.2 torchvision-0.11.3 tqdm-4.62.3 typing-extensions-4.7.1

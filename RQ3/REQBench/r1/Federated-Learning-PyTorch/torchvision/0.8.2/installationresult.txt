@@ -1,0 +1,41 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting coloredlogs==15.0.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a7/06/3d6badcf13db419e25b07041d9c7b4a2c331d3f4e7134445ec5df57714cd/coloredlogs-15.0.1-py2.py3-none-any.whl (46 kB)
+Collecting cycler==0.11.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/5c/f9/695d6bedebd747e5eb0fe8fad57b72fdf25411273a39791cde838d5a8f51/cycler-0.11.0-py3-none-any.whl (6.4 kB)
+Collecting humanfriendly==10.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f0/0f/310fb31e39e2d734ccaa2c0fb981ee41f7bd5056ce9bc29b2248bd569169/humanfriendly-10.0-py2.py3-none-any.whl (86 kB)
+Collecting kiwisolver==1.4.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f9/77/e3046bf19720b22e3e0b7c12e28f6f2c0c18a213fb91a56cea640862270f/kiwisolver-1.4.5-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl (1.1 MB)
+Collecting matplotlib==3.0.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ab/e9/675be8ef5ca1be676c5a5b2dbb3eb5246c7017eaa7b233638562a61ea968/matplotlib-3.0.1-cp37-cp37m-manylinux1_x86_64.whl (12.9 MB)
+Collecting mpmath==1.2.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d4/cf/3965bddbb4f1a61c49aacae0e78fd1fe36b5dc36c797b31f30cf07dcbbb7/mpmath-1.2.1-py3-none-any.whl (532 kB)
+Collecting numpy==1.15.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/38/39/f73e104d44f19a6203e786d5204532e214443ea2954917b27f3229e7639b/numpy-1.15.4-cp37-cp37m-manylinux1_x86_64.whl (13.8 MB)
+Collecting Pillow==6.2.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c3/3f/03375124676ab49ca6e6917c0f1f663afb8354d5d24e12f4fe4587a39ae2/Pillow-6.2.2-cp37-cp37m-manylinux1_x86_64.whl (2.1 MB)
+Collecting protobuf==3.20.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/4c/12/62e1d5505c172e1a7f803d83b0b1693f7952c3c271eb2f155703012ae67a/protobuf-3.20.3-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl (1.0 MB)
+Collecting pyparsing==3.1.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/9d/ea/6d76df31432a0e6fdf81681a895f009a4bb47b3c39036db3e1b528191d52/pyparsing-3.1.2-py3-none-any.whl (103 kB)
+Collecting python-dateutil==2.9.0.post0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Collecting six==1.16.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting sympy==1.10.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d0/04/66be21ceb305c66a4b326b0ae44cc4f027a43bc08cac204b48fb45bb3653/sympy-1.10.1-py3-none-any.whl (6.4 MB)
+Collecting tensorboardX==2.6
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/60/9f/d532d37f10ac7af136d4c2ba71e1fe7af0f3cc0cc076dfc05826171e9737/tensorboardX-2.6-py2.py3-none-any.whl (114 kB)
+Collecting torch==1.7.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/90/5d/095ddddc91c8a769a68c791c019c5793f9c4456a688ddd235d6670924ecb/torch-1.7.1-cp37-cp37m-manylinux1_x86_64.whl (776.8 MB)
+Collecting torchvision==0.8.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/94/df/969e69a94cff1c8911acb0688117f95e1915becc1e01c73e7960a2c76ec8/torchvision-0.8.2-cp37-cp37m-manylinux1_x86_64.whl (12.8 MB)
+Collecting tqdm==4.66.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/18/eb/fdb7eb9e48b7b02554e1664afd3bd3f117f6b6d6c5881438a0b055554f9b/tqdm-4.66.4-py3-none-any.whl (78 kB)
+Collecting typing_extensions==4.7.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ec/6b/63cc3df74987c36fe26157ee12e09e8f9db4de771e0f3404263117e75b95/typing_extensions-4.7.1-py3-none-any.whl (33 kB)
+Collecting packaging
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/49/df/1fceb2f8900f8639e278b056416d49134fb8d84c5942ffaa01ad34782422/packaging-24.0-py3-none-any.whl (53 kB)
+Installing collected packages: mpmath, typing_extensions, tqdm, sympy, six, pyparsing, protobuf, Pillow, packaging, numpy, humanfriendly, cycler, torch, tensorboardX, python-dateutil, kiwisolver, coloredlogs, torchvision, matplotlib
+Successfully installed Pillow-6.2.2 coloredlogs-15.0.1 cycler-0.11.0 humanfriendly-10.0 kiwisolver-1.4.5 matplotlib-3.0.1 mpmath-1.2.1 numpy-1.15.4 packaging-24.0 protobuf-3.20.3 pyparsing-3.1.2 python-dateutil-2.9.0.post0 six-1.16.0 sympy-1.10.1 tensorboardX-2.6 torch-1.7.1 torchvision-0.8.2 tqdm-4.66.4 typing_extensions-4.7.1

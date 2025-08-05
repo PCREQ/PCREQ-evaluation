@@ -1,0 +1,122 @@
+05/28/2025 21:30:27 - INFO - __main__ -   device: cuda n_gpu: 3, distributed training: False, 16-bits training: False
+05/28/2025 21:30:28 - INFO - pytorch_transformers.tokenization_utils -   loading file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-cased-vocab.txt from cache at /home/lei/.cache/torch/pytorch_transformers/5e8a2b4893d13790ed4150ca1906be5f7a03d6c4ddf62296c383f6db42814db2.e13dbb970cb325137104fb2e5f36fe865f27746c6b526f6352861b1980eb80b1
+05/28/2025 21:30:29 - INFO - pytorch_transformers.modeling_utils -   loading configuration file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-cased-config.json from cache at /home/lei/.cache/torch/pytorch_transformers/b945b69218e98b3e2c95acf911789741307dec43c698d35fad11c1ae28bda352.9da767be51e1327499df13488672789394e2ca38b877837e52618a67d7002391
+05/28/2025 21:30:29 - INFO - pytorch_transformers.modeling_utils -   Model config {
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "finetuning_task": "ner",
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "num_labels": 12,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "pad_token_id": 0,
+  "pruned_heads": {},
+  "torchscript": false,
+  "type_vocab_size": 2,
+  "vocab_size": 28996
+}
+
+05/28/2025 21:30:30 - INFO - pytorch_transformers.modeling_utils -   loading weights file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-cased-pytorch_model.bin from cache at /home/lei/.cache/torch/pytorch_transformers/35d8b9d36faaf46728a0192d82bf7d00137490cd6074e8500778afed552a67e5.3fadbea36527ae472139fe84cddaa65454d7429f12d543d80bfc3ad70de55ac2
+05/28/2025 21:30:32 - INFO - pytorch_transformers.modeling_utils -   Weights of Ner not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+05/28/2025 21:30:32 - INFO - pytorch_transformers.modeling_utils -   Weights from pretrained model not used in Ner: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias']
+05/28/2025 21:30:37 - INFO - pytorch_transformers.modeling_utils -   loading configuration file out_base/config.json
+05/28/2025 21:30:37 - INFO - pytorch_transformers.modeling_utils -   Model config {
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "finetuning_task": "ner",
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "num_labels": 12,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "pad_token_id": 0,
+  "pruned_heads": {},
+  "torchscript": false,
+  "type_vocab_size": 2,
+  "vocab_size": 28996
+}
+
+05/28/2025 21:30:37 - INFO - pytorch_transformers.modeling_utils -   loading weights file out_base/pytorch_model.bin
+05/28/2025 21:30:40 - INFO - pytorch_transformers.tokenization_utils -   Model name 'out_base' not found in model shortcut name list (bert-base-uncased, bert-large-uncased, bert-base-cased, bert-large-cased, bert-base-multilingual-uncased, bert-base-multilingual-cased, bert-base-chinese, bert-base-german-cased, bert-large-uncased-whole-word-masking, bert-large-cased-whole-word-masking, bert-large-uncased-whole-word-masking-finetuned-squad, bert-large-cased-whole-word-masking-finetuned-squad, bert-base-cased-finetuned-mrpc). Assuming 'out_base' is a path or url to a directory containing tokenizer files.
+05/28/2025 21:30:40 - INFO - pytorch_transformers.tokenization_utils -   loading file out_base/vocab.txt
+05/28/2025 21:30:40 - INFO - pytorch_transformers.tokenization_utils -   loading file out_base/added_tokens.json
+05/28/2025 21:30:40 - INFO - pytorch_transformers.tokenization_utils -   loading file out_base/special_tokens_map.json
+05/28/2025 21:30:40 - INFO - pytorch_transformers.tokenization_utils -   loading file out_base/tokenizer_config.json
+05/28/2025 21:30:40 - INFO - __main__ -   *** Example ***
+05/28/2025 21:30:40 - INFO - __main__ -   guid: dev-0
+05/28/2025 21:30:40 - INFO - __main__ -   tokens: CR ##IC ##KE ##T - L ##EI ##CE ##ST ##ER ##S ##H ##IR ##E T ##A ##KE O ##VE ##R AT TO ##P A ##FT ##ER IN ##NI ##NG ##S VI ##CT ##OR ##Y .
+05/28/2025 21:30:40 - INFO - __main__ -   input_ids: 101 15531 9741 22441 1942 118 149 27514 10954 9272 9637 1708 3048 18172 2036 157 1592 22441 152 17145 2069 13020 16972 2101 138 26321 9637 15969 27451 11780 1708 7118 16647 9565 3663 119 102 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+05/28/2025 21:30:40 - INFO - __main__ -   input_mask: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+05/28/2025 21:30:40 - INFO - __main__ -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+05/28/2025 21:30:40 - INFO - __main__ -   *** Example ***
+05/28/2025 21:30:40 - INFO - __main__ -   guid: dev-1
+05/28/2025 21:30:40 - INFO - __main__ -   tokens: L ##ON ##D ##ON 1996 - 08 - 30
+05/28/2025 21:30:40 - INFO - __main__ -   input_ids: 101 149 11414 2137 11414 1820 118 4775 118 1476 102 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+05/28/2025 21:30:40 - INFO - __main__ -   input_mask: 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+05/28/2025 21:30:40 - INFO - __main__ -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+05/28/2025 21:30:40 - INFO - __main__ -   *** Example ***
+05/28/2025 21:30:40 - INFO - __main__ -   guid: dev-2
+05/28/2025 21:30:40 - INFO - __main__ -   tokens: West Indian all - round ##er Phil Simmons took four for 38 on Friday as Leicestershire beat Somerset by an innings and 39 runs in two days to take over at the head of the county championship .
+05/28/2025 21:30:40 - INFO - __main__ -   input_ids: 101 1537 1890 1155 118 1668 1200 5676 14068 1261 1300 1111 3383 1113 5286 1112 21854 3222 8860 1118 1126 6687 1105 3614 2326 1107 1160 1552 1106 1321 1166 1120 1103 1246 1104 1103 2514 2899 119 102 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+05/28/2025 21:30:40 - INFO - __main__ -   input_mask: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+05/28/2025 21:30:40 - INFO - __main__ -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+05/28/2025 21:30:40 - INFO - __main__ -   *** Example ***
+05/28/2025 21:30:40 - INFO - __main__ -   guid: dev-3
+05/28/2025 21:30:40 - INFO - __main__ -   tokens: Their stay on top , though , may be short - lived as title rivals Essex , Derbyshire and Surrey all closed in on victory while Kent made up for lost time in their rain - affected match against Nottinghamshire .
+05/28/2025 21:30:40 - INFO - __main__ -   input_ids: 101 2397 2215 1113 1499 117 1463 117 1336 1129 1603 118 2077 1112 1641 9521 8493 117 15964 1105 9757 1155 1804 1107 1113 2681 1229 5327 1189 1146 1111 1575 1159 1107 1147 4458 118 4634 1801 1222 21942 119 102 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+05/28/2025 21:30:40 - INFO - __main__ -   input_mask: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+05/28/2025 21:30:40 - INFO - __main__ -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+05/28/2025 21:30:40 - INFO - __main__ -   *** Example ***
+05/28/2025 21:30:40 - INFO - __main__ -   guid: dev-4
+05/28/2025 21:30:40 - INFO - __main__ -   tokens: After bowling Somerset out for 83 on the opening morning at Grace Road , Leicestershire extended their first innings by 94 runs before being bowled out for 29 ##6 with England disc ##ard Andy C ##ad ##dick taking three for 83 .
+05/28/2025 21:30:40 - INFO - __main__ -   input_ids: 101 1258 11518 8860 1149 1111 6032 1113 1103 2280 2106 1120 4378 1914 117 21854 2925 1147 1148 6687 1118 5706 2326 1196 1217 21663 1149 1111 1853 1545 1114 1652 6187 2881 4827 140 3556 25699 1781 1210 1111 6032 119 102 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+05/28/2025 21:30:40 - INFO - __main__ -   input_mask: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+05/28/2025 21:30:40 - INFO - __main__ -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+05/28/2025 21:30:42 - INFO - __main__ -   ***** Running evaluation *****
+05/28/2025 21:30:42 - INFO - __main__ -     Num examples = 3250
+05/28/2025 21:30:42 - INFO - __main__ -     Batch size = 8
+Evaluating:   0%|          | 0/407 [00:00<?, ?it/s]Evaluating:   0%|          | 2/407 [00:00<00:23, 17.13it/s]Evaluating:   1%|          | 4/407 [00:00<00:22, 17.61it/s]Evaluating:   1%|▏         | 6/407 [00:00<00:22, 18.16it/s]Evaluating:   2%|▏         | 8/407 [00:00<00:21, 18.57it/s]Evaluating:   3%|▎         | 11/407 [00:00<00:20, 18.99it/s]Evaluating:   3%|▎         | 13/407 [00:00<00:20, 19.10it/s]Evaluating:   4%|▎         | 15/407 [00:00<00:20, 19.28it/s]Evaluating:   4%|▍         | 18/407 [00:00<00:19, 19.53it/s]Evaluating:   5%|▍         | 20/407 [00:01<00:19, 19.65it/s]Evaluating:   5%|▌         | 22/407 [00:01<00:19, 19.47it/s]Evaluating:   6%|▌         | 25/407 [00:01<00:19, 19.70it/s]Evaluating:   7%|▋         | 28/407 [00:01<00:19, 19.82it/s]Evaluating:   8%|▊         | 31/407 [00:01<00:18, 19.90it/s]Evaluating:   8%|▊         | 34/407 [00:01<00:18, 19.96it/s]Evaluating:   9%|▉         | 37/407 [00:01<00:18, 19.98it/s]Evaluating:  10%|▉         | 39/407 [00:01<00:18, 19.94it/s]Evaluating:  10%|█         | 41/407 [00:02<00:18, 19.95it/s]Evaluating:  11%|█         | 43/407 [00:02<00:18, 19.92it/s]Evaluating:  11%|█         | 45/407 [00:02<00:18, 19.85it/s]Evaluating:  12%|█▏        | 47/407 [00:02<00:18, 19.57it/s]Evaluating:  12%|█▏        | 49/407 [00:02<00:18, 19.60it/s]Evaluating:  13%|█▎        | 51/407 [00:02<00:18, 19.64it/s]Evaluating:  13%|█▎        | 53/407 [00:02<00:18, 19.66it/s]Evaluating:  14%|█▎        | 55/407 [00:02<00:17, 19.71it/s]Evaluating:  14%|█▍        | 57/407 [00:02<00:17, 19.77it/s]Evaluating:  14%|█▍        | 59/407 [00:02<00:17, 19.82it/s]Evaluating:  15%|█▌        | 62/407 [00:03<00:17, 19.86it/s]Evaluating:  16%|█▌        | 65/407 [00:03<00:17, 19.93it/s]Evaluating:  17%|█▋        | 68/407 [00:03<00:16, 19.97it/s]Evaluating:  17%|█▋        | 71/407 [00:03<00:16, 20.01it/s]Evaluating:  18%|█▊        | 74/407 [00:03<00:16, 20.01it/s]Evaluating:  19%|█▉        | 77/407 [00:03<00:16, 20.01it/s]Evaluating:  20%|█▉        | 80/407 [00:04<00:16, 19.85it/s]Evaluating:  20%|██        | 83/407 [00:04<00:16, 19.91it/s]Evaluating:  21%|██        | 86/407 [00:04<00:16, 19.96it/s]Evaluating:  22%|██▏       | 89/407 [00:04<00:15, 19.98it/s]Evaluating:  23%|██▎       | 92/407 [00:04<00:15, 19.99it/s]Evaluating:  23%|██▎       | 94/407 [00:04<00:15, 19.99it/s]Evaluating:  24%|██▎       | 96/407 [00:04<00:15, 19.98it/s]Evaluating:  24%|██▍       | 98/407 [00:04<00:15, 19.72it/s]Evaluating:  25%|██▍       | 100/407 [00:05<00:15, 19.78it/s]Evaluating:  25%|██▌       | 103/407 [00:05<00:15, 19.85it/s]Evaluating:  26%|██▌       | 105/407 [00:05<00:15, 19.89it/s]Evaluating:  26%|██▋       | 107/407 [00:05<00:15, 19.91it/s]Evaluating:  27%|██▋       | 109/407 [00:05<00:14, 19.91it/s]Evaluating:  27%|██▋       | 111/407 [00:05<00:14, 19.82it/s]Evaluating:  28%|██▊       | 113/407 [00:05<00:17, 16.49it/s]Evaluating:  28%|██▊       | 115/407 [00:05<00:16, 17.39it/s]Evaluating:  29%|██▉       | 118/407 [00:06<00:15, 18.09it/s]Evaluating:  29%|██▉       | 120/407 [00:06<00:15, 18.61it/s]Evaluating:  30%|██▉       | 122/407 [00:06<00:14, 19.01it/s]Evaluating:  30%|███       | 124/407 [00:06<00:14, 19.01it/s]Evaluating:  31%|███       | 126/407 [00:06<00:14, 19.23it/s]Evaluating:  31%|███▏      | 128/407 [00:06<00:14, 19.44it/s]Evaluating:  32%|███▏      | 130/407 [00:06<00:14, 19.58it/s]Evaluating:  32%|███▏      | 132/407 [00:06<00:13, 19.65it/s]Evaluating:  33%|███▎      | 134/407 [00:06<00:13, 19.73it/s]Evaluating:  33%|███▎      | 136/407 [00:06<00:13, 19.78it/s]Evaluating:  34%|███▍      | 138/407 [00:07<00:13, 19.82it/s]Evaluating:  34%|███▍      | 140/407 [00:07<00:13, 19.85it/s]Evaluating:  35%|███▍      | 142/407 [00:07<00:13, 19.87it/s]Evaluating:  35%|███▌      | 144/407 [00:07<00:13, 19.90it/s]Evaluating:  36%|███▌      | 146/407 [00:07<00:13, 19.92it/s]Evaluating:  37%|███▋      | 149/407 [00:07<00:12, 19.93it/s]Evaluating:  37%|███▋      | 151/407 [00:07<00:12, 19.91it/s]Evaluating:  38%|███▊      | 153/407 [00:07<00:12, 19.90it/s]Evaluating:  38%|███▊      | 155/407 [00:07<00:12, 19.89it/s]Evaluating:  39%|███▊      | 157/407 [00:07<00:12, 19.88it/s]Evaluating:  39%|███▉      | 160/407 [00:08<00:12, 19.93it/s]Evaluating:  40%|███▉      | 162/407 [00:08<00:12, 19.93it/s]Evaluating:  40%|████      | 164/407 [00:08<00:12, 19.93it/s]Evaluating:  41%|████      | 166/407 [00:08<00:12, 19.91it/s]Evaluating:  42%|████▏     | 169/407 [00:08<00:11, 19.95it/s]Evaluating:  42%|████▏     | 171/407 [00:08<00:11, 19.93it/s]Evaluating:  43%|████▎     | 173/407 [00:08<00:11, 19.95it/s]Evaluating:  43%|████▎     | 175/407 [00:08<00:11, 19.90it/s]Evaluating:  43%|████▎     | 177/407 [00:08<00:11, 19.85it/s]Evaluating:  44%|████▍     | 179/407 [00:09<00:11, 19.88it/s]Evaluating:  44%|████▍     | 181/407 [00:09<00:11, 19.76it/s]Evaluating:  45%|████▍     | 183/407 [00:09<00:11, 19.82it/s]Evaluating:  45%|████▌     | 185/407 [00:09<00:11, 19.83it/s]Evaluating:  46%|████▌     | 187/407 [00:09<00:11, 19.83it/s]Evaluating:  46%|████▋     | 189/407 [00:09<00:10, 19.82it/s]Evaluating:  47%|████▋     | 191/407 [00:09<00:10, 19.83it/s]Evaluating:  47%|████▋     | 193/407 [00:09<00:10, 19.81it/s]Evaluating:  48%|████▊     | 195/407 [00:09<00:10, 19.83it/s]Evaluating:  48%|████▊     | 197/407 [00:10<00:10, 19.81it/s]Evaluating:  49%|████▉     | 199/407 [00:10<00:10, 19.84it/s]Evaluating:  49%|████▉     | 201/407 [00:10<00:10, 19.87it/s]Evaluating:  50%|████▉     | 203/407 [00:10<00:10, 19.87it/s]Evaluating:  50%|█████     | 205/407 [00:10<00:10, 19.90it/s]Evaluating:  51%|█████     | 207/407 [00:10<00:10, 19.91it/s]Evaluating:  52%|█████▏    | 210/407 [00:10<00:09, 19.95it/s]Evaluating:  52%|█████▏    | 212/407 [00:10<00:09, 19.92it/s]Evaluating:  53%|█████▎    | 215/407 [00:10<00:09, 19.96it/s]Evaluating:  53%|█████▎    | 217/407 [00:11<00:09, 19.97it/s]Evaluating:  54%|█████▍    | 219/407 [00:11<00:09, 19.94it/s]Evaluating:  55%|█████▍    | 222/407 [00:11<00:09, 19.95it/s]Evaluating:  55%|█████▌    | 225/407 [00:11<00:09, 19.98it/s]Evaluating:  56%|█████▌    | 227/407 [00:11<00:09, 19.98it/s]Evaluating:  56%|█████▋    | 229/407 [00:11<00:08, 19.98it/s]Evaluating:  57%|█████▋    | 231/407 [00:11<00:08, 19.94it/s]Evaluating:  57%|█████▋    | 233/407 [00:11<00:08, 19.93it/s]Evaluating:  58%|█████▊    | 235/407 [00:11<00:08, 19.93it/s]Evaluating:  58%|█████▊    | 237/407 [00:12<00:08, 19.92it/s]Evaluating:  59%|█████▊    | 239/407 [00:12<00:08, 19.90it/s]Evaluating:  59%|█████▉    | 241/407 [00:12<00:08, 19.88it/s]Evaluating:  60%|█████▉    | 244/407 [00:12<00:08, 19.92it/s]Evaluating:  60%|██████    | 246/407 [00:12<00:08, 19.86it/s]Evaluating:  61%|██████    | 248/407 [00:12<00:08, 19.83it/s]Evaluating:  61%|██████▏   | 250/407 [00:12<00:07, 19.81it/s]Evaluating:  62%|██████▏   | 252/407 [00:12<00:07, 19.76it/s]Evaluating:  62%|██████▏   | 254/407 [00:12<00:07, 19.75it/s]Evaluating:  63%|██████▎   | 256/407 [00:12<00:07, 19.56it/s]Evaluating:  63%|██████▎   | 258/407 [00:13<00:07, 19.64it/s]Evaluating:  64%|██████▍   | 260/407 [00:13<00:07, 19.68it/s]Evaluating:  64%|██████▍   | 262/407 [00:13<00:07, 19.73it/s]Evaluating:  65%|██████▍   | 264/407 [00:13<00:07, 19.75it/s]Evaluating:  65%|██████▌   | 266/407 [00:13<00:07, 19.80it/s]Evaluating:  66%|██████▌   | 268/407 [00:13<00:07, 19.85it/s]Evaluating:  67%|██████▋   | 271/407 [00:13<00:06, 19.89it/s]Evaluating:  67%|██████▋   | 273/407 [00:13<00:06, 19.91it/s]Evaluating:  68%|██████▊   | 276/407 [00:13<00:06, 19.95it/s]Evaluating:  68%|██████▊   | 278/407 [00:14<00:06, 19.92it/s]Evaluating:  69%|██████▉   | 280/407 [00:14<00:06, 19.87it/s]Evaluating:  69%|██████▉   | 282/407 [00:14<00:06, 19.88it/s]Evaluating:  70%|██████▉   | 284/407 [00:14<00:06, 19.90it/s]Evaluating:  70%|███████   | 286/407 [00:14<00:06, 19.80it/s]Evaluating:  71%|███████   | 289/407 [00:14<00:05, 19.90it/s]Evaluating:  71%|███████▏  | 291/407 [00:14<00:05, 19.84it/s]Evaluating:  72%|███████▏  | 294/407 [00:14<00:05, 19.86it/s]Evaluating:  73%|███████▎  | 296/407 [00:14<00:05, 19.84it/s]Evaluating:  73%|███████▎  | 298/407 [00:15<00:05, 19.83it/s]Evaluating:  74%|███████▎  | 300/407 [00:15<00:05, 19.85it/s]Evaluating:  74%|███████▍  | 302/407 [00:15<00:05, 19.87it/s]Evaluating:  75%|███████▍  | 305/407 [00:15<00:05, 19.90it/s]Evaluating:  76%|███████▌  | 308/407 [00:15<00:04, 19.96it/s]Evaluating:  76%|███████▌  | 310/407 [00:15<00:04, 19.97it/s]Evaluating:  77%|███████▋  | 312/407 [00:15<00:04, 19.91it/s]Evaluating:  77%|███████▋  | 314/407 [00:15<00:04, 19.82it/s]Evaluating:  78%|███████▊  | 316/407 [00:15<00:04, 19.82it/s]Evaluating:  78%|███████▊  | 318/407 [00:16<00:04, 19.72it/s]Evaluating:  79%|███████▊  | 320/407 [00:16<00:04, 19.72it/s]Evaluating:  79%|███████▉  | 322/407 [00:16<00:04, 19.75it/s]Evaluating:  80%|███████▉  | 325/407 [00:16<00:04, 19.87it/s]Evaluating:  81%|████████  | 328/407 [00:16<00:03, 19.92it/s]Evaluating:  81%|████████  | 330/407 [00:16<00:03, 19.93it/s]Evaluating:  82%|████████▏ | 332/407 [00:16<00:03, 19.95it/s]Evaluating:  82%|████████▏ | 335/407 [00:16<00:03, 19.97it/s]Evaluating:  83%|████████▎ | 337/407 [00:17<00:03, 19.88it/s]Evaluating:  83%|████████▎ | 339/407 [00:17<00:03, 19.83it/s]Evaluating:  84%|████████▍ | 341/407 [00:17<00:03, 19.81it/s]Evaluating:  84%|████████▍ | 343/407 [00:17<00:03, 19.80it/s]Evaluating:  85%|████████▍ | 345/407 [00:17<00:03, 19.80it/s]Evaluating:  85%|████████▌ | 347/407 [00:17<00:03, 19.79it/s]Evaluating:  86%|████████▌ | 349/407 [00:17<00:02, 19.75it/s]Evaluating:  86%|████████▌ | 351/407 [00:17<00:02, 19.75it/s]Evaluating:  87%|████████▋ | 353/407 [00:17<00:02, 19.78it/s]Evaluating:  87%|████████▋ | 355/407 [00:17<00:02, 19.79it/s]Evaluating:  88%|████████▊ | 357/407 [00:18<00:02, 19.73it/s]Evaluating:  88%|████████▊ | 359/407 [00:18<00:02, 19.73it/s]Evaluating:  89%|████████▊ | 361/407 [00:18<00:02, 19.75it/s]Evaluating:  89%|████████▉ | 363/407 [00:18<00:02, 19.77it/s]Evaluating:  90%|████████▉ | 365/407 [00:18<00:02, 19.80it/s]Evaluating:  90%|█████████ | 367/407 [00:18<00:02, 19.81it/s]Evaluating:  91%|█████████ | 369/407 [00:18<00:01, 19.80it/s]Evaluating:  91%|█████████ | 371/407 [00:18<00:01, 19.79it/s]Evaluating:  92%|█████████▏| 373/407 [00:18<00:01, 19.79it/s]Evaluating:  92%|█████████▏| 375/407 [00:18<00:01, 19.78it/s]Evaluating:  93%|█████████▎| 377/407 [00:19<00:01, 19.73it/s]Evaluating:  93%|█████████▎| 379/407 [00:19<00:01, 19.72it/s]Evaluating:  94%|█████████▎| 381/407 [00:19<00:01, 19.77it/s]Evaluating:  94%|█████████▍| 383/407 [00:19<00:01, 19.81it/s]Evaluating:  95%|█████████▍| 385/407 [00:19<00:01, 19.76it/s]Evaluating:  95%|█████████▌| 387/407 [00:19<00:01, 19.77it/s]Evaluating:  96%|█████████▌| 389/407 [00:19<00:00, 19.78it/s]Evaluating:  96%|█████████▌| 391/407 [00:19<00:00, 19.78it/s]Evaluating:  97%|█████████▋| 393/407 [00:19<00:00, 19.80it/s]Evaluating:  97%|█████████▋| 395/407 [00:19<00:00, 19.82it/s]Evaluating:  98%|█████████▊| 397/407 [00:20<00:00, 19.81it/s]Evaluating:  98%|█████████▊| 399/407 [00:20<00:00, 19.79it/s]Evaluating:  99%|█████████▊| 401/407 [00:20<00:00, 19.80it/s]Evaluating:  99%|█████████▉| 403/407 [00:20<00:00, 19.80it/s]Evaluating: 100%|█████████▉| 405/407 [00:20<00:00, 19.78it/s]Evaluating: 100%|██████████| 407/407 [00:20<00:00, 19.81it/s]
+05/28/2025 21:31:03 - INFO - __main__ -   
+           precision    recall  f1-score   support
+
+      PER     0.9655    0.9712    0.9683      1842
+      ORG     0.9050    0.9165    0.9107      1341
+      LOC     0.9520    0.9505    0.9512      1837
+     MISC     0.8394    0.8731    0.8559       922
+
+micro avg     0.9269    0.9372    0.9321      5942
+macro avg     0.9281    0.9372    0.9326      5942
+
+05/28/2025 21:31:03 - INFO - __main__ -   ***** Eval results *****
+05/28/2025 21:31:03 - INFO - __main__ -   
+           precision    recall  f1-score   support
+
+      PER     0.9655    0.9712    0.9683      1842
+      ORG     0.9050    0.9165    0.9107      1341
+      LOC     0.9520    0.9505    0.9512      1837
+     MISC     0.8394    0.8731    0.8559       922
+
+micro avg     0.9269    0.9372    0.9321      5942
+macro avg     0.9281    0.9372    0.9326      5942
+

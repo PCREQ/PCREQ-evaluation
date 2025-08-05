@@ -1,0 +1,31 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting certifi==2020.12.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/5e/a0/5f06e1e1d463903cf0c0eebeb751791119ed7a4b3737fdc9a77f1cdfb51f/certifi-2020.12.5-py2.py3-none-any.whl (147 kB)
+Collecting numpy==1.19.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/63/97/af8a92864a04bfa48f1b5c9b1f8bf2ccb2847f24530026f26dd223de4ca0/numpy-1.19.2-cp36-cp36m-manylinux2010_x86_64.whl (14.5 MB)
+Collecting Pillow==7.2.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/30/bf/92385b4262178ca22b34f82e0e09c2922eb351fe39f3cc7b8ba9ea555b41/Pillow-7.2.0-cp36-cp36m-manylinux1_x86_64.whl (2.2 MB)
+Collecting pyhocon==0.3.51
+  Using cached pyhocon-0.3.51-py3-none-any.whl
+Collecting pyparsing==2.3.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/de/0a/001be530836743d8be6c2d85069f46fecf84ac6c18c7f5fb8125ee11d854/pyparsing-2.3.1-py2.py3-none-any.whl (61 kB)
+Collecting scikit-learn==0.22.2.post1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/5e/d8/312e03adf4c78663e17d802fe2440072376fee46cada1404f1727ed77a32/scikit_learn-0.22.2.post1-cp36-cp36m-manylinux1_x86_64.whl (7.1 MB)
+Collecting scipy==1.4.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/dc/29/162476fd44203116e7980cfbd9352eef9db37c49445d1fec35509022f6aa/scipy-1.4.1-cp36-cp36m-manylinux1_x86_64.whl (26.1 MB)
+Collecting six==1.12.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/73/fb/00a976f728d0d1fecfe898238ce23f502a721c0ac0ecfedb80e0d88c64e9/six-1.12.0-py2.py3-none-any.whl (10 kB)
+Collecting sklearn==0.0
+  Using cached sklearn-0.0-py2.py3-none-any.whl
+Collecting torch==1.5.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/13/70/54e9fb010fe1547bc4774716f11ececb81ae5b306c05f090f4461ee13205/torch-1.5.0-cp36-cp36m-manylinux1_x86_64.whl (752.0 MB)
+Collecting torchvision==0.6.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/61/51/aa2770a70f612ce9a2fc7da3a1a93f9ecf8746788256fed6b691f9b31ca9/torchvision-0.6.0-cp36-cp36m-manylinux1_x86_64.whl (6.6 MB)
+Collecting tqdm==4.46.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c9/40/058b12e8ba10e35f89c9b1fdfc2d4c7f8c05947df2d5eb3c7b258019fda0/tqdm-4.46.0-py2.py3-none-any.whl (63 kB)
+Collecting joblib>=0.11
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/7c/91/d3ba0401e62d7e42816bc7d97b82d19c95c164b3e149a87c0a1c026a735e/joblib-1.1.1-py2.py3-none-any.whl (309 kB)
+Collecting future
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/da/71/ae30dadffc90b9006d77af76b393cb9dfbfc9629f339fc1574a1c52e6806/future-1.0.0-py3-none-any.whl (491 kB)
+Installing collected packages: numpy, scipy, joblib, future, torch, scikit-learn, pyparsing, Pillow, tqdm, torchvision, sklearn, six, pyhocon, certifi
+Successfully installed Pillow-7.2.0 certifi-2020.12.5 future-1.0.0 joblib-1.1.1 numpy-1.19.2 pyhocon-0.3.51 pyparsing-2.3.1 scikit-learn-0.22.2.post1 scipy-1.4.1 six-1.12.0 sklearn-0.0 torch-1.5.0 torchvision-0.6.0 tqdm-4.46.0

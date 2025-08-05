@@ -1,0 +1,78 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting boto3==1.26.131
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/e1/2e/dcc936f328ba98d509429c74cdc832edf110aec6a74d9ad8d248f677ca3e/boto3-1.26.131-py3-none-any.whl (135 kB)
+Collecting botocore==1.29.131
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c3/1f/ca12c7a6f4edaca2aba64cb75fc6f144967f5d01ca3822d7849001d7730d/botocore-1.29.131-py3-none-any.whl (10.7 MB)
+Collecting charset-normalizer==2.0.12
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/06/b3/24afc8868eba069a7f03650ac750a778862dc34941a4bebeb58706715726/charset_normalizer-2.0.12-py3-none-any.whl (39 kB)
+Collecting click==7.1.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d2/3d/fa76db83bf75c4f8d338c2fd15c8d33fdd7ad23a9b5e57eb6c5de26b430e/click-7.1.2-py2.py3-none-any.whl (82 kB)
+Collecting Flask==1.1.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/e8/6d/994208daa354f68fd89a34a8bafbeaab26fda84e7af1e35bdaed02b667e6/Flask-1.1.4-py2.py3-none-any.whl (94 kB)
+Collecting Flask-Cors==3.0.8
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/78/38/e68b11daa5d613e3a91e4bf3da76c94ac9ee0d9cd515af9c1ab80d36f709/Flask_Cors-3.0.8-py2.py3-none-any.whl (14 kB)
+Collecting idna==2.8
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/14/2c/cd551d81dbe15200be1cf41cd03869a46fe7226e7450af7a6545bfc474c9/idna-2.8-py2.py3-none-any.whl (58 kB)
+Collecting importlib-metadata==4.13.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d0/98/c277899f5aa21f6e6946e1c83f2af650cbfee982763ffb91db07ff7d3a13/importlib_metadata-4.13.0-py3-none-any.whl (23 kB)
+Collecting itsdangerous==1.1.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/76/ae/44b03b253d6fade317f32c24d100b3b35c2239807046a4c953c7b89fa49e/itsdangerous-1.1.0-py2.py3-none-any.whl (16 kB)
+Collecting Jinja2==2.11.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/7e/c2/1eece8c95ddbc9b1aeb64f5783a9e07a286de42191b7204d67b7496ddf35/Jinja2-2.11.3-py2.py3-none-any.whl (125 kB)
+Collecting jmespath==1.0.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/31/b4/b9b800c45527aadd64d5b442f9b932b00648617eb5d63d2c7a6587b7cafc/jmespath-1.0.1-py3-none-any.whl (20 kB)
+Collecting joblib==1.3.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/10/40/d551139c85db202f1f384ba8bcf96aca2f329440a844f924c8a0040b6d02/joblib-1.3.2-py3-none-any.whl (302 kB)
+Collecting MarkupSafe==1.1.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c2/37/2e4def8ce3739a258998215df907f5815ecd1af71e62147f5eea2d12d4e8/MarkupSafe-1.1.1-cp37-cp37m-manylinux2010_x86_64.whl (33 kB)
+Collecting nltk==3.6.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/5e/a0/04763ddc4bf3bac6f3bd38934c36a0f3ac30e48c39a51b3ec5649ed17374/nltk-3.6.3-py3-none-any.whl (1.5 MB)
+Collecting numpy==1.21.6
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/6d/ad/ff3b21ebfe79a4d25b4a4f8e5cf9fd44a204adb6b33c09010f566f51027a/numpy-1.21.6-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (15.7 MB)
+Collecting python-dateutil==2.8.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/36/7a/87837f39d0296e723bb9b62bbb257d0355c7f6128853c78955f57342a56d/python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+Collecting pytorch-transformers==1.2.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a3/b7/d3d18008a67e0b968d1ab93ad444fc05699403fa662f634b2f2c318a508b/pytorch_transformers-1.2.0-py3-none-any.whl (176 kB)
+Collecting regex==2020.11.13
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/61/b2/8f281520d9f08d0f6771b8160a87a4b487850cde9f1abe257da4d8bab599/regex-2020.11.13-cp37-cp37m-manylinux2014_x86_64.whl (719 kB)
+Collecting requests==2.22.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/51/bd/23c926cd341ea6b7dd0b2a00aba99ae0f828be89d72b2190f27c11d4b7fb/requests-2.22.0-py2.py3-none-any.whl (57 kB)
+Collecting s3transfer==0.6.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ec/fa/9416461ee05efabe477d588288bdd88acb69a51ee4b31a9b73d3b5b716fc/s3transfer-0.6.1-py3-none-any.whl (79 kB)
+Collecting sacremoses==0.0.43
+  Using cached sacremoses-0.0.43-py3-none-any.whl
+Collecting sentencepiece==0.1.91
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f2/e2/813dff3d72df2f49554204e7e5f73a3dc0f0eb1e3958a4cad3ef3fb278b7/sentencepiece-0.1.91-cp37-cp37m-manylinux1_x86_64.whl (1.1 MB)
+Collecting seqeval==0.0.12
+  Using cached seqeval-0.0.12-py3-none-any.whl
+Collecting six==1.15.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ee/ff/48bde5c0f013094d729fe4b0316ba2a24774b3ff1c52d924a8a4cb04078a/six-1.15.0-py2.py3-none-any.whl (10 kB)
+Collecting torch==1.13.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/7a/fb/b1b11ae95ffa7099ca2e60ed5945e56130cc8740208f42aa77f17e03ab3c/torch-1.13.0-cp37-cp37m-manylinux1_x86_64.whl (890.2 MB)
+Collecting tqdm==4.64.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/47/bb/849011636c4da2e44f1253cd927cfb20ada4374d8b3a4e425416e84900cc/tqdm-4.64.1-py2.py3-none-any.whl (78 kB)
+Collecting typing_extensions==4.4.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/0b/8e/f1a0a5a76cfef77e1eb6004cb49e5f8d72634da638420b9ea492ce8305e8/typing_extensions-4.4.0-py3-none-any.whl (26 kB)
+Collecting urllib3==1.25.11
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/56/aa/4ef5aa67a9a62505db124a5cb5262332d1d4153462eb8fd89c9fa41e5d92/urllib3-1.25.11-py2.py3-none-any.whl (127 kB)
+Collecting Werkzeug==1.0.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/cc/94/5f7079a0e00bd6863ef8f1da638721e9da21e5bacee597595b318f71d62e/Werkzeug-1.0.1-py2.py3-none-any.whl (298 kB)
+Collecting zipp==3.4.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/41/ad/6a4f1a124b325618a7fb758b885b68ff7b058eec47d9220a12ab38d90b1f/zipp-3.4.0-py3-none-any.whl (5.2 kB)
+Collecting chardet<3.1.0,>=3.0.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/bc/a9/01ffebfb562e4274b6487b4bb1ddec7ca55ec7510b22e4c51f14098443b8/chardet-3.0.4-py2.py3-none-any.whl (133 kB)
+Requirement already satisfied: certifi>=2017.4.17 in /home/lei/anaconda3/envs/py37-4/lib/python3.7/site-packages (from requests==2.22.0->-r /home/lei/compatibility_analysis/compare/LLM/result/chatgpt/BERT-NER-torch-1.13.0.txt (line 19)) (2022.12.7)
+Collecting Keras>=2.2.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/de/44/bf1b0eef5b13e6201aef076ff34b91bc40aace8591cd273c1c2a94a9cc00/keras-2.11.0-py2.py3-none-any.whl (1.7 MB)
+Collecting nvidia-cudnn-cu11==8.5.0.96
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/dc/30/66d4347d6e864334da5bb1c7571305e501dcb11b9155971421bb7bb5315f/nvidia_cudnn_cu11-8.5.0.96-2-py3-none-manylinux1_x86_64.whl (557.1 MB)
+Collecting nvidia-cublas-cu11==11.10.3.66
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ce/41/fdeb62b5437996e841d83d7d2714ca75b886547ee8017ee2fe6ea409d983/nvidia_cublas_cu11-11.10.3.66-py3-none-manylinux1_x86_64.whl (317.1 MB)
+Collecting nvidia-cuda-runtime-cu11==11.7.99
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/36/92/89cf558b514125d2ebd8344dd2f0533404b416486ff681d5434a5832a019/nvidia_cuda_runtime_cu11-11.7.99-py3-none-manylinux1_x86_64.whl (849 kB)
+Collecting nvidia-cuda-nvrtc-cu11==11.7.99
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ef/25/922c5996aada6611b79b53985af7999fc629aee1d5d001b6a22431e18fec/nvidia_cuda_nvrtc_cu11-11.7.99-2-py3-none-manylinux1_x86_64.whl (21.0 MB)
+Requirement already satisfied: setuptools in /home/lei/anaconda3/envs/py37-4/lib/python3.7/site-packages (from nvidia-cublas-cu11==11.10.3.66->torch==1.13.0->-r /home/lei/compatibility_analysis/compare/LLM/result/chatgpt/BERT-NER-torch-1.13.0.txt (line 25)) (65.6.3)
+Requirement already satisfied: wheel in /home/lei/anaconda3/envs/py37-4/lib/python3.7/site-packages (from nvidia-cublas-cu11==11.10.3.66->torch==1.13.0->-r /home/lei/compatibility_analysis/compare/LLM/result/chatgpt/BERT-NER-torch-1.13.0.txt (line 25)) (0.38.4)
+Installing collected packages: sentencepiece, regex, chardet, zipp, Werkzeug, urllib3, typing_extensions, tqdm, six, nvidia-cuda-runtime-cu11, nvidia-cuda-nvrtc-cu11, nvidia-cublas-cu11, numpy, MarkupSafe, Keras, joblib, jmespath, itsdangerous, idna, click, charset-normalizer, seqeval, sacremoses, requests, python-dateutil, nvidia-cudnn-cu11, nltk, Jinja2, importlib-metadata, torch, Flask, botocore, s3transfer, Flask-Cors, boto3, pytorch-transformers
+Successfully installed Flask-1.1.4 Flask-Cors-3.0.8 Jinja2-2.11.3 Keras-2.11.0 MarkupSafe-1.1.1 Werkzeug-1.0.1 boto3-1.26.131 botocore-1.29.131 chardet-3.0.4 charset-normalizer-2.0.12 click-7.1.2 idna-2.8 importlib-metadata-4.13.0 itsdangerous-1.1.0 jmespath-1.0.1 joblib-1.3.2 nltk-3.6.3 numpy-1.21.6 nvidia-cublas-cu11-11.10.3.66 nvidia-cuda-nvrtc-cu11-11.7.99 nvidia-cuda-runtime-cu11-11.7.99 nvidia-cudnn-cu11-8.5.0.96 python-dateutil-2.8.2 pytorch-transformers-1.2.0 regex-2020.11.13 requests-2.22.0 s3transfer-0.6.1 sacremoses-0.0.43 sentencepiece-0.1.91 seqeval-0.0.12 six-1.15.0 torch-1.13.0 tqdm-4.64.1 typing_extensions-4.4.0 urllib3-1.25.11 zipp-3.4.0

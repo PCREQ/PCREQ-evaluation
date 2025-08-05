@@ -1,0 +1,23 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting coloredlogs==15.0.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a7/06/3d6badcf13db419e25b07041d9c7b4a2c331d3f4e7134445ec5df57714cd/coloredlogs-15.0.1-py2.py3-none-any.whl (46 kB)
+Collecting dataclasses==0.6
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/26/2f/1095cdc2868052dd1e64520f7c0d5c8c550ad297e944e641dbf1ffbb9a5d/dataclasses-0.6-py3-none-any.whl (14 kB)
+Collecting future==0.18.2
+  Using cached future-0.18.2-py3-none-any.whl
+Collecting humanfriendly==9.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/93/66/363d01a81da2108a5cf446daf619779f06d49a0c4426dd02b40734f10e2f/humanfriendly-9.1-py2.py3-none-any.whl (86 kB)
+Collecting mpmath==1.2.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d4/cf/3965bddbb4f1a61c49aacae0e78fd1fe36b5dc36c797b31f30cf07dcbbb7/mpmath-1.2.1-py3-none-any.whl (532 kB)
+Collecting numpy==1.17.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/b1/51/20098150b6108061cb7542af3de7bfcfe0182bca21613697153e49dc4adc/numpy-1.17.5-cp37-cp37m-manylinux1_x86_64.whl (20.0 MB)
+Collecting Pillow==7.2.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/e8/f2/6722dd0c22e3a143ac792ccb2424924ac72af4adea756b1165b4cad50da7/Pillow-7.2.0-cp37-cp37m-manylinux1_x86_64.whl (2.2 MB)
+Collecting sympy==1.5.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ce/5b/acc12e3c0d0be685601fc2b2d20ed18dc0bf461380e763afc9d0a548deb0/sympy-1.5.1-py2.py3-none-any.whl (5.6 MB)
+Collecting torch==1.4.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/1a/3b/fa92ece1e58a6a48ec598bab327f39d69808133e5b2fb33002ca754e381e/torch-1.4.0-cp37-cp37m-manylinux1_x86_64.whl (753.4 MB)
+Collecting typing_extensions==3.6.6
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/62/4f/392a1fa2873e646f5990eb6f956e662d8a235ab474450c72487745f67276/typing_extensions-3.6.6-py3-none-any.whl (16 kB)
+Installing collected packages: typing_extensions, mpmath, dataclasses, torch, sympy, Pillow, numpy, humanfriendly, future, coloredlogs
+Successfully installed Pillow-7.2.0 coloredlogs-15.0.1 dataclasses-0.6 future-0.18.2 humanfriendly-9.1 mpmath-1.2.1 numpy-1.17.5 sympy-1.5.1 torch-1.4.0 typing_extensions-3.6.6

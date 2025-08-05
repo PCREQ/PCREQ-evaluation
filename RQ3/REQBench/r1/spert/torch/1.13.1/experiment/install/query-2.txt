@@ -1,0 +1,69 @@
+
+            **Task**
+            Resolve pip install conflict in requirements.txt while preserving library integrity.
+
+            **Input Context**
+            - Current requirements.txt: torch==1.13.1
+tqdm==4.64.1
+numpy==1.21.6
+pandas==1.3.5
+scikit-learn==0.24.2
+matplotlib==3.5.3
+python-dateutil==2.8.2
+transformers==4.17.0
+
+            - Python version: 3.7
+            - Conflict error message: conflict
+      💥 maturin failed
+        Caused by: Cargo metadata failed. Does your crate compile with `cargo build`?
+        Caused by: `cargo metadata` exited with an error:
+      Error running maturin: Command '['maturin', 'pep517', 'write-dist-info', '--metadata-directory', '/tmp/pip-modern-metadata-cpqamme4', '--interpreter', '/home/lei/anaconda3/envs/py37-4/bin/python']' returned non-zero exit status 1.
+      Checking for Rust toolchain....
+      Running `maturin pep517 write-dist-info --metadata-directory /tmp/pip-modern-metadata-cpqamme4 --interpreter /home/lei/anaconda3/envs/py37-4/bin/python`
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+error: metadata-generation-failed
+
+× Encountered error while generating package metadata.
+╰─> See above for output.
+
+note: This is an issue with the package mentioned above, not pip.
+hint: See above for details.
+
+
+            **Resolution Protocol**
+            1. Parse conflict_info to identify:
+            a. Direct conflicting packages
+            b. Common dependency chains
+            c. Python version constraints
+            2. Apply minimum version adjustment strategy:
+            a. Prioritize keeping torch==1.13.1
+            b. Modify other package versions only when necessary
+            c. Maintain original library set
+
+            **Hard Constraints**
+            - STRICTLY MAINTAIN: 
+            • torch==1.13.1
+            • Original library count
+            - MUST ENSURE: 
+            • Complete dependency tree compatibility
+            • Python 3.7 support for all packages
+            - STRICTLY PROHIBITED:
+            • Adding/removing libraries
+            • Version speculation without error evidence
+
+            **Output Mandates**
+            STRICT FORMAT:
+            lib1==x.y.z  
+            lib2==a.b.c
+            ...
+            PROHIBITED:
+            • Any non-version text.
+            • Library additions/removals
+            • Version placeholders
+            MANDATORY:
+            • Preserve original library names and count
+            • Pin EXACT versions
+            • Zero explanations/comments
+            

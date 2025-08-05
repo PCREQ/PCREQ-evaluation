@@ -1,0 +1,30 @@
+certifi @ file:///croot/certifi_1671487769961/work/certifi
+coloredlogs==15.0.1
+correlation-cuda==0.0.0
+cycler==0.11.0
+dataclasses==0.6
+future==1.0.0
+humanfriendly==10.0
+imageio==2.9.0
+kiwisolver==1.4.5
+matplotlib==3.2.2
+mpmath==1.2.1
+networkx==2.6.3
+numpy==1.16.4
+opencv-python==4.1.0.25
+Pillow==6.1.0
+protobuf==3.20.0
+pyparsing==3.1.2
+python-dateutil==2.9.0.post0
+PyWavelets==1.1.1
+resample2d-cuda==0.0.0
+scikit-image==0.15.0
+scipy==1.5.4
+six==1.16.0
+sympy==1.10.1
+tensorboardX==1.8
+terminaltables==3.1.0
+torch==1.7.0+cu110
+torchvision @ file:///dataset/lei/anaconda3/torchvision-0.8.0-cp37-cp37m-linux_x86_64.whl#sha256=4386c7bf88587225c514acf50f2ed784895a2cee631e42807c3bfc80b605d4fa
+tqdm==4.32.1
+typing_extensions==4.7.1

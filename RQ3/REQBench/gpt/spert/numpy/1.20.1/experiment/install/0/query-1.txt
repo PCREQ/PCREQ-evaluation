@@ -1,0 +1,100 @@
+
+            **Task**
+            Resolve pip install conflict in requirements.txt while preserving library integrity.
+
+            **Input Context**
+            - Current requirements.txt: blis==0.7.11
+catalogue==2.0.10
+charset-normalizer==3.3.2
+click==7.1.2
+coloredlogs==15.0.1
+cymem==2.0.8
+filelock==3.12.2
+humanfriendly==10.0
+idna==3.7
+importlib-metadata==6.7.0
+Jinja2==2.11.3
+joblib==1.0.1
+MarkupSafe==2.1.5
+mpmath==1.2.1
+murmurhash==1.0.10
+numpy==1.20.1
+packaging==23.1
+pathy==0.10.3
+preshed==3.0.8
+protobuf==3.20.0
+pydantic==1.8.2
+regex==2024.4.16
+requests==2.25.1
+sacremoses==0.0.53
+scikit-learn==0.24.2
+scipy==1.6.3
+sentencepiece==0.1.91
+six==1.15.0
+smart-open==5.2.1
+spacy==3.1.2
+spacy-legacy==3.0.12
+srsly==2.4.8
+sympy==1.10.1
+tensorboardX==2.0
+thinc==8.0.17
+threadpoolctl==2.2.0
+tokenizers==0.9.4
+torch==1.4.0
+tqdm==4.61.2
+transformers==4.6.1
+typer==0.4.0
+typing_extensions==4.1.1
+urllib3==1.26.7
+wasabi==0.10.1
+zipp==3.6.0
+
+            - Python version: 3.7
+            - Conflict error message: conflicting dependencies.
+
+The conflict is caused by:
+    The user requested idna==3.7
+    requests 2.25.1 depends on idna<3 and >=2.5
+
+To fix this you could try to:
+1. loosen the range of package versions you've specified
+2. remove package versions to allow pip attempt to solve the dependency conflict
+
+ERROR: ResolutionImpossible: for help visit https://pip.pypa.io/en/latest/topics/dependency-resolution/#dealing-with-dependency-conflicts
+
+
+            **Resolution Protocol**
+            1. Parse conflict_info to identify:
+            a. Direct conflicting packages
+            b. Common dependency chains
+            c. Python version constraints
+            2. Apply minimum version adjustment strategy:
+            a. Prioritize keeping numpy==1.20.1
+            b. Modify other package versions only when necessary
+            c. Maintain original library set
+
+            **Hard Constraints**
+            - STRICTLY MAINTAIN: 
+            • numpy==1.20.1
+            • Original library count
+            - MUST ENSURE: 
+            • Complete dependency tree compatibility
+            • Python 3.7 support for all packages
+            - STRICTLY PROHIBITED:
+            • Adding/removing libraries
+            • Version speculation without error evidence
+
+            **Output Mandates**
+            STRICT FORMAT:
+            lib1==x.y.z  
+            lib2==a.b.c
+            ...
+            PROHIBITED:
+            • Any non-version text.
+            • Library additions/removals
+            • Version placeholders
+            MANDATORY:
+            • Preserve original library names and count
+            • Pin EXACT versions
+            • Zero explanations/comments
+            

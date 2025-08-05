@@ -1,0 +1,9 @@
+2025-06-29 08:46:23,093 - INFO - *************Upgrade numpy from 1.18.5 to 1.21.5 in Sentence-VAE*************
+2025-06-29 08:46:23,093 - INFO - Checking Sentence-VAE is compatible with numpy1.21.5?...
+2025-06-29 08:46:29,366 - INFO - Sentence-VAE is compatible with numpy1.21.5
+2025-06-29 08:46:29,615 - INFO - Checking tensorboardx2.0 is compatible with numpy1.21.5?...
+2025-06-29 08:46:30,499 - INFO - tensorboardx2.0 is compatible with numpy1.21.5
+2025-06-29 08:46:30,503 - INFO - Checking torch1.5.0 is compatible with numpy1.21.5?...
+2025-06-29 08:46:58,502 - INFO - torch1.5.0 is compatible with numpy1.21.5
+2025-06-29 08:47:00,577 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 08:47:00,577 - INFO - Time cost: 37.4854850769043 s

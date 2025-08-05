@@ -1,0 +1,11 @@
+2025-05-28 09:52:02.621949: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+Traceback (most recent call last):
+  File "train_model.py", line 273, in <module>
+    main()
+  File "train_model.py", line 267, in main
+    image_suffix, train_batch_size, test_batch_size, verify=False)
+  File "train_model.py", line 59, in __init__
+    super(TrainModel, self).__init__(image_height, image_width, len(label), char_set, model_save_dir)
+  File "/home/lei/compatibility_analysis/tensorflow/1.7/cnn_captcha/cnnlib/network.py", line 22, in __init__
+    self.X = tf.placeholder(tf.float32, [None, self.image_height * self.image_width])  # 特征向量
+AttributeError: module 'tensorflow' has no attribute 'placeholder'

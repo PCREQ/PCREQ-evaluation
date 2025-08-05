@@ -1,0 +1,5 @@
+2025-06-29 08:27:10,227 - INFO - *************Upgrade librosa from 0.7.2 to 0.8.0 in hifi-gan*************
+2025-06-29 08:27:10,227 - INFO - Checking hifi-gan is compatible with librosa0.8.0?...
+2025-06-29 08:27:10,672 - INFO - hifi-gan is compatible with librosa0.8.0
+2025-06-29 08:27:10,853 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 08:27:10,853 - INFO - Time cost: 0.6274929046630859 s

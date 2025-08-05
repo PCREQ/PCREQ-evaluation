@@ -1,0 +1,36 @@
+WARNING:tensorflow:From /home/lei/anaconda3/envs/py36-2/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING:tensorflow:From /home/lei/compatibility_analysis/tensorflow/1.7/cnn_captcha/cnnlib/network.py:67: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2025-05-29 05:19:42.857385: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2025-05-29 05:19:42.887188: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2100000000 Hz
+2025-05-29 05:19:42.894834: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x564ad32c7160 executing computations on platform Host. Devices:
+2025-05-29 05:19:42.894900: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+WARNING:tensorflow:From /home/lei/anaconda3/envs/py36-2/lib/python3.6/site-packages/tensorflow/python/training/saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+-->图片尺寸: 60 X 100
+-->验证码长度: 4
+-->验证码共36类 ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+-->使用测试集为 sample/train/
+-->使验证集为 sample/test/
+>>> Start model test
+>>> input batch images shape: (100, 6000)
+>>> input batch labels shape: (100, 144)
+>>> input x: Tensor("Reshape:0", shape=(?, 60, 100, 1), dtype=float32)
+
+WARNING: The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+If you depend on functionality not listed there, please file an issue.
+
+>>> convolution 3:  (?, 8, 13, 128)
+>>> input batch predict shape: (?, 144)
+>>> End model test
+定时保存模型成功
+第10次训练 >>> 
+[训练集] 字符准确率为 1.00000 图片准确率为 1.00000 >>> loss 0.0000019810
+[验证集] 字符准确率为 0.00000 图片准确率为 0.00000 >>> loss 0.0000019810

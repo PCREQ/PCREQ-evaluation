@@ -1,0 +1,33 @@
+05/29/2025 02:55:02 - INFO - __main__ -   ***** Model Loaded *****
+05/29/2025 02:55:02 - INFO - __main__ -   Namespace(adam_epsilon=1e-08, add_sep_token=False, data_dir='./data', do_eval=True, do_train=True, dropout_rate=0.1, eval_batch_size=32, eval_dir='./eval', gradient_accumulation_steps=1, label_file='label.txt', learning_rate=2e-05, logging_steps=250, max_grad_norm=1.0, max_seq_len=200, max_steps=-1, model_dir='./model', model_name_or_path='bert-base-uncased', no_cuda=False, num_train_epochs=1.0, save_steps=250, seed=77, task='semeval', test_file='test.tsv', train_batch_size=8, train_file='train.tsv', warmup_steps=0, weight_decay=0.0)
+Predicting:   0%|          | 0/1 [00:00<?, ?it/s]Predicting:   0%|          | 0/1 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "predict.py", line 206, in <module>
+    predict(pred_config)
+  File "predict.py", line 165, in predict
+    outputs = model(**inputs)
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1190, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/lei/compatibility_analysis/pytorch/1.6/R-BERT/model.py", line 56, in forward
+    input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1190, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/transformers/models/bert/modeling_bert.py", line 1028, in forward
+    return_dict=return_dict,
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1190, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/transformers/models/bert/modeling_bert.py", line 614, in forward
+    output_attentions,
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1190, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/transformers/models/bert/modeling_bert.py", line 498, in forward
+    past_key_value=self_attn_past_key_value,
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1190, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/transformers/models/bert/modeling_bert.py", line 430, in forward
+    output_attentions,
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1190, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/transformers/models/bert/modeling_bert.py", line 327, in forward
+    attention_scores = torch.matmul(query_layer, key_layer.transpose(-1, -2))
+RuntimeError: CUDA error: CUBLAS_STATUS_NOT_SUPPORTED when calling `cublasSgemmStridedBatched( handle, opa, opb, m, n, k, &alpha, a, lda, stridea, b, ldb, strideb, &beta, c, ldc, stridec, num_batches)`

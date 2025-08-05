@@ -1,0 +1,9 @@
+2025-06-29 18:52:07,607 - INFO - *************Upgrade torchvision from 0.2.1 to 0.5.0 in pt.darts*************
+2025-06-29 18:52:07,608 - INFO - Checking pt.darts is compatible with torchvision0.5.0?...
+2025-06-29 18:52:07,809 - INFO - pt.darts is compatible with torchvision0.5.0
+2025-06-29 18:52:09,321 - INFO - Checking torchvision0.5.0 is compatible with torch1.4.0?...
+2025-06-29 18:52:11,226 - INFO - torchvision0.5.0 is compatible with torch1.4.0
+2025-06-29 18:52:11,227 - INFO - Checking pt.darts is compatible with torch1.4.0?...
+2025-06-29 18:52:12,086 - INFO - pt.darts is compatible with torch1.4.0
+2025-06-29 18:52:12,281 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 18:52:12,281 - INFO - Time cost: 4.67513370513916 s

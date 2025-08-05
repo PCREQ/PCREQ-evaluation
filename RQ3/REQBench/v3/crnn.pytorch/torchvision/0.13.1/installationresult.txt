@@ -1,0 +1,35 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting coloredlogs==15.0.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a7/06/3d6badcf13db419e25b07041d9c7b4a2c331d3f4e7134445ec5df57714cd/coloredlogs-15.0.1-py2.py3-none-any.whl (46 kB)
+Collecting humanfriendly==10.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f0/0f/310fb31e39e2d734ccaa2c0fb981ee41f7bd5056ce9bc29b2248bd569169/humanfriendly-10.0-py2.py3-none-any.whl (86 kB)
+Collecting lmdb==0.97
+  Using cached lmdb-0.97-cp37-cp37m-linux_x86_64.whl
+Collecting mpmath==1.2.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d4/cf/3965bddbb4f1a61c49aacae0e78fd1fe36b5dc36c797b31f30cf07dcbbb7/mpmath-1.2.1-py3-none-any.whl (532 kB)
+Collecting numpy==1.21.6
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/6d/ad/ff3b21ebfe79a4d25b4a4f8e5cf9fd44a204adb6b33c09010f566f51027a/numpy-1.21.6-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (15.7 MB)
+Collecting Pillow==9.5.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/37/95/48565d6beb34deaacda1543b515dab9479b8fa8b9046703fd08ad447ddfe/Pillow-9.5.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.3 MB)
+Collecting six==1.16.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting sympy==1.10.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d0/04/66be21ceb305c66a4b326b0ae44cc4f027a43bc08cac204b48fb45bb3653/sympy-1.10.1-py3-none-any.whl (6.4 MB)
+Collecting torch==1.12.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/b9/af/23c13cd340cd333f42de225ba3da3b64e1a70425546d1a59bfa42d465a5d/torch-1.12.1-cp37-cp37m-manylinux1_x86_64.whl (776.3 MB)
+Collecting torchvision==0.13.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/b3/32/afee55c60af3d4229e445eda9b8f77bc7fb3fb1efac3fab73cfcab671023/torchvision-0.13.1-cp37-cp37m-manylinux1_x86_64.whl (19.1 MB)
+Collecting typing-extensions
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ec/6b/63cc3df74987c36fe26157ee12e09e8f9db4de771e0f3404263117e75b95/typing_extensions-4.7.1-py3-none-any.whl (33 kB)
+Collecting requests
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/70/8e/0e2d847013cb52cd35b38c009bb167a1a26b2ce6cd6965bf26b47bc0bf44/requests-2.31.0-py3-none-any.whl (62 kB)
+Collecting certifi>=2017.4.17
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/4a/7e/3db2bd1b1f9e95f7cddca6d6e75e2f2bd9f51b1246e546d88addca0106bd/certifi-2025.4.26-py3-none-any.whl (159 kB)
+Collecting urllib3<3,>=1.21.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d2/b2/b157855192a68541a91ba7b2bbcb91f1b4faa51f8bae38d8005c034be524/urllib3-2.0.7-py3-none-any.whl (124 kB)
+Collecting idna<4,>=2.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/76/c6/c88e154df9c4e1a2a66ccf0005a88dfb2650c1dffb6f5ce603dfbd452ce3/idna-3.10-py3-none-any.whl (70 kB)
+Collecting charset-normalizer<4,>=2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/38/84/cec08586c7c294e2c5e984de797c15b3efb30d42a0dd0132a62d2dfe3a27/charset_normalizer-3.4.2-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (141 kB)
+Installing collected packages: mpmath, lmdb, urllib3, typing-extensions, sympy, six, Pillow, numpy, idna, humanfriendly, charset-normalizer, certifi, torch, requests, coloredlogs, torchvision
+Successfully installed Pillow-9.5.0 certifi-2025.4.26 charset-normalizer-3.4.2 coloredlogs-15.0.1 humanfriendly-10.0 idna-3.10 lmdb-0.97 mpmath-1.2.1 numpy-1.21.6 requests-2.31.0 six-1.16.0 sympy-1.10.1 torch-1.12.1 torchvision-0.13.1 typing-extensions-4.7.1 urllib3-2.0.7

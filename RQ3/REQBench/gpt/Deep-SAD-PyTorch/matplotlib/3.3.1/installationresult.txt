@@ -1,0 +1,42 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting Click==7.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/fa/37/45185cb5abbc30d7257104c434fe0b07e5a195a6847506c074527aa599ec/Click-7.0-py2.py3-none-any.whl (81 kB)
+Collecting cvxopt==1.2.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/9b/84/e8c883bbfc972dc9f7b2ca9f97c56d73a44a7dfa700f73746ae0d2569cb0/cvxopt-1.2.3-cp37-cp37m-manylinux1_x86_64.whl (11.6 MB)
+Collecting cycler==0.10.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f7/d2/e07d3ebb2bd7af696440ce7e754c59dd546ffe1bbe732c8ab68b9c834e61/cycler-0.10.0-py2.py3-none-any.whl (6.5 kB)
+Collecting joblib==0.13.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/cd/c1/50a758e8247561e58cb87305b1e90b171b8c767b15b12a1734001f41d356/joblib-0.13.2-py2.py3-none-any.whl (278 kB)
+Collecting kiwisolver==1.2.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/31/b9/6202dcae729998a0ade30e80ac00f616542ef445b088ec970d407dfd41c0/kiwisolver-1.2.0-cp37-cp37m-manylinux1_x86_64.whl (88 kB)
+Collecting matplotlib==3.3.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f1/b9/712584f12f840968a14969a1fe298ffdeaa9c4b484b3bfd973c74c4a481d/matplotlib-3.3.1-cp37-cp37m-manylinux1_x86_64.whl (11.6 MB)
+Collecting numpy==1.19.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/65/b3/07864c89acb2a86df6f2e8c9bf091ec5916da58dd3ce3a633a51a02c115e/numpy-1.19.3-cp37-cp37m-manylinux2010_x86_64.whl (14.9 MB)
+Collecting pandas==1.0.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/af/f3/683bf2547a3eaeec15b39cef86f61e921b3b187f250fcd2b5c5fb4386369/pandas-1.0.5-cp37-cp37m-manylinux1_x86_64.whl (10.1 MB)
+Collecting Pillow==7.2.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/e8/f2/6722dd0c22e3a143ac792ccb2424924ac72af4adea756b1165b4cad50da7/Pillow-7.2.0-cp37-cp37m-manylinux1_x86_64.whl (2.2 MB)
+Collecting pyparsing==2.4.7
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/8a/bb/488841f56197b13700afd5658fc279a2025a39e22449b7cf29864669b15d/pyparsing-2.4.7-py2.py3-none-any.whl (67 kB)
+Collecting python-dateutil==2.8.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d4/70/d60450c3dd48ef87586924207ae8907090de0b306af2bce5d134d78615cb/python_dateutil-2.8.1-py2.py3-none-any.whl (227 kB)
+Collecting pytz==2019.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/3d/73/fe30c2daaaa0713420d0382b16fbb761409f532c56bdcc514bf7b6262bb6/pytz-2019.1-py2.py3-none-any.whl (510 kB)
+Collecting scikit-learn==0.23.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f4/cb/64623369f348e9bfb29ff898a57ac7c91ed4921f228e9726546614d63ccb/scikit_learn-0.23.2-cp37-cp37m-manylinux1_x86_64.whl (6.8 MB)
+Collecting scipy==1.4.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/dd/82/c1fe128f3526b128cfd185580ba40d01371c5d299fcf7f77968e22dfcc2e/scipy-1.4.1-cp37-cp37m-manylinux1_x86_64.whl (26.1 MB)
+Collecting seaborn==0.10.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c7/e6/54aaaafd0b87f51dfba92ba73da94151aa3bc179e5fe88fc5dfb3038e860/seaborn-0.10.1-py3-none-any.whl (215 kB)
+Collecting six==1.15.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ee/ff/48bde5c0f013094d729fe4b0316ba2a24774b3ff1c52d924a8a4cb04078a/six-1.15.0-py2.py3-none-any.whl (10 kB)
+Collecting torch==1.4.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/1a/3b/fa92ece1e58a6a48ec598bab327f39d69808133e5b2fb33002ca754e381e/torch-1.4.0-cp37-cp37m-manylinux1_x86_64.whl (753.4 MB)
+Collecting torchvision==0.5.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/1c/32/cb0e4c43cd717da50258887b088471568990b5a749784c465a8a1962e021/torchvision-0.5.0-cp37-cp37m-manylinux1_x86_64.whl (4.0 MB)
+Requirement already satisfied: certifi>=2020.06.20 in /home/lei/anaconda3/envs/py37-4/lib/python3.7/site-packages (from matplotlib==3.3.1->-r /home/lei/compatibility_analysis/compare/LLM/result/chatgpt/Deep-SAD-PyTorch-matplotlib-3.3.1.txt (line 6)) (2022.12.7)
+Collecting threadpoolctl>=2.0.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/61/cf/6e354304bcb9c6413c4e02a747b600061c21d38ba51e7e544ac7bc66aecc/threadpoolctl-3.1.0-py3-none-any.whl (14 kB)
+Installing collected packages: pytz, joblib, cvxopt, torch, threadpoolctl, six, pyparsing, Pillow, numpy, kiwisolver, Click, torchvision, scipy, python-dateutil, cycler, scikit-learn, pandas, matplotlib, seaborn
+Successfully installed Click-7.0 Pillow-7.2.0 cvxopt-1.2.3 cycler-0.10.0 joblib-0.13.2 kiwisolver-1.2.0 matplotlib-3.3.1 numpy-1.19.3 pandas-1.0.5 pyparsing-2.4.7 python-dateutil-2.8.1 pytz-2019.1 scikit-learn-0.23.2 scipy-1.4.1 seaborn-0.10.1 six-1.15.0 threadpoolctl-3.1.0 torch-1.4.0 torchvision-0.5.0

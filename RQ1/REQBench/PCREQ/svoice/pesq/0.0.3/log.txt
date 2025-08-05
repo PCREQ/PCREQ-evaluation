@@ -1,0 +1,5 @@
+2025-06-29 10:55:44,885 - INFO - *************Upgrade pesq from 0.0.2 to 0.0.3 in svoice*************
+2025-06-29 10:55:44,885 - INFO - Checking svoice is compatible with pesq0.0.3?...
+2025-06-29 10:55:45,132 - INFO - svoice is compatible with pesq0.0.3
+2025-06-29 10:55:45,256 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 10:55:45,256 - INFO - Time cost: 0.37282872200012207 s

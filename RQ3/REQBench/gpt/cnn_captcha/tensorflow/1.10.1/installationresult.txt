@@ -1,0 +1,43 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting tensorflow==1.10.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/04/7e/a484776c73b1431f2b077e13801531e966113492552194fe721e6ef88d5d/tensorflow-1.10.1-cp36-cp36m-manylinux1_x86_64.whl (58.4 MB)
+Collecting numpy==1.14.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/68/1e/116ad560de97694e2d0c1843a7a0075cc9f49e922454d32f49a80eb6f1f2/numpy-1.14.5-cp36-cp36m-manylinux1_x86_64.whl (12.2 MB)
+Collecting protobuf==3.6.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/fc/f0/db040681187496d10ac50ad167a8fd5f953d115b16a7085e19193a6abfd2/protobuf-3.6.0-cp36-cp36m-manylinux1_x86_64.whl (7.1 MB)
+Collecting gast==0.2.0
+  Using cached gast-0.2.0-py3-none-any.whl
+Collecting grpcio==1.15.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a7/9c/523fec4e50cd4de5effeade9fab6c1da32e7e1d72372e8e514274ffb6509/grpcio-1.15.0-cp36-cp36m-manylinux1_x86_64.whl (9.5 MB)
+Collecting six==1.11.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/67/4b/141a581104b1f6397bfa78ac9d43d8ad29a7ca43ea90a2d863fe3056e86a/six-1.11.0-py2.py3-none-any.whl (10 kB)
+Collecting absl-py==0.4.1
+  Using cached absl_py-0.4.1-py3-none-any.whl
+Collecting tensorboard==1.10.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c6/17/ecd918a004f297955c30b4fffbea100b1606c225dbf0443264012773c3ff/tensorboard-1.10.0-py3-none-any.whl (3.3 MB)
+Collecting werkzeug==0.14.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/20/c4/12e3e56473e52375aa29c4764e70d1b8f3efa6682bef8d0aae04fe335243/Werkzeug-0.14.1-py2.py3-none-any.whl (322 kB)
+Collecting markdown==2.6.11
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/6d/7d/488b90f470b96531a3f5788cf12a93332f543dbab13c423a5e7ce96a0493/Markdown-2.6.11-py2.py3-none-any.whl (78 kB)
+Collecting matplotlib==2.2.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/49/cc/94dd12083678ffbfee7cf5ac8bf341b0e6dac64c422851db094e532d1524/matplotlib-2.2.5-cp36-cp36m-manylinux1_x86_64.whl (12.8 MB)
+Collecting Pillow==5.2.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/d1/24/f53ff6b61b3d728b90934bddb4f03f8ab584a7f49299bf3bde56e2952612/Pillow-5.2.0-cp36-cp36m-manylinux1_x86_64.whl (2.0 MB)
+Collecting astor>=0.6.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c3/88/97eef84f48fa04fbd6750e62dcceafba6c63c81b7ac1420856c8dcc0a3f9/astor-0.8.1-py2.py3-none-any.whl (27 kB)
+Requirement already satisfied: wheel>=0.26 in /home/lei/anaconda3/envs/py36-2/lib/python3.6/site-packages (from tensorflow==1.10.1->-r /home/lei/compatibility_analysis/compare/LLM/result/chatgpt/cnn_captcha-tensorflow-1.10.1.txt (line 1)) (0.37.1)
+Requirement already satisfied: setuptools<=39.1.0 in /home/lei/anaconda3/envs/py36-2/lib/python3.6/site-packages (from tensorflow==1.10.1->-r /home/lei/compatibility_analysis/compare/LLM/result/chatgpt/cnn_captcha-tensorflow-1.10.1.txt (line 1)) (39.1.0)
+Collecting termcolor>=1.1.0
+  Using cached termcolor-1.1.0-py3-none-any.whl
+Collecting cycler>=0.10
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/5c/f9/695d6bedebd747e5eb0fe8fad57b72fdf25411273a39791cde838d5a8f51/cycler-0.11.0-py3-none-any.whl (6.4 kB)
+Collecting pytz
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/81/c4/34e93fe5f5429d7570ec1fa436f1986fb1f00c3e0f43a589fe2bbcd22c3f/pytz-2025.2-py2.py3-none-any.whl (509 kB)
+Collecting pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/e5/0c/0e3c05b1c87bb6a1c76d281b0f35e78d2d80ac91b5f8f524cebf77f51049/pyparsing-3.1.4-py3-none-any.whl (104 kB)
+Collecting python-dateutil>=2.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Collecting kiwisolver>=1.0.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a7/1b/cbd8ae738719b5f41592a12057ef5442e2ed5f5cb5451f8fc7e9f8875a1a/kiwisolver-1.3.1-cp36-cp36m-manylinux1_x86_64.whl (1.1 MB)
+Installing collected packages: six, werkzeug, protobuf, numpy, markdown, termcolor, tensorboard, pytz, python-dateutil, pyparsing, kiwisolver, grpcio, gast, cycler, astor, absl-py, tensorflow, Pillow, matplotlib
+Successfully installed Pillow-5.2.0 absl-py-0.4.1 astor-0.8.1 cycler-0.11.0 gast-0.2.0 grpcio-1.15.0 kiwisolver-1.3.1 markdown-2.6.11 matplotlib-2.2.5 numpy-1.14.5 protobuf-3.6.0 pyparsing-3.1.4 python-dateutil-2.9.0.post0 pytz-2025.2 six-1.11.0 tensorboard-1.10.0 tensorflow-1.10.1 termcolor-1.1.0 werkzeug-0.14.1

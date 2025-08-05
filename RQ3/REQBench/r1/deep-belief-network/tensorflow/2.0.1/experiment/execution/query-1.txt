@@ -1,0 +1,88 @@
+
+                        **Debug Mission** 
+                        Resolve runtime crash caused by code-level incompatibilities in dependency chain.
+
+                        **Input Context**
+                        - Current environment: absl-py==1.4.0
+bleach==1.5.0
+certifi==2021.5.30
+dataclasses==0.8
+html5lib==0.9999999
+importlib-metadata==4.8.3
+Markdown==3.3.7
+numpy==1.16.4
+protobuf==3.19.6
+scikit-learn==0.18.1
+scipy==0.18.1
+six==1.16.0
+tensorflow==2.0.1
+tensorflow-tensorboard==1.5.1
+typing_extensions==4.1.1
+Werkzeug==2.0.3
+zipp==3.6.0
+
+                        - Python version: 3.6
+                        - Crash traceback: Traceback (most recent call last):
+  File "example_classification.py", line 8, in <module>
+    from dbn.tensorflow import SupervisedDBNClassification
+  File "/home/lei/compatibility_analysis/tensorflow/1.5/deep-belief-network/dbn/tensorflow/__init__.py", line 1, in <module>
+    from .models import BinaryRBM, UnsupervisedDBN, SupervisedDBNRegression, SupervisedDBNClassification
+  File "/home/lei/compatibility_analysis/tensorflow/1.5/deep-belief-network/dbn/tensorflow/models.py", line 5, in <module>
+    import tensorflow as tf
+  File "/home/lei/anaconda3/envs/py36-1/lib/python3.6/site-packages/tensorflow/__init__.py", line 98, in <module>
+    from tensorflow_core import *
+  File "/home/lei/anaconda3/envs/py36-1/lib/python3.6/site-packages/tensorflow_core/__init__.py", line 45, in <module>
+    from . _api.v2 import compat
+  File "/home/lei/anaconda3/envs/py36-1/lib/python3.6/site-packages/tensorflow_core/_api/v2/compat/__init__.py", line 24, in <module>
+    from . import v2
+  File "/home/lei/anaconda3/envs/py36-1/lib/python3.6/site-packages/tensorflow_core/_api/v2/compat/v2/__init__.py", line 32, in <module>
+    from . import compat
+  File "/home/lei/anaconda3/envs/py36-1/lib/python3.6/site-packages/tensorflow_core/_api/v2/compat/v2/compat/__init__.py", line 23, in <module>
+    from tensorflow._api.v2.compat import v1
+  File "/home/lei/anaconda3/envs/py36-1/lib/python3.6/site-packages/tensorflow_core/_api/v2/compat/__init__.py", line 24, in <module>
+    from . import v2
+  File "/home/lei/anaconda3/envs/py36-1/lib/python3.6/site-packages/tensorflow_core/_api/v2/compat/v2/__init__.py", line 314, in <module>
+    from tensorboard.summary._tf import summary
+  File "/home/lei/anaconda3/envs/py36-1/lib/python3.6/site-packages/tensorboard/summary/__init__.py", line 31, in <module>
+    from tensorboard.summary import v2
+  File "/home/lei/anaconda3/envs/py36-1/lib/python3.6/site-packages/tensorboard/summary/v2.py", line 24, in <module>
+    from tensorboard.plugins.audio.summary_v2 import audio
+  File "/home/lei/anaconda3/envs/py36-1/lib/python3.6/site-packages/tensorboard/plugins/audio/summary_v2.py", line 30, in <module>
+    from tensorboard.compat import tf2 as tf
+  File "/home/lei/anaconda3/envs/py36-1/lib/python3.6/site-packages/tensorboard/compat/__init__.py", line 28, in <module>
+    import tensorboard.lazy as _lazy
+AttributeError: module 'tensorboard' has no attribute 'lazy'
+
+
+                        **Analysis Protocol**
+                        1. Traceback Pattern Matching：
+                        a. Identify error type (ImportError/AttributeError/TypeError)
+                        b. Map to possible API changes in tensorflow v2.0.1 or its dependencies
+                        2. Compatibility Matrix Check：
+                        a. Verify library-to-library API compatibility through version ranges
+                        b. Confirm project-to-library interface compatibility
+                        3. Breakpoint Isolation：
+                        b. Determine if conflict originates from：
+                            • Direct API changes in tensorflow
+                            • Transitive dependency API shifts
+
+                        **Resolution Rules**
+                        - PRIMARY CONSTRAINT: Maintain tensorflow==2.0.1
+                        - SECONDARY ADJUSTMENTS: 
+                        • Modify dependency versions only when API contracts allow
+                        • Prefer backward-compatible minor version changes
+
+                        **Output Mandates**
+                        STRICT FORMAT:
+                        lib1==x.y.z  
+                        lib2==a.b.c
+                        ...
+                        PROHIBITED:
+                        • Any non-version text.
+                        • Library additions/removals
+                        • Version placeholders
+                        MANDATORY:
+                        • Preserve original library names and count
+                        • Pin EXACT versions
+                        • Zero explanations/comments
+                        

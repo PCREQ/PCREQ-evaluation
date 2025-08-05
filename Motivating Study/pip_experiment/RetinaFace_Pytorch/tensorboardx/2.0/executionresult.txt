@@ -1,0 +1,5 @@
+Namespace(batch=16, data_path='./widerface', depth=50, epochs=1, eval_step=3, img_size=640, save_path='./out', save_step=10, shuffle=True, verbose=10)
+Start to train.
+THCudaCheck FAIL file=/pytorch/aten/src/THC/THCGeneral.cpp line=383 error=11 : invalid argument
+THCudaCheck FAIL file=/pytorch/aten/src/THC/THCGeneral.cpp line=383 error=11 : invalid argument
+THCudaCheck FAIL file=/pytorch/aten/src/THC/THCGeneral.cpp line=383 error=11 : invalid argument

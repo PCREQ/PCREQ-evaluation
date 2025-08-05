@@ -1,0 +1,39 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting click==8.0.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/80/11/597f9102867dc0972b698972f05f50925f586639e57beba4db352029e8f9/click-8.0.0-py3-none-any.whl (96 kB)
+Collecting coloredlogs==15.0.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a7/06/3d6badcf13db419e25b07041d9c7b4a2c331d3f4e7134445ec5df57714cd/coloredlogs-15.0.1-py2.py3-none-any.whl (46 kB)
+Collecting future==1.0.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/da/71/ae30dadffc90b9006d77af76b393cb9dfbfc9629f339fc1574a1c52e6806/future-1.0.0-py3-none-any.whl (491 kB)
+Collecting humanfriendly==9.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/92/7e/a06472f484fa589933f39bfb41a7b849ca49f6d8e4fdfe978e27f0e3075c/humanfriendly-9.2-py2.py3-none-any.whl (86 kB)
+Collecting importlib-metadata==4.8.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a0/a1/b153a0a4caf7a7e3f15c2cd56c7702e2cf3d89b1b359d1f1c5e59d68f4ce/importlib_metadata-4.8.3-py3-none-any.whl (17 kB)
+Collecting joblib==1.3.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/10/40/d551139c85db202f1f384ba8bcf96aca2f329440a844f924c8a0040b6d02/joblib-1.3.2-py3-none-any.whl (302 kB)
+Collecting mpmath==1.2.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d4/cf/3965bddbb4f1a61c49aacae0e78fd1fe36b5dc36c797b31f30cf07dcbbb7/mpmath-1.2.1-py3-none-any.whl (532 kB)
+Collecting nltk==3.6.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/aa/b8/09ac15436591cefc0adc882798d5cf629f13addae0495b20b682219e3afe/nltk-3.6.5-py3-none-any.whl (1.5 MB)
+Collecting numpy==1.19.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/08/d6/a6aaa29fea945bc6c61d11f6e0697b325ff7446de5ffd62c2fa02f627048/numpy-1.19.5-cp37-cp37m-manylinux2010_x86_64.whl (14.8 MB)
+Collecting protobuf==3.15.8
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/51/4e/de63de3cd9a83d3c1753a4566b11fc9d90b845f2448a132cfd36d3cb3cd1/protobuf-3.15.8-cp37-cp37m-manylinux1_x86_64.whl (1.0 MB)
+Collecting regex==2024.4.16
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/9a/05/18911646681dfab0ffb76b4b958356c0a3d211bb08e9a2f33f1e9487977d/regex-2024.4.16-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (761 kB)
+Collecting six==1.16.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting sympy==1.10.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d0/04/66be21ceb305c66a4b326b0ae44cc4f027a43bc08cac204b48fb45bb3653/sympy-1.10.1-py3-none-any.whl (6.4 MB)
+Collecting tensorboardX==2.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/af/0c/4f41bcd45db376e6fe5c619c01100e9b7531c55791b7244815bac6eac32c/tensorboardX-2.1-py2.py3-none-any.whl (308 kB)
+Collecting torch==1.8.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/94/99/5861239a6e1ffe66e120f114a4d67e96e5c4b17c1a785dfc6ca6769585fc/torch-1.8.0-cp37-cp37m-manylinux1_x86_64.whl (735.5 MB)
+Collecting tqdm==4.56.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/80/02/8f8880a4fd6625461833abcf679d4c12a44c76f9925f92bf212bb6cefaad/tqdm-4.56.0-py2.py3-none-any.whl (72 kB)
+Collecting typing_extensions==3.7.4.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/60/7a/e881b5abb54db0e6e671ab088d079c57ce54e8a01a3ca443f561ccadb37e/typing_extensions-3.7.4.3-py3-none-any.whl (22 kB)
+Collecting zipp==3.4.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/41/ad/6a4f1a124b325618a7fb758b885b68ff7b058eec47d9220a12ab38d90b1f/zipp-3.4.0-py3-none-any.whl (5.2 kB)
+Installing collected packages: typing_extensions, mpmath, zipp, tqdm, sympy, six, regex, numpy, joblib, humanfriendly, future, click, torch, protobuf, nltk, importlib-metadata, coloredlogs, tensorboardX
+Successfully installed click-8.0.0 coloredlogs-15.0.1 future-1.0.0 humanfriendly-9.2 importlib-metadata-4.8.3 joblib-1.3.2 mpmath-1.2.1 nltk-3.6.5 numpy-1.19.5 protobuf-3.15.8 regex-2024.4.16 six-1.16.0 sympy-1.10.1 tensorboardX-2.1 torch-1.8.0 tqdm-4.56.0 typing_extensions-3.7.4.3 zipp-3.4.0

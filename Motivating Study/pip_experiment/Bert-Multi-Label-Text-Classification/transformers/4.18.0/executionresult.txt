@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "run_bert.py", line 14, in <module>
+    from pybert.model.bert_for_multi_label import BertForMultiLable
+  File "/home/lei/compatibility_analysis/pytorch/1.0/Bert-Multi-Label-Text-Classification/pybert/model/bert_for_multi_label.py", line 2, in <module>
+    from transformers.modeling_bert import BertPreTrainedModel, BertModel
+ModuleNotFoundError: No module named 'transformers.modeling_bert'

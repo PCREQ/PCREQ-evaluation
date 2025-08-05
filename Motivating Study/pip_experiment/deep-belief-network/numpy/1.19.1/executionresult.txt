@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "example_classification.py", line 4, in <module>
+    from sklearn.datasets import load_digits
+  File "/dataset/lei/anaconda3/envs/deep-belief-network-numpy-1.19.1/lib/python3.6/site-packages/sklearn/__init__.py", line 57, in <module>
+    from .base import clone
+  File "/dataset/lei/anaconda3/envs/deep-belief-network-numpy-1.19.1/lib/python3.6/site-packages/sklearn/base.py", line 12, in <module>
+    from .utils.fixes import signature
+  File "/dataset/lei/anaconda3/envs/deep-belief-network-numpy-1.19.1/lib/python3.6/site-packages/sklearn/utils/__init__.py", line 11, in <module>
+    from .validation import (as_float_array,
+  File "/dataset/lei/anaconda3/envs/deep-belief-network-numpy-1.19.1/lib/python3.6/site-packages/sklearn/utils/validation.py", line 18, in <module>
+    from ..utils.fixes import signature
+  File "/dataset/lei/anaconda3/envs/deep-belief-network-numpy-1.19.1/lib/python3.6/site-packages/sklearn/utils/fixes.py", line 403, in <module>
+    from scipy.stats import rankdata
+  File "/dataset/lei/anaconda3/envs/deep-belief-network-numpy-1.19.1/lib/python3.6/site-packages/scipy/stats/__init__.py", line 344, in <module>
+    from .stats import *
+  File "/dataset/lei/anaconda3/envs/deep-belief-network-numpy-1.19.1/lib/python3.6/site-packages/scipy/stats/stats.py", line 176, in <module>
+    from . import distributions
+  File "/dataset/lei/anaconda3/envs/deep-belief-network-numpy-1.19.1/lib/python3.6/site-packages/scipy/stats/distributions.py", line 13, in <module>
+    from . import _continuous_distns
+  File "/dataset/lei/anaconda3/envs/deep-belief-network-numpy-1.19.1/lib/python3.6/site-packages/scipy/stats/_continuous_distns.py", line 17, in <module>
+    from scipy._lib._numpy_compat import broadcast_to
+  File "/dataset/lei/anaconda3/envs/deep-belief-network-numpy-1.19.1/lib/python3.6/site-packages/scipy/_lib/_numpy_compat.py", line 10, in <module>
+    from numpy.testing.nosetester import import_nose
+ModuleNotFoundError: No module named 'numpy.testing.nosetester'

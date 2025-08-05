@@ -1,0 +1,5 @@
+2025-06-29 13:34:27,764 - INFO - *************Upgrade matplotlib from 3.0.1 to 3.3.0 in Federated-Learning-PyTorch*************
+2025-06-29 13:34:27,764 - INFO - Checking Federated-Learning-PyTorch is compatible with matplotlib3.3.0?...
+2025-06-29 13:34:27,869 - INFO - Federated-Learning-PyTorch is compatible with matplotlib3.3.0
+2025-06-29 13:34:29,950 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 13:34:29,950 - INFO - Time cost: 2.187040090560913 s

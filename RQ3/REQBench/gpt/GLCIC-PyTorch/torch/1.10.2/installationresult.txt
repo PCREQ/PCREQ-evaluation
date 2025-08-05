@@ -1,0 +1,25 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting coloredlogs==15.0.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a7/06/3d6badcf13db419e25b07041d9c7b4a2c331d3f4e7134445ec5df57714cd/coloredlogs-15.0.1-py2.py3-none-any.whl (46 kB)
+Collecting humanfriendly==10.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f0/0f/310fb31e39e2d734ccaa2c0fb981ee41f7bd5056ce9bc29b2248bd569169/humanfriendly-10.0-py2.py3-none-any.whl (86 kB)
+Collecting mpmath==1.2.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d4/cf/3965bddbb4f1a61c49aacae0e78fd1fe36b5dc36c797b31f30cf07dcbbb7/mpmath-1.2.1-py3-none-any.whl (532 kB)
+Collecting numpy==1.21.6
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/6d/ad/ff3b21ebfe79a4d25b4a4f8e5cf9fd44a204adb6b33c09010f566f51027a/numpy-1.21.6-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (15.7 MB)
+Collecting opencv-python==4.5.5.64
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/67/50/665a503167396ad347957bea0bd8d5c08c865030b2d1565ff06eba613780/opencv_python-4.5.5.64-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (60.5 MB)
+Collecting Pillow==8.4.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a7/f3/c81e9c41c6ee4c99ad7436b7a1509f5bce5de4ccf4b83138cf88760d96ff/Pillow-8.4.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.1 MB)
+Collecting sympy==1.10.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d0/04/66be21ceb305c66a4b326b0ae44cc4f027a43bc08cac204b48fb45bb3653/sympy-1.10.1-py3-none-any.whl (6.4 MB)
+Collecting torch==1.10.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/01/73/a8dcb6da2193980309bf2d605d0ff56698a7c6977ea954413b163baddf77/torch-1.10.2-cp37-cp37m-manylinux1_x86_64.whl (881.9 MB)
+Collecting torchvision==0.11.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/58/11/d8b150c7990f04be7dd379bc003b6cc6f7adb19d296ea2203280dddce2aa/torchvision-0.11.3-cp37-cp37m-manylinux1_x86_64.whl (23.2 MB)
+Collecting tqdm==4.61.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/b4/20/9f1e974bb4761128fc0d0a32813eaa92827309b1756c4b892d28adfb4415/tqdm-4.61.1-py2.py3-none-any.whl (75 kB)
+Collecting typing_extensions==4.0.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/05/e4/baf0031e39cf545f0c9edd5b1a2ea12609b7fcba2d58e118b11753d68cf0/typing_extensions-4.0.1-py3-none-any.whl (22 kB)
+Installing collected packages: mpmath, typing_extensions, tqdm, sympy, Pillow, numpy, humanfriendly, torch, opencv-python, coloredlogs, torchvision
+Successfully installed Pillow-8.4.0 coloredlogs-15.0.1 humanfriendly-10.0 mpmath-1.2.1 numpy-1.21.6 opencv-python-4.5.5.64 sympy-1.10.1 torch-1.10.2 torchvision-0.11.3 tqdm-4.61.1 typing_extensions-4.0.1

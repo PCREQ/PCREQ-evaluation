@@ -1,0 +1,4 @@
+torch==1.10.1
+tqdm==4.62.3
+transformers==4.12.5
+scikit-learn==0.24.2

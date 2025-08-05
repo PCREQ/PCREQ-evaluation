@@ -1,0 +1,57 @@
+
+                **Task**
+                Upgrade tensorflow to 2.4.2 in requirements.txt while maintaining full dependency compatibility.
+
+                **Input Context**
+                - Full requirements.txt: absl-py==1.4.0
+bleach==1.5.0
+certifi==2021.5.30
+dataclasses==0.8
+html5lib==0.9999999
+importlib-metadata==4.8.3
+Markdown==3.3.7
+numpy==1.16.4
+protobuf==3.19.6
+scikit-learn==0.18.1
+scipy==0.18.1
+six==1.16.0
+tensorflow==1.5.0
+tensorflow-tensorboard==1.5.1
+typing_extensions==4.1.1
+Werkzeug==2.0.3
+zipp==3.6.0
+
+                - Python version: 3.6
+
+                **Resolution Protocol**
+                1. Dependency Tree Analysis: Map all library interdependencies
+                2. Conflict Detection: Identify version clashes through:
+                a. Library-to-library constraints 
+                b. Python version compatibility
+                3. Version Negotiation: Resolve conflicts by:
+                a. Prioritizing tensorflow==2.4.2 retention
+                b. Making minimal version adjustments to other libraries
+                c. Preserving original library set
+
+                **Hard Constraints**
+                - STRICTLY MAINTAIN: Original library names/quantity
+                - MUST ENSURE: Full compatibility chain from Python 3.6 → tensorflow → dependencies
+                - FORBIDDEN: 
+                • Downgrading tensorflow from 2.4.2
+                • Adding/removing packages
+                • Explanatory content
+
+                **Output Mandates**
+                STRICT FORMAT:
+                lib1==x.y.z  
+                lib2==a.b.c
+                ...
+                PROHIBITED:
+                • Any non-version text.
+                • Library additions/removals
+                • Version placeholders
+                MANDATORY:
+                • Preserve original library names and count
+                • Pin EXACT versions
+                • Zero explanations/comments
+                

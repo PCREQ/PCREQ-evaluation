@@ -1,0 +1,29 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting absl-py==0.12.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/92/c9/ef0fae29182d7a867d203f0eff8296b60da92098cc41db33a434f4be84bf/absl_py-0.12.0-py3-none-any.whl (129 kB)
+Collecting bleach==3.1.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/9a/1e/7d6cb3b27cd2c490558349ca5d5cc05b390b017da1c704cac807ac8bd9fb/bleach-3.1.5-py2.py3-none-any.whl (151 kB)
+Collecting certifi==2021.5.30
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/05/1b/0a0dece0e8aa492a6ec9e4ad2fe366b511558cdc73fd3abc82ba7348e875/certifi-2021.5.30-py2.py3-none-any.whl (145 kB)
+Collecting dataclasses==0.8
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/fe/ca/75fac5856ab5cfa51bbbcefa250182e50441074fdc3f803f6e76451fab43/dataclasses-0.8-py3-none-any.whl (19 kB)
+Collecting html5lib==0.9999999
+  Using cached html5lib-0.9999999-py3-none-any.whl
+Collecting importlib-metadata==4.8.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a0/a1/b153a0a4caf7a7e3f15c2cd56c7702e2cf3d89b1b359d1f1c5e59d68f4ce/importlib_metadata-4.8.3-py3-none-any.whl (17 kB)
+Collecting Markdown==3.3.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/6e/33/1ae0f71395e618d6140fbbc9587cc3156591f748226075e0f7d6f9176522/Markdown-3.3.4-py3-none-any.whl (97 kB)
+Collecting numpy==1.19.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/14/32/d3fa649ad7ec0b82737b92fefd3c4dd376b0bb23730715124569f38f3a08/numpy-1.19.5-cp36-cp36m-manylinux2010_x86_64.whl (14.8 MB)
+Collecting protobuf==3.15.8
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/8c/78/3bccd7f228179b382441644f1692cdce6e0f46b0422e61a39915c98b3287/protobuf-3.15.8-cp36-cp36m-manylinux1_x86_64.whl (1.0 MB)
+Collecting scikit-learn==0.24.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d3/eb/d0e658465c029feb7083139d9ead51000742e88b1fb7f1504e19e1b4ce6e/scikit_learn-0.24.2-cp36-cp36m-manylinux2010_x86_64.whl (22.2 MB)
+Collecting scipy==1.5.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c8/89/63171228d5ced148f5ced50305c89e8576ffc695a90b58fe5bb602b910c2/scipy-1.5.4-cp36-cp36m-manylinux1_x86_64.whl (25.9 MB)
+Collecting six==1.15.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ee/ff/48bde5c0f013094d729fe4b0316ba2a24774b3ff1c52d924a8a4cb04078a/six-1.15.0-py2.py3-none-any.whl (10 kB)
+Collecting tensorflow==2.6.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/fe/e2/20b693b5cc699f8116075379d57c4628502f58f96aa759209b77be047882/tensorflow-2.6.2-cp36-cp36m-manylinux2010_x86_64.whl (458.3 MB)
+ERROR: Could not find a version that satisfies the requirement tensorflow-tensorboard==2.6.2 (from versions: 0.1.1, 0.1.2, 0.1.4, 0.1.5, 0.1.6, 0.1.7, 0.1.8, 0.4.0rc1, 0.4.0rc2, 0.4.0rc3, 0.4.0, 1.5.0, 1.5.1)
+ERROR: No matching distribution found for tensorflow-tensorboard==2.6.2

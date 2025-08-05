@@ -1,0 +1,83 @@
+
+                        **Debug Mission** 
+                        Resolve runtime crash caused by code-level incompatibilities in dependency chain.
+
+                        **Input Context**
+                        - Current environment: boto3==1.33.13
+botocore==1.33.13
+charset-normalizer==3.3.2
+click==8.1.7
+Flask==1.1.1
+Flask-Cors==3.0.8
+idna==3.7
+importlib-metadata==6.7.0
+itsdangerous==2.1.2
+Jinja2==3.1.4
+jmespath==1.0.1
+joblib==1.3.2
+MarkupSafe==2.1.5
+nltk==3.4.5
+numpy==1.21.6
+python-dateutil==2.9.0.post0
+pytorch-transformers==1.2.0
+regex==2024.4.16
+requests==2.31.0
+s3transfer==0.8.2
+sacremoses==0.0.53
+sentencepiece==0.2.0
+seqeval==0.0.16
+six==1.16.0
+torch==1.2.0
+tqdm==4.31.1
+typing_extensions==4.0.1
+urllib3==1.25.11
+Werkzeug==1.0.1
+zipp==3.11.0
+
+                        - Python version: 3.7
+                        - Crash traceback: Traceback (most recent call last):
+  File "run_ner.py", line 594, in <module>
+    main()
+  File "run_ner.py", line 584, in main
+    report = classification_report(y_true, y_pred,digits=4)
+  File "/home/lei/anaconda3/envs/py37-4/lib/python3.7/site-packages/seqeval/metrics/sequence_labeling.py", line 329, in classification_report
+    pred_entities = set(get_entities(y_pred, suffix))
+  File "/home/lei/anaconda3/envs/py37-4/lib/python3.7/site-packages/seqeval/metrics/sequence_labeling.py", line 52, in get_entities
+    _validate_chunk(chunk, suffix)
+  File "/home/lei/anaconda3/envs/py37-4/lib/python3.7/site-packages/seqeval/metrics/sequence_labeling.py", line 41, in _validate_chunk
+    raise ValueError('Invalid tag is found: {}'.format(chunk))
+ValueError: Invalid tag is found: [SEP]
+
+
+                        **Analysis Protocol**
+                        1. Traceback Pattern Matching：
+                        a. Identify error type (ImportError/AttributeError/TypeError)
+                        b. Map to possible API changes in seqeval v0.0.16 or its dependencies
+                        2. Compatibility Matrix Check：
+                        a. Verify library-to-library API compatibility through version ranges
+                        b. Confirm project-to-library interface compatibility
+                        3. Breakpoint Isolation：
+                        b. Determine if conflict originates from：
+                            • Direct API changes in seqeval
+                            • Transitive dependency API shifts
+
+                        **Resolution Rules**
+                        - PRIMARY CONSTRAINT: Maintain seqeval==0.0.16
+                        - SECONDARY ADJUSTMENTS: 
+                        • Modify dependency versions only when API contracts allow
+                        • Prefer backward-compatible minor version changes
+
+                        **Output Mandates**
+                        STRICT FORMAT:
+                        lib1==x.y.z  
+                        lib2==a.b.c
+                        ...
+                        PROHIBITED:
+                        • Any non-version text.
+                        • Library additions/removals
+                        • Version placeholders
+                        MANDATORY:
+                        • Preserve original library names and count
+                        • Pin EXACT versions
+                        • Zero explanations/comments
+                        

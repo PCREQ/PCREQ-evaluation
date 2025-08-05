@@ -1,0 +1,67 @@
+
+                **Task**
+                Upgrade scikit-image to 0.19.0 in requirements.txt while maintaining full dependency compatibility.
+
+                **Input Context**
+                - Full requirements.txt: coloredlogs==15.0.1
+correlation-cuda==0.0.0
+cycler==0.11.0
+humanfriendly==10.0
+imageio==2.9.0
+kiwisolver==1.4.5
+matplotlib==3.2.2
+mpmath==1.2.1
+networkx==2.6.3
+numpy==1.16.4
+opencv-python==4.1.0.25
+Pillow==6.1.0
+protobuf==3.20.0
+pyparsing==3.1.2
+python-dateutil==2.9.0.post0
+PyWavelets==1.1.1
+resample2d-cuda==0.0.0
+scikit-image==0.15.0
+scipy==1.5.4
+six==1.16.0
+sympy==1.10.1
+tensorboardX==1.8
+terminaltables==3.1.0
+torch==1.1.0
+torchvision==0.3.0
+tqdm==4.32.1
+typing_extensions==4.7.1
+
+                - Python version: 3.7
+
+                **Resolution Protocol**
+                1. Dependency Tree Analysis: Map all library interdependencies
+                2. Conflict Detection: Identify version clashes through:
+                a. Library-to-library constraints 
+                b. Python version compatibility
+                3. Version Negotiation: Resolve conflicts by:
+                a. Prioritizing scikit-image==0.19.0 retention
+                b. Making minimal version adjustments to other libraries
+                c. Preserving original library set
+
+                **Hard Constraints**
+                - STRICTLY MAINTAIN: Original library names/quantity
+                - MUST ENSURE: Full compatibility chain from Python 3.7 → scikit-image → dependencies
+                - FORBIDDEN: 
+                • Downgrading scikit-image from 0.19.0
+                • Adding/removing packages
+                • Explanatory content
+
+                **Output Mandates**
+                STRICT FORMAT:
+                lib1==x.y.z  
+                lib2==a.b.c
+                ...
+                PROHIBITED:
+                • Any non-version text.
+                • Library additions/removals
+                • Version placeholders
+                MANDATORY:
+                • Preserve original library names and count
+                • Pin EXACT versions
+                • Zero explanations/comments
+                

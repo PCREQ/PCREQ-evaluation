@@ -1,0 +1,114 @@
+2025-05-28 03:02:56.409429: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2025-05-28 03:02:56.447300: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2100000000 Hz
+2025-05-28 03:02:56.456627: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x55611b6c5270 executing computations on platform Host. Devices:
+2025-05-28 03:02:56.456689: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+/home/lei/anaconda3/envs/py36-2/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/lei/anaconda3/envs/py36-2/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/lei/anaconda3/envs/py36-2/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:528: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/lei/anaconda3/envs/py36-2/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:529: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/lei/anaconda3/envs/py36-2/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:530: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/lei/anaconda3/envs/py36-2/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:535: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+WARNING:tensorflow:From /home/lei/anaconda3/envs/py36-2/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING:tensorflow:From /home/lei/compatibility_analysis/tensorflow/1.13/StyleGAN-Tensorflow/StyleGAN.py:325: shuffle_and_repeat (from tensorflow.contrib.data.python.ops.shuffle_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.experimental.shuffle_and_repeat(...)`.
+WARNING:tensorflow:From /home/lei/compatibility_analysis/tensorflow/1.13/StyleGAN-Tensorflow/StyleGAN.py:326: map_and_batch (from tensorflow.contrib.data.python.ops.batching) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.experimental.map_and_batch(...)`.
+WARNING:tensorflow:From /home/lei/compatibility_analysis/tensorflow/1.13/StyleGAN-Tensorflow/StyleGAN.py:327: prefetch_to_device (from tensorflow.contrib.data.python.ops.prefetching_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.experimental.prefetch_to_device(...)`.
+WARNING:tensorflow:From /home/lei/compatibility_analysis/tensorflow/1.13/StyleGAN-Tensorflow/ops.py:51: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+WARNING:tensorflow:From /home/lei/anaconda3/envs/py36-2/lib/python3.6/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+WARNING:tensorflow:From /home/lei/anaconda3/envs/py36-2/lib/python3.6/site-packages/tensorflow/python/training/saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+
+##### Information #####
+# dataset :  FFHQ
+# dataset number :  1
+# gpu :  3
+# batch_size in train phase :  OrderedDict([(4, 128), (8, 128), (16, 64), (32, 32), (64, 16), (128, 8), (256, 4), (512, 4), (1024, 4)])
+# batch_size in test phase :  1
+# start resolution :  8
+# target resolution :  8
+# iteration per resolution :  10000
+# progressive training :  True
+# spectral normalization :  False
+
+Create graph for 8 resolution
+---------
+Variables: name (type shape) [size]
+---------
+generator/g_mapping/FC_0/linear/weight:0 (float32_ref 512x512) [262144, bytes: 1048576]
+generator/g_mapping/FC_0/bias:0 (float32_ref 512) [512, bytes: 2048]
+generator/g_mapping/FC_1/linear/weight:0 (float32_ref 512x512) [262144, bytes: 1048576]
+generator/g_mapping/FC_1/bias:0 (float32_ref 512) [512, bytes: 2048]
+generator/g_mapping/FC_2/linear/weight:0 (float32_ref 512x512) [262144, bytes: 1048576]
+generator/g_mapping/FC_2/bias:0 (float32_ref 512) [512, bytes: 2048]
+generator/g_mapping/FC_3/linear/weight:0 (float32_ref 512x512) [262144, bytes: 1048576]
+generator/g_mapping/FC_3/bias:0 (float32_ref 512) [512, bytes: 2048]
+generator/g_mapping/FC_4/linear/weight:0 (float32_ref 512x512) [262144, bytes: 1048576]
+generator/g_mapping/FC_4/bias:0 (float32_ref 512) [512, bytes: 2048]
+generator/g_mapping/FC_5/linear/weight:0 (float32_ref 512x512) [262144, bytes: 1048576]
+generator/g_mapping/FC_5/bias:0 (float32_ref 512) [512, bytes: 2048]
+generator/g_mapping/FC_6/linear/weight:0 (float32_ref 512x512) [262144, bytes: 1048576]
+generator/g_mapping/FC_6/bias:0 (float32_ref 512) [512, bytes: 2048]
+generator/g_mapping/FC_7/linear/weight:0 (float32_ref 512x512) [262144, bytes: 1048576]
+generator/g_mapping/FC_7/bias:0 (float32_ref 512) [512, bytes: 2048]
+generator/g_synthesis/4x4/const_block/Const:0 (float32_ref 1x4x4x512) [8192, bytes: 32768]
+generator/g_synthesis/4x4/const_block/Noise/weight:0 (float32_ref 512) [512, bytes: 2048]
+generator/g_synthesis/4x4/const_block/bias:0 (float32_ref 512) [512, bytes: 2048]
+generator/g_synthesis/4x4/const_block/StyleMod/linear/weight:0 (float32_ref 512x1024) [524288, bytes: 2097152]
+generator/g_synthesis/4x4/const_block/StyleMod/bias:0 (float32_ref 1024) [1024, bytes: 4096]
+generator/g_synthesis/4x4/Conv/conv_0/weight:0 (float32_ref 3x3x512x512) [2359296, bytes: 9437184]
+generator/g_synthesis/4x4/Conv/Noise/weight:0 (float32_ref 512) [512, bytes: 2048]
+generator/g_synthesis/4x4/Conv/bias:0 (float32_ref 512) [512, bytes: 2048]
+generator/g_synthesis/4x4/Conv/StyleMod/linear/weight:0 (float32_ref 512x1024) [524288, bytes: 2097152]
+generator/g_synthesis/4x4/Conv/StyleMod/bias:0 (float32_ref 1024) [1024, bytes: 4096]
+generator/g_synthesis/4x4/ToRGB/conv_0/weight:0 (float32_ref 1x1x512x3) [1536, bytes: 6144]
+generator/g_synthesis/4x4/ToRGB/bias:0 (float32_ref 3) [3, bytes: 12]
+generator/g_synthesis/8x8/Conv0_up/conv_0/weight:0 (float32_ref 3x3x512x512) [2359296, bytes: 9437184]
+generator/g_synthesis/8x8/Conv0_up/Noise/weight:0 (float32_ref 512) [512, bytes: 2048]
+generator/g_synthesis/8x8/Conv0_up/bias:0 (float32_ref 512) [512, bytes: 2048]
+generator/g_synthesis/8x8/Conv0_up/StyleMod/linear/weight:0 (float32_ref 512x1024) [524288, bytes: 2097152]
+generator/g_synthesis/8x8/Conv0_up/StyleMod/bias:0 (float32_ref 1024) [1024, bytes: 4096]
+generator/g_synthesis/8x8/Conv1/conv_0/weight:0 (float32_ref 3x3x512x512) [2359296, bytes: 9437184]
+generator/g_synthesis/8x8/Conv1/Noise/weight:0 (float32_ref 512) [512, bytes: 2048]
+generator/g_synthesis/8x8/Conv1/bias:0 (float32_ref 512) [512, bytes: 2048]
+generator/g_synthesis/8x8/Conv1/StyleMod/linear/weight:0 (float32_ref 512x1024) [524288, bytes: 2097152]
+generator/g_synthesis/8x8/Conv1/StyleMod/bias:0 (float32_ref 1024) [1024, bytes: 4096]
+generator/g_synthesis/8x8/ToRGB/conv_0/weight:0 (float32_ref 1x1x512x3) [1536, bytes: 6144]
+generator/g_synthesis/8x8/ToRGB/bias:0 (float32_ref 3) [3, bytes: 12]
+discriminator/8x8/FromRGB/conv_0/weight:0 (float32_ref 1x1x3x512) [1536, bytes: 6144]
+discriminator/8x8/FromRGB/bias:0 (float32_ref 512) [512, bytes: 2048]
+discriminator/8x8/Conv0/conv_0/weight:0 (float32_ref 3x3x512x512) [2359296, bytes: 9437184]
+discriminator/8x8/Conv0/bias:0 (float32_ref 512) [512, bytes: 2048]
+discriminator/8x8/Conv1_down/conv_0/weight:0 (float32_ref 3x3x512x512) [2359296, bytes: 9437184]
+discriminator/8x8/Conv1_down/bias:0 (float32_ref 512) [512, bytes: 2048]
+discriminator/4x4/FromRGB/conv_0/weight:0 (float32_ref 1x1x3x512) [1536, bytes: 6144]
+discriminator/4x4/FromRGB/bias:0 (float32_ref 512) [512, bytes: 2048]
+discriminator/4x4/Conv0/conv_0/weight:0 (float32_ref 3x3x513x512) [2363904, bytes: 9455616]
+discriminator/4x4/Conv0/bias:0 (float32_ref 512) [512, bytes: 2048]
+discriminator/4x4/Dense0/linear/weight:0 (float32_ref 8192x512) [4194304, bytes: 16777216]
+discriminator/4x4/Dense0/bias:0 (float32_ref 512) [512, bytes: 2048]
+discriminator/4x4/Dense1/linear/weight:0 (float32_ref 512x1) [512, bytes: 2048]
+discriminator/4x4/Dense1/bias:0 (float32_ref 1) [1, bytes: 4]
+Total size of variables: 22579207
+Total bytes of variables: 90316828
+ [*] Reading checkpoints...
+ [*] Success to read StyleGAN.model-14
+ [*] Load SUCCESS
+ [*] Training finished!

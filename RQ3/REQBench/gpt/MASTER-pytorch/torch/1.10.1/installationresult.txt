@@ -1,0 +1,35 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting certifi==2021.5.30
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/05/1b/0a0dece0e8aa492a6ec9e4ad2fe366b511558cdc73fd3abc82ba7348e875/certifi-2021.5.30-py2.py3-none-any.whl (145 kB)
+Collecting Distance==0.1.3
+  Using cached Distance-0.1.3-py3-none-any.whl
+Collecting future==0.18.3
+  Using cached future-0.18.3-py3-none-any.whl
+Collecting lmdb==1.3.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/db/bf/1fa60f5893263ef4d0a74994104650a002d2a970b183608e5b7497836bfc/lmdb-1.3.0-cp36-cp36m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (297 kB)
+Collecting numpy==1.19.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/14/32/d3fa649ad7ec0b82737b92fefd3c4dd376b0bb23730715124569f38f3a08/numpy-1.19.5-cp36-cp36m-manylinux2010_x86_64.whl (14.8 MB)
+Collecting opencv-python==4.5.3.56
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/7f/45/32b09b11c76c354beb94c6549d844241709366fac02f253aa7f7b9ec9861/opencv_python-4.5.3.56-cp36-cp36m-manylinux2014_x86_64.whl (49.9 MB)
+Collecting pandas==1.1.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c3/e2/00cacecafbab071c787019f00ad84ca3185952f6bb9bca9550ed83870d4d/pandas-1.1.5-cp36-cp36m-manylinux1_x86_64.whl (9.5 MB)
+Collecting Pillow==8.4.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ea/0f/2fa195c2d8c6fe0b3dc2df5fc6ac6b8dbd005ea30aaa0fa43eca88b8c664/Pillow-8.4.0-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.1 MB)
+Collecting python-dateutil==2.8.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d4/70/d60450c3dd48ef87586924207ae8907090de0b306af2bce5d134d78615cb/python_dateutil-2.8.1-py2.py3-none-any.whl (227 kB)
+Collecting pytz==2020.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/4f/a4/879454d49688e2fad93e59d7d4efda580b783c745fd2ec2a3adf87b0808d/pytz-2020.1-py2.py3-none-any.whl (510 kB)
+Collecting six==1.16.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting torch==1.10.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/9a/f5/b76d021f06e50f770d3f6c1a1b50b62a69e587b1f0db7248269c4be21206/torch-1.10.1-cp36-cp36m-manylinux1_x86_64.whl (881.9 MB)
+Collecting torchvision==0.11.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/38/03/c963ecdf98fae15286437ae533750e2c39e988b7d8c86fad4dbc73a3a146/torchvision-0.11.2-cp36-cp36m-manylinux1_x86_64.whl (23.3 MB)
+Collecting tqdm==4.62.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/63/f3/b7a1b8e40fd1bd049a34566eb353527bb9b8e9b98f8b6cf803bb64d8ce95/tqdm-4.62.3-py2.py3-none-any.whl (76 kB)
+Collecting dataclasses
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/fe/ca/75fac5856ab5cfa51bbbcefa250182e50441074fdc3f803f6e76451fab43/dataclasses-0.8-py3-none-any.whl (19 kB)
+Collecting typing-extensions
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/45/6b/44f7f8f1e110027cf88956b59f2fad776cca7e1704396d043f89effd3a0e/typing_extensions-4.1.1-py3-none-any.whl (26 kB)
+Installing collected packages: typing-extensions, six, dataclasses, torch, pytz, python-dateutil, Pillow, numpy, tqdm, torchvision, pandas, opencv-python, lmdb, future, Distance, certifi
+Successfully installed Distance-0.1.3 Pillow-8.4.0 certifi-2021.5.30 dataclasses-0.8 future-0.18.3 lmdb-1.3.0 numpy-1.19.5 opencv-python-4.5.3.56 pandas-1.1.5 python-dateutil-2.8.1 pytz-2020.1 six-1.16.0 torch-1.10.1 torchvision-0.11.2 tqdm-4.62.3 typing-extensions-4.1.1

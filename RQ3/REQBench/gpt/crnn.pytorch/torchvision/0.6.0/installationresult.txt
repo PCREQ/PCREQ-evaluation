@@ -1,0 +1,25 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting coloredlogs==15.0.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a7/06/3d6badcf13db419e25b07041d9c7b4a2c331d3f4e7134445ec5df57714cd/coloredlogs-15.0.1-py2.py3-none-any.whl (46 kB)
+Collecting humanfriendly==10.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f0/0f/310fb31e39e2d734ccaa2c0fb981ee41f7bd5056ce9bc29b2248bd569169/humanfriendly-10.0-py2.py3-none-any.whl (86 kB)
+Collecting lmdb==0.97
+  Using cached lmdb-0.97-cp37-cp37m-linux_x86_64.whl
+Collecting mpmath==1.2.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d4/cf/3965bddbb4f1a61c49aacae0e78fd1fe36b5dc36c797b31f30cf07dcbbb7/mpmath-1.2.1-py3-none-any.whl (532 kB)
+Collecting numpy==1.19.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/65/b3/07864c89acb2a86df6f2e8c9bf091ec5916da58dd3ce3a633a51a02c115e/numpy-1.19.3-cp37-cp37m-manylinux2010_x86_64.whl (14.9 MB)
+Collecting Pillow==7.2.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/e8/f2/6722dd0c22e3a143ac792ccb2424924ac72af4adea756b1165b4cad50da7/Pillow-7.2.0-cp37-cp37m-manylinux1_x86_64.whl (2.2 MB)
+Collecting six==1.12.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/73/fb/00a976f728d0d1fecfe898238ce23f502a721c0ac0ecfedb80e0d88c64e9/six-1.12.0-py2.py3-none-any.whl (10 kB)
+Collecting sympy==1.10.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d0/04/66be21ceb305c66a4b326b0ae44cc4f027a43bc08cac204b48fb45bb3653/sympy-1.10.1-py3-none-any.whl (6.4 MB)
+Collecting torch==1.5.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/76/58/668ffb25215b3f8231a550a227be7f905f514859c70a65ca59d28f9b7f60/torch-1.5.0-cp37-cp37m-manylinux1_x86_64.whl (752.0 MB)
+Collecting torchvision==0.6.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/7b/ed/a894f274a7733d6492e438a5831a95b507c5ec777edf6d8c3b97574e08c4/torchvision-0.6.0-cp37-cp37m-manylinux1_x86_64.whl (6.6 MB)
+Collecting future
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/da/71/ae30dadffc90b9006d77af76b393cb9dfbfc9629f339fc1574a1c52e6806/future-1.0.0-py3-none-any.whl (491 kB)
+Installing collected packages: mpmath, lmdb, sympy, six, Pillow, numpy, humanfriendly, future, torch, coloredlogs, torchvision
+Successfully installed Pillow-7.2.0 coloredlogs-15.0.1 future-1.0.0 humanfriendly-10.0 lmdb-0.97 mpmath-1.2.1 numpy-1.19.3 six-1.12.0 sympy-1.10.1 torch-1.5.0 torchvision-0.6.0

@@ -1,0 +1,5 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting tensorflow==2.3.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/22/cc/cd629bdca150174f4ef5bacfd25f956d3083b530b87e47c7a3f07807a9b2/tensorflow-2.3.4-cp36-cp36m-manylinux2010_x86_64.whl (320.6 MB)
+ERROR: Could not find a version that satisfies the requirement tf_slim==1.5.0 (from versions: 1.0, 1.1.0)
+ERROR: No matching distribution found for tf_slim==1.5.0

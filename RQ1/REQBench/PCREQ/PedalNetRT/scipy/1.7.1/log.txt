@@ -1,0 +1,5 @@
+2025-06-29 12:11:38,188 - INFO - *************Upgrade scipy from 1.5.4 to 1.7.1 in PedalNetRT*************
+2025-06-29 12:11:38,188 - INFO - Checking PedalNetRT is compatible with scipy1.7.1?...
+2025-06-29 12:11:47,670 - INFO - PedalNetRT is compatible with scipy1.7.1
+2025-06-29 12:11:57,054 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 12:11:57,054 - INFO - Time cost: 18.88328194618225 s

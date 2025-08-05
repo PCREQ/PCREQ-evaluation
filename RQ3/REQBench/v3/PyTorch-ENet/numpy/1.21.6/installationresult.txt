@@ -1,0 +1,38 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting coloredlogs==15.0.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a7/06/3d6badcf13db419e25b07041d9c7b4a2c331d3f4e7134445ec5df57714cd/coloredlogs-15.0.1-py2.py3-none-any.whl (46 kB)
+Collecting cycler==0.10.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f7/d2/e07d3ebb2bd7af696440ce7e754c59dd546ffe1bbe732c8ab68b9c834e61/cycler-0.10.0-py2.py3-none-any.whl (6.5 kB)
+Collecting humanfriendly==10.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f0/0f/310fb31e39e2d734ccaa2c0fb981ee41f7bd5056ce9bc29b2248bd569169/humanfriendly-10.0-py2.py3-none-any.whl (86 kB)
+Collecting kiwisolver==1.0.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/5c/7e/d6cae2f241ba474a2665f24b480bf4e247036d63939dda2bbc4d2ee5069d/kiwisolver-1.0.1-cp37-cp37m-manylinux1_x86_64.whl (89 kB)
+Collecting matplotlib==3.5.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ad/62/7b662284352867a86acfb636761ba351723fc3a235efd8397578d903413d/matplotlib-3.5.3-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl (11.2 MB)
+Collecting mpmath==1.2.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d4/cf/3965bddbb4f1a61c49aacae0e78fd1fe36b5dc36c797b31f30cf07dcbbb7/mpmath-1.2.1-py3-none-any.whl (532 kB)
+Collecting numpy==1.21.6
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/6d/ad/ff3b21ebfe79a4d25b4a4f8e5cf9fd44a204adb6b33c09010f566f51027a/numpy-1.21.6-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (15.7 MB)
+Collecting Pillow==8.4.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a7/f3/c81e9c41c6ee4c99ad7436b7a1509f5bce5de4ccf4b83138cf88760d96ff/Pillow-8.4.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.1 MB)
+Collecting pyparsing==2.3.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/de/0a/001be530836743d8be6c2d85069f46fecf84ac6c18c7f5fb8125ee11d854/pyparsing-2.3.1-py2.py3-none-any.whl (61 kB)
+Collecting python-dateutil==2.8.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/36/7a/87837f39d0296e723bb9b62bbb257d0355c7f6128853c78955f57342a56d/python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+Collecting pytz==2018.9
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/61/28/1d3920e4d1d50b19bc5d24398a7cd85cc7b9a75a490570d5a30c57622d34/pytz-2018.9-py2.py3-none-any.whl (510 kB)
+Collecting six==1.16.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting sympy==1.10.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d0/04/66be21ceb305c66a4b326b0ae44cc4f027a43bc08cac204b48fb45bb3653/sympy-1.10.1-py3-none-any.whl (6.4 MB)
+Collecting torch==1.1.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ac/23/a4b5c189dd624411ec84613b717594a00480282b949e3448d189c4aa4e47/torch-1.1.0-cp37-cp37m-manylinux1_x86_64.whl (676.9 MB)
+Collecting torchvision==0.3.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/cc/9b/208f48d5a5013bdb0c27a84a02df4fcf5fd24ab5902667c11e554a12b681/torchvision-0.3.0-cp37-cp37m-manylinux1_x86_64.whl (2.6 MB)
+Requirement already satisfied: setuptools in /home/lei/anaconda3/envs/py37-4/lib/python3.7/site-packages (from kiwisolver==1.0.1->-r /home/lei/compatibility_analysis/compare/LLM/result/deepseek/v3/PyTorch-ENet-numpy-1.21.6.txt (line 4)) (65.6.3)
+Collecting packaging>=20.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/49/df/1fceb2f8900f8639e278b056416d49134fb8d84c5942ffaa01ad34782422/packaging-24.0-py3-none-any.whl (53 kB)
+Collecting fonttools>=4.22.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/e3/d9/e9bae85e84737e76ebbcbea13607236da0c0699baed0ae4f1151b728a608/fonttools-4.38.0-py3-none-any.whl (965 kB)
+Installing collected packages: pytz, pyparsing, mpmath, sympy, six, Pillow, packaging, numpy, kiwisolver, humanfriendly, fonttools, torch, python-dateutil, cycler, coloredlogs, torchvision, matplotlib
+Successfully installed Pillow-8.4.0 coloredlogs-15.0.1 cycler-0.10.0 fonttools-4.38.0 humanfriendly-10.0 kiwisolver-1.0.1 matplotlib-3.5.3 mpmath-1.2.1 numpy-1.21.6 packaging-24.0 pyparsing-2.3.1 python-dateutil-2.8.2 pytz-2018.9 six-1.16.0 sympy-1.10.1 torch-1.1.0 torchvision-0.3.0

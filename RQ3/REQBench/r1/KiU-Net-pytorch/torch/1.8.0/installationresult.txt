@@ -1,0 +1,5 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting certifi==2024.2.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ba/06/a07f096c664aeb9f01624f858c3add0a4e913d6c96257acb4fce61e7de14/certifi-2024.2.2-py3-none-any.whl (163 kB)
+ERROR: Could not find a version that satisfies the requirement cycler==0.12.1 (from versions: 0.9.0, 0.10.0, 0.11.0)
+ERROR: No matching distribution found for cycler==0.12.1

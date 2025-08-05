@@ -1,0 +1,7 @@
+2025-06-29 07:54:32,878 - INFO - *************Upgrade numpy from 1.17.4 to 1.19.0 in hifi-gan*************
+2025-06-29 07:54:32,878 - INFO - Checking hifi-gan is compatible with numpy1.19.0?...
+2025-06-29 07:54:39,186 - INFO - hifi-gan is compatible with numpy1.19.0
+2025-06-29 07:54:40,856 - INFO - Checking scipy1.4.1 is compatible with numpy1.19.0?...
+2025-06-29 07:56:19,200 - INFO - scipy1.4.1 is compatible with numpy1.19.0
+2025-06-29 07:56:21,046 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 07:56:21,046 - INFO - Time cost: 108.16950225830078 s

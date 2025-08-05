@@ -1,0 +1,10 @@
+moviepy==2.dev2
+gevent==0.12.2
+numpy==1.21.6
+h5py==3.7
+cupy==11
+scipy==1.7.3
+opencv-python==4.6.0.66
+torch==1.7.1
+torchvision==0.12
+flask==2.2.2

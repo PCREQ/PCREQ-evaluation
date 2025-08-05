@@ -1,0 +1,5 @@
+2025-06-29 10:59:50,412 - INFO - *************Upgrade pillow from 9.3.0 to 9.4.0 in pytorch-liteflownet*************
+2025-06-29 10:59:50,412 - INFO - Checking pytorch-liteflownet is compatible with pillow9.4.0?...
+2025-06-29 10:59:50,539 - INFO - pytorch-liteflownet is compatible with pillow9.4.0
+2025-06-29 10:59:50,794 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 10:59:50,794 - INFO - Time cost: 0.3835580348968506 s

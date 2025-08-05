@@ -1,0 +1,11 @@
+torchvision==0.7.0
+tqdm==4.64
+torch==1.5.1
+numpy==1.23.2
+pandas==1.4.3
+scipy==1.9
+opencv-python==4.6.0.66
+matplotlib==3.5.3
+dlib==19.20
+pillow==9.0.1
+torchfile==0.1

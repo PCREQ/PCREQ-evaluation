@@ -1,0 +1,26 @@
+2025-06-28 18:39:12,621 - INFO - *************Upgrade scikit-learn from 0.18.1 to 0.24.0 in deep-belief-network*************
+2025-06-28 18:39:12,621 - INFO - Checking deep-belief-network is compatible with scikit-learn0.24.0?...
+2025-06-28 18:39:16,165 - INFO - deep-belief-network is not compatible with scikit-learn0.24.0-The sklearn.metrics.classification is deprecated.
+2025-06-28 18:39:16,170 - INFO - deep-belief-network is not compatible with scikit-learn-0.24.0, change to scikit-learn-0.23.2
+2025-06-28 18:39:16,170 - INFO - Checking deep-belief-network is compatible with scikit-learn0.23.2?...
+2025-06-28 18:39:19,586 - INFO - deep-belief-network is not compatible with scikit-learn0.23.2-The sklearn.metrics.classification.accuracy_score is deprecated.
+2025-06-28 18:39:19,589 - INFO - deep-belief-network is not compatible with scikit-learn-0.23.2, change to scikit-learn-0.23.1
+2025-06-28 18:39:19,589 - INFO - Checking deep-belief-network is compatible with scikit-learn0.23.1?...
+2025-06-28 18:39:22,963 - INFO - deep-belief-network is not compatible with scikit-learn0.23.1-The sklearn.metrics.classification.accuracy_score is deprecated.
+2025-06-28 18:39:22,965 - INFO - deep-belief-network is not compatible with scikit-learn-0.23.1, change to scikit-learn-0.23.0
+2025-06-28 18:39:22,966 - INFO - Checking deep-belief-network is compatible with scikit-learn0.23.0?...
+2025-06-28 18:39:26,452 - INFO - deep-belief-network is not compatible with scikit-learn0.23.0-The sklearn.metrics.classification.accuracy_score is deprecated.
+2025-06-28 18:39:26,454 - INFO - deep-belief-network is not compatible with scikit-learn-0.23.0, change to scikit-learn-0.22.2
+2025-06-28 18:39:26,454 - INFO - Checking deep-belief-network is compatible with scikit-learn0.22.2?...
+2025-06-28 18:39:29,757 - INFO - deep-belief-network is not compatible with scikit-learn0.22.2-The sklearn.metrics.classification.accuracy_score is deprecated.
+2025-06-28 18:39:29,760 - INFO - deep-belief-network is not compatible with scikit-learn-0.22.2, change to scikit-learn-0.22.1
+2025-06-28 18:39:29,760 - INFO - Checking deep-belief-network is compatible with scikit-learn0.22.1?...
+2025-06-28 18:39:33,064 - INFO - deep-belief-network is not compatible with scikit-learn0.22.1-The sklearn.metrics.classification.accuracy_score is deprecated.
+2025-06-28 18:39:33,066 - INFO - deep-belief-network is not compatible with scikit-learn-0.22.1, change to scikit-learn-0.22
+2025-06-28 18:39:33,066 - INFO - Checking deep-belief-network is compatible with scikit-learn0.22?...
+2025-06-28 18:39:36,363 - INFO - deep-belief-network is not compatible with scikit-learn0.22-The sklearn.metrics.classification.accuracy_score is deprecated.
+2025-06-28 18:39:36,366 - INFO - deep-belief-network is not compatible with scikit-learn-0.22, change to scikit-learn-0.21.3
+2025-06-28 18:39:36,366 - INFO - Checking deep-belief-network is compatible with scikit-learn0.21.3?...
+2025-06-28 18:39:39,666 - INFO - deep-belief-network is compatible with scikit-learn0.21.3
+2025-06-28 18:39:42,486 - INFO - *************New requirements.txt has been generated!*************
+2025-06-28 18:39:42,486 - INFO - Time cost: 29.866499662399292 s

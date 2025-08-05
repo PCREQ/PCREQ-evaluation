@@ -1,0 +1,6 @@
+numpy==1.19.5
+seqeval==1.2.1
+torch==1.8.1
+torchcrf==1.1
+tqdm==4.64
+transformers==3.3.1

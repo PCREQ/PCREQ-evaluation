@@ -1,0 +1,2149 @@
+WARNING:tensorflow:
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:tensorflow:From /home/lei/compatibility_analysis/tensorflow/1.13/StyleGAN-Tensorflow/StyleGAN.py:99: The name tf.AUTO_REUSE is deprecated. Please use tf.compat.v1.AUTO_REUSE instead.
+
+WARNING:tensorflow:From main.py:69: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From main.py:69: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+2025-05-28 15:50:55.969597: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2025-05-28 15:50:56.007272: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2100000000 Hz
+2025-05-28 15:50:56.016712: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x564142046230 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2025-05-28 15:50:56.016777: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+WARNING:tensorflow:From /home/lei/compatibility_analysis/tensorflow/1.13/StyleGAN-Tensorflow/StyleGAN.py:298: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+WARNING:tensorflow:From /home/lei/compatibility_analysis/tensorflow/1.13/StyleGAN-Tensorflow/StyleGAN.py:313: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From /home/lei/compatibility_analysis/tensorflow/1.13/StyleGAN-Tensorflow/StyleGAN.py:318: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /home/lei/compatibility_analysis/tensorflow/1.13/StyleGAN-Tensorflow/StyleGAN.py:318: The name tf.get_variable_scope is deprecated. Please use tf.compat.v1.get_variable_scope instead.
+
+WARNING:tensorflow:From /home/lei/compatibility_analysis/tensorflow/1.13/StyleGAN-Tensorflow/StyleGAN.py:325: shuffle_and_repeat (from tensorflow.contrib.data.python.ops.shuffle_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.experimental.shuffle_and_repeat(...)`.
+WARNING:tensorflow:From /home/lei/anaconda3/envs/py36-2/lib/python3.6/site-packages/tensorflow_core/contrib/data/python/ops/shuffle_ops.py:54: shuffle_and_repeat (from tensorflow.python.data.experimental.ops.shuffle_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.shuffle(buffer_size, seed)` followed by `tf.data.Dataset.repeat(count)`. Static tf.data optimizations will take care of using the fused implementation.
+WARNING:tensorflow:From /home/lei/compatibility_analysis/tensorflow/1.13/StyleGAN-Tensorflow/StyleGAN.py:326: map_and_batch (from tensorflow.contrib.data.python.ops.batching) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.experimental.map_and_batch(...)`.
+WARNING:tensorflow:From /home/lei/anaconda3/envs/py36-2/lib/python3.6/site-packages/tensorflow_core/contrib/data/python/ops/batching.py:276: map_and_batch (from tensorflow.python.data.experimental.ops.batching) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.map(map_func, num_parallel_calls)` followed by `tf.data.Dataset.batch(batch_size, drop_remainder)`. Static tf.data optimizations will take care of using the fused implementation.
+WARNING:tensorflow:From /home/lei/anaconda3/envs/py36-2/lib/python3.6/site-packages/tensorflow_core/python/autograph/converters/directives.py:119: The name tf.read_file is deprecated. Please use tf.io.read_file instead.
+
+WARNING:tensorflow:From /home/lei/anaconda3/envs/py36-2/lib/python3.6/site-packages/tensorflow_core/python/autograph/converters/directives.py:119: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /home/lei/compatibility_analysis/tensorflow/1.13/StyleGAN-Tensorflow/utils.py:36: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /home/lei/compatibility_analysis/tensorflow/1.13/StyleGAN-Tensorflow/StyleGAN.py:327: prefetch_to_device (from tensorflow.contrib.data.python.ops.prefetching_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.experimental.prefetch_to_device(...)`.
+WARNING:tensorflow:From /home/lei/compatibility_analysis/tensorflow/1.13/StyleGAN-Tensorflow/StyleGAN.py:330: DatasetV1.make_one_shot_iterator (from tensorflow.python.data.ops.dataset_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `for ... in dataset:` to iterate over a dataset. If using `tf.estimator`, return the `Dataset` object directly from your input function. As a last resort, you can use `tf.compat.v1.data.make_one_shot_iterator(dataset)`.
+WARNING:tensorflow:From /home/lei/compatibility_analysis/tensorflow/1.13/StyleGAN-Tensorflow/StyleGAN.py:333: The name tf.random_normal is deprecated. Please use tf.random.normal instead.
+
+WARNING:tensorflow:From /home/lei/compatibility_analysis/tensorflow/1.13/StyleGAN-Tensorflow/ops.py:99: The name tf.rsqrt is deprecated. Please use tf.math.rsqrt instead.
+
+WARNING:tensorflow:From /home/lei/compatibility_analysis/tensorflow/1.13/StyleGAN-Tensorflow/ops.py:51: flatten (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.flatten instead.
+WARNING:tensorflow:From /home/lei/anaconda3/envs/py36-2/lib/python3.6/site-packages/tensorflow_core/python/layers/core.py:332: Layer.apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+WARNING:tensorflow:From /home/lei/compatibility_analysis/tensorflow/1.13/StyleGAN-Tensorflow/ops.py:558: The name tf.trainable_variables is deprecated. Please use tf.compat.v1.trainable_variables instead.
+
+WARNING:tensorflow:From /home/lei/compatibility_analysis/tensorflow/1.13/StyleGAN-Tensorflow/StyleGAN.py:364: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /home/lei/compatibility_analysis/tensorflow/1.13/StyleGAN-Tensorflow/StyleGAN.py:382: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+WARNING:tensorflow:From /home/lei/compatibility_analysis/tensorflow/1.13/StyleGAN-Tensorflow/StyleGAN.py:400: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+2025-05-28 15:51:03.218493: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+IteratorGetNext: CPU XLA_CPU 
+OneShotIterator: CPU 
+IteratorToStringHandle: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  OneShotIterator (OneShotIterator) /device:GPU:0
+  IteratorToStringHandle (IteratorToStringHandle) /device:GPU:0
+  IteratorGetNext (IteratorGetNext) /device:GPU:0
+
+2025-05-28 15:51:03.218777: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+Identity: CPU XLA_CPU 
+Assign: CPU 
+Const: CPU XLA_CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  generator/w_avg/Initializer/zeros (Const) 
+  generator/w_avg (VariableV2) /device:GPU:0
+  generator/w_avg/Assign (Assign) /device:GPU:0
+  generator/w_avg/read (Identity) /device:GPU:0
+  generator/WAvg/Assign (Assign) /device:GPU:0
+  generator_1/WAvg/Assign (Assign) /device:GPU:0
+  generator_2/WAvg/Assign (Assign) /device:GPU:0
+
+2025-05-28 15:51:03.219047: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyAdam: CPU 
+AddN: CPU XLA_CPU 
+Add: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+RandomStandardNormal: CPU XLA_CPU 
+VariableV2: CPU 
+Fill: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+Assign: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  generator/g_mapping/FC_0/linear/weight/Initializer/random_normal/shape (Const) 
+  generator/g_mapping/FC_0/linear/weight/Initializer/random_normal/mean (Const) 
+  generator/g_mapping/FC_0/linear/weight/Initializer/random_normal/stddev (Const) 
+  generator/g_mapping/FC_0/linear/weight/Initializer/random_normal/RandomStandardNormal (RandomStandardNormal) 
+  generator/g_mapping/FC_0/linear/weight/Initializer/random_normal/mul (Mul) 
+  generator/g_mapping/FC_0/linear/weight/Initializer/random_normal (Add) 
+  generator/g_mapping/FC_0/linear/weight (VariableV2) /device:GPU:0
+  generator/g_mapping/FC_0/linear/weight/Assign (Assign) /device:GPU:0
+  generator/g_mapping/FC_0/linear/weight/read (Identity) /device:GPU:0
+  gradients_4/AddN_144 (AddN) /device:GPU:0
+  generator/g_mapping/FC_0/linear/weight/Adam/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  generator/g_mapping/FC_0/linear/weight/Adam/Initializer/zeros/Const (Const) /device:GPU:0
+  generator/g_mapping/FC_0/linear/weight/Adam/Initializer/zeros (Fill) /device:GPU:0
+  generator/g_mapping/FC_0/linear/weight/Adam (VariableV2) /device:GPU:0
+  generator/g_mapping/FC_0/linear/weight/Adam/Assign (Assign) /device:GPU:0
+  generator/g_mapping/FC_0/linear/weight/Adam/read (Identity) /device:GPU:0
+  generator/g_mapping/FC_0/linear/weight/Adam_1/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  generator/g_mapping/FC_0/linear/weight/Adam_1/Initializer/zeros/Const (Const) /device:GPU:0
+  generator/g_mapping/FC_0/linear/weight/Adam_1/Initializer/zeros (Fill) /device:GPU:0
+  generator/g_mapping/FC_0/linear/weight/Adam_1 (VariableV2) /device:GPU:0
+  generator/g_mapping/FC_0/linear/weight/Adam_1/Assign (Assign) /device:GPU:0
+  generator/g_mapping/FC_0/linear/weight/Adam_1/read (Identity) /device:GPU:0
+  Adam_1/update_generator/g_mapping/FC_0/linear/weight/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.219286: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+Mul: CPU XLA_CPU 
+ApplyAdam: CPU 
+Const: CPU XLA_CPU 
+Assign: CPU 
+VariableV2: CPU 
+Identity: CPU XLA_CPU 
+AddN: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  generator/g_mapping/FC_0/bias/Initializer/zeros (Const) 
+  generator/g_mapping/FC_0/bias (VariableV2) /device:GPU:0
+  generator/g_mapping/FC_0/bias/Assign (Assign) /device:GPU:0
+  generator/g_mapping/FC_0/bias/read (Identity) /device:GPU:0
+  gradients_4/AddN_140 (AddN) /device:GPU:0
+  beta1_power_1/initial_value (Const) /device:GPU:0
+  beta1_power_1 (VariableV2) /device:GPU:0
+  beta1_power_1/Assign (Assign) /device:GPU:0
+  beta1_power_1/read (Identity) /device:GPU:0
+  beta2_power_1/initial_value (Const) /device:GPU:0
+  beta2_power_1 (VariableV2) /device:GPU:0
+  beta2_power_1/Assign (Assign) /device:GPU:0
+  beta2_power_1/read (Identity) /device:GPU:0
+  generator/g_mapping/FC_0/bias/Adam/Initializer/zeros (Const) /device:GPU:0
+  generator/g_mapping/FC_0/bias/Adam (VariableV2) /device:GPU:0
+  generator/g_mapping/FC_0/bias/Adam/Assign (Assign) /device:GPU:0
+  generator/g_mapping/FC_0/bias/Adam/read (Identity) /device:GPU:0
+  generator/g_mapping/FC_0/bias/Adam_1/Initializer/zeros (Const) /device:GPU:0
+  generator/g_mapping/FC_0/bias/Adam_1 (VariableV2) /device:GPU:0
+  generator/g_mapping/FC_0/bias/Adam_1/Assign (Assign) /device:GPU:0
+  generator/g_mapping/FC_0/bias/Adam_1/read (Identity) /device:GPU:0
+  Adam_1/update_generator/g_mapping/FC_0/bias/ApplyAdam (ApplyAdam) /device:GPU:0
+  Adam_1/mul (Mul) /device:GPU:0
+  Adam_1/Assign (Assign) /device:GPU:0
+  Adam_1/mul_1 (Mul) /device:GPU:0
+  Adam_1/Assign_1 (Assign) /device:GPU:0
+
+2025-05-28 15:51:03.219541: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyAdam: CPU 
+AddN: CPU XLA_CPU 
+Add: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+RandomStandardNormal: CPU XLA_CPU 
+VariableV2: CPU 
+Fill: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+Assign: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  generator/g_mapping/FC_1/linear/weight/Initializer/random_normal/shape (Const) 
+  generator/g_mapping/FC_1/linear/weight/Initializer/random_normal/mean (Const) 
+  generator/g_mapping/FC_1/linear/weight/Initializer/random_normal/stddev (Const) 
+  generator/g_mapping/FC_1/linear/weight/Initializer/random_normal/RandomStandardNormal (RandomStandardNormal) 
+  generator/g_mapping/FC_1/linear/weight/Initializer/random_normal/mul (Mul) 
+  generator/g_mapping/FC_1/linear/weight/Initializer/random_normal (Add) 
+  generator/g_mapping/FC_1/linear/weight (VariableV2) /device:GPU:0
+  generator/g_mapping/FC_1/linear/weight/Assign (Assign) /device:GPU:0
+  generator/g_mapping/FC_1/linear/weight/read (Identity) /device:GPU:0
+  gradients_4/AddN_136 (AddN) /device:GPU:0
+  generator/g_mapping/FC_1/linear/weight/Adam/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  generator/g_mapping/FC_1/linear/weight/Adam/Initializer/zeros/Const (Const) /device:GPU:0
+  generator/g_mapping/FC_1/linear/weight/Adam/Initializer/zeros (Fill) /device:GPU:0
+  generator/g_mapping/FC_1/linear/weight/Adam (VariableV2) /device:GPU:0
+  generator/g_mapping/FC_1/linear/weight/Adam/Assign (Assign) /device:GPU:0
+  generator/g_mapping/FC_1/linear/weight/Adam/read (Identity) /device:GPU:0
+  generator/g_mapping/FC_1/linear/weight/Adam_1/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  generator/g_mapping/FC_1/linear/weight/Adam_1/Initializer/zeros/Const (Const) /device:GPU:0
+  generator/g_mapping/FC_1/linear/weight/Adam_1/Initializer/zeros (Fill) /device:GPU:0
+  generator/g_mapping/FC_1/linear/weight/Adam_1 (VariableV2) /device:GPU:0
+  generator/g_mapping/FC_1/linear/weight/Adam_1/Assign (Assign) /device:GPU:0
+  generator/g_mapping/FC_1/linear/weight/Adam_1/read (Identity) /device:GPU:0
+  Adam_1/update_generator/g_mapping/FC_1/linear/weight/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.219767: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+AddN: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+Assign: CPU 
+Const: CPU XLA_CPU 
+ApplyAdam: CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  generator/g_mapping/FC_1/bias/Initializer/zeros (Const) 
+  generator/g_mapping/FC_1/bias (VariableV2) /device:GPU:0
+  generator/g_mapping/FC_1/bias/Assign (Assign) /device:GPU:0
+  generator/g_mapping/FC_1/bias/read (Identity) /device:GPU:0
+  gradients_4/AddN_132 (AddN) /device:GPU:0
+  generator/g_mapping/FC_1/bias/Adam/Initializer/zeros (Const) /device:GPU:0
+  generator/g_mapping/FC_1/bias/Adam (VariableV2) /device:GPU:0
+  generator/g_mapping/FC_1/bias/Adam/Assign (Assign) /device:GPU:0
+  generator/g_mapping/FC_1/bias/Adam/read (Identity) /device:GPU:0
+  generator/g_mapping/FC_1/bias/Adam_1/Initializer/zeros (Const) /device:GPU:0
+  generator/g_mapping/FC_1/bias/Adam_1 (VariableV2) /device:GPU:0
+  generator/g_mapping/FC_1/bias/Adam_1/Assign (Assign) /device:GPU:0
+  generator/g_mapping/FC_1/bias/Adam_1/read (Identity) /device:GPU:0
+  Adam_1/update_generator/g_mapping/FC_1/bias/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.220006: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyAdam: CPU 
+AddN: CPU XLA_CPU 
+Add: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+RandomStandardNormal: CPU XLA_CPU 
+VariableV2: CPU 
+Fill: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+Assign: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  generator/g_mapping/FC_2/linear/weight/Initializer/random_normal/shape (Const) 
+  generator/g_mapping/FC_2/linear/weight/Initializer/random_normal/mean (Const) 
+  generator/g_mapping/FC_2/linear/weight/Initializer/random_normal/stddev (Const) 
+  generator/g_mapping/FC_2/linear/weight/Initializer/random_normal/RandomStandardNormal (RandomStandardNormal) 
+  generator/g_mapping/FC_2/linear/weight/Initializer/random_normal/mul (Mul) 
+  generator/g_mapping/FC_2/linear/weight/Initializer/random_normal (Add) 
+  generator/g_mapping/FC_2/linear/weight (VariableV2) /device:GPU:0
+  generator/g_mapping/FC_2/linear/weight/Assign (Assign) /device:GPU:0
+  generator/g_mapping/FC_2/linear/weight/read (Identity) /device:GPU:0
+  gradients_4/AddN_128 (AddN) /device:GPU:0
+  generator/g_mapping/FC_2/linear/weight/Adam/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  generator/g_mapping/FC_2/linear/weight/Adam/Initializer/zeros/Const (Const) /device:GPU:0
+  generator/g_mapping/FC_2/linear/weight/Adam/Initializer/zeros (Fill) /device:GPU:0
+  generator/g_mapping/FC_2/linear/weight/Adam (VariableV2) /device:GPU:0
+  generator/g_mapping/FC_2/linear/weight/Adam/Assign (Assign) /device:GPU:0
+  generator/g_mapping/FC_2/linear/weight/Adam/read (Identity) /device:GPU:0
+  generator/g_mapping/FC_2/linear/weight/Adam_1/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  generator/g_mapping/FC_2/linear/weight/Adam_1/Initializer/zeros/Const (Const) /device:GPU:0
+  generator/g_mapping/FC_2/linear/weight/Adam_1/Initializer/zeros (Fill) /device:GPU:0
+  generator/g_mapping/FC_2/linear/weight/Adam_1 (VariableV2) /device:GPU:0
+  generator/g_mapping/FC_2/linear/weight/Adam_1/Assign (Assign) /device:GPU:0
+  generator/g_mapping/FC_2/linear/weight/Adam_1/read (Identity) /device:GPU:0
+  Adam_1/update_generator/g_mapping/FC_2/linear/weight/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.220222: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+AddN: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+Assign: CPU 
+Const: CPU XLA_CPU 
+ApplyAdam: CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  generator/g_mapping/FC_2/bias/Initializer/zeros (Const) 
+  generator/g_mapping/FC_2/bias (VariableV2) /device:GPU:0
+  generator/g_mapping/FC_2/bias/Assign (Assign) /device:GPU:0
+  generator/g_mapping/FC_2/bias/read (Identity) /device:GPU:0
+  gradients_4/AddN_124 (AddN) /device:GPU:0
+  generator/g_mapping/FC_2/bias/Adam/Initializer/zeros (Const) /device:GPU:0
+  generator/g_mapping/FC_2/bias/Adam (VariableV2) /device:GPU:0
+  generator/g_mapping/FC_2/bias/Adam/Assign (Assign) /device:GPU:0
+  generator/g_mapping/FC_2/bias/Adam/read (Identity) /device:GPU:0
+  generator/g_mapping/FC_2/bias/Adam_1/Initializer/zeros (Const) /device:GPU:0
+  generator/g_mapping/FC_2/bias/Adam_1 (VariableV2) /device:GPU:0
+  generator/g_mapping/FC_2/bias/Adam_1/Assign (Assign) /device:GPU:0
+  generator/g_mapping/FC_2/bias/Adam_1/read (Identity) /device:GPU:0
+  Adam_1/update_generator/g_mapping/FC_2/bias/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.220461: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyAdam: CPU 
+AddN: CPU XLA_CPU 
+Add: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+RandomStandardNormal: CPU XLA_CPU 
+VariableV2: CPU 
+Fill: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+Assign: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  generator/g_mapping/FC_3/linear/weight/Initializer/random_normal/shape (Const) 
+  generator/g_mapping/FC_3/linear/weight/Initializer/random_normal/mean (Const) 
+  generator/g_mapping/FC_3/linear/weight/Initializer/random_normal/stddev (Const) 
+  generator/g_mapping/FC_3/linear/weight/Initializer/random_normal/RandomStandardNormal (RandomStandardNormal) 
+  generator/g_mapping/FC_3/linear/weight/Initializer/random_normal/mul (Mul) 
+  generator/g_mapping/FC_3/linear/weight/Initializer/random_normal (Add) 
+  generator/g_mapping/FC_3/linear/weight (VariableV2) /device:GPU:0
+  generator/g_mapping/FC_3/linear/weight/Assign (Assign) /device:GPU:0
+  generator/g_mapping/FC_3/linear/weight/read (Identity) /device:GPU:0
+  gradients_4/AddN_120 (AddN) /device:GPU:0
+  generator/g_mapping/FC_3/linear/weight/Adam/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  generator/g_mapping/FC_3/linear/weight/Adam/Initializer/zeros/Const (Const) /device:GPU:0
+  generator/g_mapping/FC_3/linear/weight/Adam/Initializer/zeros (Fill) /device:GPU:0
+  generator/g_mapping/FC_3/linear/weight/Adam (VariableV2) /device:GPU:0
+  generator/g_mapping/FC_3/linear/weight/Adam/Assign (Assign) /device:GPU:0
+  generator/g_mapping/FC_3/linear/weight/Adam/read (Identity) /device:GPU:0
+  generator/g_mapping/FC_3/linear/weight/Adam_1/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  generator/g_mapping/FC_3/linear/weight/Adam_1/Initializer/zeros/Const (Const) /device:GPU:0
+  generator/g_mapping/FC_3/linear/weight/Adam_1/Initializer/zeros (Fill) /device:GPU:0
+  generator/g_mapping/FC_3/linear/weight/Adam_1 (VariableV2) /device:GPU:0
+  generator/g_mapping/FC_3/linear/weight/Adam_1/Assign (Assign) /device:GPU:0
+  generator/g_mapping/FC_3/linear/weight/Adam_1/read (Identity) /device:GPU:0
+  Adam_1/update_generator/g_mapping/FC_3/linear/weight/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.220693: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+AddN: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+Assign: CPU 
+Const: CPU XLA_CPU 
+ApplyAdam: CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  generator/g_mapping/FC_3/bias/Initializer/zeros (Const) 
+  generator/g_mapping/FC_3/bias (VariableV2) /device:GPU:0
+  generator/g_mapping/FC_3/bias/Assign (Assign) /device:GPU:0
+  generator/g_mapping/FC_3/bias/read (Identity) /device:GPU:0
+  gradients_4/AddN_116 (AddN) /device:GPU:0
+  generator/g_mapping/FC_3/bias/Adam/Initializer/zeros (Const) /device:GPU:0
+  generator/g_mapping/FC_3/bias/Adam (VariableV2) /device:GPU:0
+  generator/g_mapping/FC_3/bias/Adam/Assign (Assign) /device:GPU:0
+  generator/g_mapping/FC_3/bias/Adam/read (Identity) /device:GPU:0
+  generator/g_mapping/FC_3/bias/Adam_1/Initializer/zeros (Const) /device:GPU:0
+  generator/g_mapping/FC_3/bias/Adam_1 (VariableV2) /device:GPU:0
+  generator/g_mapping/FC_3/bias/Adam_1/Assign (Assign) /device:GPU:0
+  generator/g_mapping/FC_3/bias/Adam_1/read (Identity) /device:GPU:0
+  Adam_1/update_generator/g_mapping/FC_3/bias/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.220940: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyAdam: CPU 
+AddN: CPU XLA_CPU 
+Add: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+RandomStandardNormal: CPU XLA_CPU 
+VariableV2: CPU 
+Fill: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+Assign: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  generator/g_mapping/FC_4/linear/weight/Initializer/random_normal/shape (Const) 
+  generator/g_mapping/FC_4/linear/weight/Initializer/random_normal/mean (Const) 
+  generator/g_mapping/FC_4/linear/weight/Initializer/random_normal/stddev (Const) 
+  generator/g_mapping/FC_4/linear/weight/Initializer/random_normal/RandomStandardNormal (RandomStandardNormal) 
+  generator/g_mapping/FC_4/linear/weight/Initializer/random_normal/mul (Mul) 
+  generator/g_mapping/FC_4/linear/weight/Initializer/random_normal (Add) 
+  generator/g_mapping/FC_4/linear/weight (VariableV2) /device:GPU:0
+  generator/g_mapping/FC_4/linear/weight/Assign (Assign) /device:GPU:0
+  generator/g_mapping/FC_4/linear/weight/read (Identity) /device:GPU:0
+  gradients_4/AddN_112 (AddN) /device:GPU:0
+  generator/g_mapping/FC_4/linear/weight/Adam/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  generator/g_mapping/FC_4/linear/weight/Adam/Initializer/zeros/Const (Const) /device:GPU:0
+  generator/g_mapping/FC_4/linear/weight/Adam/Initializer/zeros (Fill) /device:GPU:0
+  generator/g_mapping/FC_4/linear/weight/Adam (VariableV2) /device:GPU:0
+  generator/g_mapping/FC_4/linear/weight/Adam/Assign (Assign) /device:GPU:0
+  generator/g_mapping/FC_4/linear/weight/Adam/read (Identity) /device:GPU:0
+  generator/g_mapping/FC_4/linear/weight/Adam_1/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  generator/g_mapping/FC_4/linear/weight/Adam_1/Initializer/zeros/Const (Const) /device:GPU:0
+  generator/g_mapping/FC_4/linear/weight/Adam_1/Initializer/zeros (Fill) /device:GPU:0
+  generator/g_mapping/FC_4/linear/weight/Adam_1 (VariableV2) /device:GPU:0
+  generator/g_mapping/FC_4/linear/weight/Adam_1/Assign (Assign) /device:GPU:0
+  generator/g_mapping/FC_4/linear/weight/Adam_1/read (Identity) /device:GPU:0
+  Adam_1/update_generator/g_mapping/FC_4/linear/weight/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.221157: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+AddN: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+Assign: CPU 
+Const: CPU XLA_CPU 
+ApplyAdam: CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  generator/g_mapping/FC_4/bias/Initializer/zeros (Const) 
+  generator/g_mapping/FC_4/bias (VariableV2) /device:GPU:0
+  generator/g_mapping/FC_4/bias/Assign (Assign) /device:GPU:0
+  generator/g_mapping/FC_4/bias/read (Identity) /device:GPU:0
+  gradients_4/AddN_108 (AddN) /device:GPU:0
+  generator/g_mapping/FC_4/bias/Adam/Initializer/zeros (Const) /device:GPU:0
+  generator/g_mapping/FC_4/bias/Adam (VariableV2) /device:GPU:0
+  generator/g_mapping/FC_4/bias/Adam/Assign (Assign) /device:GPU:0
+  generator/g_mapping/FC_4/bias/Adam/read (Identity) /device:GPU:0
+  generator/g_mapping/FC_4/bias/Adam_1/Initializer/zeros (Const) /device:GPU:0
+  generator/g_mapping/FC_4/bias/Adam_1 (VariableV2) /device:GPU:0
+  generator/g_mapping/FC_4/bias/Adam_1/Assign (Assign) /device:GPU:0
+  generator/g_mapping/FC_4/bias/Adam_1/read (Identity) /device:GPU:0
+  Adam_1/update_generator/g_mapping/FC_4/bias/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.221400: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyAdam: CPU 
+AddN: CPU XLA_CPU 
+Add: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+RandomStandardNormal: CPU XLA_CPU 
+VariableV2: CPU 
+Fill: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+Assign: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  generator/g_mapping/FC_5/linear/weight/Initializer/random_normal/shape (Const) 
+  generator/g_mapping/FC_5/linear/weight/Initializer/random_normal/mean (Const) 
+  generator/g_mapping/FC_5/linear/weight/Initializer/random_normal/stddev (Const) 
+  generator/g_mapping/FC_5/linear/weight/Initializer/random_normal/RandomStandardNormal (RandomStandardNormal) 
+  generator/g_mapping/FC_5/linear/weight/Initializer/random_normal/mul (Mul) 
+  generator/g_mapping/FC_5/linear/weight/Initializer/random_normal (Add) 
+  generator/g_mapping/FC_5/linear/weight (VariableV2) /device:GPU:0
+  generator/g_mapping/FC_5/linear/weight/Assign (Assign) /device:GPU:0
+  generator/g_mapping/FC_5/linear/weight/read (Identity) /device:GPU:0
+  gradients_4/AddN_104 (AddN) /device:GPU:0
+  generator/g_mapping/FC_5/linear/weight/Adam/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  generator/g_mapping/FC_5/linear/weight/Adam/Initializer/zeros/Const (Const) /device:GPU:0
+  generator/g_mapping/FC_5/linear/weight/Adam/Initializer/zeros (Fill) /device:GPU:0
+  generator/g_mapping/FC_5/linear/weight/Adam (VariableV2) /device:GPU:0
+  generator/g_mapping/FC_5/linear/weight/Adam/Assign (Assign) /device:GPU:0
+  generator/g_mapping/FC_5/linear/weight/Adam/read (Identity) /device:GPU:0
+  generator/g_mapping/FC_5/linear/weight/Adam_1/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  generator/g_mapping/FC_5/linear/weight/Adam_1/Initializer/zeros/Const (Const) /device:GPU:0
+  generator/g_mapping/FC_5/linear/weight/Adam_1/Initializer/zeros (Fill) /device:GPU:0
+  generator/g_mapping/FC_5/linear/weight/Adam_1 (VariableV2) /device:GPU:0
+  generator/g_mapping/FC_5/linear/weight/Adam_1/Assign (Assign) /device:GPU:0
+  generator/g_mapping/FC_5/linear/weight/Adam_1/read (Identity) /device:GPU:0
+  Adam_1/update_generator/g_mapping/FC_5/linear/weight/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.221614: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+AddN: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+Assign: CPU 
+Const: CPU XLA_CPU 
+ApplyAdam: CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  generator/g_mapping/FC_5/bias/Initializer/zeros (Const) 
+  generator/g_mapping/FC_5/bias (VariableV2) /device:GPU:0
+  generator/g_mapping/FC_5/bias/Assign (Assign) /device:GPU:0
+  generator/g_mapping/FC_5/bias/read (Identity) /device:GPU:0
+  gradients_4/AddN_100 (AddN) /device:GPU:0
+  generator/g_mapping/FC_5/bias/Adam/Initializer/zeros (Const) /device:GPU:0
+  generator/g_mapping/FC_5/bias/Adam (VariableV2) /device:GPU:0
+  generator/g_mapping/FC_5/bias/Adam/Assign (Assign) /device:GPU:0
+  generator/g_mapping/FC_5/bias/Adam/read (Identity) /device:GPU:0
+  generator/g_mapping/FC_5/bias/Adam_1/Initializer/zeros (Const) /device:GPU:0
+  generator/g_mapping/FC_5/bias/Adam_1 (VariableV2) /device:GPU:0
+  generator/g_mapping/FC_5/bias/Adam_1/Assign (Assign) /device:GPU:0
+  generator/g_mapping/FC_5/bias/Adam_1/read (Identity) /device:GPU:0
+  Adam_1/update_generator/g_mapping/FC_5/bias/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.221862: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyAdam: CPU 
+AddN: CPU XLA_CPU 
+Add: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+RandomStandardNormal: CPU XLA_CPU 
+VariableV2: CPU 
+Fill: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+Assign: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  generator/g_mapping/FC_6/linear/weight/Initializer/random_normal/shape (Const) 
+  generator/g_mapping/FC_6/linear/weight/Initializer/random_normal/mean (Const) 
+  generator/g_mapping/FC_6/linear/weight/Initializer/random_normal/stddev (Const) 
+  generator/g_mapping/FC_6/linear/weight/Initializer/random_normal/RandomStandardNormal (RandomStandardNormal) 
+  generator/g_mapping/FC_6/linear/weight/Initializer/random_normal/mul (Mul) 
+  generator/g_mapping/FC_6/linear/weight/Initializer/random_normal (Add) 
+  generator/g_mapping/FC_6/linear/weight (VariableV2) /device:GPU:0
+  generator/g_mapping/FC_6/linear/weight/Assign (Assign) /device:GPU:0
+  generator/g_mapping/FC_6/linear/weight/read (Identity) /device:GPU:0
+  gradients_4/AddN_96 (AddN) /device:GPU:0
+  generator/g_mapping/FC_6/linear/weight/Adam/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  generator/g_mapping/FC_6/linear/weight/Adam/Initializer/zeros/Const (Const) /device:GPU:0
+  generator/g_mapping/FC_6/linear/weight/Adam/Initializer/zeros (Fill) /device:GPU:0
+  generator/g_mapping/FC_6/linear/weight/Adam (VariableV2) /device:GPU:0
+  generator/g_mapping/FC_6/linear/weight/Adam/Assign (Assign) /device:GPU:0
+  generator/g_mapping/FC_6/linear/weight/Adam/read (Identity) /device:GPU:0
+  generator/g_mapping/FC_6/linear/weight/Adam_1/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  generator/g_mapping/FC_6/linear/weight/Adam_1/Initializer/zeros/Const (Const) /device:GPU:0
+  generator/g_mapping/FC_6/linear/weight/Adam_1/Initializer/zeros (Fill) /device:GPU:0
+  generator/g_mapping/FC_6/linear/weight/Adam_1 (VariableV2) /device:GPU:0
+  generator/g_mapping/FC_6/linear/weight/Adam_1/Assign (Assign) /device:GPU:0
+  generator/g_mapping/FC_6/linear/weight/Adam_1/read (Identity) /device:GPU:0
+  Adam_1/update_generator/g_mapping/FC_6/linear/weight/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.222078: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+AddN: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+Assign: CPU 
+Const: CPU XLA_CPU 
+ApplyAdam: CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  generator/g_mapping/FC_6/bias/Initializer/zeros (Const) 
+  generator/g_mapping/FC_6/bias (VariableV2) /device:GPU:0
+  generator/g_mapping/FC_6/bias/Assign (Assign) /device:GPU:0
+  generator/g_mapping/FC_6/bias/read (Identity) /device:GPU:0
+  gradients_4/AddN_92 (AddN) /device:GPU:0
+  generator/g_mapping/FC_6/bias/Adam/Initializer/zeros (Const) /device:GPU:0
+  generator/g_mapping/FC_6/bias/Adam (VariableV2) /device:GPU:0
+  generator/g_mapping/FC_6/bias/Adam/Assign (Assign) /device:GPU:0
+  generator/g_mapping/FC_6/bias/Adam/read (Identity) /device:GPU:0
+  generator/g_mapping/FC_6/bias/Adam_1/Initializer/zeros (Const) /device:GPU:0
+  generator/g_mapping/FC_6/bias/Adam_1 (VariableV2) /device:GPU:0
+  generator/g_mapping/FC_6/bias/Adam_1/Assign (Assign) /device:GPU:0
+  generator/g_mapping/FC_6/bias/Adam_1/read (Identity) /device:GPU:0
+  Adam_1/update_generator/g_mapping/FC_6/bias/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.222320: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyAdam: CPU 
+AddN: CPU XLA_CPU 
+Add: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+RandomStandardNormal: CPU XLA_CPU 
+VariableV2: CPU 
+Fill: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+Assign: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  generator/g_mapping/FC_7/linear/weight/Initializer/random_normal/shape (Const) 
+  generator/g_mapping/FC_7/linear/weight/Initializer/random_normal/mean (Const) 
+  generator/g_mapping/FC_7/linear/weight/Initializer/random_normal/stddev (Const) 
+  generator/g_mapping/FC_7/linear/weight/Initializer/random_normal/RandomStandardNormal (RandomStandardNormal) 
+  generator/g_mapping/FC_7/linear/weight/Initializer/random_normal/mul (Mul) 
+  generator/g_mapping/FC_7/linear/weight/Initializer/random_normal (Add) 
+  generator/g_mapping/FC_7/linear/weight (VariableV2) /device:GPU:0
+  generator/g_mapping/FC_7/linear/weight/Assign (Assign) /device:GPU:0
+  generator/g_mapping/FC_7/linear/weight/read (Identity) /device:GPU:0
+  gradients_4/AddN_88 (AddN) /device:GPU:0
+  generator/g_mapping/FC_7/linear/weight/Adam/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  generator/g_mapping/FC_7/linear/weight/Adam/Initializer/zeros/Const (Const) /device:GPU:0
+  generator/g_mapping/FC_7/linear/weight/Adam/Initializer/zeros (Fill) /device:GPU:0
+  generator/g_mapping/FC_7/linear/weight/Adam (VariableV2) /device:GPU:0
+  generator/g_mapping/FC_7/linear/weight/Adam/Assign (Assign) /device:GPU:0
+  generator/g_mapping/FC_7/linear/weight/Adam/read (Identity) /device:GPU:0
+  generator/g_mapping/FC_7/linear/weight/Adam_1/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  generator/g_mapping/FC_7/linear/weight/Adam_1/Initializer/zeros/Const (Const) /device:GPU:0
+  generator/g_mapping/FC_7/linear/weight/Adam_1/Initializer/zeros (Fill) /device:GPU:0
+  generator/g_mapping/FC_7/linear/weight/Adam_1 (VariableV2) /device:GPU:0
+  generator/g_mapping/FC_7/linear/weight/Adam_1/Assign (Assign) /device:GPU:0
+  generator/g_mapping/FC_7/linear/weight/Adam_1/read (Identity) /device:GPU:0
+  Adam_1/update_generator/g_mapping/FC_7/linear/weight/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.222540: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+AddN: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+Assign: CPU 
+Const: CPU XLA_CPU 
+ApplyAdam: CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  generator/g_mapping/FC_7/bias/Initializer/zeros (Const) 
+  generator/g_mapping/FC_7/bias (VariableV2) /device:GPU:0
+  generator/g_mapping/FC_7/bias/Assign (Assign) /device:GPU:0
+  generator/g_mapping/FC_7/bias/read (Identity) /device:GPU:0
+  gradients_4/AddN_84 (AddN) /device:GPU:0
+  generator/g_mapping/FC_7/bias/Adam/Initializer/zeros (Const) /device:GPU:0
+  generator/g_mapping/FC_7/bias/Adam (VariableV2) /device:GPU:0
+  generator/g_mapping/FC_7/bias/Adam/Assign (Assign) /device:GPU:0
+  generator/g_mapping/FC_7/bias/Adam/read (Identity) /device:GPU:0
+  generator/g_mapping/FC_7/bias/Adam_1/Initializer/zeros (Const) /device:GPU:0
+  generator/g_mapping/FC_7/bias/Adam_1 (VariableV2) /device:GPU:0
+  generator/g_mapping/FC_7/bias/Adam_1/Assign (Assign) /device:GPU:0
+  generator/g_mapping/FC_7/bias/Adam_1/read (Identity) /device:GPU:0
+  Adam_1/update_generator/g_mapping/FC_7/bias/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.222876: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyAdam: CPU 
+Fill: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Assign: CPU 
+AddN: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  generator/g_synthesis/4x4/const_block/Const/Initializer/ones/shape_as_tensor (Const) 
+  generator/g_synthesis/4x4/const_block/Const/Initializer/ones/Const (Const) 
+  generator/g_synthesis/4x4/const_block/Const/Initializer/ones (Fill) 
+  generator/g_synthesis/4x4/const_block/Const (VariableV2) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/Const/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/Const/read (Identity) /device:GPU:0
+  gradients_4/AddN_78 (AddN) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/Const/Adam/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/Const/Adam/Initializer/zeros/Const (Const) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/Const/Adam/Initializer/zeros (Fill) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/Const/Adam (VariableV2) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/Const/Adam/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/Const/Adam/read (Identity) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/Const/Adam_1/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/Const/Adam_1/Initializer/zeros/Const (Const) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/Const/Adam_1/Initializer/zeros (Fill) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/Const/Adam_1 (VariableV2) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/Const/Adam_1/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/Const/Adam_1/read (Identity) /device:GPU:0
+  Adam_1/update_generator/g_synthesis/4x4/const_block/Const/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.223117: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+AddN: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+Assign: CPU 
+Const: CPU XLA_CPU 
+ApplyAdam: CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  generator/g_synthesis/4x4/const_block/Noise/weight/Initializer/zeros (Const) 
+  generator/g_synthesis/4x4/const_block/Noise/weight (VariableV2) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/Noise/weight/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/Noise/weight/read (Identity) /device:GPU:0
+  gradients_4/AddN_80 (AddN) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/Noise/weight/Adam/Initializer/zeros (Const) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/Noise/weight/Adam (VariableV2) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/Noise/weight/Adam/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/Noise/weight/Adam/read (Identity) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/Noise/weight/Adam_1/Initializer/zeros (Const) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/Noise/weight/Adam_1 (VariableV2) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/Noise/weight/Adam_1/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/Noise/weight/Adam_1/read (Identity) /device:GPU:0
+  Adam_1/update_generator/g_synthesis/4x4/const_block/Noise/weight/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.223333: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+AddN: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+Assign: CPU 
+Const: CPU XLA_CPU 
+ApplyAdam: CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  generator/g_synthesis/4x4/const_block/bias/Initializer/zeros (Const) 
+  generator/g_synthesis/4x4/const_block/bias (VariableV2) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/bias/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/bias/read (Identity) /device:GPU:0
+  gradients_4/AddN_79 (AddN) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/bias/Adam/Initializer/zeros (Const) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/bias/Adam (VariableV2) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/bias/Adam/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/bias/Adam/read (Identity) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/bias/Adam_1/Initializer/zeros (Const) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/bias/Adam_1 (VariableV2) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/bias/Adam_1/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/bias/Adam_1/read (Identity) /device:GPU:0
+  Adam_1/update_generator/g_synthesis/4x4/const_block/bias/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.223589: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyAdam: CPU 
+AddN: CPU XLA_CPU 
+Add: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+RandomStandardNormal: CPU XLA_CPU 
+VariableV2: CPU 
+Fill: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+Assign: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  generator/g_synthesis/4x4/const_block/StyleMod/linear/weight/Initializer/random_normal/shape (Const) 
+  generator/g_synthesis/4x4/const_block/StyleMod/linear/weight/Initializer/random_normal/mean (Const) 
+  generator/g_synthesis/4x4/const_block/StyleMod/linear/weight/Initializer/random_normal/stddev (Const) 
+  generator/g_synthesis/4x4/const_block/StyleMod/linear/weight/Initializer/random_normal/RandomStandardNormal (RandomStandardNormal) 
+  generator/g_synthesis/4x4/const_block/StyleMod/linear/weight/Initializer/random_normal/mul (Mul) 
+  generator/g_synthesis/4x4/const_block/StyleMod/linear/weight/Initializer/random_normal (Add) 
+  generator/g_synthesis/4x4/const_block/StyleMod/linear/weight (VariableV2) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/StyleMod/linear/weight/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/StyleMod/linear/weight/read (Identity) /device:GPU:0
+  gradients_4/AddN_71 (AddN) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/StyleMod/linear/weight/Adam/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/StyleMod/linear/weight/Adam/Initializer/zeros/Const (Const) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/StyleMod/linear/weight/Adam/Initializer/zeros (Fill) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/StyleMod/linear/weight/Adam (VariableV2) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/StyleMod/linear/weight/Adam/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/StyleMod/linear/weight/Adam/read (Identity) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/StyleMod/linear/weight/Adam_1/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/StyleMod/linear/weight/Adam_1/Initializer/zeros/Const (Const) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/StyleMod/linear/weight/Adam_1/Initializer/zeros (Fill) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/StyleMod/linear/weight/Adam_1 (VariableV2) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/StyleMod/linear/weight/Adam_1/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/StyleMod/linear/weight/Adam_1/read (Identity) /device:GPU:0
+  Adam_1/update_generator/g_synthesis/4x4/const_block/StyleMod/linear/weight/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.223832: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyAdam: CPU 
+Fill: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Assign: CPU 
+AddN: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  generator/g_synthesis/4x4/const_block/StyleMod/bias/Initializer/zeros/shape_as_tensor (Const) 
+  generator/g_synthesis/4x4/const_block/StyleMod/bias/Initializer/zeros/Const (Const) 
+  generator/g_synthesis/4x4/const_block/StyleMod/bias/Initializer/zeros (Fill) 
+  generator/g_synthesis/4x4/const_block/StyleMod/bias (VariableV2) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/StyleMod/bias/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/StyleMod/bias/read (Identity) /device:GPU:0
+  gradients_4/AddN_70 (AddN) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/StyleMod/bias/Adam/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/StyleMod/bias/Adam/Initializer/zeros/Const (Const) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/StyleMod/bias/Adam/Initializer/zeros (Fill) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/StyleMod/bias/Adam (VariableV2) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/StyleMod/bias/Adam/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/StyleMod/bias/Adam/read (Identity) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/StyleMod/bias/Adam_1/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/StyleMod/bias/Adam_1/Initializer/zeros/Const (Const) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/StyleMod/bias/Adam_1/Initializer/zeros (Fill) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/StyleMod/bias/Adam_1 (VariableV2) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/StyleMod/bias/Adam_1/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/4x4/const_block/StyleMod/bias/Adam_1/read (Identity) /device:GPU:0
+  Adam_1/update_generator/g_synthesis/4x4/const_block/StyleMod/bias/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.224077: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyAdam: CPU 
+AddN: CPU XLA_CPU 
+Add: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+RandomStandardNormal: CPU XLA_CPU 
+VariableV2: CPU 
+Fill: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+Assign: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  generator/g_synthesis/4x4/Conv/conv_0/weight/Initializer/random_normal/shape (Const) 
+  generator/g_synthesis/4x4/Conv/conv_0/weight/Initializer/random_normal/mean (Const) 
+  generator/g_synthesis/4x4/Conv/conv_0/weight/Initializer/random_normal/stddev (Const) 
+  generator/g_synthesis/4x4/Conv/conv_0/weight/Initializer/random_normal/RandomStandardNormal (RandomStandardNormal) 
+  generator/g_synthesis/4x4/Conv/conv_0/weight/Initializer/random_normal/mul (Mul) 
+  generator/g_synthesis/4x4/Conv/conv_0/weight/Initializer/random_normal (Add) 
+  generator/g_synthesis/4x4/Conv/conv_0/weight (VariableV2) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/conv_0/weight/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/conv_0/weight/read (Identity) /device:GPU:0
+  gradients_4/AddN_62 (AddN) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/conv_0/weight/Adam/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/conv_0/weight/Adam/Initializer/zeros/Const (Const) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/conv_0/weight/Adam/Initializer/zeros (Fill) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/conv_0/weight/Adam (VariableV2) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/conv_0/weight/Adam/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/conv_0/weight/Adam/read (Identity) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/conv_0/weight/Adam_1/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/conv_0/weight/Adam_1/Initializer/zeros/Const (Const) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/conv_0/weight/Adam_1/Initializer/zeros (Fill) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/conv_0/weight/Adam_1 (VariableV2) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/conv_0/weight/Adam_1/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/conv_0/weight/Adam_1/read (Identity) /device:GPU:0
+  Adam_1/update_generator/g_synthesis/4x4/Conv/conv_0/weight/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.224299: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+AddN: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+Assign: CPU 
+Const: CPU XLA_CPU 
+ApplyAdam: CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  generator/g_synthesis/4x4/Conv/Noise/weight/Initializer/zeros (Const) 
+  generator/g_synthesis/4x4/Conv/Noise/weight (VariableV2) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/Noise/weight/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/Noise/weight/read (Identity) /device:GPU:0
+  gradients_4/AddN_63 (AddN) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/Noise/weight/Adam/Initializer/zeros (Const) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/Noise/weight/Adam (VariableV2) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/Noise/weight/Adam/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/Noise/weight/Adam/read (Identity) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/Noise/weight/Adam_1/Initializer/zeros (Const) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/Noise/weight/Adam_1 (VariableV2) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/Noise/weight/Adam_1/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/Noise/weight/Adam_1/read (Identity) /device:GPU:0
+  Adam_1/update_generator/g_synthesis/4x4/Conv/Noise/weight/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.224516: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+AddN: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+Assign: CPU 
+Const: CPU XLA_CPU 
+ApplyAdam: CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  generator/g_synthesis/4x4/Conv/bias/Initializer/zeros (Const) 
+  generator/g_synthesis/4x4/Conv/bias (VariableV2) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/bias/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/bias/read (Identity) /device:GPU:0
+  gradients_4/AddN_61 (AddN) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/bias/Adam/Initializer/zeros (Const) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/bias/Adam (VariableV2) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/bias/Adam/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/bias/Adam/read (Identity) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/bias/Adam_1/Initializer/zeros (Const) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/bias/Adam_1 (VariableV2) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/bias/Adam_1/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/bias/Adam_1/read (Identity) /device:GPU:0
+  Adam_1/update_generator/g_synthesis/4x4/Conv/bias/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.224772: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyAdam: CPU 
+AddN: CPU XLA_CPU 
+Add: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+RandomStandardNormal: CPU XLA_CPU 
+VariableV2: CPU 
+Fill: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+Assign: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  generator/g_synthesis/4x4/Conv/StyleMod/linear/weight/Initializer/random_normal/shape (Const) 
+  generator/g_synthesis/4x4/Conv/StyleMod/linear/weight/Initializer/random_normal/mean (Const) 
+  generator/g_synthesis/4x4/Conv/StyleMod/linear/weight/Initializer/random_normal/stddev (Const) 
+  generator/g_synthesis/4x4/Conv/StyleMod/linear/weight/Initializer/random_normal/RandomStandardNormal (RandomStandardNormal) 
+  generator/g_synthesis/4x4/Conv/StyleMod/linear/weight/Initializer/random_normal/mul (Mul) 
+  generator/g_synthesis/4x4/Conv/StyleMod/linear/weight/Initializer/random_normal (Add) 
+  generator/g_synthesis/4x4/Conv/StyleMod/linear/weight (VariableV2) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/StyleMod/linear/weight/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/StyleMod/linear/weight/read (Identity) /device:GPU:0
+  gradients_4/AddN_57 (AddN) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/StyleMod/linear/weight/Adam/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/StyleMod/linear/weight/Adam/Initializer/zeros/Const (Const) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/StyleMod/linear/weight/Adam/Initializer/zeros (Fill) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/StyleMod/linear/weight/Adam (VariableV2) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/StyleMod/linear/weight/Adam/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/StyleMod/linear/weight/Adam/read (Identity) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/StyleMod/linear/weight/Adam_1/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/StyleMod/linear/weight/Adam_1/Initializer/zeros/Const (Const) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/StyleMod/linear/weight/Adam_1/Initializer/zeros (Fill) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/StyleMod/linear/weight/Adam_1 (VariableV2) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/StyleMod/linear/weight/Adam_1/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/StyleMod/linear/weight/Adam_1/read (Identity) /device:GPU:0
+  Adam_1/update_generator/g_synthesis/4x4/Conv/StyleMod/linear/weight/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.225017: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyAdam: CPU 
+Fill: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Assign: CPU 
+AddN: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  generator/g_synthesis/4x4/Conv/StyleMod/bias/Initializer/zeros/shape_as_tensor (Const) 
+  generator/g_synthesis/4x4/Conv/StyleMod/bias/Initializer/zeros/Const (Const) 
+  generator/g_synthesis/4x4/Conv/StyleMod/bias/Initializer/zeros (Fill) 
+  generator/g_synthesis/4x4/Conv/StyleMod/bias (VariableV2) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/StyleMod/bias/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/StyleMod/bias/read (Identity) /device:GPU:0
+  gradients_4/AddN_56 (AddN) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/StyleMod/bias/Adam/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/StyleMod/bias/Adam/Initializer/zeros/Const (Const) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/StyleMod/bias/Adam/Initializer/zeros (Fill) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/StyleMod/bias/Adam (VariableV2) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/StyleMod/bias/Adam/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/StyleMod/bias/Adam/read (Identity) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/StyleMod/bias/Adam_1/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/StyleMod/bias/Adam_1/Initializer/zeros/Const (Const) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/StyleMod/bias/Adam_1/Initializer/zeros (Fill) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/StyleMod/bias/Adam_1 (VariableV2) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/StyleMod/bias/Adam_1/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/4x4/Conv/StyleMod/bias/Adam_1/read (Identity) /device:GPU:0
+  Adam_1/update_generator/g_synthesis/4x4/Conv/StyleMod/bias/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.225264: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyAdam: CPU 
+AddN: CPU XLA_CPU 
+Add: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+RandomStandardNormal: CPU XLA_CPU 
+VariableV2: CPU 
+Fill: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+Assign: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  generator/g_synthesis/4x4/ToRGB/conv_0/weight/Initializer/random_normal/shape (Const) 
+  generator/g_synthesis/4x4/ToRGB/conv_0/weight/Initializer/random_normal/mean (Const) 
+  generator/g_synthesis/4x4/ToRGB/conv_0/weight/Initializer/random_normal/stddev (Const) 
+  generator/g_synthesis/4x4/ToRGB/conv_0/weight/Initializer/random_normal/RandomStandardNormal (RandomStandardNormal) 
+  generator/g_synthesis/4x4/ToRGB/conv_0/weight/Initializer/random_normal/mul (Mul) 
+  generator/g_synthesis/4x4/ToRGB/conv_0/weight/Initializer/random_normal (Add) 
+  generator/g_synthesis/4x4/ToRGB/conv_0/weight (VariableV2) /device:GPU:0
+  generator/g_synthesis/4x4/ToRGB/conv_0/weight/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/4x4/ToRGB/conv_0/weight/read (Identity) /device:GPU:0
+  gradients_4/AddN_20 (AddN) /device:GPU:0
+  generator/g_synthesis/4x4/ToRGB/conv_0/weight/Adam/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  generator/g_synthesis/4x4/ToRGB/conv_0/weight/Adam/Initializer/zeros/Const (Const) /device:GPU:0
+  generator/g_synthesis/4x4/ToRGB/conv_0/weight/Adam/Initializer/zeros (Fill) /device:GPU:0
+  generator/g_synthesis/4x4/ToRGB/conv_0/weight/Adam (VariableV2) /device:GPU:0
+  generator/g_synthesis/4x4/ToRGB/conv_0/weight/Adam/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/4x4/ToRGB/conv_0/weight/Adam/read (Identity) /device:GPU:0
+  generator/g_synthesis/4x4/ToRGB/conv_0/weight/Adam_1/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  generator/g_synthesis/4x4/ToRGB/conv_0/weight/Adam_1/Initializer/zeros/Const (Const) /device:GPU:0
+  generator/g_synthesis/4x4/ToRGB/conv_0/weight/Adam_1/Initializer/zeros (Fill) /device:GPU:0
+  generator/g_synthesis/4x4/ToRGB/conv_0/weight/Adam_1 (VariableV2) /device:GPU:0
+  generator/g_synthesis/4x4/ToRGB/conv_0/weight/Adam_1/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/4x4/ToRGB/conv_0/weight/Adam_1/read (Identity) /device:GPU:0
+  Adam_1/update_generator/g_synthesis/4x4/ToRGB/conv_0/weight/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.225487: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+AddN: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+Assign: CPU 
+Const: CPU XLA_CPU 
+ApplyAdam: CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  generator/g_synthesis/4x4/ToRGB/bias/Initializer/zeros (Const) 
+  generator/g_synthesis/4x4/ToRGB/bias (VariableV2) /device:GPU:0
+  generator/g_synthesis/4x4/ToRGB/bias/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/4x4/ToRGB/bias/read (Identity) /device:GPU:0
+  gradients_4/AddN_21 (AddN) /device:GPU:0
+  generator/g_synthesis/4x4/ToRGB/bias/Adam/Initializer/zeros (Const) /device:GPU:0
+  generator/g_synthesis/4x4/ToRGB/bias/Adam (VariableV2) /device:GPU:0
+  generator/g_synthesis/4x4/ToRGB/bias/Adam/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/4x4/ToRGB/bias/Adam/read (Identity) /device:GPU:0
+  generator/g_synthesis/4x4/ToRGB/bias/Adam_1/Initializer/zeros (Const) /device:GPU:0
+  generator/g_synthesis/4x4/ToRGB/bias/Adam_1 (VariableV2) /device:GPU:0
+  generator/g_synthesis/4x4/ToRGB/bias/Adam_1/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/4x4/ToRGB/bias/Adam_1/read (Identity) /device:GPU:0
+  Adam_1/update_generator/g_synthesis/4x4/ToRGB/bias/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.225742: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyAdam: CPU 
+AddN: CPU XLA_CPU 
+Add: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+RandomStandardNormal: CPU XLA_CPU 
+VariableV2: CPU 
+Fill: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+Assign: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  generator/g_synthesis/8x8/Conv0_up/conv_0/weight/Initializer/random_normal/shape (Const) 
+  generator/g_synthesis/8x8/Conv0_up/conv_0/weight/Initializer/random_normal/mean (Const) 
+  generator/g_synthesis/8x8/Conv0_up/conv_0/weight/Initializer/random_normal/stddev (Const) 
+  generator/g_synthesis/8x8/Conv0_up/conv_0/weight/Initializer/random_normal/RandomStandardNormal (RandomStandardNormal) 
+  generator/g_synthesis/8x8/Conv0_up/conv_0/weight/Initializer/random_normal/mul (Mul) 
+  generator/g_synthesis/8x8/Conv0_up/conv_0/weight/Initializer/random_normal (Add) 
+  generator/g_synthesis/8x8/Conv0_up/conv_0/weight (VariableV2) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/conv_0/weight/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/conv_0/weight/read (Identity) /device:GPU:0
+  gradients_4/AddN_46 (AddN) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/conv_0/weight/Adam/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/conv_0/weight/Adam/Initializer/zeros/Const (Const) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/conv_0/weight/Adam/Initializer/zeros (Fill) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/conv_0/weight/Adam (VariableV2) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/conv_0/weight/Adam/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/conv_0/weight/Adam/read (Identity) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/conv_0/weight/Adam_1/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/conv_0/weight/Adam_1/Initializer/zeros/Const (Const) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/conv_0/weight/Adam_1/Initializer/zeros (Fill) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/conv_0/weight/Adam_1 (VariableV2) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/conv_0/weight/Adam_1/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/conv_0/weight/Adam_1/read (Identity) /device:GPU:0
+  Adam_1/update_generator/g_synthesis/8x8/Conv0_up/conv_0/weight/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.225976: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+AddN: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+Assign: CPU 
+Const: CPU XLA_CPU 
+ApplyAdam: CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  generator/g_synthesis/8x8/Conv0_up/Noise/weight/Initializer/zeros (Const) 
+  generator/g_synthesis/8x8/Conv0_up/Noise/weight (VariableV2) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/Noise/weight/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/Noise/weight/read (Identity) /device:GPU:0
+  gradients_4/AddN_45 (AddN) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/Noise/weight/Adam/Initializer/zeros (Const) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/Noise/weight/Adam (VariableV2) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/Noise/weight/Adam/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/Noise/weight/Adam/read (Identity) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/Noise/weight/Adam_1/Initializer/zeros (Const) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/Noise/weight/Adam_1 (VariableV2) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/Noise/weight/Adam_1/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/Noise/weight/Adam_1/read (Identity) /device:GPU:0
+  Adam_1/update_generator/g_synthesis/8x8/Conv0_up/Noise/weight/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.226197: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+AddN: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+Assign: CPU 
+Const: CPU XLA_CPU 
+ApplyAdam: CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  generator/g_synthesis/8x8/Conv0_up/bias/Initializer/zeros (Const) 
+  generator/g_synthesis/8x8/Conv0_up/bias (VariableV2) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/bias/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/bias/read (Identity) /device:GPU:0
+  gradients_4/AddN_44 (AddN) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/bias/Adam/Initializer/zeros (Const) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/bias/Adam (VariableV2) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/bias/Adam/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/bias/Adam/read (Identity) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/bias/Adam_1/Initializer/zeros (Const) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/bias/Adam_1 (VariableV2) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/bias/Adam_1/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/bias/Adam_1/read (Identity) /device:GPU:0
+  Adam_1/update_generator/g_synthesis/8x8/Conv0_up/bias/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.226447: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyAdam: CPU 
+AddN: CPU XLA_CPU 
+Add: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+RandomStandardNormal: CPU XLA_CPU 
+VariableV2: CPU 
+Fill: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+Assign: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  generator/g_synthesis/8x8/Conv0_up/StyleMod/linear/weight/Initializer/random_normal/shape (Const) 
+  generator/g_synthesis/8x8/Conv0_up/StyleMod/linear/weight/Initializer/random_normal/mean (Const) 
+  generator/g_synthesis/8x8/Conv0_up/StyleMod/linear/weight/Initializer/random_normal/stddev (Const) 
+  generator/g_synthesis/8x8/Conv0_up/StyleMod/linear/weight/Initializer/random_normal/RandomStandardNormal (RandomStandardNormal) 
+  generator/g_synthesis/8x8/Conv0_up/StyleMod/linear/weight/Initializer/random_normal/mul (Mul) 
+  generator/g_synthesis/8x8/Conv0_up/StyleMod/linear/weight/Initializer/random_normal (Add) 
+  generator/g_synthesis/8x8/Conv0_up/StyleMod/linear/weight (VariableV2) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/StyleMod/linear/weight/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/StyleMod/linear/weight/read (Identity) /device:GPU:0
+  gradients_4/AddN_40 (AddN) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/StyleMod/linear/weight/Adam/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/StyleMod/linear/weight/Adam/Initializer/zeros/Const (Const) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/StyleMod/linear/weight/Adam/Initializer/zeros (Fill) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/StyleMod/linear/weight/Adam (VariableV2) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/StyleMod/linear/weight/Adam/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/StyleMod/linear/weight/Adam/read (Identity) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/StyleMod/linear/weight/Adam_1/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/StyleMod/linear/weight/Adam_1/Initializer/zeros/Const (Const) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/StyleMod/linear/weight/Adam_1/Initializer/zeros (Fill) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/StyleMod/linear/weight/Adam_1 (VariableV2) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/StyleMod/linear/weight/Adam_1/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/StyleMod/linear/weight/Adam_1/read (Identity) /device:GPU:0
+  Adam_1/update_generator/g_synthesis/8x8/Conv0_up/StyleMod/linear/weight/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.226683: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyAdam: CPU 
+Fill: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Assign: CPU 
+AddN: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  generator/g_synthesis/8x8/Conv0_up/StyleMod/bias/Initializer/zeros/shape_as_tensor (Const) 
+  generator/g_synthesis/8x8/Conv0_up/StyleMod/bias/Initializer/zeros/Const (Const) 
+  generator/g_synthesis/8x8/Conv0_up/StyleMod/bias/Initializer/zeros (Fill) 
+  generator/g_synthesis/8x8/Conv0_up/StyleMod/bias (VariableV2) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/StyleMod/bias/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/StyleMod/bias/read (Identity) /device:GPU:0
+  gradients_4/AddN_39 (AddN) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/StyleMod/bias/Adam/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/StyleMod/bias/Adam/Initializer/zeros/Const (Const) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/StyleMod/bias/Adam/Initializer/zeros (Fill) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/StyleMod/bias/Adam (VariableV2) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/StyleMod/bias/Adam/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/StyleMod/bias/Adam/read (Identity) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/StyleMod/bias/Adam_1/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/StyleMod/bias/Adam_1/Initializer/zeros/Const (Const) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/StyleMod/bias/Adam_1/Initializer/zeros (Fill) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/StyleMod/bias/Adam_1 (VariableV2) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/StyleMod/bias/Adam_1/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/8x8/Conv0_up/StyleMod/bias/Adam_1/read (Identity) /device:GPU:0
+  Adam_1/update_generator/g_synthesis/8x8/Conv0_up/StyleMod/bias/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.226945: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyAdam: CPU 
+AddN: CPU XLA_CPU 
+Add: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+RandomStandardNormal: CPU XLA_CPU 
+VariableV2: CPU 
+Fill: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+Assign: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  generator/g_synthesis/8x8/Conv1/conv_0/weight/Initializer/random_normal/shape (Const) 
+  generator/g_synthesis/8x8/Conv1/conv_0/weight/Initializer/random_normal/mean (Const) 
+  generator/g_synthesis/8x8/Conv1/conv_0/weight/Initializer/random_normal/stddev (Const) 
+  generator/g_synthesis/8x8/Conv1/conv_0/weight/Initializer/random_normal/RandomStandardNormal (RandomStandardNormal) 
+  generator/g_synthesis/8x8/Conv1/conv_0/weight/Initializer/random_normal/mul (Mul) 
+  generator/g_synthesis/8x8/Conv1/conv_0/weight/Initializer/random_normal (Add) 
+  generator/g_synthesis/8x8/Conv1/conv_0/weight (VariableV2) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/conv_0/weight/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/conv_0/weight/read (Identity) /device:GPU:0
+  gradients_4/AddN_31 (AddN) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/conv_0/weight/Adam/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/conv_0/weight/Adam/Initializer/zeros/Const (Const) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/conv_0/weight/Adam/Initializer/zeros (Fill) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/conv_0/weight/Adam (VariableV2) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/conv_0/weight/Adam/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/conv_0/weight/Adam/read (Identity) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/conv_0/weight/Adam_1/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/conv_0/weight/Adam_1/Initializer/zeros/Const (Const) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/conv_0/weight/Adam_1/Initializer/zeros (Fill) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/conv_0/weight/Adam_1 (VariableV2) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/conv_0/weight/Adam_1/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/conv_0/weight/Adam_1/read (Identity) /device:GPU:0
+  Adam_1/update_generator/g_synthesis/8x8/Conv1/conv_0/weight/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.227178: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+AddN: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+Assign: CPU 
+Const: CPU XLA_CPU 
+ApplyAdam: CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  generator/g_synthesis/8x8/Conv1/Noise/weight/Initializer/zeros (Const) 
+  generator/g_synthesis/8x8/Conv1/Noise/weight (VariableV2) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/Noise/weight/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/Noise/weight/read (Identity) /device:GPU:0
+  gradients_4/AddN_32 (AddN) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/Noise/weight/Adam/Initializer/zeros (Const) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/Noise/weight/Adam (VariableV2) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/Noise/weight/Adam/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/Noise/weight/Adam/read (Identity) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/Noise/weight/Adam_1/Initializer/zeros (Const) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/Noise/weight/Adam_1 (VariableV2) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/Noise/weight/Adam_1/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/Noise/weight/Adam_1/read (Identity) /device:GPU:0
+  Adam_1/update_generator/g_synthesis/8x8/Conv1/Noise/weight/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.227402: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+AddN: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+Assign: CPU 
+Const: CPU XLA_CPU 
+ApplyAdam: CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  generator/g_synthesis/8x8/Conv1/bias/Initializer/zeros (Const) 
+  generator/g_synthesis/8x8/Conv1/bias (VariableV2) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/bias/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/bias/read (Identity) /device:GPU:0
+  gradients_4/AddN_30 (AddN) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/bias/Adam/Initializer/zeros (Const) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/bias/Adam (VariableV2) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/bias/Adam/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/bias/Adam/read (Identity) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/bias/Adam_1/Initializer/zeros (Const) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/bias/Adam_1 (VariableV2) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/bias/Adam_1/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/bias/Adam_1/read (Identity) /device:GPU:0
+  Adam_1/update_generator/g_synthesis/8x8/Conv1/bias/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.227651: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyAdam: CPU 
+AddN: CPU XLA_CPU 
+Add: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+RandomStandardNormal: CPU XLA_CPU 
+VariableV2: CPU 
+Fill: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+Assign: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  generator/g_synthesis/8x8/Conv1/StyleMod/linear/weight/Initializer/random_normal/shape (Const) 
+  generator/g_synthesis/8x8/Conv1/StyleMod/linear/weight/Initializer/random_normal/mean (Const) 
+  generator/g_synthesis/8x8/Conv1/StyleMod/linear/weight/Initializer/random_normal/stddev (Const) 
+  generator/g_synthesis/8x8/Conv1/StyleMod/linear/weight/Initializer/random_normal/RandomStandardNormal (RandomStandardNormal) 
+  generator/g_synthesis/8x8/Conv1/StyleMod/linear/weight/Initializer/random_normal/mul (Mul) 
+  generator/g_synthesis/8x8/Conv1/StyleMod/linear/weight/Initializer/random_normal (Add) 
+  generator/g_synthesis/8x8/Conv1/StyleMod/linear/weight (VariableV2) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/StyleMod/linear/weight/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/StyleMod/linear/weight/read (Identity) /device:GPU:0
+  gradients_4/AddN_26 (AddN) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/StyleMod/linear/weight/Adam/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/StyleMod/linear/weight/Adam/Initializer/zeros/Const (Const) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/StyleMod/linear/weight/Adam/Initializer/zeros (Fill) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/StyleMod/linear/weight/Adam (VariableV2) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/StyleMod/linear/weight/Adam/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/StyleMod/linear/weight/Adam/read (Identity) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/StyleMod/linear/weight/Adam_1/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/StyleMod/linear/weight/Adam_1/Initializer/zeros/Const (Const) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/StyleMod/linear/weight/Adam_1/Initializer/zeros (Fill) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/StyleMod/linear/weight/Adam_1 (VariableV2) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/StyleMod/linear/weight/Adam_1/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/StyleMod/linear/weight/Adam_1/read (Identity) /device:GPU:0
+  Adam_1/update_generator/g_synthesis/8x8/Conv1/StyleMod/linear/weight/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.227886: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyAdam: CPU 
+Fill: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+VariableV2: CPU 
+Assign: CPU 
+AddN: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  generator/g_synthesis/8x8/Conv1/StyleMod/bias/Initializer/zeros/shape_as_tensor (Const) 
+  generator/g_synthesis/8x8/Conv1/StyleMod/bias/Initializer/zeros/Const (Const) 
+  generator/g_synthesis/8x8/Conv1/StyleMod/bias/Initializer/zeros (Fill) 
+  generator/g_synthesis/8x8/Conv1/StyleMod/bias (VariableV2) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/StyleMod/bias/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/StyleMod/bias/read (Identity) /device:GPU:0
+  gradients_4/AddN_25 (AddN) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/StyleMod/bias/Adam/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/StyleMod/bias/Adam/Initializer/zeros/Const (Const) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/StyleMod/bias/Adam/Initializer/zeros (Fill) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/StyleMod/bias/Adam (VariableV2) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/StyleMod/bias/Adam/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/StyleMod/bias/Adam/read (Identity) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/StyleMod/bias/Adam_1/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/StyleMod/bias/Adam_1/Initializer/zeros/Const (Const) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/StyleMod/bias/Adam_1/Initializer/zeros (Fill) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/StyleMod/bias/Adam_1 (VariableV2) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/StyleMod/bias/Adam_1/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/8x8/Conv1/StyleMod/bias/Adam_1/read (Identity) /device:GPU:0
+  Adam_1/update_generator/g_synthesis/8x8/Conv1/StyleMod/bias/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.228144: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyAdam: CPU 
+AddN: CPU XLA_CPU 
+Add: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+RandomStandardNormal: CPU XLA_CPU 
+VariableV2: CPU 
+Fill: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+Assign: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  generator/g_synthesis/8x8/ToRGB/conv_0/weight/Initializer/random_normal/shape (Const) 
+  generator/g_synthesis/8x8/ToRGB/conv_0/weight/Initializer/random_normal/mean (Const) 
+  generator/g_synthesis/8x8/ToRGB/conv_0/weight/Initializer/random_normal/stddev (Const) 
+  generator/g_synthesis/8x8/ToRGB/conv_0/weight/Initializer/random_normal/RandomStandardNormal (RandomStandardNormal) 
+  generator/g_synthesis/8x8/ToRGB/conv_0/weight/Initializer/random_normal/mul (Mul) 
+  generator/g_synthesis/8x8/ToRGB/conv_0/weight/Initializer/random_normal (Add) 
+  generator/g_synthesis/8x8/ToRGB/conv_0/weight (VariableV2) /device:GPU:0
+  generator/g_synthesis/8x8/ToRGB/conv_0/weight/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/8x8/ToRGB/conv_0/weight/read (Identity) /device:GPU:0
+  gradients_4/AddN_15 (AddN) /device:GPU:0
+  generator/g_synthesis/8x8/ToRGB/conv_0/weight/Adam/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  generator/g_synthesis/8x8/ToRGB/conv_0/weight/Adam/Initializer/zeros/Const (Const) /device:GPU:0
+  generator/g_synthesis/8x8/ToRGB/conv_0/weight/Adam/Initializer/zeros (Fill) /device:GPU:0
+  generator/g_synthesis/8x8/ToRGB/conv_0/weight/Adam (VariableV2) /device:GPU:0
+  generator/g_synthesis/8x8/ToRGB/conv_0/weight/Adam/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/8x8/ToRGB/conv_0/weight/Adam/read (Identity) /device:GPU:0
+  generator/g_synthesis/8x8/ToRGB/conv_0/weight/Adam_1/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  generator/g_synthesis/8x8/ToRGB/conv_0/weight/Adam_1/Initializer/zeros/Const (Const) /device:GPU:0
+  generator/g_synthesis/8x8/ToRGB/conv_0/weight/Adam_1/Initializer/zeros (Fill) /device:GPU:0
+  generator/g_synthesis/8x8/ToRGB/conv_0/weight/Adam_1 (VariableV2) /device:GPU:0
+  generator/g_synthesis/8x8/ToRGB/conv_0/weight/Adam_1/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/8x8/ToRGB/conv_0/weight/Adam_1/read (Identity) /device:GPU:0
+  Adam_1/update_generator/g_synthesis/8x8/ToRGB/conv_0/weight/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.228366: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+AddN: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+Assign: CPU 
+Const: CPU XLA_CPU 
+ApplyAdam: CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  generator/g_synthesis/8x8/ToRGB/bias/Initializer/zeros (Const) 
+  generator/g_synthesis/8x8/ToRGB/bias (VariableV2) /device:GPU:0
+  generator/g_synthesis/8x8/ToRGB/bias/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/8x8/ToRGB/bias/read (Identity) /device:GPU:0
+  gradients_4/AddN_16 (AddN) /device:GPU:0
+  generator/g_synthesis/8x8/ToRGB/bias/Adam/Initializer/zeros (Const) /device:GPU:0
+  generator/g_synthesis/8x8/ToRGB/bias/Adam (VariableV2) /device:GPU:0
+  generator/g_synthesis/8x8/ToRGB/bias/Adam/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/8x8/ToRGB/bias/Adam/read (Identity) /device:GPU:0
+  generator/g_synthesis/8x8/ToRGB/bias/Adam_1/Initializer/zeros (Const) /device:GPU:0
+  generator/g_synthesis/8x8/ToRGB/bias/Adam_1 (VariableV2) /device:GPU:0
+  generator/g_synthesis/8x8/ToRGB/bias/Adam_1/Assign (Assign) /device:GPU:0
+  generator/g_synthesis/8x8/ToRGB/bias/Adam_1/read (Identity) /device:GPU:0
+  Adam_1/update_generator/g_synthesis/8x8/ToRGB/bias/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.228640: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyAdam: CPU 
+AddN: CPU XLA_CPU 
+Add: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+RandomStandardNormal: CPU XLA_CPU 
+VariableV2: CPU 
+Fill: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+Assign: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  discriminator/8x8/FromRGB/conv_0/weight/Initializer/random_normal/shape (Const) 
+  discriminator/8x8/FromRGB/conv_0/weight/Initializer/random_normal/mean (Const) 
+  discriminator/8x8/FromRGB/conv_0/weight/Initializer/random_normal/stddev (Const) 
+  discriminator/8x8/FromRGB/conv_0/weight/Initializer/random_normal/RandomStandardNormal (RandomStandardNormal) 
+  discriminator/8x8/FromRGB/conv_0/weight/Initializer/random_normal/mul (Mul) 
+  discriminator/8x8/FromRGB/conv_0/weight/Initializer/random_normal (Add) 
+  discriminator/8x8/FromRGB/conv_0/weight (VariableV2) /device:GPU:0
+  discriminator/8x8/FromRGB/conv_0/weight/Assign (Assign) /device:GPU:0
+  discriminator/8x8/FromRGB/conv_0/weight/read (Identity) /device:GPU:0
+  gradients_3/AddN_126 (AddN) /device:GPU:0
+  discriminator/8x8/FromRGB/conv_0/weight/Adam/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  discriminator/8x8/FromRGB/conv_0/weight/Adam/Initializer/zeros/Const (Const) /device:GPU:0
+  discriminator/8x8/FromRGB/conv_0/weight/Adam/Initializer/zeros (Fill) /device:GPU:0
+  discriminator/8x8/FromRGB/conv_0/weight/Adam (VariableV2) /device:GPU:0
+  discriminator/8x8/FromRGB/conv_0/weight/Adam/Assign (Assign) /device:GPU:0
+  discriminator/8x8/FromRGB/conv_0/weight/Adam/read (Identity) /device:GPU:0
+  discriminator/8x8/FromRGB/conv_0/weight/Adam_1/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  discriminator/8x8/FromRGB/conv_0/weight/Adam_1/Initializer/zeros/Const (Const) /device:GPU:0
+  discriminator/8x8/FromRGB/conv_0/weight/Adam_1/Initializer/zeros (Fill) /device:GPU:0
+  discriminator/8x8/FromRGB/conv_0/weight/Adam_1 (VariableV2) /device:GPU:0
+  discriminator/8x8/FromRGB/conv_0/weight/Adam_1/Assign (Assign) /device:GPU:0
+  discriminator/8x8/FromRGB/conv_0/weight/Adam_1/read (Identity) /device:GPU:0
+  Adam/update_discriminator/8x8/FromRGB/conv_0/weight/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.228863: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+AddN: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+Assign: CPU 
+Const: CPU XLA_CPU 
+ApplyAdam: CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  discriminator/8x8/FromRGB/bias/Initializer/zeros (Const) 
+  discriminator/8x8/FromRGB/bias (VariableV2) /device:GPU:0
+  discriminator/8x8/FromRGB/bias/Assign (Assign) /device:GPU:0
+  discriminator/8x8/FromRGB/bias/read (Identity) /device:GPU:0
+  gradients_3/AddN_130 (AddN) /device:GPU:0
+  discriminator/8x8/FromRGB/bias/Adam/Initializer/zeros (Const) /device:GPU:0
+  discriminator/8x8/FromRGB/bias/Adam (VariableV2) /device:GPU:0
+  discriminator/8x8/FromRGB/bias/Adam/Assign (Assign) /device:GPU:0
+  discriminator/8x8/FromRGB/bias/Adam/read (Identity) /device:GPU:0
+  discriminator/8x8/FromRGB/bias/Adam_1/Initializer/zeros (Const) /device:GPU:0
+  discriminator/8x8/FromRGB/bias/Adam_1 (VariableV2) /device:GPU:0
+  discriminator/8x8/FromRGB/bias/Adam_1/Assign (Assign) /device:GPU:0
+  discriminator/8x8/FromRGB/bias/Adam_1/read (Identity) /device:GPU:0
+  Adam/update_discriminator/8x8/FromRGB/bias/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.229106: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyAdam: CPU 
+AddN: CPU XLA_CPU 
+Add: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+RandomStandardNormal: CPU XLA_CPU 
+VariableV2: CPU 
+Fill: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+Assign: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  discriminator/8x8/Conv0/conv_0/weight/Initializer/random_normal/shape (Const) 
+  discriminator/8x8/Conv0/conv_0/weight/Initializer/random_normal/mean (Const) 
+  discriminator/8x8/Conv0/conv_0/weight/Initializer/random_normal/stddev (Const) 
+  discriminator/8x8/Conv0/conv_0/weight/Initializer/random_normal/RandomStandardNormal (RandomStandardNormal) 
+  discriminator/8x8/Conv0/conv_0/weight/Initializer/random_normal/mul (Mul) 
+  discriminator/8x8/Conv0/conv_0/weight/Initializer/random_normal (Add) 
+  discriminator/8x8/Conv0/conv_0/weight (VariableV2) /device:GPU:0
+  discriminator/8x8/Conv0/conv_0/weight/Assign (Assign) /device:GPU:0
+  discriminator/8x8/Conv0/conv_0/weight/read (Identity) /device:GPU:0
+  gradients_3/AddN_115 (AddN) /device:GPU:0
+  discriminator/8x8/Conv0/conv_0/weight/Adam/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  discriminator/8x8/Conv0/conv_0/weight/Adam/Initializer/zeros/Const (Const) /device:GPU:0
+  discriminator/8x8/Conv0/conv_0/weight/Adam/Initializer/zeros (Fill) /device:GPU:0
+  discriminator/8x8/Conv0/conv_0/weight/Adam (VariableV2) /device:GPU:0
+  discriminator/8x8/Conv0/conv_0/weight/Adam/Assign (Assign) /device:GPU:0
+  discriminator/8x8/Conv0/conv_0/weight/Adam/read (Identity) /device:GPU:0
+  discriminator/8x8/Conv0/conv_0/weight/Adam_1/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  discriminator/8x8/Conv0/conv_0/weight/Adam_1/Initializer/zeros/Const (Const) /device:GPU:0
+  discriminator/8x8/Conv0/conv_0/weight/Adam_1/Initializer/zeros (Fill) /device:GPU:0
+  discriminator/8x8/Conv0/conv_0/weight/Adam_1 (VariableV2) /device:GPU:0
+  discriminator/8x8/Conv0/conv_0/weight/Adam_1/Assign (Assign) /device:GPU:0
+  discriminator/8x8/Conv0/conv_0/weight/Adam_1/read (Identity) /device:GPU:0
+  Adam/update_discriminator/8x8/Conv0/conv_0/weight/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.229336: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+AddN: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+Assign: CPU 
+Const: CPU XLA_CPU 
+ApplyAdam: CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  discriminator/8x8/Conv0/bias/Initializer/zeros (Const) 
+  discriminator/8x8/Conv0/bias (VariableV2) /device:GPU:0
+  discriminator/8x8/Conv0/bias/Assign (Assign) /device:GPU:0
+  discriminator/8x8/Conv0/bias/read (Identity) /device:GPU:0
+  gradients_3/AddN_119 (AddN) /device:GPU:0
+  discriminator/8x8/Conv0/bias/Adam/Initializer/zeros (Const) /device:GPU:0
+  discriminator/8x8/Conv0/bias/Adam (VariableV2) /device:GPU:0
+  discriminator/8x8/Conv0/bias/Adam/Assign (Assign) /device:GPU:0
+  discriminator/8x8/Conv0/bias/Adam/read (Identity) /device:GPU:0
+  discriminator/8x8/Conv0/bias/Adam_1/Initializer/zeros (Const) /device:GPU:0
+  discriminator/8x8/Conv0/bias/Adam_1 (VariableV2) /device:GPU:0
+  discriminator/8x8/Conv0/bias/Adam_1/Assign (Assign) /device:GPU:0
+  discriminator/8x8/Conv0/bias/Adam_1/read (Identity) /device:GPU:0
+  Adam/update_discriminator/8x8/Conv0/bias/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.229583: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyAdam: CPU 
+AddN: CPU XLA_CPU 
+Add: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+RandomStandardNormal: CPU XLA_CPU 
+VariableV2: CPU 
+Fill: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+Assign: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  discriminator/8x8/Conv1_down/conv_0/weight/Initializer/random_normal/shape (Const) 
+  discriminator/8x8/Conv1_down/conv_0/weight/Initializer/random_normal/mean (Const) 
+  discriminator/8x8/Conv1_down/conv_0/weight/Initializer/random_normal/stddev (Const) 
+  discriminator/8x8/Conv1_down/conv_0/weight/Initializer/random_normal/RandomStandardNormal (RandomStandardNormal) 
+  discriminator/8x8/Conv1_down/conv_0/weight/Initializer/random_normal/mul (Mul) 
+  discriminator/8x8/Conv1_down/conv_0/weight/Initializer/random_normal (Add) 
+  discriminator/8x8/Conv1_down/conv_0/weight (VariableV2) /device:GPU:0
+  discriminator/8x8/Conv1_down/conv_0/weight/Assign (Assign) /device:GPU:0
+  discriminator/8x8/Conv1_down/conv_0/weight/read (Identity) /device:GPU:0
+  gradients_3/AddN_102 (AddN) /device:GPU:0
+  discriminator/8x8/Conv1_down/conv_0/weight/Adam/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  discriminator/8x8/Conv1_down/conv_0/weight/Adam/Initializer/zeros/Const (Const) /device:GPU:0
+  discriminator/8x8/Conv1_down/conv_0/weight/Adam/Initializer/zeros (Fill) /device:GPU:0
+  discriminator/8x8/Conv1_down/conv_0/weight/Adam (VariableV2) /device:GPU:0
+  discriminator/8x8/Conv1_down/conv_0/weight/Adam/Assign (Assign) /device:GPU:0
+  discriminator/8x8/Conv1_down/conv_0/weight/Adam/read (Identity) /device:GPU:0
+  discriminator/8x8/Conv1_down/conv_0/weight/Adam_1/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  discriminator/8x8/Conv1_down/conv_0/weight/Adam_1/Initializer/zeros/Const (Const) /device:GPU:0
+  discriminator/8x8/Conv1_down/conv_0/weight/Adam_1/Initializer/zeros (Fill) /device:GPU:0
+  discriminator/8x8/Conv1_down/conv_0/weight/Adam_1 (VariableV2) /device:GPU:0
+  discriminator/8x8/Conv1_down/conv_0/weight/Adam_1/Assign (Assign) /device:GPU:0
+  discriminator/8x8/Conv1_down/conv_0/weight/Adam_1/read (Identity) /device:GPU:0
+  Adam/update_discriminator/8x8/Conv1_down/conv_0/weight/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.229811: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+AddN: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+Assign: CPU 
+Const: CPU XLA_CPU 
+ApplyAdam: CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  discriminator/8x8/Conv1_down/bias/Initializer/zeros (Const) 
+  discriminator/8x8/Conv1_down/bias (VariableV2) /device:GPU:0
+  discriminator/8x8/Conv1_down/bias/Assign (Assign) /device:GPU:0
+  discriminator/8x8/Conv1_down/bias/read (Identity) /device:GPU:0
+  gradients_3/AddN_95 (AddN) /device:GPU:0
+  discriminator/8x8/Conv1_down/bias/Adam/Initializer/zeros (Const) /device:GPU:0
+  discriminator/8x8/Conv1_down/bias/Adam (VariableV2) /device:GPU:0
+  discriminator/8x8/Conv1_down/bias/Adam/Assign (Assign) /device:GPU:0
+  discriminator/8x8/Conv1_down/bias/Adam/read (Identity) /device:GPU:0
+  discriminator/8x8/Conv1_down/bias/Adam_1/Initializer/zeros (Const) /device:GPU:0
+  discriminator/8x8/Conv1_down/bias/Adam_1 (VariableV2) /device:GPU:0
+  discriminator/8x8/Conv1_down/bias/Adam_1/Assign (Assign) /device:GPU:0
+  discriminator/8x8/Conv1_down/bias/Adam_1/read (Identity) /device:GPU:0
+  Adam/update_discriminator/8x8/Conv1_down/bias/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.230053: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyAdam: CPU 
+AddN: CPU XLA_CPU 
+Add: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+RandomStandardNormal: CPU XLA_CPU 
+VariableV2: CPU 
+Fill: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+Assign: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  discriminator/4x4/FromRGB/conv_0/weight/Initializer/random_normal/shape (Const) 
+  discriminator/4x4/FromRGB/conv_0/weight/Initializer/random_normal/mean (Const) 
+  discriminator/4x4/FromRGB/conv_0/weight/Initializer/random_normal/stddev (Const) 
+  discriminator/4x4/FromRGB/conv_0/weight/Initializer/random_normal/RandomStandardNormal (RandomStandardNormal) 
+  discriminator/4x4/FromRGB/conv_0/weight/Initializer/random_normal/mul (Mul) 
+  discriminator/4x4/FromRGB/conv_0/weight/Initializer/random_normal (Add) 
+  discriminator/4x4/FromRGB/conv_0/weight (VariableV2) /device:GPU:0
+  discriminator/4x4/FromRGB/conv_0/weight/Assign (Assign) /device:GPU:0
+  discriminator/4x4/FromRGB/conv_0/weight/read (Identity) /device:GPU:0
+  gradients_3/AddN_87 (AddN) /device:GPU:0
+  discriminator/4x4/FromRGB/conv_0/weight/Adam/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  discriminator/4x4/FromRGB/conv_0/weight/Adam/Initializer/zeros/Const (Const) /device:GPU:0
+  discriminator/4x4/FromRGB/conv_0/weight/Adam/Initializer/zeros (Fill) /device:GPU:0
+  discriminator/4x4/FromRGB/conv_0/weight/Adam (VariableV2) /device:GPU:0
+  discriminator/4x4/FromRGB/conv_0/weight/Adam/Assign (Assign) /device:GPU:0
+  discriminator/4x4/FromRGB/conv_0/weight/Adam/read (Identity) /device:GPU:0
+  discriminator/4x4/FromRGB/conv_0/weight/Adam_1/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  discriminator/4x4/FromRGB/conv_0/weight/Adam_1/Initializer/zeros/Const (Const) /device:GPU:0
+  discriminator/4x4/FromRGB/conv_0/weight/Adam_1/Initializer/zeros (Fill) /device:GPU:0
+  discriminator/4x4/FromRGB/conv_0/weight/Adam_1 (VariableV2) /device:GPU:0
+  discriminator/4x4/FromRGB/conv_0/weight/Adam_1/Assign (Assign) /device:GPU:0
+  discriminator/4x4/FromRGB/conv_0/weight/Adam_1/read (Identity) /device:GPU:0
+  Adam/update_discriminator/4x4/FromRGB/conv_0/weight/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.230284: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+AddN: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+Assign: CPU 
+Const: CPU XLA_CPU 
+ApplyAdam: CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  discriminator/4x4/FromRGB/bias/Initializer/zeros (Const) 
+  discriminator/4x4/FromRGB/bias (VariableV2) /device:GPU:0
+  discriminator/4x4/FromRGB/bias/Assign (Assign) /device:GPU:0
+  discriminator/4x4/FromRGB/bias/read (Identity) /device:GPU:0
+  gradients_3/AddN_91 (AddN) /device:GPU:0
+  discriminator/4x4/FromRGB/bias/Adam/Initializer/zeros (Const) /device:GPU:0
+  discriminator/4x4/FromRGB/bias/Adam (VariableV2) /device:GPU:0
+  discriminator/4x4/FromRGB/bias/Adam/Assign (Assign) /device:GPU:0
+  discriminator/4x4/FromRGB/bias/Adam/read (Identity) /device:GPU:0
+  discriminator/4x4/FromRGB/bias/Adam_1/Initializer/zeros (Const) /device:GPU:0
+  discriminator/4x4/FromRGB/bias/Adam_1 (VariableV2) /device:GPU:0
+  discriminator/4x4/FromRGB/bias/Adam_1/Assign (Assign) /device:GPU:0
+  discriminator/4x4/FromRGB/bias/Adam_1/read (Identity) /device:GPU:0
+  Adam/update_discriminator/4x4/FromRGB/bias/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.230559: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyAdam: CPU 
+AddN: CPU XLA_CPU 
+Add: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+RandomStandardNormal: CPU XLA_CPU 
+VariableV2: CPU 
+Fill: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+Assign: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  discriminator/4x4/Conv0/conv_0/weight/Initializer/random_normal/shape (Const) 
+  discriminator/4x4/Conv0/conv_0/weight/Initializer/random_normal/mean (Const) 
+  discriminator/4x4/Conv0/conv_0/weight/Initializer/random_normal/stddev (Const) 
+  discriminator/4x4/Conv0/conv_0/weight/Initializer/random_normal/RandomStandardNormal (RandomStandardNormal) 
+  discriminator/4x4/Conv0/conv_0/weight/Initializer/random_normal/mul (Mul) 
+  discriminator/4x4/Conv0/conv_0/weight/Initializer/random_normal (Add) 
+  discriminator/4x4/Conv0/conv_0/weight (VariableV2) /device:GPU:0
+  discriminator/4x4/Conv0/conv_0/weight/Assign (Assign) /device:GPU:0
+  discriminator/4x4/Conv0/conv_0/weight/read (Identity) /device:GPU:0
+  gradients_3/AddN_55 (AddN) /device:GPU:0
+  discriminator/4x4/Conv0/conv_0/weight/Adam/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  discriminator/4x4/Conv0/conv_0/weight/Adam/Initializer/zeros/Const (Const) /device:GPU:0
+  discriminator/4x4/Conv0/conv_0/weight/Adam/Initializer/zeros (Fill) /device:GPU:0
+  discriminator/4x4/Conv0/conv_0/weight/Adam (VariableV2) /device:GPU:0
+  discriminator/4x4/Conv0/conv_0/weight/Adam/Assign (Assign) /device:GPU:0
+  discriminator/4x4/Conv0/conv_0/weight/Adam/read (Identity) /device:GPU:0
+  discriminator/4x4/Conv0/conv_0/weight/Adam_1/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  discriminator/4x4/Conv0/conv_0/weight/Adam_1/Initializer/zeros/Const (Const) /device:GPU:0
+  discriminator/4x4/Conv0/conv_0/weight/Adam_1/Initializer/zeros (Fill) /device:GPU:0
+  discriminator/4x4/Conv0/conv_0/weight/Adam_1 (VariableV2) /device:GPU:0
+  discriminator/4x4/Conv0/conv_0/weight/Adam_1/Assign (Assign) /device:GPU:0
+  discriminator/4x4/Conv0/conv_0/weight/Adam_1/read (Identity) /device:GPU:0
+  Adam/update_discriminator/4x4/Conv0/conv_0/weight/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.230799: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+Mul: CPU XLA_CPU 
+ApplyAdam: CPU 
+Const: CPU XLA_CPU 
+Assign: CPU 
+VariableV2: CPU 
+Identity: CPU XLA_CPU 
+AddN: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  discriminator/4x4/Conv0/bias/Initializer/zeros (Const) 
+  discriminator/4x4/Conv0/bias (VariableV2) /device:GPU:0
+  discriminator/4x4/Conv0/bias/Assign (Assign) /device:GPU:0
+  discriminator/4x4/Conv0/bias/read (Identity) /device:GPU:0
+  gradients_3/AddN_59 (AddN) /device:GPU:0
+  beta1_power/initial_value (Const) /device:GPU:0
+  beta1_power (VariableV2) /device:GPU:0
+  beta1_power/Assign (Assign) /device:GPU:0
+  beta1_power/read (Identity) /device:GPU:0
+  beta2_power/initial_value (Const) /device:GPU:0
+  beta2_power (VariableV2) /device:GPU:0
+  beta2_power/Assign (Assign) /device:GPU:0
+  beta2_power/read (Identity) /device:GPU:0
+  discriminator/4x4/Conv0/bias/Adam/Initializer/zeros (Const) /device:GPU:0
+  discriminator/4x4/Conv0/bias/Adam (VariableV2) /device:GPU:0
+  discriminator/4x4/Conv0/bias/Adam/Assign (Assign) /device:GPU:0
+  discriminator/4x4/Conv0/bias/Adam/read (Identity) /device:GPU:0
+  discriminator/4x4/Conv0/bias/Adam_1/Initializer/zeros (Const) /device:GPU:0
+  discriminator/4x4/Conv0/bias/Adam_1 (VariableV2) /device:GPU:0
+  discriminator/4x4/Conv0/bias/Adam_1/Assign (Assign) /device:GPU:0
+  discriminator/4x4/Conv0/bias/Adam_1/read (Identity) /device:GPU:0
+  Adam/update_discriminator/4x4/Conv0/bias/ApplyAdam (ApplyAdam) /device:GPU:0
+  Adam/mul (Mul) /device:GPU:0
+  Adam/Assign (Assign) /device:GPU:0
+  Adam/mul_1 (Mul) /device:GPU:0
+  Adam/Assign_1 (Assign) /device:GPU:0
+
+2025-05-28 15:51:03.231058: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyAdam: CPU 
+AddN: CPU XLA_CPU 
+Add: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+RandomStandardNormal: CPU XLA_CPU 
+VariableV2: CPU 
+Fill: CPU XLA_CPU 
+Const: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+Assign: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  discriminator/4x4/Dense0/linear/weight/Initializer/random_normal/shape (Const) 
+  discriminator/4x4/Dense0/linear/weight/Initializer/random_normal/mean (Const) 
+  discriminator/4x4/Dense0/linear/weight/Initializer/random_normal/stddev (Const) 
+  discriminator/4x4/Dense0/linear/weight/Initializer/random_normal/RandomStandardNormal (RandomStandardNormal) 
+  discriminator/4x4/Dense0/linear/weight/Initializer/random_normal/mul (Mul) 
+  discriminator/4x4/Dense0/linear/weight/Initializer/random_normal (Add) 
+  discriminator/4x4/Dense0/linear/weight (VariableV2) /device:GPU:0
+  discriminator/4x4/Dense0/linear/weight/Assign (Assign) /device:GPU:0
+  discriminator/4x4/Dense0/linear/weight/read (Identity) /device:GPU:0
+  gradients_3/AddN_45 (AddN) /device:GPU:0
+  discriminator/4x4/Dense0/linear/weight/Adam/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  discriminator/4x4/Dense0/linear/weight/Adam/Initializer/zeros/Const (Const) /device:GPU:0
+  discriminator/4x4/Dense0/linear/weight/Adam/Initializer/zeros (Fill) /device:GPU:0
+  discriminator/4x4/Dense0/linear/weight/Adam (VariableV2) /device:GPU:0
+  discriminator/4x4/Dense0/linear/weight/Adam/Assign (Assign) /device:GPU:0
+  discriminator/4x4/Dense0/linear/weight/Adam/read (Identity) /device:GPU:0
+  discriminator/4x4/Dense0/linear/weight/Adam_1/Initializer/zeros/shape_as_tensor (Const) /device:GPU:0
+  discriminator/4x4/Dense0/linear/weight/Adam_1/Initializer/zeros/Const (Const) /device:GPU:0
+  discriminator/4x4/Dense0/linear/weight/Adam_1/Initializer/zeros (Fill) /device:GPU:0
+  discriminator/4x4/Dense0/linear/weight/Adam_1 (VariableV2) /device:GPU:0
+  discriminator/4x4/Dense0/linear/weight/Adam_1/Assign (Assign) /device:GPU:0
+  discriminator/4x4/Dense0/linear/weight/Adam_1/read (Identity) /device:GPU:0
+  Adam/update_discriminator/4x4/Dense0/linear/weight/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.231288: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+AddN: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+Assign: CPU 
+Const: CPU XLA_CPU 
+ApplyAdam: CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  discriminator/4x4/Dense0/bias/Initializer/zeros (Const) 
+  discriminator/4x4/Dense0/bias (VariableV2) /device:GPU:0
+  discriminator/4x4/Dense0/bias/Assign (Assign) /device:GPU:0
+  discriminator/4x4/Dense0/bias/read (Identity) /device:GPU:0
+  gradients_3/AddN_37 (AddN) /device:GPU:0
+  discriminator/4x4/Dense0/bias/Adam/Initializer/zeros (Const) /device:GPU:0
+  discriminator/4x4/Dense0/bias/Adam (VariableV2) /device:GPU:0
+  discriminator/4x4/Dense0/bias/Adam/Assign (Assign) /device:GPU:0
+  discriminator/4x4/Dense0/bias/Adam/read (Identity) /device:GPU:0
+  discriminator/4x4/Dense0/bias/Adam_1/Initializer/zeros (Const) /device:GPU:0
+  discriminator/4x4/Dense0/bias/Adam_1 (VariableV2) /device:GPU:0
+  discriminator/4x4/Dense0/bias/Adam_1/Assign (Assign) /device:GPU:0
+  discriminator/4x4/Dense0/bias/Adam_1/read (Identity) /device:GPU:0
+  Adam/update_discriminator/4x4/Dense0/bias/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.231536: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+ApplyAdam: CPU 
+AddN: CPU XLA_CPU 
+Add: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+RandomStandardNormal: CPU XLA_CPU 
+VariableV2: CPU 
+Const: CPU XLA_CPU 
+Mul: CPU XLA_CPU 
+Assign: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  discriminator/4x4/Dense1/linear/weight/Initializer/random_normal/shape (Const) 
+  discriminator/4x4/Dense1/linear/weight/Initializer/random_normal/mean (Const) 
+  discriminator/4x4/Dense1/linear/weight/Initializer/random_normal/stddev (Const) 
+  discriminator/4x4/Dense1/linear/weight/Initializer/random_normal/RandomStandardNormal (RandomStandardNormal) 
+  discriminator/4x4/Dense1/linear/weight/Initializer/random_normal/mul (Mul) 
+  discriminator/4x4/Dense1/linear/weight/Initializer/random_normal (Add) 
+  discriminator/4x4/Dense1/linear/weight (VariableV2) /device:GPU:0
+  discriminator/4x4/Dense1/linear/weight/Assign (Assign) /device:GPU:0
+  discriminator/4x4/Dense1/linear/weight/read (Identity) /device:GPU:0
+  gradients_3/AddN_41 (AddN) /device:GPU:0
+  discriminator/4x4/Dense1/linear/weight/Adam/Initializer/zeros (Const) /device:GPU:0
+  discriminator/4x4/Dense1/linear/weight/Adam (VariableV2) /device:GPU:0
+  discriminator/4x4/Dense1/linear/weight/Adam/Assign (Assign) /device:GPU:0
+  discriminator/4x4/Dense1/linear/weight/Adam/read (Identity) /device:GPU:0
+  discriminator/4x4/Dense1/linear/weight/Adam_1/Initializer/zeros (Const) /device:GPU:0
+  discriminator/4x4/Dense1/linear/weight/Adam_1 (VariableV2) /device:GPU:0
+  discriminator/4x4/Dense1/linear/weight/Adam_1/Assign (Assign) /device:GPU:0
+  discriminator/4x4/Dense1/linear/weight/Adam_1/read (Identity) /device:GPU:0
+  Adam/update_discriminator/4x4/Dense1/linear/weight/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.231772: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:0' assigned_device_name_='' resource_device_name_='/device:GPU:0' supported_device_types_=[CPU] possible_devices_=[]
+AddN: CPU XLA_CPU 
+Identity: CPU XLA_CPU 
+Assign: CPU 
+Const: CPU XLA_CPU 
+ApplyAdam: CPU 
+VariableV2: CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  discriminator/4x4/Dense1/bias/Initializer/zeros (Const) 
+  discriminator/4x4/Dense1/bias (VariableV2) /device:GPU:0
+  discriminator/4x4/Dense1/bias/Assign (Assign) /device:GPU:0
+  discriminator/4x4/Dense1/bias/read (Identity) /device:GPU:0
+  gradients_3/AddN_3 (AddN) /device:GPU:0
+  discriminator/4x4/Dense1/bias/Adam/Initializer/zeros (Const) /device:GPU:0
+  discriminator/4x4/Dense1/bias/Adam (VariableV2) /device:GPU:0
+  discriminator/4x4/Dense1/bias/Adam/Assign (Assign) /device:GPU:0
+  discriminator/4x4/Dense1/bias/Adam/read (Identity) /device:GPU:0
+  discriminator/4x4/Dense1/bias/Adam_1/Initializer/zeros (Const) /device:GPU:0
+  discriminator/4x4/Dense1/bias/Adam_1 (VariableV2) /device:GPU:0
+  discriminator/4x4/Dense1/bias/Adam_1/Assign (Assign) /device:GPU:0
+  discriminator/4x4/Dense1/bias/Adam_1/read (Identity) /device:GPU:0
+  Adam/update_discriminator/4x4/Dense1/bias/ApplyAdam (ApplyAdam) /device:GPU:0
+
+2025-05-28 15:51:03.232223: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:1' assigned_device_name_='' resource_device_name_='/device:GPU:1' supported_device_types_=[CPU] possible_devices_=[]
+IteratorGetNext: CPU XLA_CPU 
+OneShotIterator: CPU 
+IteratorToStringHandle: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  OneShotIterator_1 (OneShotIterator) /device:GPU:1
+  IteratorToStringHandle_1 (IteratorToStringHandle) /device:GPU:1
+  IteratorGetNext_1 (IteratorGetNext) /device:GPU:1
+
+2025-05-28 15:51:03.233016: W tensorflow/core/common_runtime/colocation_graph.cc:983] Failed to place the graph without changing the devices of some resources. Some of the operations (that had to be colocated with resource generating operations) are not supported on the resources' devices. Current candidate devices are [
+  /job:localhost/replica:0/task:0/device:CPU:0].
+See below for details of this colocation group:
+Colocation Debug Info:
+Colocation group had the following types and supported devices: 
+Root Member(assigned_device_name_index_=-1 requested_device_name_='/device:GPU:2' assigned_device_name_='' resource_device_name_='/device:GPU:2' supported_device_types_=[CPU] possible_devices_=[]
+IteratorGetNext: CPU XLA_CPU 
+OneShotIterator: CPU 
+IteratorToStringHandle: CPU XLA_CPU 
+
+Colocation members, user-requested devices, and framework assigned devices, if any:
+  OneShotIterator_2 (OneShotIterator) /device:GPU:2
+  IteratorToStringHandle_2 (IteratorToStringHandle) /device:GPU:2
+  IteratorGetNext_2 (IteratorGetNext) /device:GPU:2
+
+WARNING:tensorflow:From /home/lei/compatibility_analysis/tensorflow/1.13/StyleGAN-Tensorflow/StyleGAN.py:403: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+WARNING:tensorflow:From /home/lei/compatibility_analysis/tensorflow/1.13/StyleGAN-Tensorflow/StyleGAN.py:406: The name tf.summary.FileWriter is deprecated. Please use tf.compat.v1.summary.FileWriter instead.
+
+
+##### Information #####
+# dataset :  FFHQ
+# dataset number :  1
+# gpu :  3
+# batch_size in train phase :  OrderedDict([(4, 128), (8, 128), (16, 64), (32, 32), (64, 16), (128, 8), (256, 4), (512, 4), (1024, 4)])
+# batch_size in test phase :  1
+# start resolution :  8
+# target resolution :  8
+# iteration per resolution :  10000
+# progressive training :  True
+# spectral normalization :  False
+
+Create graph for 8 resolution
+---------
+Variables: name (type shape) [size]
+---------
+generator/g_mapping/FC_0/linear/weight:0 (float32_ref 512x512) [262144, bytes: 1048576]
+generator/g_mapping/FC_0/bias:0 (float32_ref 512) [512, bytes: 2048]
+generator/g_mapping/FC_1/linear/weight:0 (float32_ref 512x512) [262144, bytes: 1048576]
+generator/g_mapping/FC_1/bias:0 (float32_ref 512) [512, bytes: 2048]
+generator/g_mapping/FC_2/linear/weight:0 (float32_ref 512x512) [262144, bytes: 1048576]
+generator/g_mapping/FC_2/bias:0 (float32_ref 512) [512, bytes: 2048]
+generator/g_mapping/FC_3/linear/weight:0 (float32_ref 512x512) [262144, bytes: 1048576]
+generator/g_mapping/FC_3/bias:0 (float32_ref 512) [512, bytes: 2048]
+generator/g_mapping/FC_4/linear/weight:0 (float32_ref 512x512) [262144, bytes: 1048576]
+generator/g_mapping/FC_4/bias:0 (float32_ref 512) [512, bytes: 2048]
+generator/g_mapping/FC_5/linear/weight:0 (float32_ref 512x512) [262144, bytes: 1048576]
+generator/g_mapping/FC_5/bias:0 (float32_ref 512) [512, bytes: 2048]
+generator/g_mapping/FC_6/linear/weight:0 (float32_ref 512x512) [262144, bytes: 1048576]
+generator/g_mapping/FC_6/bias:0 (float32_ref 512) [512, bytes: 2048]
+generator/g_mapping/FC_7/linear/weight:0 (float32_ref 512x512) [262144, bytes: 1048576]
+generator/g_mapping/FC_7/bias:0 (float32_ref 512) [512, bytes: 2048]
+generator/g_synthesis/4x4/const_block/Const:0 (float32_ref 1x4x4x512) [8192, bytes: 32768]
+generator/g_synthesis/4x4/const_block/Noise/weight:0 (float32_ref 512) [512, bytes: 2048]
+generator/g_synthesis/4x4/const_block/bias:0 (float32_ref 512) [512, bytes: 2048]
+generator/g_synthesis/4x4/const_block/StyleMod/linear/weight:0 (float32_ref 512x1024) [524288, bytes: 2097152]
+generator/g_synthesis/4x4/const_block/StyleMod/bias:0 (float32_ref 1024) [1024, bytes: 4096]
+generator/g_synthesis/4x4/Conv/conv_0/weight:0 (float32_ref 3x3x512x512) [2359296, bytes: 9437184]
+generator/g_synthesis/4x4/Conv/Noise/weight:0 (float32_ref 512) [512, bytes: 2048]
+generator/g_synthesis/4x4/Conv/bias:0 (float32_ref 512) [512, bytes: 2048]
+generator/g_synthesis/4x4/Conv/StyleMod/linear/weight:0 (float32_ref 512x1024) [524288, bytes: 2097152]
+generator/g_synthesis/4x4/Conv/StyleMod/bias:0 (float32_ref 1024) [1024, bytes: 4096]
+generator/g_synthesis/4x4/ToRGB/conv_0/weight:0 (float32_ref 1x1x512x3) [1536, bytes: 6144]
+generator/g_synthesis/4x4/ToRGB/bias:0 (float32_ref 3) [3, bytes: 12]
+generator/g_synthesis/8x8/Conv0_up/conv_0/weight:0 (float32_ref 3x3x512x512) [2359296, bytes: 9437184]
+generator/g_synthesis/8x8/Conv0_up/Noise/weight:0 (float32_ref 512) [512, bytes: 2048]
+generator/g_synthesis/8x8/Conv0_up/bias:0 (float32_ref 512) [512, bytes: 2048]
+generator/g_synthesis/8x8/Conv0_up/StyleMod/linear/weight:0 (float32_ref 512x1024) [524288, bytes: 2097152]
+generator/g_synthesis/8x8/Conv0_up/StyleMod/bias:0 (float32_ref 1024) [1024, bytes: 4096]
+generator/g_synthesis/8x8/Conv1/conv_0/weight:0 (float32_ref 3x3x512x512) [2359296, bytes: 9437184]
+generator/g_synthesis/8x8/Conv1/Noise/weight:0 (float32_ref 512) [512, bytes: 2048]
+generator/g_synthesis/8x8/Conv1/bias:0 (float32_ref 512) [512, bytes: 2048]
+generator/g_synthesis/8x8/Conv1/StyleMod/linear/weight:0 (float32_ref 512x1024) [524288, bytes: 2097152]
+generator/g_synthesis/8x8/Conv1/StyleMod/bias:0 (float32_ref 1024) [1024, bytes: 4096]
+generator/g_synthesis/8x8/ToRGB/conv_0/weight:0 (float32_ref 1x1x512x3) [1536, bytes: 6144]
+generator/g_synthesis/8x8/ToRGB/bias:0 (float32_ref 3) [3, bytes: 12]
+discriminator/8x8/FromRGB/conv_0/weight:0 (float32_ref 1x1x3x512) [1536, bytes: 6144]
+discriminator/8x8/FromRGB/bias:0 (float32_ref 512) [512, bytes: 2048]
+discriminator/8x8/Conv0/conv_0/weight:0 (float32_ref 3x3x512x512) [2359296, bytes: 9437184]
+discriminator/8x8/Conv0/bias:0 (float32_ref 512) [512, bytes: 2048]
+discriminator/8x8/Conv1_down/conv_0/weight:0 (float32_ref 3x3x512x512) [2359296, bytes: 9437184]
+discriminator/8x8/Conv1_down/bias:0 (float32_ref 512) [512, bytes: 2048]
+discriminator/4x4/FromRGB/conv_0/weight:0 (float32_ref 1x1x3x512) [1536, bytes: 6144]
+discriminator/4x4/FromRGB/bias:0 (float32_ref 512) [512, bytes: 2048]
+discriminator/4x4/Conv0/conv_0/weight:0 (float32_ref 3x3x513x512) [2363904, bytes: 9455616]
+discriminator/4x4/Conv0/bias:0 (float32_ref 512) [512, bytes: 2048]
+discriminator/4x4/Dense0/linear/weight:0 (float32_ref 8192x512) [4194304, bytes: 16777216]
+discriminator/4x4/Dense0/bias:0 (float32_ref 512) [512, bytes: 2048]
+discriminator/4x4/Dense1/linear/weight:0 (float32_ref 512x1) [512, bytes: 2048]
+discriminator/4x4/Dense1/bias:0 (float32_ref 1) [1, bytes: 4]
+Total size of variables: 22579207
+Total bytes of variables: 90316828
+ [*] Reading checkpoints...
+ [*] Success to read StyleGAN.model-14
+ [*] Load SUCCESS
+ [*] Training finished!

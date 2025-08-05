@@ -1,0 +1,49 @@
+Start to train.
+
+---- [Epoch 0/1, Batch 0/805] ----
++----------------+--------------------+
+| loss name      | value              |
++----------------+--------------------+
+| total_loss     | 5.240321159362793  |
+| classification | 2.856801748275757  |
+| bbox           | 0.7508008480072021 |
+| landmarks      | 1.632718563079834  |
++----------------+--------------------+
+
+---- [Epoch 0/1, Batch 10/805] ----
++----------------+--------------------+
+| loss name      | value              |
++----------------+--------------------+
+| total_loss     | 3.2727980613708496 |
+| classification | 1.6926121711730957 |
+| bbox           | 0.4960797429084778 |
+| landmarks      | 1.0841063261032104 |
++----------------+--------------------+
+-------- RetinaFace Pytorch --------
+Evaluating epoch 0
+  0%|          | 0/202 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "train.py", line 152, in <module>
+    main()
+  File "train.py", line 137, in main
+    recall, precision = eval_widerface.evaluate(dataloader_val,retinaface)
+  File "/home/lei/compatibility_analysis/pytorch/1.1/RetinaFace_Pytorch/eval_widerface.py", line 79, in evaluate
+    picked_boxes,_,_ = get_detections(img_batch,retinaFace)
+  File "/home/lei/compatibility_analysis/pytorch/1.1/RetinaFace_Pytorch/eval_widerface.py", line 40, in get_detections
+    keep = ops.boxes.nms(bbox, scores, iou_threshold)
+  File "/home/lei/anaconda3/envs/py37-1/lib/python3.7/site-packages/torchvision/ops/boxes.py", line 42, in nms
+    return torch.ops.torchvision.nms(boxes, scores, iou_threshold)
+RuntimeError: Could not run 'torchvision::nms' with arguments from the 'CUDA' backend. 'torchvision::nms' is only available for these backends: [CPU, BackendSelect, Named, AutogradOther, AutogradCPU, AutogradCUDA, AutogradXLA, Tracer, Autocast, Batched, VmapMode].
+
+CPU: registered at /root/project/torchvision/csrc/vision.cpp:59 [kernel]
+BackendSelect: fallthrough registered at /pytorch/aten/src/ATen/core/BackendSelectFallbackKernel.cpp:3 [backend fallback]
+Named: registered at /pytorch/aten/src/ATen/core/NamedRegistrations.cpp:7 [backend fallback]
+AutogradOther: fallthrough registered at /pytorch/aten/src/ATen/core/VariableFallbackKernel.cpp:35 [backend fallback]
+AutogradCPU: fallthrough registered at /pytorch/aten/src/ATen/core/VariableFallbackKernel.cpp:39 [backend fallback]
+AutogradCUDA: fallthrough registered at /pytorch/aten/src/ATen/core/VariableFallbackKernel.cpp:43 [backend fallback]
+AutogradXLA: fallthrough registered at /pytorch/aten/src/ATen/core/VariableFallbackKernel.cpp:47 [backend fallback]
+Tracer: fallthrough registered at /pytorch/torch/csrc/jit/frontend/tracer.cpp:967 [backend fallback]
+Autocast: fallthrough registered at /pytorch/aten/src/ATen/autocast_mode.cpp:254 [backend fallback]
+Batched: registered at /pytorch/aten/src/ATen/BatchingRegistrations.cpp:511 [backend fallback]
+VmapMode: fallthrough registered at /pytorch/aten/src/ATen/VmapModeRegistrations.cpp:33 [backend fallback]
+

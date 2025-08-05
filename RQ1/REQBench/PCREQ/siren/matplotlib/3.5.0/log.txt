@@ -1,0 +1,9 @@
+2025-06-29 04:44:36,686 - INFO - *************Upgrade matplotlib from 3.0.3 to 3.5.0 in siren*************
+2025-06-29 04:44:36,687 - INFO - Checking siren is compatible with matplotlib3.5.0?...
+2025-06-29 04:44:36,790 - INFO - siren is compatible with matplotlib3.5.0
+2025-06-29 04:45:12,995 - INFO - Checking siren is compatible with astroid2.15.8?...
+2025-06-29 04:45:12,995 - INFO - siren is compatible with astroid2.15.8
+2025-06-29 04:45:13,041 - INFO - Checking siren is compatible with pylint2.17.7?...
+2025-06-29 04:45:13,041 - INFO - siren is compatible with pylint2.17.7
+2025-06-29 04:45:15,375 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 04:45:15,375 - INFO - Time cost: 38.689979791641235 s

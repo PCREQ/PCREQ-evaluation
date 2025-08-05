@@ -1,0 +1,8 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting absl-py==1.4.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/dd/87/de5c32fa1b1c6c3305d576e299801d8655c175ca9557019906247b994331/absl_py-1.4.0-py3-none-any.whl (126 kB)
+Collecting bleach==3.3.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f0/46/2bbd92086a4c6f051214cb48df6d9132b5f32c5e881d3f4991b16ec7e499/bleach-3.3.0-py2.py3-none-any.whl (283 kB)
+WARNING: Skipping page https://pypi.tuna.tsinghua.edu.cn/simple/certifi/ because the GET request got Content-Type: application/vnd.pypi.simple.v1+json.The only supported Content-Type is text/html
+ERROR: Could not find a version that satisfies the requirement certifi==2021.5.30 (from versions: none)
+ERROR: No matching distribution found for certifi==2021.5.30

@@ -1,0 +1,30 @@
+DEPRECATION: Python 3.5 reached the end of its life on September 13th, 2020. Please upgrade your Python as Python 3.5 is no longer maintained. pip 21.0 will drop support for Python 3.5 in January 2021. pip 21.0 will remove support for this functionality.
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting scikit-image==0.12.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/8f/a4/a1779ab0d88186ab2ad607d4ee47d15595548101460fb0036406d2a90c7c/scikit_image-0.12.3-1-cp35-cp35m-manylinux1_x86_64.whl (28.2 MB)
+Collecting numpy==1.18.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/b5/36/88723426b4ff576809fec7d73594fe17a35c27f8d01f93637637a29ae25b/numpy-1.18.5-cp35-cp35m-manylinux1_x86_64.whl (19.9 MB)
+Collecting scipy==1.4.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c1/60/8cbf00c0deb50a971e6e3a015fb32513960a92867df979870a454481817c/scipy-1.4.1-cp35-cp35m-manylinux1_x86_64.whl (26.0 MB)
+Collecting matplotlib==1.1.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c5/01/be962989489dfda03f5f049fbe53c0e10c7f771f3ced5fcc724851ad4bad/matplotlib-1.1.1.tar.gz (9.2 MB)
+    ERROR: Command errored out with exit status 1:
+     command: /home/lei/anaconda3/envs/py35/bin/python -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-_tbbjdc8/matplotlib_a56d7fbc368e41afb9b0395eef51ec8c/setup.py'"'"'; __file__='"'"'/tmp/pip-install-_tbbjdc8/matplotlib_a56d7fbc368e41afb9b0395eef51ec8c/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-nz3mnxzv
+         cwd: /tmp/pip-install-_tbbjdc8/matplotlib_a56d7fbc368e41afb9b0395eef51ec8c/
+    Complete output (12 lines):
+    basedirlist is: ['/usr/local', '/usr']
+    ============================================================================
+    BUILDING MATPLOTLIB
+                matplotlib: 1.1.1
+                    python: 3.5.6 |Anaconda, Inc.| (default, Jun  4 2021,
+                            13:57:47)  [GCC 7.5.0]
+                  platform: linux
+    
+    REQUIRED DEPENDENCIES
+                     numpy: no
+                            * You must install numpy 1.4 or later to build
+                            * matplotlib.
+    ----------------------------------------
+WARNING: Discarding https://pypi.tuna.tsinghua.edu.cn/packages/c5/01/be962989489dfda03f5f049fbe53c0e10c7f771f3ced5fcc724851ad4bad/matplotlib-1.1.1.tar.gz#sha256=f6848b2ab86a5a3664ed59e96ad0fa0226d76afe3bd28b1ae1c4b88a943ab9ec (from https://pypi.tuna.tsinghua.edu.cn/simple/matplotlib/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+ERROR: Could not find a version that satisfies the requirement matplotlib==1.1.1
+ERROR: No matching distribution found for matplotlib==1.1.1

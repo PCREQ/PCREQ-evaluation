@@ -1,0 +1,5 @@
+2025-06-29 13:10:01,622 - INFO - *************Upgrade tqdm from 4.31.1 to 4.66.2 in BERT-NER*************
+2025-06-29 13:10:01,623 - INFO - Checking BERT-NER is compatible with tqdm4.66.2?...
+2025-06-29 13:10:01,800 - INFO - BERT-NER is compatible with tqdm4.66.2
+2025-06-29 13:10:07,260 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 13:10:07,260 - INFO - Time cost: 5.638411998748779 s

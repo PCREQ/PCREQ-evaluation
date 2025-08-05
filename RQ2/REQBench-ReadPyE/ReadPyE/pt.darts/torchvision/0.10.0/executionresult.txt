@@ -1,0 +1,78 @@
+12/20 08:40:27 AM | 
+12/20 08:40:27 AM | Parameters:
+12/20 08:40:27 AM | AUX_WEIGHT=0.4
+12/20 08:40:27 AM | BATCH_SIZE=256
+12/20 08:40:27 AM | CUTOUT_LENGTH=16
+12/20 08:40:27 AM | DATA_PATH=./data/
+12/20 08:40:27 AM | DATASET=cifar10
+12/20 08:40:27 AM | DROP_PATH_PROB=0.2
+12/20 08:40:27 AM | EPOCHS=1
+12/20 08:40:27 AM | GENOTYPE=Genotype(normal=[[('sep_conv_3x3', 0), ('dil_conv_5x5', 1)], [('skip_connect', 0), ('dil_conv_3x3', 2)], [('sep_conv_3x3', 1), ('skip_connect', 0)], [('sep_conv_3x3', 1), ('skip_connect', 0)]], normal_concat=range(2, 6), reduce=[[('max_pool_3x3', 0), ('max_pool_3x3', 1)], [('max_pool_3x3', 0), ('skip_connect', 2)], [('skip_connect', 3), ('max_pool_3x3', 0)], [('skip_connect', 2), ('max_pool_3x3', 0)]], reduce_concat=range(2, 6))
+12/20 08:40:27 AM | GPUS=[0, 1, 2]
+12/20 08:40:27 AM | GRAD_CLIP=5.0
+12/20 08:40:27 AM | INIT_CHANNELS=36
+12/20 08:40:27 AM | LAYERS=20
+12/20 08:40:27 AM | LR=0.025
+12/20 08:40:27 AM | MOMENTUM=0.9
+12/20 08:40:27 AM | NAME=cifar10
+12/20 08:40:27 AM | PATH=augments/cifar10
+12/20 08:40:27 AM | PRINT_FREQ=200
+12/20 08:40:27 AM | SEED=2
+12/20 08:40:27 AM | WEIGHT_DECAY=0.0003
+12/20 08:40:27 AM | WORKERS=4
+12/20 08:40:27 AM | 
+12/20 08:40:27 AM | Logger is set - training start
+12/20 08:40:31 AM | Model size = 3.159 MB
+/home/lei/anaconda3/envs/py37/lib/python3.7/site-packages/torch/optim/lr_scheduler.py:100: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule.See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  "https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate", UserWarning)
+12/20 08:40:31 AM | Epoch 0 LR 0.0
+Files already downloaded and verified
+Files already downloaded and verified
+12/20 08:40:36 AM | Train: [  1/1] Step 000/195 Loss 3.331 Prec@(1,5) (10.9%, 50.4%)
+12/20 08:41:44 AM | Train: [  1/1] Step 195/195 Loss 3.304 Prec@(1,5) (10.2%, 52.4%)
+12/20 08:41:44 AM | Train: [  1/1] Final Prec@1 10.1740%
+12/20 08:41:45 AM | Valid: [  1/1] Step 000/039 Loss 2.373 Prec@(1,5) (10.9%, 43.4%)
+12/20 08:41:50 AM | Valid: [  1/1] Step 039/039 Loss 2.331 Prec@(1,5) (10.4%, 52.3%)
+12/20 08:41:50 AM | Valid: [  1/1] Final Prec@1 10.4200%
+/home/lei/anaconda3/envs/py37/lib/python3.7/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type DataParallel. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/lei/anaconda3/envs/py37/lib/python3.7/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type AugmentCNN. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/lei/anaconda3/envs/py37/lib/python3.7/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Sequential. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/lei/anaconda3/envs/py37/lib/python3.7/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Conv2d. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/lei/anaconda3/envs/py37/lib/python3.7/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type BatchNorm2d. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/lei/anaconda3/envs/py37/lib/python3.7/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type ModuleList. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/lei/anaconda3/envs/py37/lib/python3.7/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type AugmentCell. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/lei/anaconda3/envs/py37/lib/python3.7/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type StdConv. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/lei/anaconda3/envs/py37/lib/python3.7/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type ReLU. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/lei/anaconda3/envs/py37/lib/python3.7/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type SepConv. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/lei/anaconda3/envs/py37/lib/python3.7/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type DilConv. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/lei/anaconda3/envs/py37/lib/python3.7/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type DropPath_. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/lei/anaconda3/envs/py37/lib/python3.7/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Identity. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/lei/anaconda3/envs/py37/lib/python3.7/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type PoolBN. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/lei/anaconda3/envs/py37/lib/python3.7/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type MaxPool2d. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/lei/anaconda3/envs/py37/lib/python3.7/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type FactorizedReduce. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/lei/anaconda3/envs/py37/lib/python3.7/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type AuxiliaryHead. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/lei/anaconda3/envs/py37/lib/python3.7/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type AvgPool2d. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/lei/anaconda3/envs/py37/lib/python3.7/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type Linear. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+/home/lei/anaconda3/envs/py37/lib/python3.7/site-packages/torch/serialization.py:292: UserWarning: Couldn't retrieve source code for container of type AdaptiveAvgPool2d. It won't be checked for correctness upon loading.
+  "type " + obj.__name__ + ". It won't be checked "
+12/20 08:41:50 AM | Final best Prec@1 = 10.4200%
+

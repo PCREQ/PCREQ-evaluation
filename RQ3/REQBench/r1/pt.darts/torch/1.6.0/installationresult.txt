@@ -1,0 +1,53 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting absl-py==0.9.0
+  Using cached absl_py-0.9.0-py3-none-any.whl
+Collecting coloredlogs==15.0.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a7/06/3d6badcf13db419e25b07041d9c7b4a2c331d3f4e7134445ec5df57714cd/coloredlogs-15.0.1-py2.py3-none-any.whl (46 kB)
+Collecting graphviz==0.8.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/53/39/4ab213673844e0c004bed8a0781a0721a3f6bb23eb8854ee75c236428892/graphviz-0.8.4-py2.py3-none-any.whl (16 kB)
+Collecting grpcio==1.42.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/40/07/d29532952ded730b058c730ca182bfd6906ee17257bfc9659007520ced57/grpcio-1.42.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.0 MB)
+Collecting humanfriendly==10.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f0/0f/310fb31e39e2d734ccaa2c0fb981ee41f7bd5056ce9bc29b2248bd569169/humanfriendly-10.0-py2.py3-none-any.whl (86 kB)
+Collecting importlib-metadata==4.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/0b/05/9215a7ea1110477bd85375941327857c6a78beb0fbb9d1c2652e28fd04a0/importlib_metadata-4.4.0-py3-none-any.whl (17 kB)
+Collecting Markdown==3.3.7
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f3/df/ca72f352e15b6f8ce32b74af029f1189abffb906f7c137501ffe69c98a65/Markdown-3.3.7-py3-none-any.whl (97 kB)
+Collecting MarkupSafe==2.1.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/4a/1d/c4f5016f87ced614eacc7d5fb85b25bcc0ff53e8f058d069fc8cbfdc3c7a/MarkupSafe-2.1.5-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (25 kB)
+Collecting mpmath==1.2.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d4/cf/3965bddbb4f1a61c49aacae0e78fd1fe36b5dc36c797b31f30cf07dcbbb7/mpmath-1.2.1-py3-none-any.whl (532 kB)
+Collecting numpy==1.15.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/38/39/f73e104d44f19a6203e786d5204532e214443ea2954917b27f3229e7639b/numpy-1.15.4-cp37-cp37m-manylinux1_x86_64.whl (13.8 MB)
+Collecting Pillow==6.2.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c3/3f/03375124676ab49ca6e6917c0f1f663afb8354d5d24e12f4fe4587a39ae2/Pillow-6.2.2-cp37-cp37m-manylinux1_x86_64.whl (2.1 MB)
+Collecting protobuf==3.8.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ce/86/9f6123c4c6f481862f286dbe13aa2e97bdedd7662f5fc3033c1a41f32f88/protobuf-3.8.0-cp37-cp37m-manylinux1_x86_64.whl (1.2 MB)
+Collecting six==1.16.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting sympy==1.10.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d0/04/66be21ceb305c66a4b326b0ae44cc4f027a43bc08cac204b48fb45bb3653/sympy-1.10.1-py3-none-any.whl (6.4 MB)
+Collecting tensorboard==1.13.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/fa/7b/3ee06856ec30d5136cd2002408df1d111fcff269f3691147dbf3b8dc0ba2/tensorboard-1.13.0-py3-none-any.whl (3.2 MB)
+Collecting tensorboardX==1.9
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a6/5c/e918d9f190baab8d55bad52840d8091dd5114cc99f03eaa6d72d404503cc/tensorboardX-1.9-py2.py3-none-any.whl (190 kB)
+Collecting torch==1.6.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/5d/5e/35140615fc1f925023f489e71086a9ecc188053d263d3594237281284d82/torch-1.6.0-cp37-cp37m-manylinux1_x86_64.whl (748.8 MB)
+Collecting torchvision==0.2.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ce/a1/66d72a2fe580a9f0fcbaaa5b976911fbbde9dce9b330ba12791997b856e9/torchvision-0.2.2-py2.py3-none-any.whl (64 kB)
+Collecting typing_extensions==3.7.4.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/60/7a/e881b5abb54db0e6e671ab088d079c57ce54e8a01a3ca443f561ccadb37e/typing_extensions-3.7.4.3-py3-none-any.whl (22 kB)
+Collecting Werkzeug==0.16.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c2/e4/a859d2fe516f466642fa5c6054fd9646271f9da26b0cac0d2f37fc858c8f/Werkzeug-0.16.1-py2.py3-none-any.whl (327 kB)
+Collecting zipp==1.2.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/96/0a/67556e9b7782df7118c1f49bdc494da5e5e429c93aa77965f33e81287c8c/zipp-1.2.0-py2.py3-none-any.whl (4.8 kB)
+Requirement already satisfied: setuptools in /home/lei/anaconda3/envs/py37-6/lib/python3.7/site-packages (from protobuf==3.8.0->-r /home/lei/compatibility_analysis/compare/LLM/result/deepseek/r1/pt.darts-torch-1.6.0.txt (line 12)) (65.6.3)
+Requirement already satisfied: wheel>=0.26 in /home/lei/anaconda3/envs/py37-6/lib/python3.7/site-packages (from tensorboard==1.13.0->-r /home/lei/compatibility_analysis/compare/LLM/result/deepseek/r1/pt.darts-torch-1.6.0.txt (line 15)) (0.38.4)
+Collecting future
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/da/71/ae30dadffc90b9006d77af76b393cb9dfbfc9629f339fc1574a1c52e6806/future-1.0.0-py3-none-any.whl (491 kB)
+Collecting tqdm==4.19.9
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/b3/c4/b67cf1ab472b770e08e94105a0c7ca7032cd070627c435f5998c9cf6e64f/tqdm-4.19.9-py2.py3-none-any.whl (52 kB)
+WARNING: The candidate selected for download or install is a yanked version: 'torchvision' candidate (version 0.2.2 at https://pypi.tuna.tsinghua.edu.cn/packages/ce/a1/66d72a2fe580a9f0fcbaaa5b976911fbbde9dce9b330ba12791997b856e9/torchvision-0.2.2-py2.py3-none-any.whl (from https://pypi.tuna.tsinghua.edu.cn/simple/torchvision/))
+Reason for being yanked: <none given>
+Installing collected packages: typing_extensions, tqdm, mpmath, zipp, Werkzeug, sympy, six, Pillow, numpy, MarkupSafe, humanfriendly, graphviz, future, torch, protobuf, importlib-metadata, grpcio, coloredlogs, absl-py, torchvision, tensorboardX, Markdown, tensorboard
+Successfully installed Markdown-3.3.7 MarkupSafe-2.1.5 Pillow-6.2.2 Werkzeug-0.16.1 absl-py-0.9.0 coloredlogs-15.0.1 future-1.0.0 graphviz-0.8.4 grpcio-1.42.0 humanfriendly-10.0 importlib-metadata-4.4.0 mpmath-1.2.1 numpy-1.15.4 protobuf-3.8.0 six-1.16.0 sympy-1.10.1 tensorboard-1.13.0 tensorboardX-1.9 torch-1.6.0 torchvision-0.2.2 tqdm-4.19.9 typing_extensions-3.7.4.3 zipp-1.2.0

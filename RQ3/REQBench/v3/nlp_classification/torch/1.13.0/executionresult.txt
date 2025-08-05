@@ -1,0 +1,13 @@
+epochs:   0%|          | 0/1 [00:00<?, ?it/s]
+steps:   0%|          | 0/468 [00:00<?, ?it/s][Asteps:   0%|          | 0/468 [00:01<?, ?it/s]
+epochs:   0%|          | 0/1 [00:01<?, ?it/s]
+Traceback (most recent call last):
+  File "train.py", line 145, in <module>
+    main(args)
+  File "train.py", line 81, in main
+    mb_loss.backward()
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/torch/_tensor.py", line 488, in backward
+    self, gradient, retain_graph, create_graph, inputs=inputs
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/torch/autograd/__init__.py", line 199, in backward
+    allow_unreachable=True, accumulate_grad=True)  # Calls into the C++ engine to run the backward pass
+RuntimeError: CUDA error: CUBLAS_STATUS_INVALID_VALUE when calling `cublasSgemm( handle, opa, opb, m, n, k, &alpha, a, lda, b, ldb, &beta, c, ldc)`

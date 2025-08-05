@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "example_classification.py", line 4, in <module>
+    from sklearn.datasets import load_digits
+  File "/home/lei/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/datasets/__init__.py", line 22, in <module>
+    from .twenty_newsgroups import fetch_20newsgroups
+  File "/home/lei/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/datasets/twenty_newsgroups.py", line 44, in <module>
+    from ..feature_extraction.text import CountVectorizer
+  File "/home/lei/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/feature_extraction/__init__.py", line 10, in <module>
+    from . import text
+  File "/home/lei/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/feature_extraction/text.py", line 28, in <module>
+    from ..preprocessing import normalize
+  File "/home/lei/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/preprocessing/__init__.py", line 8, in <module>
+    from .data import Binarizer
+  File "/home/lei/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/preprocessing/data.py", line 17, in <module>
+    from scipy import stats
+  File "/home/lei/anaconda3/envs/py36/lib/python3.6/site-packages/scipy/stats/__init__.py", line 345, in <module>
+    from .morestats import *
+  File "/home/lei/anaconda3/envs/py36/lib/python3.6/site-packages/scipy/stats/morestats.py", line 12, in <module>
+    from numpy.testing.decorators import setastest
+ModuleNotFoundError: No module named 'numpy.testing.decorators'

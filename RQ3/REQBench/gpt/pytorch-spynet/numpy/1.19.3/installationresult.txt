@@ -1,0 +1,19 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting coloredlogs==15.0.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a7/06/3d6badcf13db419e25b07041d9c7b4a2c331d3f4e7134445ec5df57714cd/coloredlogs-15.0.1-py2.py3-none-any.whl (46 kB)
+Collecting future==1.0.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/da/71/ae30dadffc90b9006d77af76b393cb9dfbfc9629f339fc1574a1c52e6806/future-1.0.0-py3-none-any.whl (491 kB)
+Collecting humanfriendly==10.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f0/0f/310fb31e39e2d734ccaa2c0fb981ee41f7bd5056ce9bc29b2248bd569169/humanfriendly-10.0-py2.py3-none-any.whl (86 kB)
+Collecting mpmath==1.2.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d4/cf/3965bddbb4f1a61c49aacae0e78fd1fe36b5dc36c797b31f30cf07dcbbb7/mpmath-1.2.1-py3-none-any.whl (532 kB)
+Collecting numpy==1.19.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/65/b3/07864c89acb2a86df6f2e8c9bf091ec5916da58dd3ce3a633a51a02c115e/numpy-1.19.3-cp37-cp37m-manylinux2010_x86_64.whl (14.9 MB)
+Collecting Pillow==8.3.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/41/07/ecb2a0d55460385163c82a4bd65263a00510966dddbd54876796bd18857c/Pillow-8.3.2-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.0 MB)
+Collecting sympy==1.6.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/e0/1f/8cbbf698e853019ac3dc5d60ca8f6be4ace4542b2f05f7b62949617fc98e/sympy-1.6.2-py3-none-any.whl (5.8 MB)
+Collecting torch==1.6.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/5d/5e/35140615fc1f925023f489e71086a9ecc188053d263d3594237281284d82/torch-1.6.0-cp37-cp37m-manylinux1_x86_64.whl (748.8 MB)
+Installing collected packages: mpmath, sympy, Pillow, numpy, humanfriendly, future, torch, coloredlogs
+Successfully installed Pillow-8.3.2 coloredlogs-15.0.1 future-1.0.0 humanfriendly-10.0 mpmath-1.2.1 numpy-1.19.3 sympy-1.6.2 torch-1.6.0

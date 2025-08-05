@@ -1,0 +1,13 @@
+torchvision==0.9.0
+terminaltables==3.1.10
+matplotlib==3.5.3
+scikit-image==0.19.3
+numpy==1.23.2
+pillow==9.0.1
+opencv-python==4.6.0.66
+dlib==19.20
+scipy==1.9
+tqdm==4.64
+tensorboardx==2.5.1
+pandas==1.4.3
+torchfile==0.1

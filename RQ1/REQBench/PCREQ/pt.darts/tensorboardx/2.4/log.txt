@@ -1,0 +1,5 @@
+2025-06-29 18:54:13,228 - INFO - *************Upgrade tensorboardx from 1.6 to 2.4 in pt.darts*************
+2025-06-29 18:54:13,228 - INFO - Checking pt.darts is compatible with tensorboardx2.4?...
+2025-06-29 18:54:13,457 - INFO - pt.darts is compatible with tensorboardx2.4
+2025-06-29 18:54:15,464 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 18:54:15,464 - INFO - Time cost: 2.2373712062835693 s

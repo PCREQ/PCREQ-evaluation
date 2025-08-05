@@ -1,0 +1,9 @@
+2025-06-29 15:18:03,537 - INFO - *************Upgrade pillow from 6.1.0 to 8.2.0 in RetinaFace_Pytorch*************
+2025-06-29 15:18:03,537 - INFO - Checking RetinaFace_Pytorch is compatible with pillow8.2.0?...
+2025-06-29 15:18:03,928 - INFO - RetinaFace_Pytorch is compatible with pillow8.2.0
+2025-06-29 15:18:05,621 - INFO - Checking scikit-image0.15.0 is compatible with pillow8.2.0?...
+2025-06-29 15:18:14,234 - INFO - scikit-image0.15.0 is compatible with pillow8.2.0
+2025-06-29 15:18:14,235 - INFO - Checking torchvision0.3.0 is compatible with pillow8.2.0?...
+2025-06-29 15:18:15,033 - INFO - torchvision0.3.0 is compatible with pillow8.2.0
+2025-06-29 15:18:15,398 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 15:18:15,398 - INFO - Time cost: 11.86249303817749 s

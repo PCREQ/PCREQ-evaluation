@@ -1,0 +1,60 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting Click==7.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/fa/37/45185cb5abbc30d7257104c434fe0b07e5a195a6847506c074527aa599ec/Click-7.0-py2.py3-none-any.whl (81 kB)
+Collecting cvxopt==1.2.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/9b/84/e8c883bbfc972dc9f7b2ca9f97c56d73a44a7dfa700f73746ae0d2569cb0/cvxopt-1.2.3-cp37-cp37m-manylinux1_x86_64.whl (11.6 MB)
+Collecting cycler==0.10.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f7/d2/e07d3ebb2bd7af696440ce7e754c59dd546ffe1bbe732c8ab68b9c834e61/cycler-0.10.0-py2.py3-none-any.whl (6.5 kB)
+Collecting joblib==1.0.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/34/5b/bd0f0fb5564183884d8e35b81d06d7ec06a20d1a0c8b4c407f1554691dce/joblib-1.0.0-py3-none-any.whl (302 kB)
+Collecting kiwisolver==1.1.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/93/f8/518fb0bb89860eea6ff1b96483fbd9236d5ee991485d0f3eceff1770f654/kiwisolver-1.1.0-cp37-cp37m-manylinux1_x86_64.whl (90 kB)
+Collecting matplotlib==3.1.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/dc/cb/a34046e75c9a4ecaf426ae0d0eada97078c8ce4bbe3250940b1a312a1385/matplotlib-3.1.0-cp37-cp37m-manylinux1_x86_64.whl (13.1 MB)
+Collecting numpy==1.16.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/98/5b/e1bf225ed4614b6a482ea783f75ce571b0d440ba247f6f52c0b7347d6e18/numpy-1.16.5-cp37-cp37m-manylinux1_x86_64.whl (17.3 MB)
+Collecting pandas==0.24.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/22/e6/2d47835f91eb010036be207581fa113fb4e3822ec1b4bafb0d3d105fede6/pandas-0.24.2-cp37-cp37m-manylinux1_x86_64.whl (10.1 MB)
+Collecting Pillow==8.4.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a7/f3/c81e9c41c6ee4c99ad7436b7a1509f5bce5de4ccf4b83138cf88760d96ff/Pillow-8.4.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.1 MB)
+Collecting pyparsing==2.4.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/dd/d9/3ec19e966301a6e25769976999bd7bbe552016f0d32b577dc9d63d2e0c49/pyparsing-2.4.0-py2.py3-none-any.whl (62 kB)
+Collecting python-dateutil==2.8.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/41/17/c62faccbfbd163c7f57f3844689e3a78bae1f403648a6afb1d0866d87fbb/python_dateutil-2.8.0-py2.py3-none-any.whl (226 kB)
+Collecting pytz==2019.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/3d/73/fe30c2daaaa0713420d0382b16fbb761409f532c56bdcc514bf7b6262bb6/pytz-2019.1-py2.py3-none-any.whl (510 kB)
+Collecting scikit-learn==0.21.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/21/a4/a48bd4b0d15395362b561df7e7247de87291105eb736a3b2aaffebf437b9/scikit_learn-0.21.2-cp37-cp37m-manylinux1_x86_64.whl (6.7 MB)
+Collecting scipy==1.5.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/dc/7e/8f6a79b102ca1ea928bae8998b05bf5dc24a90571db13cd119f275ba6252/scipy-1.5.4-cp37-cp37m-manylinux1_x86_64.whl (25.9 MB)
+Collecting seaborn==0.9.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a8/76/220ba4420459d9c4c9c9587c6ce607bf56c25b3d3d2de62056efe482dadc/seaborn-0.9.0-py3-none-any.whl (208 kB)
+Collecting six==1.12.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/73/fb/00a976f728d0d1fecfe898238ce23f502a721c0ac0ecfedb80e0d88c64e9/six-1.12.0-py2.py3-none-any.whl (10 kB)
+Collecting torch==1.13.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/7a/fb/b1b11ae95ffa7099ca2e60ed5945e56130cc8740208f42aa77f17e03ab3c/torch-1.13.0-cp37-cp37m-manylinux1_x86_64.whl (890.2 MB)
+Collecting torchvision==0.14.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/1c/48/a7eeac0cd558d1d830f555eb155f75690d60277d93401de5dc3c40b42d52/torchvision-0.14.0-cp37-cp37m-manylinux1_x86_64.whl (24.3 MB)
+Requirement already satisfied: setuptools in /home/lei/anaconda3/envs/py37-4/lib/python3.7/site-packages (from kiwisolver==1.1.0->-r /home/lei/compatibility_analysis/compare/LLM/result/deepseek/r1/Deep-SAD-PyTorch-torchvision-0.14.0.txt (line 5)) (65.6.3)
+Collecting nvidia-cuda-nvrtc-cu11==11.7.99
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ef/25/922c5996aada6611b79b53985af7999fc629aee1d5d001b6a22431e18fec/nvidia_cuda_nvrtc_cu11-11.7.99-2-py3-none-manylinux1_x86_64.whl (21.0 MB)
+Collecting nvidia-cuda-runtime-cu11==11.7.99
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/36/92/89cf558b514125d2ebd8344dd2f0533404b416486ff681d5434a5832a019/nvidia_cuda_runtime_cu11-11.7.99-py3-none-manylinux1_x86_64.whl (849 kB)
+Collecting typing-extensions
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ec/6b/63cc3df74987c36fe26157ee12e09e8f9db4de771e0f3404263117e75b95/typing_extensions-4.7.1-py3-none-any.whl (33 kB)
+Collecting nvidia-cublas-cu11==11.10.3.66
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ce/41/fdeb62b5437996e841d83d7d2714ca75b886547ee8017ee2fe6ea409d983/nvidia_cublas_cu11-11.10.3.66-py3-none-manylinux1_x86_64.whl (317.1 MB)
+Collecting nvidia-cudnn-cu11==8.5.0.96
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/dc/30/66d4347d6e864334da5bb1c7571305e501dcb11b9155971421bb7bb5315f/nvidia_cudnn_cu11-8.5.0.96-2-py3-none-manylinux1_x86_64.whl (557.1 MB)
+Collecting requests
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/70/8e/0e2d847013cb52cd35b38c009bb167a1a26b2ce6cd6965bf26b47bc0bf44/requests-2.31.0-py3-none-any.whl (62 kB)
+Requirement already satisfied: wheel in /home/lei/anaconda3/envs/py37-4/lib/python3.7/site-packages (from nvidia-cublas-cu11==11.10.3.66->torch==1.13.0->-r /home/lei/compatibility_analysis/compare/LLM/result/deepseek/r1/Deep-SAD-PyTorch-torchvision-0.14.0.txt (line 17)) (0.38.4)
+Collecting idna<4,>=2.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/76/c6/c88e154df9c4e1a2a66ccf0005a88dfb2650c1dffb6f5ce603dfbd452ce3/idna-3.10-py3-none-any.whl (70 kB)
+Collecting urllib3<3,>=1.21.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d2/b2/b157855192a68541a91ba7b2bbcb91f1b4faa51f8bae38d8005c034be524/urllib3-2.0.7-py3-none-any.whl (124 kB)
+Requirement already satisfied: certifi>=2017.4.17 in /home/lei/anaconda3/envs/py37-4/lib/python3.7/site-packages (from requests->torchvision==0.14.0->-r /home/lei/compatibility_analysis/compare/LLM/result/deepseek/r1/Deep-SAD-PyTorch-torchvision-0.14.0.txt (line 18)) (2022.12.7)
+Collecting charset-normalizer<4,>=2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/38/84/cec08586c7c294e2c5e984de797c15b3efb30d42a0dd0132a62d2dfe3a27/charset_normalizer-3.4.2-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (141 kB)
+Installing collected packages: pytz, cvxopt, urllib3, typing-extensions, six, pyparsing, Pillow, nvidia-cuda-runtime-cu11, nvidia-cuda-nvrtc-cu11, nvidia-cublas-cu11, numpy, kiwisolver, joblib, idna, Click, charset-normalizer, scipy, requests, python-dateutil, nvidia-cudnn-cu11, cycler, torch, scikit-learn, pandas, matplotlib, torchvision, seaborn
+Successfully installed Click-7.0 Pillow-8.4.0 charset-normalizer-3.4.2 cvxopt-1.2.3 cycler-0.10.0 idna-3.10 joblib-1.0.0 kiwisolver-1.1.0 matplotlib-3.1.0 numpy-1.16.5 nvidia-cublas-cu11-11.10.3.66 nvidia-cuda-nvrtc-cu11-11.7.99 nvidia-cuda-runtime-cu11-11.7.99 nvidia-cudnn-cu11-8.5.0.96 pandas-0.24.2 pyparsing-2.4.0 python-dateutil-2.8.0 pytz-2019.1 requests-2.31.0 scikit-learn-0.21.2 scipy-1.5.4 seaborn-0.9.0 six-1.12.0 torch-1.13.0 torchvision-0.14.0 typing-extensions-4.7.1 urllib3-2.0.7

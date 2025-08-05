@@ -1,0 +1,24 @@
+use gpu: 1 to train.
+begin loading training dataset to memory
+finish loading training dataset to memory
+begin loading test dataset to memory
+finish loading test dataset to memory
+/home/lei/anaconda3/envs/py37-5/lib/python3.7/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='mean' instead.
+  warnings.warn(warning.format(ret))
+[10]	loss:	0.69157	time lapsed:	1.51 s
+[20]	loss:	0.65824	time lapsed:	1.00 s
+[30]	loss:	0.63116	time lapsed:	1.00 s
+[40]	loss:	0.60567	time lapsed:	1.00 s
+[50]	loss:	0.58866	time lapsed:	1.00 s
+[60]	loss:	0.57849	time lapsed:	1.00 s
+[70]	loss:	0.55706	time lapsed:	1.00 s
+[80]	loss:	0.55643	time lapsed:	1.00 s
+[90]	loss:	0.56249	time lapsed:	1.00 s
+[100]	loss:	0.54180	time lapsed:	1.01 s
+/home/lei/anaconda3/envs/py37-5/lib/python3.7/site-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /pytorch/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+**********************************************************************
+[100]	Test set	correct:	58	error:	342	precision:	0.145000
+**********************************************************************
+######################################################################
+final accuracy:  0.0072499999999999995

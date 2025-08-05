@@ -1,0 +1,25 @@
+use gpu: 1 to train.
+begin loading training dataset to memory
+finish loading training dataset to memory
+begin loading test dataset to memory
+finish loading test dataset to memory
+/home/lei/anaconda3/envs/py37-5/lib/python3.7/site-packages/torch/nn/_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='mean' instead.
+  warnings.warn(warning.format(ret))
+Traceback (most recent call last):
+  File "train.py", line 87, in <module>
+    output = net.forward(img1, img2)
+  File "/home/lei/compatibility_analysis/pytorch/1.0/siamese-pytorch/model.py", line 33, in forward
+    out1 = self.forward_one(x1)
+  File "/home/lei/compatibility_analysis/pytorch/1.0/siamese-pytorch/model.py", line 27, in forward_one
+    x = self.conv(x)
+  File "/home/lei/anaconda3/envs/py37-5/lib/python3.7/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/lei/anaconda3/envs/py37-5/lib/python3.7/site-packages/torch/nn/modules/container.py", line 119, in forward
+    input = module(input)
+  File "/home/lei/anaconda3/envs/py37-5/lib/python3.7/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/lei/anaconda3/envs/py37-5/lib/python3.7/site-packages/torch/nn/modules/conv.py", line 399, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/home/lei/anaconda3/envs/py37-5/lib/python3.7/site-packages/torch/nn/modules/conv.py", line 396, in _conv_forward
+    self.padding, self.dilation, self.groups)
+RuntimeError: cuDNN error: CUDNN_STATUS_NOT_INITIALIZED

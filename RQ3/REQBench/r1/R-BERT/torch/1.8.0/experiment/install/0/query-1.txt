@@ -1,0 +1,80 @@
+
+            **Task**
+            Resolve pip install conflict in requirements.txt while preserving library integrity.
+
+            **Input Context**
+            - Current requirements.txt: charset-normalizer==3.3.2
+click==8.1.7
+coloredlogs==15.0.1
+filelock==3.12.2
+future==1.0.0
+humanfriendly==10.0
+idna==3.7
+importlib-metadata==5.2.0
+joblib==1.3.2
+mpmath==1.2.1
+numpy==1.21.6
+packaging==23.2
+regex==2024.4.16
+requests==2.31.0
+sacremoses==0.0.53
+sentencepiece==0.2.0
+six==1.16.0
+sympy==1.10.1
+tokenizers==0.8.1
+torch==1.8.0
+tqdm==4.66.4
+transformers==3.3.1
+typing_extensions==4.7.1
+urllib3==2.0.7
+zipp==3.15.0
+
+            - Python version: 3.7
+            - Conflict error message: conflicting dependencies.
+
+The conflict is caused by:
+    The user requested tokenizers==0.8.1
+    transformers 3.3.1 depends on tokenizers==0.8.1.rc2
+
+To fix this you could try to:
+1. loosen the range of package versions you've specified
+2. remove package versions to allow pip attempt to solve the dependency conflict
+
+ERROR: ResolutionImpossible: for help visit https://pip.pypa.io/en/latest/topics/dependency-resolution/#dealing-with-dependency-conflicts
+
+
+            **Resolution Protocol**
+            1. Parse conflict_info to identify:
+            a. Direct conflicting packages
+            b. Common dependency chains
+            c. Python version constraints
+            2. Apply minimum version adjustment strategy:
+            a. Prioritize keeping torch==1.8.0
+            b. Modify other package versions only when necessary
+            c. Maintain original library set
+
+            **Hard Constraints**
+            - STRICTLY MAINTAIN: 
+            • torch==1.8.0
+            • Original library count
+            - MUST ENSURE: 
+            • Complete dependency tree compatibility
+            • Python 3.7 support for all packages
+            - STRICTLY PROHIBITED:
+            • Adding/removing libraries
+            • Version speculation without error evidence
+
+            **Output Mandates**
+            STRICT FORMAT:
+            lib1==x.y.z  
+            lib2==a.b.c
+            ...
+            PROHIBITED:
+            • Any non-version text.
+            • Library additions/removals
+            • Version placeholders
+            MANDATORY:
+            • Preserve original library names and count
+            • Pin EXACT versions
+            • Zero explanations/comments
+            

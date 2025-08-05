@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "main.py", line 68, in <module>
+    help='Number of known outlier classes.'
+  File "/home/lei/anaconda3/envs/py37-4/lib/python3.7/site-packages/click/decorators.py", line 373, in decorator
+    _param_memo(f, cls(param_decls, **attrs))
+  File "/home/lei/anaconda3/envs/py37-4/lib/python3.7/site-packages/click/core.py", line 2536, in __init__
+    super().__init__(param_decls, type=type, multiple=multiple, **attrs)
+  File "/home/lei/anaconda3/envs/py37-4/lib/python3.7/site-packages/click/core.py", line 2153, in __init__
+    ) from None
+ValueError: 'default' must be a list when 'multiple' is true.

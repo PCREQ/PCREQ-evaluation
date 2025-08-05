@@ -1,0 +1,83 @@
+
+            **Task**
+            Resolve pip install conflict in requirements.txt while preserving library integrity.
+
+            **Input Context**
+            - Current requirements.txt: absl-py==0.15.0
+astor==0.8.1
+cached-property==1.5.2
+certifi==2021.5.30
+dataclasses==0.8
+gast==0.3.3
+grpcio==1.32.0
+h5py==2.10.0
+importlib-metadata==4.8.3
+Keras-Applications==1.0.8
+Keras-Preprocessing==1.1.2
+Markdown==3.3.7
+mock==5.1.0
+numpy==1.19.5
+opencv-python==4.1.0.25
+Pillow==6.1.0
+protobuf==3.19.6
+scipy==1.4.1
+six==1.15.0
+tensorboard==2.4.1
+tensorflow==2.4.4
+tensorflow-estimator==2.4.0
+termcolor==1.1.0
+tqdm==4.32.1
+typing_extensions==4.1.1
+Werkzeug==2.0.3
+zipp==3.6.0
+
+            - Python version: 3.6
+            - Conflict error message: conflicting dependencies.
+
+The conflict is caused by:
+    The user requested typing_extensions==4.1.1
+    importlib-metadata 4.8.3 depends on typing-extensions>=3.6.4; python_version < "3.8"
+    tensorflow 2.4.4 depends on typing-extensions~=3.7.4
+
+To fix this you could try to:
+1. loosen the range of package versions you've specified
+2. remove package versions to allow pip attempt to solve the dependency conflict
+
+ERROR: ResolutionImpossible: for help visit https://pip.pypa.io/en/latest/user_guide/#fixing-conflicting-dependencies
+
+
+            **Resolution Protocol**
+            1. Parse conflict_info to identify:
+            a. Direct conflicting packages
+            b. Common dependency chains
+            c. Python version constraints
+            2. Apply minimum version adjustment strategy:
+            a. Prioritize keeping tensorflow==2.4.4
+            b. Modify other package versions only when necessary
+            c. Maintain original library set
+
+            **Hard Constraints**
+            - STRICTLY MAINTAIN: 
+            • tensorflow==2.4.4
+            • Original library count
+            - MUST ENSURE: 
+            • Complete dependency tree compatibility
+            • Python 3.6 support for all packages
+            - STRICTLY PROHIBITED:
+            • Adding/removing libraries
+            • Version speculation without error evidence
+
+            **Output Mandates**
+            STRICT FORMAT:
+            lib1==x.y.z  
+            lib2==a.b.c
+            ...
+            PROHIBITED:
+            • Any non-version text.
+            • Library additions/removals
+            • Version placeholders
+            MANDATORY:
+            • Preserve original library names and count
+            • Pin EXACT versions
+            • Zero explanations/comments
+            

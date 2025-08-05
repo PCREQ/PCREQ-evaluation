@@ -1,0 +1,40 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='pypi.tuna.tsinghua.edu.cn', port=443): Read timed out. (read timeout=15)",)': /simple/certifi/
+WARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='pypi.tuna.tsinghua.edu.cn', port=443): Read timed out. (read timeout=15)",)': /simple/certifi/
+Collecting certifi==2021.5.30
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/05/1b/0a0dece0e8aa492a6ec9e4ad2fe366b511558cdc73fd3abc82ba7348e875/certifi-2021.5.30-py2.py3-none-any.whl (145 kB)
+Collecting numpy==1.18.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/b3/a9/b1bc4c935ed063766bce7d3e8c7b20bd52e515ff1c732b02caacf7918e5a/numpy-1.18.5-cp36-cp36m-manylinux1_x86_64.whl (20.1 MB)
+Collecting Pillow==8.3.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/cc/e2/31c6ee4acc116b65c40badc4a6eeb38e7cdb697c0e9a365397de52d17c08/Pillow-8.3.2-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.0 MB)
+Collecting pyhocon==0.3.51
+  Using cached pyhocon-0.3.51-py3-none-any.whl
+Collecting pyparsing==2.3.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/de/0a/001be530836743d8be6c2d85069f46fecf84ac6c18c7f5fb8125ee11d854/pyparsing-2.3.1-py2.py3-none-any.whl (61 kB)
+Collecting scikit-learn==0.24.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d3/eb/d0e658465c029feb7083139d9ead51000742e88b1fb7f1504e19e1b4ce6e/scikit_learn-0.24.2-cp36-cp36m-manylinux2010_x86_64.whl (22.2 MB)
+Collecting scipy==1.5.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c8/89/63171228d5ced148f5ced50305c89e8576ffc695a90b58fe5bb602b910c2/scipy-1.5.4-cp36-cp36m-manylinux1_x86_64.whl (25.9 MB)
+Collecting six==1.12.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/73/fb/00a976f728d0d1fecfe898238ce23f502a721c0ac0ecfedb80e0d88c64e9/six-1.12.0-py2.py3-none-any.whl (10 kB)
+Collecting sklearn==0.0
+  Using cached sklearn-0.0-py2.py3-none-any.whl
+Collecting torch==1.8.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/46/99/8b658e5095b9fb02e38ccb7ecc931eb1a03b5160d77148aecf68f8a7eeda/torch-1.8.0-cp36-cp36m-manylinux1_x86_64.whl (735.5 MB)
+Collecting torchvision==0.9.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/74/a0/4bfa036c5b88444e95d0b3b24c6e0d6047b9c5920572c4be3135e24f15ba/torchvision-0.9.1-cp36-cp36m-manylinux1_x86_64.whl (17.4 MB)
+Collecting tqdm==4.19.9
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/b3/c4/b67cf1ab472b770e08e94105a0c7ca7032cd070627c435f5998c9cf6e64f/tqdm-4.19.9-py2.py3-none-any.whl (52 kB)
+WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='pypi.tuna.tsinghua.edu.cn', port=443): Read timed out. (read timeout=15)",)': /simple/threadpoolctl/
+WARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='pypi.tuna.tsinghua.edu.cn', port=443): Read timed out. (read timeout=15)",)': /simple/threadpoolctl/
+WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='pypi.tuna.tsinghua.edu.cn', port=443): Read timed out. (read timeout=15)",)': /simple/threadpoolctl/
+WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='pypi.tuna.tsinghua.edu.cn', port=443): Read timed out. (read timeout=15)",)': /simple/threadpoolctl/
+WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='pypi.tuna.tsinghua.edu.cn', port=443): Read timed out. (read timeout=15)",)': /simple/threadpoolctl/
+INFO: pip is looking at multiple versions of pyparsing to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of pyhocon to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of pillow to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of <Python from Requires-Python> to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of numpy to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of certifi to determine which version is compatible with other requirements. This could take a while.
+ERROR: Could not find a version that satisfies the requirement threadpoolctl>=2.0.0 (from scikit-learn) (from versions: none)
+ERROR: No matching distribution found for threadpoolctl>=2.0.0

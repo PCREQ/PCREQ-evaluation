@@ -1,0 +1,37 @@
+12/20 07:40:05 AM | 
+12/20 07:40:05 AM | Parameters:
+12/20 07:40:05 AM | AUX_WEIGHT=0.4
+12/20 07:40:05 AM | BATCH_SIZE=256
+12/20 07:40:05 AM | CUTOUT_LENGTH=16
+12/20 07:40:05 AM | DATA_PATH=./data/
+12/20 07:40:05 AM | DATASET=cifar10
+12/20 07:40:05 AM | DROP_PATH_PROB=0.2
+12/20 07:40:05 AM | EPOCHS=1
+12/20 07:40:05 AM | GENOTYPE=Genotype(normal=[[('sep_conv_3x3', 0), ('dil_conv_5x5', 1)], [('skip_connect', 0), ('dil_conv_3x3', 2)], [('sep_conv_3x3', 1), ('skip_connect', 0)], [('sep_conv_3x3', 1), ('skip_connect', 0)]], normal_concat=range(2, 6), reduce=[[('max_pool_3x3', 0), ('max_pool_3x3', 1)], [('max_pool_3x3', 0), ('skip_connect', 2)], [('skip_connect', 3), ('max_pool_3x3', 0)], [('skip_connect', 2), ('max_pool_3x3', 0)]], reduce_concat=range(2, 6))
+12/20 07:40:05 AM | GPUS=[0, 1, 2]
+12/20 07:40:05 AM | GRAD_CLIP=5.0
+12/20 07:40:05 AM | INIT_CHANNELS=36
+12/20 07:40:05 AM | LAYERS=20
+12/20 07:40:05 AM | LR=0.025
+12/20 07:40:05 AM | MOMENTUM=0.9
+12/20 07:40:05 AM | NAME=cifar10
+12/20 07:40:05 AM | PATH=augments/cifar10
+12/20 07:40:05 AM | PRINT_FREQ=200
+12/20 07:40:05 AM | SEED=2
+12/20 07:40:05 AM | WEIGHT_DECAY=0.0003
+12/20 07:40:05 AM | WORKERS=4
+12/20 07:40:05 AM | 
+12/20 07:40:05 AM | Logger is set - training start
+12/20 07:40:09 AM | Model size = 3.159 MB
+12/20 07:40:09 AM | Epoch 0 LR 0.0
+Files already downloaded and verified
+Files already downloaded and verified
+THCudaCheck FAIL file=/pytorch/aten/src/THC/THCGeneral.cpp line=383 error=11 : invalid argument
+12/20 07:40:14 AM | Train: [  1/1] Step 000/195 Loss 3.252 Prec@(1,5) (10.9%, 50.0%)
+12/20 07:41:23 AM | Train: [  1/1] Step 195/195 Loss 3.252 Prec@(1,5) (9.6%, 49.8%)
+12/20 07:41:23 AM | Train: [  1/1] Final Prec@1 9.6060%
+12/20 07:41:24 AM | Valid: [  1/1] Step 000/039 Loss 2.342 Prec@(1,5) (7.0%, 44.9%)
+12/20 07:41:29 AM | Valid: [  1/1] Step 039/039 Loss 2.316 Prec@(1,5) (9.2%, 50.3%)
+12/20 07:41:30 AM | Valid: [  1/1] Final Prec@1 9.2400%
+12/20 07:41:30 AM | Final best Prec@1 = 9.2400%
+

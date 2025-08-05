@@ -1,0 +1,29 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting pillow==9.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/86/d2/ca178ad71dcd1dcddbe2a3f7983639d2f8a20e723d9a978ab978ed08c874/Pillow-9.2.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.1 MB)
+Collecting numpy==1.17.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/25/eb/4ecf6b13897391cb07a4231e9d9c671b55dfbbf6f4a514a1a0c594f2d8d9/numpy-1.17.1-cp37-cp37m-manylinux1_x86_64.whl (20.3 MB)
+Collecting moviepy==2.dev2
+  Using cached moviepy-2.0.0.dev2-py3-none-any.whl
+Collecting torch==1.7.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/90/5d/095ddddc91c8a769a68c791c019c5793f9c4456a688ddd235d6670924ecb/torch-1.7.1-cp37-cp37m-manylinux1_x86_64.whl (776.8 MB)
+Collecting decorator<5.0,>=4.0.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ed/1b/72a1821152d07cf1d8b6fce298aeb06a7eb90f4d6d41acec9861e7cc6df0/decorator-4.4.2-py2.py3-none-any.whl (9.2 kB)
+Collecting proglog<=1.0.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/8b/f5/cab5cf6a540c31f5099043de0ae43990fd9cf66f75ecb5e9f254a4e4d4ee/proglog-0.1.10-py3-none-any.whl (6.1 kB)
+Collecting requests<3.0,>=2.8.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/70/8e/0e2d847013cb52cd35b38c009bb167a1a26b2ce6cd6965bf26b47bc0bf44/requests-2.31.0-py3-none-any.whl (62 kB)
+INFO: pip is looking at multiple versions of numpy to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of <Python from Requires-Python> to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of pillow to determine which version is compatible with other requirements. This could take a while.
+ERROR: Cannot install -r /home/lei/compatibility_analysis/compare/ReadPyE/experiment/result/pytorch-spynet-numpy-1.17.1.txt (line 3) and numpy==1.17.1 because these package versions have conflicting dependencies.
+
+The conflict is caused by:
+    The user requested numpy==1.17.1
+    moviepy 2.0.0.dev2 depends on numpy>=1.17.3
+
+To fix this you could try to:
+1. loosen the range of package versions you've specified
+2. remove package versions to allow pip attempt to solve the dependency conflict
+
+ERROR: ResolutionImpossible: for help visit https://pip.pypa.io/en/latest/topics/dependency-resolution/#dealing-with-dependency-conflicts

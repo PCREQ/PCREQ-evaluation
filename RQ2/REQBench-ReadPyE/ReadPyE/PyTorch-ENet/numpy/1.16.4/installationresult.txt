@@ -1,0 +1,22 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting matplotlib==3.5.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ad/62/7b662284352867a86acfb636761ba351723fc3a235efd8397578d903413d/matplotlib-3.5.3-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl (11.2 MB)
+Collecting numpy==1.16.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/fc/d1/45be1144b03b6b1e24f9a924f23f66b4ad030d834ad31fb9e5581bd328af/numpy-1.16.4-cp37-cp37m-manylinux1_x86_64.whl (17.3 MB)
+Collecting pillow==9.0.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c3/56/bdf1b802e111050e3fe11150e09d2e220478cf5af4256e7fa628663fa08f/Pillow-9.0.1-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.3 MB)
+Collecting torch==1.12.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/b9/af/23c13cd340cd333f42de225ba3da3b64e1a70425546d1a59bfa42d465a5d/torch-1.12.1-cp37-cp37m-manylinux1_x86_64.whl (776.3 MB)
+Collecting torchvision==0.1.9
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/e2/56/34a58783d2fefe2da5c4558c213386c810e7b2ab04dd8d6fe474a91b695a/torchvision-0.1.9-py2.py3-none-any.whl (43 kB)
+ERROR: Cannot install -r /home/lei/compatibility_analysis/compare/ReadPyE/experiment/result/PyTorch-ENet-numpy-1.16.4.txt (line 1) and numpy==1.16.4 because these package versions have conflicting dependencies.
+
+The conflict is caused by:
+    The user requested numpy==1.16.4
+    matplotlib 3.5.3 depends on numpy>=1.17
+
+To fix this you could try to:
+1. loosen the range of package versions you've specified
+2. remove package versions to allow pip attempt to solve the dependency conflict
+
+ERROR: ResolutionImpossible: for help visit https://pip.pypa.io/en/latest/topics/dependency-resolution/#dealing-with-dependency-conflicts

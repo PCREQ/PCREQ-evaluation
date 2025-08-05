@@ -1,0 +1,5 @@
+2025-06-29 10:44:06,874 - INFO - *************Upgrade pillow from 5.0.0 to 6.0.0 in pytorch-hed*************
+2025-06-29 10:44:06,874 - INFO - Checking pytorch-hed is compatible with pillow6.0.0?...
+2025-06-29 10:44:06,900 - INFO - pytorch-hed is compatible with pillow6.0.0
+2025-06-29 10:44:07,372 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 10:44:07,372 - INFO - Time cost: 0.49952054023742676 s

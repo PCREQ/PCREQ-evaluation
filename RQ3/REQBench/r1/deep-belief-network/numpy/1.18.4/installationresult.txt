@@ -1,0 +1,11 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting numpy==1.18.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/03/27/e35e7c6e6a52fab9fcc64fc2b20c6b516eba930bb02b10ace3b38200d3ab/numpy-1.18.4-cp36-cp36m-manylinux1_x86_64.whl (20.2 MB)
+Collecting scikit-learn==0.21.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a0/c5/d2238762d780dde84a20b8c761f563fe882b88c5a5fb03c056547c442a19/scikit_learn-0.21.3-cp36-cp36m-manylinux1_x86_64.whl (6.7 MB)
+Collecting scipy>=0.17.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c8/89/63171228d5ced148f5ced50305c89e8576ffc695a90b58fe5bb602b910c2/scipy-1.5.4-cp36-cp36m-manylinux1_x86_64.whl (25.9 MB)
+Collecting joblib>=0.11
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/7c/91/d3ba0401e62d7e42816bc7d97b82d19c95c164b3e149a87c0a1c026a735e/joblib-1.1.1-py2.py3-none-any.whl (309 kB)
+Installing collected packages: numpy, scipy, joblib, scikit-learn
+Successfully installed joblib-1.1.1 numpy-1.18.4 scikit-learn-0.21.3 scipy-1.5.4

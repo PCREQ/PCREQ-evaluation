@@ -1,0 +1,14 @@
+pandas==1.4.3
+torch==1.5.1
+pillow==9.0.1
+scikit-image==0.19.3
+tensorboardx==2.5.1
+scipy==1.9
+opencv-python==4.6.0.66
+dlib==19.20
+torchvision==0.13.1
+numpy==1.23.2
+tqdm==4.64
+terminaltables==3.1.10
+matplotlib==3.5.3
+torchfile==0.1

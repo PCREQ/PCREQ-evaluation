@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "train.py", line 1, in <module>
+    import pytorch_lightning as pl
+  File "/home/lei/anaconda3/envs/py37/lib/python3.7/site-packages/pytorch_lightning/__init__.py", line 28, in <module>
+    from pytorch_lightning import metrics  # noqa: E402
+  File "/home/lei/anaconda3/envs/py37/lib/python3.7/site-packages/pytorch_lightning/metrics/__init__.py", line 14, in <module>
+    from pytorch_lightning.metrics.classification import (  # noqa: F401
+  File "/home/lei/anaconda3/envs/py37/lib/python3.7/site-packages/pytorch_lightning/metrics/classification/__init__.py", line 14, in <module>
+    from pytorch_lightning.metrics.classification.accuracy import Accuracy  # noqa: F401
+  File "/home/lei/anaconda3/envs/py37/lib/python3.7/site-packages/pytorch_lightning/metrics/classification/accuracy.py", line 18, in <module>
+    from pytorch_lightning.metrics.functional.accuracy import _accuracy_compute, _accuracy_update
+  File "/home/lei/anaconda3/envs/py37/lib/python3.7/site-packages/pytorch_lightning/metrics/functional/__init__.py", line 14, in <module>
+    from pytorch_lightning.metrics.functional.accuracy import accuracy  # noqa: F401
+  File "/home/lei/anaconda3/envs/py37/lib/python3.7/site-packages/pytorch_lightning/metrics/functional/accuracy.py", line 18, in <module>
+    from pytorch_lightning.metrics.classification.helpers import _input_format_classification, DataType
+  File "/home/lei/anaconda3/envs/py37/lib/python3.7/site-packages/pytorch_lightning/metrics/classification/helpers.py", line 19, in <module>
+    from pytorch_lightning.metrics.utils import select_topk, to_onehot
+  File "/home/lei/anaconda3/envs/py37/lib/python3.7/site-packages/pytorch_lightning/metrics/utils.py", line 18, in <module>
+    from pytorch_lightning.utilities import rank_zero_warn
+  File "/home/lei/anaconda3/envs/py37/lib/python3.7/site-packages/pytorch_lightning/utilities/__init__.py", line 18, in <module>
+    from pytorch_lightning.utilities.apply_func import move_data_to_device  # noqa: F401
+  File "/home/lei/anaconda3/envs/py37/lib/python3.7/site-packages/pytorch_lightning/utilities/apply_func.py", line 25, in <module>
+    from pytorch_lightning.utilities.imports import _compare_version, _TORCHTEXT_AVAILABLE
+  File "/home/lei/anaconda3/envs/py37/lib/python3.7/site-packages/pytorch_lightning/utilities/imports.py", line 21, in <module>
+    from packaging.version import Version
+ModuleNotFoundError: No module named 'packaging'

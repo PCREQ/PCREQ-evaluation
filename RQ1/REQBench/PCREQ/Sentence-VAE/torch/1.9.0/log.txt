@@ -1,0 +1,5 @@
+2025-06-29 08:36:14,025 - INFO - *************Upgrade torch from 1.5.0 to 1.9.0 in Sentence-VAE*************
+2025-06-29 08:36:14,025 - INFO - Checking Sentence-VAE is compatible with torch1.9.0?...
+2025-06-29 08:36:16,195 - INFO - Sentence-VAE is compatible with torch1.9.0
+2025-06-29 08:36:17,905 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 08:36:17,905 - INFO - Time cost: 3.88096022605896 s

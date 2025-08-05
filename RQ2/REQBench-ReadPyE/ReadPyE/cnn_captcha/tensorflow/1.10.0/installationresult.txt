@@ -1,0 +1,36 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting numpy==1.14.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/68/1e/116ad560de97694e2d0c1843a7a0075cc9f49e922454d32f49a80eb6f1f2/numpy-1.14.5-cp36-cp36m-manylinux1_x86_64.whl (12.2 MB)
+Collecting pillow==8.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ea/0f/2fa195c2d8c6fe0b3dc2df5fc6ac6b8dbd005ea30aaa0fa43eca88b8c664/Pillow-8.4.0-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.1 MB)
+Collecting captcha==0.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/11/b0/a5125b88c185586afc64ea6af894eab996de4ef28c395dcdf4a7818a9098/captcha-0.4-py3-none-any.whl (102 kB)
+Collecting matplotlib==3.3.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/09/03/b7b30fa81cb687d1178e085d0f01111ceaea3bf81f9330c937fb6f6c8ca0/matplotlib-3.3.4-cp36-cp36m-manylinux1_x86_64.whl (11.5 MB)
+Collecting requests==2.27.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/2d/61/08076519c80041bc0ffa1a8af0cbd3bf3e2b62af10435d269a9d0f40564d/requests-2.27.1-py2.py3-none-any.whl (63 kB)
+Collecting tensorflow==1.10
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ee/e6/a6d371306c23c2b01cd2cb38909673d17ddd388d9e4b3c0f6602bfd972c8/tensorflow-1.10.0-cp36-cp36m-manylinux1_x86_64.whl (58.4 MB)
+Collecting flask==2.0.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/cd/77/59df23681f4fd19b7cbbb5e92484d46ad587554f5d490f33ef907e456132/Flask-2.0.3-py3-none-any.whl (95 kB)
+Collecting pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/e5/0c/0e3c05b1c87bb6a1c76d281b0f35e78d2d80ac91b5f8f524cebf77f51049/pyparsing-3.1.4-py3-none-any.whl (104 kB)
+Collecting python-dateutil>=2.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Collecting cycler>=0.10
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/5c/f9/695d6bedebd747e5eb0fe8fad57b72fdf25411273a39791cde838d5a8f51/cycler-0.11.0-py3-none-any.whl (6.4 kB)
+INFO: pip is looking at multiple versions of captcha to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of pillow to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of <Python from Requires-Python> to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of numpy to determine which version is compatible with other requirements. This could take a while.
+ERROR: Cannot install -r /home/lei/compatibility_analysis/compare/ReadPyE/experiment/result/cnn_captcha-tensorflow-1.10.0-2.txt (line 4) and numpy==1.14.5 because these package versions have conflicting dependencies.
+
+The conflict is caused by:
+    The user requested numpy==1.14.5
+    matplotlib 3.3.4 depends on numpy>=1.15
+
+To fix this you could try to:
+1. loosen the range of package versions you've specified
+2. remove package versions to allow pip attempt to solve the dependency conflict
+
+ERROR: ResolutionImpossible: for help visit https://pip.pypa.io/en/latest/user_guide/#fixing-conflicting-dependencies

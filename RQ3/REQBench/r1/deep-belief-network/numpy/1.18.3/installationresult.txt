@@ -1,0 +1,38 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting numpy==1.18.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/3d/fc/4763e5f17ac6e7e7d55f377cde859ca1c5d5ac624441ab45315bc578aa9e/numpy-1.18.3-cp36-cp36m-manylinux1_x86_64.whl (20.2 MB)
+Collecting scikit-learn==0.21.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a0/c5/d2238762d780dde84a20b8c761f563fe882b88c5a5fb03c056547c442a19/scikit_learn-0.21.3-cp36-cp36m-manylinux1_x86_64.whl (6.7 MB)
+Collecting tensorflow==1.5.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/04/79/a37d0b373757b4d283c674a64127bd8864d69f881c639b1ee5953e2d9301/tensorflow-1.5.0-cp36-cp36m-manylinux1_x86_64.whl (44.4 MB)
+Collecting joblib>=0.11
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/7c/91/d3ba0401e62d7e42816bc7d97b82d19c95c164b3e149a87c0a1c026a735e/joblib-1.1.1-py2.py3-none-any.whl (309 kB)
+Collecting scipy>=0.17.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c8/89/63171228d5ced148f5ced50305c89e8576ffc695a90b58fe5bb602b910c2/scipy-1.5.4-cp36-cp36m-manylinux1_x86_64.whl (25.9 MB)
+Requirement already satisfied: wheel>=0.26 in /home/lei/anaconda3/envs/py36-1/lib/python3.6/site-packages (from tensorflow==1.5.0->-r /home/lei/compatibility_analysis/compare/LLM/result/deepseek/r1/deep-belief-network-numpy-1.18.3.txt (line 3)) (0.37.1)
+Collecting tensorflow-tensorboard<1.6.0,>=1.5.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/cc/fa/91c06952517b4f1bc075545b062a4112e30cebe558a6b962816cb33efa27/tensorflow_tensorboard-1.5.1-py3-none-any.whl (3.0 MB)
+Collecting six>=1.10.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/b7/ce/149a00dd41f10bc29e5921b496af8b574d8413afcd5e30dfa0ed46c2cc5e/six-1.17.0-py2.py3-none-any.whl (11 kB)
+Collecting absl-py>=0.1.6
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/dd/87/de5c32fa1b1c6c3305d576e299801d8655c175ca9557019906247b994331/absl_py-1.4.0-py3-none-any.whl (126 kB)
+Collecting protobuf>=3.4.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/8f/8e/06fc0df62dd80a32739b51bb3256f1417349eb5c3899f6ccab3796937458/protobuf-3.19.6-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.1 MB)
+Collecting werkzeug>=0.11.10
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f4/f3/22afbdb20cc4654b10c98043414a14057cd27fdba9d4ae61cea596000ba2/Werkzeug-2.0.3-py3-none-any.whl (289 kB)
+Collecting html5lib==0.9999999
+  Using cached html5lib-0.9999999-py3-none-any.whl
+Collecting markdown>=2.6.8
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f3/df/ca72f352e15b6f8ce32b74af029f1189abffb906f7c137501ffe69c98a65/Markdown-3.3.7-py3-none-any.whl (97 kB)
+Collecting bleach==1.5.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/33/70/86c5fec937ea4964184d4d6c4f0b9551564f821e1c3575907639036d9b90/bleach-1.5.0-py2.py3-none-any.whl (17 kB)
+Collecting importlib-metadata>=4.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a0/a1/b153a0a4caf7a7e3f15c2cd56c7702e2cf3d89b1b359d1f1c5e59d68f4ce/importlib_metadata-4.8.3-py3-none-any.whl (17 kB)
+Collecting zipp>=0.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/bd/df/d4a4974a3e3957fd1c1fa3082366d7fff6e428ddb55f074bf64876f8e8ad/zipp-3.6.0-py3-none-any.whl (5.3 kB)
+Collecting typing-extensions>=3.6.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/45/6b/44f7f8f1e110027cf88956b59f2fad776cca7e1704396d043f89effd3a0e/typing_extensions-4.1.1-py3-none-any.whl (26 kB)
+Collecting dataclasses
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/fe/ca/75fac5856ab5cfa51bbbcefa250182e50441074fdc3f803f6e76451fab43/dataclasses-0.8-py3-none-any.whl (19 kB)
+Installing collected packages: zipp, typing-extensions, six, importlib-metadata, html5lib, dataclasses, werkzeug, protobuf, numpy, markdown, bleach, tensorflow-tensorboard, scipy, joblib, absl-py, tensorflow, scikit-learn
+Successfully installed absl-py-1.4.0 bleach-1.5.0 dataclasses-0.8 html5lib-0.9999999 importlib-metadata-4.8.3 joblib-1.1.1 markdown-3.3.7 numpy-1.18.3 protobuf-3.19.6 scikit-learn-0.21.3 scipy-1.5.4 six-1.17.0 tensorflow-1.5.0 tensorflow-tensorboard-1.5.1 typing-extensions-4.1.1 werkzeug-2.0.3 zipp-3.6.0

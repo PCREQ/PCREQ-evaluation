@@ -1,0 +1,9 @@
+matplotlib==1.1.1
+numpy==1.18.5
+scipy==1.4.1
+imageio==2.9
+albumentations==0.4.6
+scikit-image==0.12.3
+torch==1.5
+torchvision==0.6
+tqdm==4.64

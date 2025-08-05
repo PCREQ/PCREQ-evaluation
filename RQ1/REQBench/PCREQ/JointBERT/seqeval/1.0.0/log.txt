@@ -1,0 +1,5 @@
+2025-06-29 10:58:42,494 - INFO - *************Upgrade seqeval from 0.0.12 to 1.0.0 in JointBERT*************
+2025-06-29 10:58:42,494 - INFO - Checking JointBERT is compatible with seqeval1.0.0?...
+2025-06-29 10:58:42,593 - INFO - JointBERT is compatible with seqeval1.0.0
+2025-06-29 10:58:42,653 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 10:58:42,653 - INFO - Time cost: 0.1595158576965332 s

@@ -1,0 +1,35 @@
+Traceback (most recent call last):
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/lei/compatibility_analysis/pytorch/1.6/svoice/svoice/evaluate.py", line 212, in <module>
+    main()
+  File "/home/lei/compatibility_analysis/pytorch/1.6/svoice/svoice/evaluate.py", line 205, in main
+    sisnr, pesq, stoi = evaluate(args)
+  File "/home/lei/compatibility_analysis/pytorch/1.6/svoice/svoice/evaluate.py", line 73, in evaluate
+    for i, data in enumerate(iterator):
+  File "/home/lei/compatibility_analysis/pytorch/1.6/svoice/svoice/utils.py", line 115, in __next__
+    value = next(self._iterator)
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 681, in __next__
+    data = self._next_data()
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1376, in _next_data
+    return self._process_data(data)
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1402, in _process_data
+    data.reraise()
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/torch/_utils.py", line 461, in reraise
+    raise exception
+TypeError: Caught TypeError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/torch/utils/data/_utils/worker.py", line 302, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/lei/compatibility_analysis/pytorch/1.6/svoice/svoice/data/data.py", line 95, in __getitem__
+    mix_sig = self.mix_set[index]
+  File "/home/lei/compatibility_analysis/pytorch/1.6/svoice/svoice/data/audio.py", line 78, in __getitem__
+    num_frames=num_frames)[0]
+TypeError: load() got an unexpected keyword argument 'offset'
+

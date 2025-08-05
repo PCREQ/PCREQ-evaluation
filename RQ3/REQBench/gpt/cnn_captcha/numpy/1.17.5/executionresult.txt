@@ -1,0 +1,81 @@
+/home/lei/anaconda3/envs/py36-2/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/lei/anaconda3/envs/py36-2/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/lei/anaconda3/envs/py36-2/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/lei/anaconda3/envs/py36-2/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/lei/anaconda3/envs/py36-2/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/lei/anaconda3/envs/py36-2/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home/lei/anaconda3/envs/py36-2/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/lei/anaconda3/envs/py36-2/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/lei/anaconda3/envs/py36-2/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/lei/anaconda3/envs/py36-2/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/lei/anaconda3/envs/py36-2/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/lei/anaconda3/envs/py36-2/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+WARNING: Logging before flag parsing goes to stderr.
+W0528 12:29:26.546916 140082823262784 deprecation_wrapper.py:119] From /home/lei/compatibility_analysis/tensorflow/1.7/cnn_captcha/cnnlib/network.py:22: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+W0528 12:29:26.586927 140082823262784 deprecation_wrapper.py:119] From /home/lei/compatibility_analysis/tensorflow/1.7/cnn_captcha/cnnlib/network.py:62: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+W0528 12:29:27.044428 140082823262784 lazy_loader.py:50] 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+W0528 12:29:27.051302 140082823262784 deprecation_wrapper.py:119] From /home/lei/compatibility_analysis/tensorflow/1.7/cnn_captcha/cnnlib/network.py:64: The name tf.random_normal is deprecated. Please use tf.random.normal instead.
+
+W0528 12:29:27.057551 140082823262784 deprecation_wrapper.py:119] From /home/lei/compatibility_analysis/tensorflow/1.7/cnn_captcha/cnnlib/network.py:66: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+W0528 12:29:27.058312 140082823262784 deprecation.py:506] From /home/lei/compatibility_analysis/tensorflow/1.7/cnn_captcha/cnnlib/network.py:67: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+W0528 12:29:27.131717 140082823262784 deprecation.py:323] From /home/lei/anaconda3/envs/py36-2/lib/python3.6/site-packages/tensorflow/python/ops/nn_impl.py:180: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+W0528 12:29:27.135708 140082823262784 deprecation_wrapper.py:119] From train_model.py:144: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+W0528 12:29:27.335625 140082823262784 deprecation_wrapper.py:119] From train_model.py:156: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+W0528 12:29:27.359154 140082823262784 deprecation_wrapper.py:119] From train_model.py:157: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2025-05-28 12:29:27.359603: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2025-05-28 12:29:27.403184: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2100000000 Hz
+2025-05-28 12:29:27.413566: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55bb7399e1a0 executing computations on platform Host. Devices:
+2025-05-28 12:29:27.413638: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+W0528 12:29:27.424302 140082823262784 deprecation_wrapper.py:119] From train_model.py:158: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+2025-05-28 12:29:27.799265: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+W0528 12:29:27.936445 140082823262784 deprecation.py:323] From /home/lei/anaconda3/envs/py36-2/lib/python3.6/site-packages/tensorflow/python/training/saver.py:1276: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+W0528 12:29:28.152218 140082823262784 deprecation_wrapper.py:119] From train_model.py:170: The name tf.summary.FileWriter is deprecated. Please use tf.compat.v1.summary.FileWriter instead.
+
+-->图片尺寸: 60 X 100
+-->验证码长度: 4
+-->验证码共36类 ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+-->使用测试集为 sample/train/
+-->使验证集为 sample/test/
+>>> Start model test
+>>> input batch images shape: (100, 6000)
+>>> input batch labels shape: (100, 144)
+>>> input x: Tensor("Reshape:0", shape=(?, 60, 100, 1), dtype=float32)
+>>> convolution 3:  (?, 8, 13, 128)
+>>> input batch predict shape: (?, 144)
+>>> End model test
+定时保存模型成功
+第10次训练 >>> 
+[训练集] 字符准确率为 1.00000 图片准确率为 1.00000 >>> loss 0.0000078092
+[验证集] 字符准确率为 0.01750 图片准确率为 0.00000 >>> loss 0.0000078092

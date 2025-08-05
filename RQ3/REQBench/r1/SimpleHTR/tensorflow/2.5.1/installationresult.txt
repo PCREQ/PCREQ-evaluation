@@ -1,0 +1,141 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting absl-py==0.15.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/97/75/f5e61fb67ecbe45c31035b17562464e11b91a2b8a351bae5ca0db2969e3b/absl_py-0.15.0-py3-none-any.whl (132 kB)
+Collecting astunparse==1.6.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/2b/03/13dde6512ad7b4557eb792fbcf0c653af6076b81e5941d36ec61f7ce6028/astunparse-1.6.3-py2.py3-none-any.whl (12 kB)
+Collecting cachetools==4.2.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ea/c1/4740af52db75e6dbdd57fc7e9478439815bbac549c1c05881be27d19a17d/cachetools-4.2.4-py3-none-any.whl (10 kB)
+Collecting certifi==2021.5.30
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/05/1b/0a0dece0e8aa492a6ec9e4ad2fe366b511558cdc73fd3abc82ba7348e875/certifi-2021.5.30-py2.py3-none-any.whl (145 kB)
+Collecting charset-normalizer==2.0.12
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/06/b3/24afc8868eba069a7f03650ac750a778862dc34941a4bebeb58706715726/charset_normalizer-2.0.12-py3-none-any.whl (39 kB)
+Collecting cycler==0.11.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/5c/f9/695d6bedebd747e5eb0fe8fad57b72fdf25411273a39791cde838d5a8f51/cycler-0.11.0-py3-none-any.whl (6.4 kB)
+Collecting dataclasses==0.8
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/fe/ca/75fac5856ab5cfa51bbbcefa250182e50441074fdc3f803f6e76451fab43/dataclasses-0.8-py3-none-any.whl (19 kB)
+Collecting editdistance==0.5.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/dc/34/381c67595831fc9daa30c9247cfb8116941fc7380b571a390bbff6da011e/editdistance-0.5.2-cp36-cp36m-manylinux1_x86_64.whl (173 kB)
+Collecting flatbuffers==1.12
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/eb/26/712e578c5f14e26ae3314c39a1bdc4eb2ec2f4ddc89b708cf8e0a0d20423/flatbuffers-1.12-py2.py3-none-any.whl (15 kB)
+Collecting gast==0.4.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/b6/48/583c032b79ae5b3daa02225a675aeb673e58d2cb698e78510feceb11958c/gast-0.4.0-py3-none-any.whl (9.8 kB)
+Collecting google-auth==1.35.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/fb/7a/1b3eb54caee1b8c73c2c3645f78a382eca4805a301a30c64a078e736e446/google_auth-1.35.0-py2.py3-none-any.whl (152 kB)
+Collecting google-auth-oauthlib==0.4.6
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/b1/0e/0636cc1448a7abc444fb1b3a63655e294e0d2d49092dc3de05241be6d43c/google_auth_oauthlib-0.4.6-py2.py3-none-any.whl (18 kB)
+Collecting google-pasta==0.2.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a3/de/c648ef6835192e6e2cc03f40b19eeda4382c49b5bafb43d88b931c4c74ac/google_pasta-0.2.0-py3-none-any.whl (57 kB)
+Collecting grpcio==1.34.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ab/f5/3d3bcb82beae990021cbf6877456a1aab650e68c902194566edd6a73e37c/grpcio-1.34.1-cp36-cp36m-manylinux2014_x86_64.whl (4.0 MB)
+Collecting h5py==3.1.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/70/7a/e53e500335afb6b1aade11227cdf107fca54106a1dca5c9d13242a043f3b/h5py-3.1.0-cp36-cp36m-manylinux1_x86_64.whl (4.0 MB)
+Collecting idna==3.7
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/e5/3e/741d8c82801c347547f8a2a06aa57dbb1992be9e948df2ea0eda2c8b79e8/idna-3.7-py3-none-any.whl (66 kB)
+Collecting importlib-metadata==4.8.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a0/a1/b153a0a4caf7a7e3f15c2cd56c7702e2cf3d89b1b359d1f1c5e59d68f4ce/importlib_metadata-4.8.3-py3-none-any.whl (17 kB)
+Collecting Keras-Preprocessing==1.1.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/79/4c/7c3275a01e12ef9368a892926ab932b33bb13d55794881e3573482b378a7/Keras_Preprocessing-1.1.2-py2.py3-none-any.whl (42 kB)
+Collecting kiwisolver==1.3.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a7/1b/cbd8ae738719b5f41592a12057ef5442e2ed5f5cb5451f8fc7e9f8875a1a/kiwisolver-1.3.1-cp36-cp36m-manylinux1_x86_64.whl (1.1 MB)
+Collecting lmdb==1.0.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/63/49/3c7bead9dcea2cdc57a91bb1f83d4d28166cdf5b0d35d6b876541b3b114b/lmdb-1.0.0-cp36-cp36m-manylinux1_x86_64.whl (278 kB)
+Collecting Markdown==3.3.7
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f3/df/ca72f352e15b6f8ce32b74af029f1189abffb906f7c137501ffe69c98a65/Markdown-3.3.7-py3-none-any.whl (97 kB)
+Collecting matplotlib==3.2.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/93/4b/52da6b1523d5139d04e02d9e26ceda6146b48f2a4e5d2abfdf1c7bac8c40/matplotlib-3.2.1-cp36-cp36m-manylinux1_x86_64.whl (12.4 MB)
+Collecting numpy==1.19.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/14/32/d3fa649ad7ec0b82737b92fefd3c4dd376b0bb23730715124569f38f3a08/numpy-1.19.5-cp36-cp36m-manylinux2010_x86_64.whl (14.8 MB)
+Collecting oauthlib==3.2.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/7e/80/cab10959dc1faead58dc8384a781dfbf93cb4d33d50988f7a69f1b7c9bbe/oauthlib-3.2.2-py3-none-any.whl (151 kB)
+Collecting opencv-python==4.5.4.60
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/87/7f/92d75cc58781877b6446c8d35a1b6bf11c914d6a39418819405b63531e4b/opencv_python-4.5.4.60-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (60.3 MB)
+Collecting opt-einsum==3.3.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/bc/19/404708a7e54ad2798907210462fd950c3442ea51acc8790f3da48d2bee8b/opt_einsum-3.3.0-py3-none-any.whl (65 kB)
+Collecting path==15.0.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/cb/81/b9090d24e60369fd9413b92fcd87e13a37bf43dad3427d35e09915f788ac/path-15.0.0-py3-none-any.whl (21 kB)
+Collecting protobuf==3.19.6
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/8f/8e/06fc0df62dd80a32739b51bb3256f1417349eb5c3899f6ccab3796937458/protobuf-3.19.6-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.1 MB)
+Collecting pyasn1==0.5.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d1/75/4686d2872bf2fc0b37917cbc8bbf0dd3a5cdb0990799be1b9cbf1e1eb733/pyasn1-0.5.1-py2.py3-none-any.whl (84 kB)
+Collecting pyasn1-modules==0.3.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/cd/8e/bea464350e1b8c6ed0da3a312659cb648804a08af6cacc6435867f74f8bd/pyasn1_modules-0.3.0-py2.py3-none-any.whl (181 kB)
+Collecting pyparsing==3.1.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/9d/ea/6d76df31432a0e6fdf81681a895f009a4bb47b3c39036db3e1b528191d52/pyparsing-3.1.2-py3-none-any.whl (103 kB)
+Collecting python-dateutil==2.9.0.post0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Collecting requests==2.27.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/2d/61/08076519c80041bc0ffa1a8af0cbd3bf3e2b62af10435d269a9d0f40564d/requests-2.27.1-py2.py3-none-any.whl (63 kB)
+Collecting requests-oauthlib==2.0.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/3b/5d/63d4ae3b9daea098d5d6f5da83984853c1bbacd5dc826764b249fe119d24/requests_oauthlib-2.0.0-py2.py3-none-any.whl (24 kB)
+Collecting rsa==4.9
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/49/97/fa78e3d2f65c02c8e1268b9aba606569fe97f6c8f7c2d74394553347c145/rsa-4.9-py3-none-any.whl (34 kB)
+Collecting six==1.15.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ee/ff/48bde5c0f013094d729fe4b0316ba2a24774b3ff1c52d924a8a4cb04078a/six-1.15.0-py2.py3-none-any.whl (10 kB)
+Collecting tensorboard==2.5.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/44/f5/7feea02a3fb54d5db827ac4b822a7ba8933826b36de21880518250b8733a/tensorboard-2.5.0-py3-none-any.whl (6.0 MB)
+Collecting tensorboard-data-server==0.6.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/60/f9/802efd84988bffd9f644c03b6e66fde8e76c3aa33db4279ddd11c5d61f4b/tensorboard_data_server-0.6.1-py3-none-manylinux2010_x86_64.whl (4.9 MB)
+Collecting tensorboard-plugin-wit==1.8.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/e0/68/e8ecfac5dd594b676c23a7f07ea34c197d7d69b3313afdf8ac1b0a9905a2/tensorboard_plugin_wit-1.8.1-py3-none-any.whl (781 kB)
+Collecting tensorflow==2.5.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/bc/15/f4c54dd6fbfc9f026551d40521ead110c8639c746e185a8a5243eb9be3d8/tensorflow-2.5.1-cp36-cp36m-manylinux2010_x86_64.whl (454.3 MB)
+Collecting tensorflow-estimator==2.5.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ec/78/b27f73e923becc6e79e18fe112cf75e3200d1ee35b0dba8fa46181bce56c/tensorflow_estimator-2.5.0-py2.py3-none-any.whl (462 kB)
+Collecting termcolor==1.1.0
+  Using cached termcolor-1.1.0-py3-none-any.whl
+Collecting typing-extensions==3.7.4.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/60/7a/e881b5abb54db0e6e671ab088d079c57ce54e8a01a3ca443f561ccadb37e/typing_extensions-3.7.4.3-py3-none-any.whl (22 kB)
+Collecting urllib3==1.26.19
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ae/6a/99eaaeae8becaa17a29aeb334a18e5d582d873b6f084c11f02581b8d7f7f/urllib3-1.26.19-py2.py3-none-any.whl (143 kB)
+Collecting Werkzeug==2.0.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f4/f3/22afbdb20cc4654b10c98043414a14057cd27fdba9d4ae61cea596000ba2/Werkzeug-2.0.3-py3-none-any.whl (289 kB)
+Collecting wrapt==1.12.1
+  Using cached wrapt-1.12.1-cp36-cp36m-linux_x86_64.whl
+Collecting zipp==3.6.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/bd/df/d4a4974a3e3957fd1c1fa3082366d7fff6e428ddb55f074bf64876f8e8ad/zipp-3.6.0-py3-none-any.whl (5.3 kB)
+Requirement already satisfied: wheel<1.0,>=0.23.0 in /home/lei/anaconda3/envs/py36-1/lib/python3.6/site-packages (from astunparse==1.6.3->-r /home/lei/compatibility_analysis/compare/LLM/result/deepseek/r1/SimpleHTR-tensorflow-2.5.1.txt (line 2)) (0.37.1)
+Requirement already satisfied: setuptools>=40.3.0 in /home/lei/anaconda3/envs/py36-1/lib/python3.6/site-packages (from google-auth==1.35.0->-r /home/lei/compatibility_analysis/compare/LLM/result/deepseek/r1/SimpleHTR-tensorflow-2.5.1.txt (line 11)) (58.0.4)
+Collecting cached-property
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/48/19/f2090f7dad41e225c7f2326e4cfe6fff49e57dedb5b53636c9551f86b069/cached_property-1.5.2-py2.py3-none-any.whl (7.6 kB)
+INFO: pip is looking at multiple versions of tensorboard-plugin-wit to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of tensorboard-data-server to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of tensorboard to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of six to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of rsa to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of requests-oauthlib to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of requests to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of python-dateutil to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of pyparsing to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of pyasn1-modules to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of pyasn1 to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of protobuf to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of path to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of opt-einsum to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of opencv-python to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of oauthlib to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of numpy to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of matplotlib to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of markdown to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of lmdb to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of kiwisolver to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of keras-preprocessing to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of importlib-metadata to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of idna to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of h5py to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of grpcio to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of google-pasta to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of google-auth-oauthlib to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of google-auth to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of gast to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of flatbuffers to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of editdistance to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of dataclasses to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of cycler to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of charset-normalizer to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of certifi to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of <Python from Requires-Python> to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of cachetools to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of astunparse to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of absl-py to determine which version is compatible with other requirements. This could take a while.
+ERROR: Could not find a version that satisfies the requirement keras-nightly~=2.5.0.dev (from tensorflow) (from versions: none)
+ERROR: No matching distribution found for keras-nightly~=2.5.0.dev

@@ -1,0 +1,7 @@
+2025-06-29 18:39:28,964 - INFO - *************Upgrade numpy from 1.16.2 to 1.17.5 in graphSAGE-pytorch*************
+2025-06-29 18:39:28,964 - INFO - Checking graphSAGE-pytorch is compatible with numpy1.17.5?...
+2025-06-29 18:39:34,979 - INFO - graphSAGE-pytorch is compatible with numpy1.17.5
+2025-06-29 18:39:35,558 - INFO - Checking scikit-learn0.20.3 is compatible with numpy1.17.5?...
+2025-06-29 18:40:06,940 - INFO - scikit-learn0.20.3 is compatible with numpy1.17.5
+2025-06-29 18:40:08,825 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 18:40:08,825 - INFO - Time cost: 39.862027168273926 s

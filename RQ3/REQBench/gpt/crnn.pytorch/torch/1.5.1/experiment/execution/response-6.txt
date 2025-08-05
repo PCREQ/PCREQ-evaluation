@@ -1,0 +1,10 @@
+coloredlogs==15.0.1
+humanfriendly==9.2
+lmdb==0.97
+mpmath==1.2.1
+numpy==1.18.5
+Pillow==6.2.2
+six==1.14.0
+sympy==1.10.1
+torch==1.5.1+cu101
+torchvision==0.6.0+cu101

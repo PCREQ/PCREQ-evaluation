@@ -1,0 +1,45 @@
+SentenceVAE(
+  (embedding): Embedding(9877, 300)
+  (embedding_dropout): Dropout(p=0.5, inplace=False)
+  (encoder_rnn): GRU(300, 256, batch_first=True)
+  (decoder_rnn): GRU(300, 256, batch_first=True)
+  (hidden2mean): Linear(in_features=256, out_features=16, bias=True)
+  (hidden2logv): Linear(in_features=256, out_features=16, bias=True)
+  (latent2hidden): Linear(in_features=16, out_features=256, bias=True)
+  (outputs2vocab): Linear(in_features=256, out_features=9877, bias=True)
+)
+TRAIN Batch 0000/1314, Loss  201.4483, NLL-Loss  201.4476, KL-Loss    0.3880, KL-Weight  0.002
+TRAIN Batch 0050/1314, Loss  160.7838, NLL-Loss  160.7368, KL-Loss   21.5407, KL-Weight  0.002
+TRAIN Batch 0100/1314, Loss  157.1167, NLL-Loss  157.0298, KL-Loss   35.1148, KL-Weight  0.002
+TRAIN Batch 0150/1314, Loss  150.5088, NLL-Loss  150.4081, KL-Loss   35.9572, KL-Weight  0.003
+TRAIN Batch 0200/1314, Loss  106.1791, NLL-Loss  106.0347, KL-Loss   45.5159, KL-Weight  0.003
+TRAIN Batch 0250/1314, Loss  143.9724, NLL-Loss  143.7716, KL-Loss   55.8608, KL-Weight  0.004
+TRAIN Batch 0300/1314, Loss  105.1944, NLL-Loss  104.9615, KL-Loss   57.2211, KL-Weight  0.004
+TRAIN Batch 0350/1314, Loss  114.2040, NLL-Loss  113.9273, KL-Loss   60.0122, KL-Weight  0.005
+TRAIN Batch 0400/1314, Loss  124.3823, NLL-Loss  124.0356, KL-Loss   66.4185, KL-Weight  0.005
+TRAIN Batch 0450/1314, Loss  127.5830, NLL-Loss  127.1898, KL-Loss   66.5270, KL-Weight  0.006
+TRAIN Batch 0500/1314, Loss  110.8392, NLL-Loss  110.3993, KL-Loss   65.7251, KL-Weight  0.007
+TRAIN Batch 0550/1314, Loss  110.9085, NLL-Loss  110.4047, KL-Loss   66.4807, KL-Weight  0.008
+TRAIN Batch 0600/1314, Loss  100.9020, NLL-Loss  100.3721, KL-Loss   61.7840, KL-Weight  0.009
+TRAIN Batch 0650/1314, Loss  114.4091, NLL-Loss  113.7432, KL-Loss   68.5912, KL-Weight  0.010
+TRAIN Batch 0700/1314, Loss  122.3789, NLL-Loss  121.6911, KL-Loss   62.6012, KL-Weight  0.011
+TRAIN Batch 0750/1314, Loss   91.2760, NLL-Loss   90.4897, KL-Loss   63.2475, KL-Weight  0.012
+TRAIN Batch 0800/1314, Loss  100.5465, NLL-Loss   99.7350, KL-Loss   57.6980, KL-Weight  0.014
+TRAIN Batch 0850/1314, Loss  124.9055, NLL-Loss  123.9287, KL-Loss   61.4131, KL-Weight  0.016
+TRAIN Batch 0900/1314, Loss  111.8950, NLL-Loss  110.9071, KL-Loss   54.9221, KL-Weight  0.018
+TRAIN Batch 0950/1314, Loss  120.7268, NLL-Loss  119.6072, KL-Loss   55.0673, KL-Weight  0.020
+TRAIN Batch 1000/1314, Loss  100.1571, NLL-Loss   98.9258, KL-Loss   53.5869, KL-Weight  0.023
+TRAIN Batch 1050/1314, Loss  107.9302, NLL-Loss  106.5199, KL-Loss   54.3290, KL-Weight  0.026
+TRAIN Batch 1100/1314, Loss  104.8877, NLL-Loss  103.3897, KL-Loss   51.1072, KL-Weight  0.029
+TRAIN Batch 1150/1314, Loss  100.4828, NLL-Loss   98.8223, KL-Loss   50.1881, KL-Weight  0.033
+TRAIN Batch 1200/1314, Loss  105.0805, NLL-Loss  103.2507, KL-Loss   49.0200, KL-Weight  0.037
+TRAIN Batch 1250/1314, Loss  106.0895, NLL-Loss  104.1794, KL-Loss   45.3841, KL-Weight  0.042
+TRAIN Batch 1300/1314, Loss  111.5324, NLL-Loss  109.3561, KL-Loss   45.8870, KL-Weight  0.047
+TRAIN Batch 1314/1314, Loss   89.8402, NLL-Loss   87.6459, KL-Loss   44.7530, KL-Weight  0.049
+TRAIN Epoch 00/1, Mean ELBO  119.8251
+Model saved at bin/2024-Jul-21-13:20:02/E0.pytorch
+VALID Batch 0000/105, Loss  124.1152, NLL-Loss  122.1001, KL-Loss   41.0014, KL-Weight  0.049
+VALID Batch 0050/105, Loss  123.5140, NLL-Loss  121.3299, KL-Loss   44.4385, KL-Weight  0.049
+VALID Batch 0100/105, Loss   90.0796, NLL-Loss   88.1724, KL-Loss   38.8036, KL-Weight  0.049
+VALID Batch 0105/105, Loss   91.0369, NLL-Loss   88.8232, KL-Loss   45.0421, KL-Weight  0.049
+VALID Epoch 00/1, Mean ELBO  104.6046

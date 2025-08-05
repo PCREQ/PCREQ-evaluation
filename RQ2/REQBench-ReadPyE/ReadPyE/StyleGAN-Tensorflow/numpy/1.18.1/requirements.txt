@@ -1,0 +1,5 @@
+pillow==8.4
+numpy==1.17.5
+opencv-python==4.6.0.66
+tqdm==4.64
+tensorflow==1.11

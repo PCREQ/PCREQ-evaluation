@@ -1,0 +1,69 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting absl-py==2.1.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a2/ad/e0d3c824784ff121c03cc031f944bc7e139a8f1870ffd2845cc2dd76f6c4/absl_py-2.1.0-py3-none-any.whl (133 kB)
+Collecting audioread==3.0.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/57/8d/30aa32745af16af0a9a650115fbe81bde7c610ed5c21b381fca0196f3a7f/audioread-3.0.1-py3-none-any.whl (23 kB)
+Collecting cffi==1.15.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/93/d0/2e2b27ea2f69b0ec9e481647822f8f77f5fc23faca2dd00d1ff009940eb7/cffi-1.15.1-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (427 kB)
+Collecting cycler==0.11.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/5c/f9/695d6bedebd747e5eb0fe8fad57b72fdf25411273a39791cde838d5a8f51/cycler-0.11.0-py3-none-any.whl (6.4 kB)
+Collecting decorator==5.1.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d5/50/83c593b07763e1161326b3b8c6686f0f4b0f24d5526546bee538c89837d6/decorator-5.1.1-py3-none-any.whl (9.1 kB)
+Collecting grpcio==1.62.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/11/ba/a462bbe7cbb5aabc6e8845be445eef42269a6bb8c39f83b950630674d070/grpcio-1.62.2-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (5.6 MB)
+Collecting importlib-metadata==6.7.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ff/94/64287b38c7de4c90683630338cf28f129decbba0a44f0c6db35a873c73c4/importlib_metadata-6.7.0-py3-none-any.whl (22 kB)
+Collecting joblib==1.3.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/10/40/d551139c85db202f1f384ba8bcf96aca2f329440a844f924c8a0040b6d02/joblib-1.3.2-py3-none-any.whl (302 kB)
+Collecting kiwisolver==1.4.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f9/77/e3046bf19720b22e3e0b7c12e28f6f2c0c18a213fb91a56cea640862270f/kiwisolver-1.4.5-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl (1.1 MB)
+Collecting librosa==0.7.2
+  Using cached librosa-0.7.2-py3-none-any.whl
+Collecting llvmlite==0.31.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a0/10/d02c0ac683fc47ecda3426249509cf771d748b6a2c0e9d5ebbee76a7b80a/llvmlite-0.31.0-cp37-cp37m-manylinux1_x86_64.whl (20.2 MB)
+Collecting Markdown==3.4.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/1a/b5/228c1cdcfe138f1a8e01ab1b54284c8b83735476cb22b6ba251656ed13ad/Markdown-3.4.4-py3-none-any.whl (94 kB)
+Collecting MarkupSafe==2.1.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/4a/1d/c4f5016f87ced614eacc7d5fb85b25bcc0ff53e8f058d069fc8cbfdc3c7a/MarkupSafe-2.1.5-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (25 kB)
+Collecting matplotlib==3.4.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/24/33/5568d443ba438d95d4db635dd69958056f087e57e1026bee56f959d53f9d/matplotlib-3.4.2-cp37-cp37m-manylinux1_x86_64.whl (10.3 MB)
+Collecting numba==0.48.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/39/dc/5ce4a94d98e8a31cab21b150e23ca2f09a7dd354c06a69f71801ecd890db/numba-0.48.0-1-cp37-cp37m-manylinux2014_x86_64.whl (3.5 MB)
+Collecting numpy==1.20.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a5/42/560d269f604d3e186a57c21a363e77e199358d054884e61b73e405dd217c/numpy-1.20.3-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (15.3 MB)
+Collecting Pillow==9.3.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c0/47/4023dab2d77ea3f687939770b06e0c191b4a5a20590f158a6e8dbb03e357/Pillow-9.3.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.2 MB)
+Collecting protobuf==3.20.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/af/26/cf27940ece6bb8890a67f741eb9da5359b72749f816edf210a28fe01a247/protobuf-3.20.0-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl (1.0 MB)
+Collecting pycparser==2.21
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/62/d5/5f610ebe421e85889f2e55e33b7f9a6795bd982198517d912eb1c76e1a53/pycparser-2.21-py2.py3-none-any.whl (118 kB)
+Collecting pyparsing==3.1.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/9d/ea/6d76df31432a0e6fdf81681a895f009a4bb47b3c39036db3e1b528191d52/pyparsing-3.1.2-py3-none-any.whl (103 kB)
+Collecting python-dateutil==2.9.0.post0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Collecting resampy==0.2.2
+  Using cached resampy-0.2.2-py3-none-any.whl
+Collecting scikit-learn==1.0.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/bd/05/e561bc99a615b5c099c7a9355409e5e57c525a108f1c2e156abb005b90a6/scikit_learn-1.0.2-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (24.8 MB)
+Collecting scipy==1.4.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/dd/82/c1fe128f3526b128cfd185580ba40d01371c5d299fcf7f77968e22dfcc2e/scipy-1.4.1-cp37-cp37m-manylinux1_x86_64.whl (26.1 MB)
+Collecting six==1.16.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting SoundFile==0.10.3.post1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/eb/f2/3cbbbf3b96fb9fa91582c438b574cff3f45b29c772f94c400e2c99ef5db9/SoundFile-0.10.3.post1-py2.py3-none-any.whl (21 kB)
+Collecting tensorboard==2.0.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/9b/a6/e8ffa4e2ddb216449d34cfcb825ebb38206bee5c4553d69e7bc8bc2c5d64/tensorboard-2.0.0-py3-none-any.whl (3.8 MB)
+Collecting threadpoolctl==3.1.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/61/cf/6e354304bcb9c6413c4e02a747b600061c21d38ba51e7e544ac7bc66aecc/threadpoolctl-3.1.0-py3-none-any.whl (14 kB)
+Collecting torch==1.4.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/1a/3b/fa92ece1e58a6a48ec598bab327f39d69808133e5b2fb33002ca754e381e/torch-1.4.0-cp37-cp37m-manylinux1_x86_64.whl (753.4 MB)
+Collecting typing_extensions==4.7.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ec/6b/63cc3df74987c36fe26157ee12e09e8f9db4de771e0f3404263117e75b95/typing_extensions-4.7.1-py3-none-any.whl (33 kB)
+Collecting Werkzeug==2.2.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f6/f8/9da63c1617ae2a1dec2fbf6412f3a0cfe9d4ce029eccbda6e1e4258ca45f/Werkzeug-2.2.3-py3-none-any.whl (233 kB)
+Collecting zipp==3.15.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/5b/fa/c9e82bbe1af6266adf08afb563905eb87cab83fde00a0a08963510621047/zipp-3.15.0-py3-none-any.whl (6.8 kB)
+Requirement already satisfied: setuptools in /home/lei/anaconda3/envs/py37-1/lib/python3.7/site-packages (from numba==0.48.0->-r /home/lei/compatibility_analysis/compare/LLM/result/deepseek/v3/hifi-gan-matplotlib-3.4.2.txt (line 15)) (59.5.0)
+Requirement already satisfied: wheel>=0.26 in /home/lei/anaconda3/envs/py37-1/lib/python3.7/site-packages (from tensorboard==2.0.0->-r /home/lei/compatibility_analysis/compare/LLM/result/deepseek/v3/hifi-gan-matplotlib-3.4.2.txt (line 27)) (0.38.4)
+Installing collected packages: llvmlite, zipp, typing_extensions, torch, threadpoolctl, six, pyparsing, pycparser, protobuf, Pillow, numpy, MarkupSafe, joblib, grpcio, decorator, cycler, audioread, absl-py, Werkzeug, scipy, python-dateutil, numba, kiwisolver, importlib-metadata, cffi, SoundFile, scikit-learn, resampy, matplotlib, Markdown, tensorboard, librosa
+Successfully installed Markdown-3.4.4 MarkupSafe-2.1.5 Pillow-9.3.0 SoundFile-0.10.3.post1 Werkzeug-2.2.3 absl-py-2.1.0 audioread-3.0.1 cffi-1.15.1 cycler-0.11.0 decorator-5.1.1 grpcio-1.62.2 importlib-metadata-6.7.0 joblib-1.3.2 kiwisolver-1.4.5 librosa-0.7.2 llvmlite-0.31.0 matplotlib-3.4.2 numba-0.48.0 numpy-1.20.3 protobuf-3.20.0 pycparser-2.21 pyparsing-3.1.2 python-dateutil-2.9.0.post0 resampy-0.2.2 scikit-learn-1.0.2 scipy-1.4.1 six-1.16.0 tensorboard-2.0.0 threadpoolctl-3.1.0 torch-1.4.0 typing_extensions-4.7.1 zipp-3.15.0

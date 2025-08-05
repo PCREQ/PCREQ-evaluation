@@ -1,0 +1,41 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting absl-py==0.7.1
+  Using cached absl_py-0.7.1-py3-none-any.whl
+Collecting astor==0.8.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c3/88/97eef84f48fa04fbd6750e62dcceafba6c63c81b7ac1420856c8dcc0a3f9/astor-0.8.1-py2.py3-none-any.whl (27 kB)
+Collecting cached-property==1.5.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/48/19/f2090f7dad41e225c7f2326e4cfe6fff49e57dedb5b53636c9551f86b069/cached_property-1.5.2-py2.py3-none-any.whl (7.6 kB)
+Collecting certifi==2021.5.30
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/05/1b/0a0dece0e8aa492a6ec9e4ad2fe366b511558cdc73fd3abc82ba7348e875/certifi-2021.5.30-py2.py3-none-any.whl (145 kB)
+Collecting dataclasses==0.8
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/fe/ca/75fac5856ab5cfa51bbbcefa250182e50441074fdc3f803f6e76451fab43/dataclasses-0.8-py3-none-any.whl (19 kB)
+Collecting gast==0.2.2
+  Using cached gast-0.2.2-py3-none-any.whl
+Collecting grpcio==1.8.6
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/de/b3/c1744b5a8d7a4f2ebefc488b05bf2f0c634d2d57647cca95de5cf44ce710/grpcio-1.8.6-cp36-cp36m-manylinux1_x86_64.whl (6.0 MB)
+Collecting h5py==2.8.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/8e/cb/726134109e7bd71d98d1fcc717ffe051767aac42ede0e7326fd1787e5d64/h5py-2.8.0-cp36-cp36m-manylinux1_x86_64.whl (2.8 MB)
+Collecting importlib-metadata==3.10.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/52/d0/bdb31463f2d9ca111e39b268518e9baa3542ef73ca449b711a7b4da69764/importlib_metadata-3.10.1-py3-none-any.whl (14 kB)
+Collecting Keras-Applications==1.0.8
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/71/e3/19762fdfc62877ae9102edf6342d71b28fbfd9dea3d2f96a882ce099b03f/Keras_Applications-1.0.8-py3-none-any.whl (50 kB)
+Collecting Keras-Preprocessing==1.0.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/fc/94/74e0fa783d3fc07e41715973435dd051ca89c550881b3454233c39c73e69/Keras_Preprocessing-1.0.5-py2.py3-none-any.whl (30 kB)
+Collecting Markdown==2.6.11
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/6d/7d/488b90f470b96531a3f5788cf12a93332f543dbab13c423a5e7ce96a0493/Markdown-2.6.11-py2.py3-none-any.whl (78 kB)
+Collecting mock==3.0.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/05/d2/f94e68be6b17f46d2c353564da56e6fb89ef09faeeff3313a046cb810ca9/mock-3.0.5-py2.py3-none-any.whl (25 kB)
+Collecting numpy==1.15.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ff/7f/9d804d2348471c67a7d8b5f84f9bc59fd1cefa148986f2b74552f8573555/numpy-1.15.4-cp36-cp36m-manylinux1_x86_64.whl (13.9 MB)
+Collecting opencv-python==4.1.0.25
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/7b/d2/a2dbf83d4553ca6b3701d91d75e42fe50aea97acdc00652dca515749fb5d/opencv_python-4.1.0.25-cp36-cp36m-manylinux1_x86_64.whl (26.6 MB)
+Collecting Pillow==6.1.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/14/41/db6dec65ddbc176a59b89485e8cc136a433ed9c6397b6bfe2cd38412051e/Pillow-6.1.0-cp36-cp36m-manylinux1_x86_64.whl (2.1 MB)
+Collecting protobuf==3.7.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c5/60/ca38e967360212ddbb004141a70f5f6d47296e1fba37964d8ac6cb631921/protobuf-3.7.0-cp36-cp36m-manylinux1_x86_64.whl (1.2 MB)
+Collecting scipy==1.2.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/67/e6/6d4edaceee6a110ecf6f318482f5229792f143e468b34a631f5a0899f56d/scipy-1.2.0-cp36-cp36m-manylinux1_x86_64.whl (26.6 MB)
+Collecting six==1.16.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl (11 kB)
+ERROR: Could not find a version that satisfies the requirement tensorboard==1.13.2 (from versions: 1.0.0a3, 1.0.0a4, 1.0.0a5, 1.0.0a6, 1.6.0rc0, 1.6.0, 1.7.0, 1.8.0, 1.9.0, 1.10.0, 1.11.0, 1.12.0, 1.12.1, 1.12.2, 1.13.0, 1.13.1, 1.14.0, 1.15.0, 2.0.0, 2.0.1, 2.0.2, 2.1.0, 2.1.1, 2.2.0, 2.2.1, 2.2.2, 2.3.0, 2.4.0, 2.4.1, 2.5.0, 2.6.0, 2.7.0, 2.8.0, 2.9.0, 2.9.1, 2.10.0, 2.10.1)
+ERROR: No matching distribution found for tensorboard==1.13.2

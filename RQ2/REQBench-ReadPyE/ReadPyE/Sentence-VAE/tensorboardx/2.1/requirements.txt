@@ -1,0 +1,4 @@
+numpy==1.21.6
+tensorboardx==2.1
+torch==1.12.1
+nltk==3.7

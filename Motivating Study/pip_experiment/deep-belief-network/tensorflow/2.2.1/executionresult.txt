@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "example_classification.py", line 8, in <module>
+    from dbn.tensorflow import SupervisedDBNClassification
+  File "/home/lei/compatibility_analysis/tensorflow/1.5/deep-belief-network/dbn/tensorflow/__init__.py", line 1, in <module>
+    from .models import BinaryRBM, UnsupervisedDBN, SupervisedDBNRegression, SupervisedDBNClassification
+  File "/home/lei/compatibility_analysis/tensorflow/1.5/deep-belief-network/dbn/tensorflow/models.py", line 19, in <module>
+    sess = tf.Session()
+AttributeError: module 'tensorflow' has no attribute 'Session'

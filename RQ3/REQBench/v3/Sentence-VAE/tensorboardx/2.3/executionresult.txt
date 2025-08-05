@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "train.py", line 8, in <module>
+    from tensorboardX import SummaryWriter
+  File "/home/lei/anaconda3/envs/py37-5/lib/python3.7/site-packages/tensorboardX/__init__.py", line 5, in <module>
+    from .torchvis import TorchVis
+  File "/home/lei/anaconda3/envs/py37-5/lib/python3.7/site-packages/tensorboardX/torchvis.py", line 11, in <module>
+    from .writer import SummaryWriter
+  File "/home/lei/anaconda3/envs/py37-5/lib/python3.7/site-packages/tensorboardX/writer.py", line 17, in <module>
+    from .comet_utils import CometLogger
+  File "/home/lei/anaconda3/envs/py37-5/lib/python3.7/site-packages/tensorboardX/comet_utils.py", line 4, in <module>
+    from PIL import Image
+ModuleNotFoundError: No module named 'PIL'

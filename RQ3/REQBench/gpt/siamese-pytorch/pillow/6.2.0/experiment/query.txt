@@ -1,0 +1,58 @@
+
+                **Task**
+                Upgrade pillow to 6.2.0 in requirements.txt while maintaining full dependency compatibility.
+
+                **Input Context**
+                - Full requirements.txt: coloredlogs==15.0.1
+correlation-cuda==0.0.0
+cycler==0.10.0
+humanfriendly==10.0
+kiwisolver==1.0.1
+matplotlib==3.0.2
+mpmath==1.2.1
+numpy==1.16.1
+Pillow==5.4.1
+pyparsing==2.3.1
+python-dateutil==2.8.0
+python-gflags==3.1.2
+resample2d-cuda==0.0.0
+six==1.12.0
+sympy==1.10.1
+torch==1.0.1
+torchvision==0.2.2
+tqdm==4.19.9
+
+                - Python version: 3.7
+
+                **Resolution Protocol**
+                1. Dependency Tree Analysis: Map all library interdependencies
+                2. Conflict Detection: Identify version clashes through:
+                a. Library-to-library constraints 
+                b. Python version compatibility
+                3. Version Negotiation: Resolve conflicts by:
+                a. Prioritizing pillow==6.2.0 retention
+                b. Making minimal version adjustments to other libraries
+                c. Preserving original library set
+
+                **Hard Constraints**
+                - STRICTLY MAINTAIN: Original library names/quantity
+                - MUST ENSURE: Full compatibility chain from Python 3.7 → pillow → dependencies
+                - FORBIDDEN: 
+                • Downgrading pillow from 6.2.0
+                • Adding/removing packages
+                • Explanatory content
+
+                **Output Mandates**
+                STRICT FORMAT:
+                lib1==x.y.z  
+                lib2==a.b.c
+                ...
+                PROHIBITED:
+                • Any non-version text.
+                • Library additions/removals
+                • Version placeholders
+                MANDATORY:
+                • Preserve original library names and count
+                • Pin EXACT versions
+                • Zero explanations/comments
+                

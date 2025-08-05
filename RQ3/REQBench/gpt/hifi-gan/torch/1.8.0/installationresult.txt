@@ -1,0 +1,14 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting absl-py==1.0.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/2c/03/e3e19d3faf430ede32e41221b294e37952e06acc96781c417ac25d4a0324/absl_py-1.0.0-py3-none-any.whl (126 kB)
+Collecting audioread==3.0.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/5d/cb/82a002441902dccbe427406785db07af10182245ee639ea9f4d92907c923/audioread-3.0.0.tar.gz (377 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting cffi==1.14.6
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/46/5e/2f5f83be1586e04f4f14b32c48aafb29197355cca8f62d430f915706fafa/cffi-1.14.6-cp37-cp37m-manylinux1_x86_64.whl (402 kB)
+Collecting cycler==0.10.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f7/d2/e07d3ebb2bd7af696440ce7e754c59dd546ffe1bbe732c8ab68b9c834e61/cycler-0.10.0-py2.py3-none-any.whl (6.5 kB)
+ERROR: Ignored the following versions that require a different python version: 0.12.0 Requires-Python >=3.8; 0.12.0rc1 Requires-Python >=3.8; 0.12.1 Requires-Python >=3.8; 1.16.0 Requires-Python >=3.8; 1.16.0rc1 Requires-Python >=3.8; 1.16.0rc2 Requires-Python >=3.8; 1.17.0 Requires-Python >=3.8; 1.17.0rc1 Requires-Python >=3.8; 1.17.1 Requires-Python >=3.8; 2.2.0 Requires-Python >=3.8; 2.2.1 Requires-Python >=3.8; 2.2.2 Requires-Python >=3.8; 2.3.0 Requires-Python >=3.8; 5.2.0 Requires-Python >=3.8; 5.2.1 Requires-Python >=3.8
+ERROR: Could not find a version that satisfies the requirement decorator==5.0.0 (from versions: 3.3.1, 3.3.2, 3.3.3, 3.4.0, 3.4.2, 4.0.0, 4.0.1, 4.0.2, 4.0.3, 4.0.4, 4.0.6, 4.0.8, 4.0.9, 4.0.10, 4.0.11, 4.1.0, 4.1.1, 4.1.2, 4.2.1, 4.3.0, 4.3.1, 4.3.2, 4.4.0, 4.4.1, 4.4.2, 5.0.3, 5.0.4, 5.0.5, 5.0.6, 5.0.7, 5.0.8, 5.0.9, 5.1.0, 5.1.1)
+ERROR: No matching distribution found for decorator==5.0.0

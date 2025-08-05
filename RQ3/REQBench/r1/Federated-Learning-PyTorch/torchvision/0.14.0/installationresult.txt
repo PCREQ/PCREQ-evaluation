@@ -1,0 +1,59 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting coloredlogs==15.0.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a7/06/3d6badcf13db419e25b07041d9c7b4a2c331d3f4e7134445ec5df57714cd/coloredlogs-15.0.1-py2.py3-none-any.whl (46 kB)
+Collecting cycler==0.11.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/5c/f9/695d6bedebd747e5eb0fe8fad57b72fdf25411273a39791cde838d5a8f51/cycler-0.11.0-py3-none-any.whl (6.4 kB)
+Collecting humanfriendly==10.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f0/0f/310fb31e39e2d734ccaa2c0fb981ee41f7bd5056ce9bc29b2248bd569169/humanfriendly-10.0-py2.py3-none-any.whl (86 kB)
+Collecting kiwisolver==1.4.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f9/77/e3046bf19720b22e3e0b7c12e28f6f2c0c18a213fb91a56cea640862270f/kiwisolver-1.4.5-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl (1.1 MB)
+Collecting matplotlib==3.0.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ab/e9/675be8ef5ca1be676c5a5b2dbb3eb5246c7017eaa7b233638562a61ea968/matplotlib-3.0.1-cp37-cp37m-manylinux1_x86_64.whl (12.9 MB)
+Collecting mpmath==1.2.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d4/cf/3965bddbb4f1a61c49aacae0e78fd1fe36b5dc36c797b31f30cf07dcbbb7/mpmath-1.2.1-py3-none-any.whl (532 kB)
+Collecting numpy==1.15.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/38/39/f73e104d44f19a6203e786d5204532e214443ea2954917b27f3229e7639b/numpy-1.15.4-cp37-cp37m-manylinux1_x86_64.whl (13.8 MB)
+Collecting Pillow==6.2.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c3/3f/03375124676ab49ca6e6917c0f1f663afb8354d5d24e12f4fe4587a39ae2/Pillow-6.2.2-cp37-cp37m-manylinux1_x86_64.whl (2.1 MB)
+Collecting protobuf==3.20.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/4c/12/62e1d5505c172e1a7f803d83b0b1693f7952c3c271eb2f155703012ae67a/protobuf-3.20.3-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl (1.0 MB)
+Collecting pyparsing==3.1.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/9d/ea/6d76df31432a0e6fdf81681a895f009a4bb47b3c39036db3e1b528191d52/pyparsing-3.1.2-py3-none-any.whl (103 kB)
+Collecting python-dateutil==2.9.0.post0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Collecting six==1.16.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting sympy==1.10.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d0/04/66be21ceb305c66a4b326b0ae44cc4f027a43bc08cac204b48fb45bb3653/sympy-1.10.1-py3-none-any.whl (6.4 MB)
+Collecting tensorboardX==1.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/b1/d2/e08fe62f3554fbba081e80f6b23128df53b2f74ed4dcde73ec4a84dc53fb/tensorboardX-1.4-py2.py3-none-any.whl (67 kB)
+Collecting torch==1.13.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/7a/fb/b1b11ae95ffa7099ca2e60ed5945e56130cc8740208f42aa77f17e03ab3c/torch-1.13.0-cp37-cp37m-manylinux1_x86_64.whl (890.2 MB)
+Collecting torchvision==0.14.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/1c/48/a7eeac0cd558d1d830f555eb155f75690d60277d93401de5dc3c40b42d52/torchvision-0.14.0-cp37-cp37m-manylinux1_x86_64.whl (24.3 MB)
+Collecting tqdm==4.66.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/18/eb/fdb7eb9e48b7b02554e1664afd3bd3f117f6b6d6c5881438a0b055554f9b/tqdm-4.66.4-py3-none-any.whl (78 kB)
+Collecting typing_extensions==4.7.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ec/6b/63cc3df74987c36fe26157ee12e09e8f9db4de771e0f3404263117e75b95/typing_extensions-4.7.1-py3-none-any.whl (33 kB)
+Collecting nvidia-cuda-nvrtc-cu11==11.7.99
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ef/25/922c5996aada6611b79b53985af7999fc629aee1d5d001b6a22431e18fec/nvidia_cuda_nvrtc_cu11-11.7.99-2-py3-none-manylinux1_x86_64.whl (21.0 MB)
+Collecting nvidia-cudnn-cu11==8.5.0.96
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/dc/30/66d4347d6e864334da5bb1c7571305e501dcb11b9155971421bb7bb5315f/nvidia_cudnn_cu11-8.5.0.96-2-py3-none-manylinux1_x86_64.whl (557.1 MB)
+Collecting nvidia-cublas-cu11==11.10.3.66
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ce/41/fdeb62b5437996e841d83d7d2714ca75b886547ee8017ee2fe6ea409d983/nvidia_cublas_cu11-11.10.3.66-py3-none-manylinux1_x86_64.whl (317.1 MB)
+Collecting nvidia-cuda-runtime-cu11==11.7.99
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/36/92/89cf558b514125d2ebd8344dd2f0533404b416486ff681d5434a5832a019/nvidia_cuda_runtime_cu11-11.7.99-py3-none-manylinux1_x86_64.whl (849 kB)
+Collecting requests
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/70/8e/0e2d847013cb52cd35b38c009bb167a1a26b2ce6cd6965bf26b47bc0bf44/requests-2.31.0-py3-none-any.whl (62 kB)
+Requirement already satisfied: wheel in /home/lei/anaconda3/envs/py37-1/lib/python3.7/site-packages (from nvidia-cublas-cu11==11.10.3.66->torch==1.13.0->-r /home/lei/compatibility_analysis/compare/LLM/result/deepseek/r1/Federated-Learning-PyTorch-torchvision-0.14.0.txt (line 15)) (0.38.4)
+Requirement already satisfied: setuptools in /home/lei/anaconda3/envs/py37-1/lib/python3.7/site-packages (from nvidia-cublas-cu11==11.10.3.66->torch==1.13.0->-r /home/lei/compatibility_analysis/compare/LLM/result/deepseek/r1/Federated-Learning-PyTorch-torchvision-0.14.0.txt (line 15)) (59.5.0)
+Collecting urllib3<3,>=1.21.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d2/b2/b157855192a68541a91ba7b2bbcb91f1b4faa51f8bae38d8005c034be524/urllib3-2.0.7-py3-none-any.whl (124 kB)
+Collecting charset-normalizer<4,>=2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/38/84/cec08586c7c294e2c5e984de797c15b3efb30d42a0dd0132a62d2dfe3a27/charset_normalizer-3.4.2-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (141 kB)
+Collecting idna<4,>=2.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/76/c6/c88e154df9c4e1a2a66ccf0005a88dfb2650c1dffb6f5ce603dfbd452ce3/idna-3.10-py3-none-any.whl (70 kB)
+Collecting certifi>=2017.4.17
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/4a/7e/3db2bd1b1f9e95f7cddca6d6e75e2f2bd9f51b1246e546d88addca0106bd/certifi-2025.4.26-py3-none-any.whl (159 kB)
+Installing collected packages: mpmath, urllib3, typing_extensions, tqdm, sympy, six, pyparsing, protobuf, Pillow, nvidia-cuda-runtime-cu11, nvidia-cuda-nvrtc-cu11, nvidia-cublas-cu11, numpy, idna, humanfriendly, cycler, charset-normalizer, certifi, tensorboardX, requests, python-dateutil, nvidia-cudnn-cu11, kiwisolver, coloredlogs, torch, matplotlib, torchvision
+Successfully installed Pillow-6.2.2 certifi-2025.4.26 charset-normalizer-3.4.2 coloredlogs-15.0.1 cycler-0.11.0 humanfriendly-10.0 idna-3.10 kiwisolver-1.4.5 matplotlib-3.0.1 mpmath-1.2.1 numpy-1.15.4 nvidia-cublas-cu11-11.10.3.66 nvidia-cuda-nvrtc-cu11-11.7.99 nvidia-cuda-runtime-cu11-11.7.99 nvidia-cudnn-cu11-8.5.0.96 protobuf-3.20.3 pyparsing-3.1.2 python-dateutil-2.9.0.post0 requests-2.31.0 six-1.16.0 sympy-1.10.1 tensorboardX-1.4 torch-1.13.0 torchvision-0.14.0 tqdm-4.66.4 typing_extensions-4.7.1 urllib3-2.0.7

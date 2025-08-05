@@ -1,0 +1,8 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting absl-py==0.12.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/92/c9/ef0fae29182d7a867d203f0eff8296b60da92098cc41db33a434f4be84bf/absl_py-0.12.0-py3-none-any.whl (129 kB)
+Collecting astor==0.8.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c3/88/97eef84f48fa04fbd6750e62dcceafba6c63c81b7ac1420856c8dcc0a3f9/astor-0.8.1-py2.py3-none-any.whl (27 kB)
+WARNING: Skipping page https://pypi.tuna.tsinghua.edu.cn/simple/bleach/ because the GET request got Content-Type: application/vnd.pypi.simple.v1+json.The only supported Content-Type is text/html
+ERROR: Could not find a version that satisfies the requirement bleach==3.3.0 (from versions: none)
+ERROR: No matching distribution found for bleach==3.3.0

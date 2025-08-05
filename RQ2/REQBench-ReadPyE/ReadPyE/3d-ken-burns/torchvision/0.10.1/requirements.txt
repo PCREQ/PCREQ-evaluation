@@ -1,0 +1,6 @@
+torchvision==0.10.1
+gevent==0.12.2
+cupy==11
+flask==2.2.2
+torch==1.7.1
+h5py==3.7

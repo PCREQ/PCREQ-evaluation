@@ -1,0 +1,12 @@
+2025-05-28 08:48:16.375515: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcudart.so.10.1'; dlerror: libcudart.so.10.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.4/lib64:/usr/local/cuda-11.4/lib64:
+2025-05-28 08:48:16.375564: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+Traceback (most recent call last):
+  File "train_model.py", line 273, in <module>
+    main()
+  File "train_model.py", line 267, in main
+    image_suffix, train_batch_size, test_batch_size, verify=False)
+  File "train_model.py", line 59, in __init__
+    super(TrainModel, self).__init__(image_height, image_width, len(label), char_set, model_save_dir)
+  File "/home/lei/compatibility_analysis/tensorflow/1.7/cnn_captcha/cnnlib/network.py", line 22, in __init__
+    self.X = tf.placeholder(tf.float32, [None, self.image_height * self.image_width])  # 特征向量
+AttributeError: module 'tensorflow' has no attribute 'placeholder'

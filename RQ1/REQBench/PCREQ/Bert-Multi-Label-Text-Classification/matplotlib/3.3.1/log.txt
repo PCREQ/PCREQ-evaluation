@@ -1,0 +1,5 @@
+2025-06-29 18:21:42,285 - INFO - *************Upgrade matplotlib from 3.1.1 to 3.3.1 in Bert-Multi-Label-Text-Classification*************
+2025-06-29 18:21:42,286 - INFO - Checking Bert-Multi-Label-Text-Classification is compatible with matplotlib3.3.1?...
+2025-06-29 18:21:47,250 - INFO - Bert-Multi-Label-Text-Classification is compatible with matplotlib3.3.1
+2025-06-29 18:21:48,751 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 18:21:48,751 - INFO - Time cost: 6.467127323150635 s

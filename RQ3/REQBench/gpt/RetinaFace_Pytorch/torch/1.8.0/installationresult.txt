@@ -1,0 +1,57 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting coloredlogs==15.0.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a7/06/3d6badcf13db419e25b07041d9c7b4a2c331d3f4e7134445ec5df57714cd/coloredlogs-15.0.1-py2.py3-none-any.whl (46 kB)
+Collecting cycler==0.10.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f7/d2/e07d3ebb2bd7af696440ce7e754c59dd546ffe1bbe732c8ab68b9c834e61/cycler-0.10.0-py2.py3-none-any.whl (6.5 kB)
+Collecting humanfriendly==9.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/93/66/363d01a81da2108a5cf446daf619779f06d49a0c4426dd02b40734f10e2f/humanfriendly-9.1-py2.py3-none-any.whl (86 kB)
+Collecting imageio==2.9.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/6e/57/5d899fae74c1752f52869b613a8210a2480e1a69688e65df6cb26117d45d/imageio-2.9.0-py3-none-any.whl (3.3 MB)
+Collecting kiwisolver==1.3.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d2/46/231de802ade4225b76b96cffe419cf3ce52bbe92e3b092cf12db7d11c207/kiwisolver-1.3.1-cp37-cp37m-manylinux1_x86_64.whl (1.1 MB)
+Collecting matplotlib==3.3.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/23/3d/db9a6b3c83c9511301152dbb64a029c3a4313c86eaef12c237b13ecf91d6/matplotlib-3.3.4-cp37-cp37m-manylinux1_x86_64.whl (11.5 MB)
+Collecting mpmath==1.2.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d4/cf/3965bddbb4f1a61c49aacae0e78fd1fe36b5dc36c797b31f30cf07dcbbb7/mpmath-1.2.1-py3-none-any.whl (532 kB)
+Collecting networkx==2.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/9b/cd/dc52755d30ba41c60243235460961fc28022e5b6731f16c268667625baea/networkx-2.5-py3-none-any.whl (1.6 MB)
+Collecting numpy==1.19.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/08/d6/a6aaa29fea945bc6c61d11f6e0697b325ff7446de5ffd62c2fa02f627048/numpy-1.19.5-cp37-cp37m-manylinux2010_x86_64.whl (14.8 MB)
+Collecting opencv-python==4.5.1.48
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/0f/13/192104516c4a3d92dc6b5e106ffcfbf0fe35f3c4faa49650205ff652af72/opencv_python-4.5.1.48-cp37-cp37m-manylinux2014_x86_64.whl (50.4 MB)
+Collecting Pillow==8.1.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/eb/8e/d2f7a67cf8da9b83c1e3ee38dbf49448f3c8acb2cb38f76e4301f4a70223/Pillow-8.1.0-cp37-cp37m-manylinux1_x86_64.whl (2.2 MB)
+Collecting protobuf==3.15.6
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/7d/cc/abf8e30629db7a8b15efb79d4c87e235895d2c636ce7a4ac625cfc816f07/protobuf-3.15.6-cp37-cp37m-manylinux1_x86_64.whl (1.0 MB)
+Collecting pyparsing==2.4.7
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/8a/bb/488841f56197b13700afd5658fc279a2025a39e22449b7cf29864669b15d/pyparsing-2.4.7-py2.py3-none-any.whl (67 kB)
+Collecting python-dateutil==2.8.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d4/70/d60450c3dd48ef87586924207ae8907090de0b306af2bce5d134d78615cb/python_dateutil-2.8.1-py2.py3-none-any.whl (227 kB)
+Collecting PyWavelets==1.1.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/62/bd/592c7242fdd1218a96431512e77265c50812315ef72570ace85e1cfae298/PyWavelets-1.1.1-cp37-cp37m-manylinux1_x86_64.whl (4.4 MB)
+Collecting scikit-image==0.18.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/fe/01/3a830f3df578ea3ed94ee7fd9f91e85c3dec2431d8548ab1c91869e51450/scikit_image-0.18.1-cp37-cp37m-manylinux1_x86_64.whl (29.2 MB)
+Collecting scipy==1.5.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/dc/7e/8f6a79b102ca1ea928bae8998b05bf5dc24a90571db13cd119f275ba6252/scipy-1.5.4-cp37-cp37m-manylinux1_x86_64.whl (25.9 MB)
+Collecting six==1.15.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ee/ff/48bde5c0f013094d729fe4b0316ba2a24774b3ff1c52d924a8a4cb04078a/six-1.15.0-py2.py3-none-any.whl (10 kB)
+Collecting sympy==1.7.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ff/69/b16fc81b939d3efdd0b552f2e3e54f7fa1423d0c320cced2e69e675dde26/sympy-1.7.1-py3-none-any.whl (5.9 MB)
+Collecting tensorboardX==2.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/99/0b/a26bbe92667c549d39c40b80c5ddec638fbae9521f04aeef26560e07e504/tensorboardX-2.4-py2.py3-none-any.whl (124 kB)
+Collecting terminaltables==3.1.0
+  Using cached terminaltables-3.1.0-py3-none-any.whl
+Collecting torch==1.8.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/94/99/5861239a6e1ffe66e120f114a4d67e96e5c4b17c1a785dfc6ca6769585fc/torch-1.8.0-cp37-cp37m-manylinux1_x86_64.whl (735.5 MB)
+Collecting torchvision==0.9.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/6f/6a/4e8d7c897f24a6aa9d5e7c23a157b52084ccd43d1b6019603361d2136dde/torchvision-0.9.0-cp37-cp37m-manylinux1_x86_64.whl (17.3 MB)
+Collecting tqdm==4.51.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/93/3a/96b3dc293aa72443cf9627444c3c221a7ba34bb622e4d8bf1b5d4f2d9d08/tqdm-4.51.0-py2.py3-none-any.whl (70 kB)
+Collecting typing_extensions==3.7.4.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/60/7a/e881b5abb54db0e6e671ab088d079c57ce54e8a01a3ca443f561ccadb37e/typing_extensions-3.7.4.3-py3-none-any.whl (22 kB)
+Collecting decorator>=4.3.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d5/50/83c593b07763e1161326b3b8c6686f0f4b0f24d5526546bee538c89837d6/decorator-5.1.1-py3-none-any.whl (9.1 kB)
+Collecting tifffile>=2019.7.26
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d8/38/85ae5ed77598ca90558c17a2f79ddaba33173b31cf8d8f545d34d9134f0d/tifffile-2021.11.2-py3-none-any.whl (178 kB)
+Installing collected packages: typing_extensions, terminaltables, mpmath, tqdm, sympy, six, pyparsing, Pillow, numpy, kiwisolver, humanfriendly, decorator, torch, tifffile, scipy, PyWavelets, python-dateutil, protobuf, opencv-python, networkx, imageio, cycler, coloredlogs, torchvision, tensorboardX, matplotlib, scikit-image
+Successfully installed Pillow-8.1.0 PyWavelets-1.1.1 coloredlogs-15.0.1 cycler-0.10.0 decorator-5.1.1 humanfriendly-9.1 imageio-2.9.0 kiwisolver-1.3.1 matplotlib-3.3.4 mpmath-1.2.1 networkx-2.5 numpy-1.19.5 opencv-python-4.5.1.48 protobuf-3.15.6 pyparsing-2.4.7 python-dateutil-2.8.1 scikit-image-0.18.1 scipy-1.5.4 six-1.15.0 sympy-1.7.1 tensorboardX-2.4 terminaltables-3.1.0 tifffile-2021.11.2 torch-1.8.0 torchvision-0.9.0 tqdm-4.51.0 typing_extensions-3.7.4.3

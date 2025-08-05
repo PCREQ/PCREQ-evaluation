@@ -1,0 +1,14 @@
+Number of GPU's available: 3
+Pytorch version: 1.5.0
+mean_bgr: [103.939, 116.779, 123.68]
+output_dir: result/BIPED2CLASSIC
+Restoring weights from: checkpoints/BIPED/10/10_model.pth
+actual size: (512, 512, 3), target size: (512, 512)
+input tensor shape: torch.Size([1, 3, 512, 512])
+******** Testing finished in CLASSIC dataset. *****
+Average time per image: 0.023588.4 seconds
+Time spend in the Dataset: 0.023588.4 seconds
+-------------------------------------------------------
+Number of parameters of current DexiNed model:
+35215245
+-------------------------------------------------------

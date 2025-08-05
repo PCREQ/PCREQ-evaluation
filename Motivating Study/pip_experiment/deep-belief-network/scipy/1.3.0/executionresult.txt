@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "example_classification.py", line 5, in <module>
+    from sklearn.model_selection import train_test_split
+  File "/dataset/lei/anaconda3/envs/deep-belief-network-scipy-1.3.0/lib/python3.6/site-packages/sklearn/model_selection/__init__.py", line 1, in <module>
+    from ._split import BaseCrossValidator
+  File "/dataset/lei/anaconda3/envs/deep-belief-network-scipy-1.3.0/lib/python3.6/site-packages/sklearn/model_selection/_split.py", line 25, in <module>
+    from scipy.misc import comb
+ImportError: cannot import name 'comb'

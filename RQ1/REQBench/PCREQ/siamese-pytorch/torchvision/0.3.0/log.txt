@@ -1,0 +1,9 @@
+2025-06-29 18:24:23,941 - INFO - *************Upgrade torchvision from 0.2.1 to 0.3.0 in siamese-pytorch*************
+2025-06-29 18:24:23,941 - INFO - Checking siamese-pytorch is compatible with torchvision0.3.0?...
+2025-06-29 18:24:24,125 - INFO - siamese-pytorch is compatible with torchvision0.3.0
+2025-06-29 18:24:24,402 - INFO - Checking torchvision0.3.0 is compatible with torch1.13.1?...
+2025-06-29 18:24:25,212 - INFO - torchvision0.3.0 is compatible with torch1.13.1
+2025-06-29 18:24:25,215 - INFO - Checking siamese-pytorch is compatible with torch1.13.1?...
+2025-06-29 18:24:25,980 - INFO - siamese-pytorch is compatible with torch1.13.1
+2025-06-29 18:24:26,157 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 18:24:26,157 - INFO - Time cost: 2.2173197269439697 s

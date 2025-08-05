@@ -1,0 +1,5 @@
+2025-06-29 12:01:58,963 - INFO - *************Upgrade opencv-python from 4.5.1.48 to 4.5.2.54 in DeepMosaics*************
+2025-06-29 12:01:58,963 - INFO - Checking DeepMosaics is compatible with opencv-python4.5.2.54?...
+2025-06-29 12:01:59,510 - INFO - DeepMosaics is compatible with opencv-python4.5.2.54
+2025-06-29 12:02:01,791 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 12:02:01,791 - INFO - Time cost: 2.8291852474212646 s

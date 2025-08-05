@@ -1,0 +1,23 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting coloredlogs==15.0.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a7/06/3d6badcf13db419e25b07041d9c7b4a2c331d3f4e7134445ec5df57714cd/coloredlogs-15.0.1-py2.py3-none-any.whl (46 kB)
+Collecting dataclasses==0.6
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/26/2f/1095cdc2868052dd1e64520f7c0d5c8c550ad297e944e641dbf1ffbb9a5d/dataclasses-0.6-py3-none-any.whl (14 kB)
+Collecting future==1.0.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/da/71/ae30dadffc90b9006d77af76b393cb9dfbfc9629f339fc1574a1c52e6806/future-1.0.0-py3-none-any.whl (491 kB)
+Collecting humanfriendly==10.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f0/0f/310fb31e39e2d734ccaa2c0fb981ee41f7bd5056ce9bc29b2248bd569169/humanfriendly-10.0-py2.py3-none-any.whl (86 kB)
+Collecting mpmath==1.2.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d4/cf/3965bddbb4f1a61c49aacae0e78fd1fe36b5dc36c797b31f30cf07dcbbb7/mpmath-1.2.1-py3-none-any.whl (532 kB)
+Collecting numpy==1.21.6
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/6d/ad/ff3b21ebfe79a4d25b4a4f8e5cf9fd44a204adb6b33c09010f566f51027a/numpy-1.21.6-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (15.7 MB)
+Collecting Pillow==8.3.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/41/07/ecb2a0d55460385163c82a4bd65263a00510966dddbd54876796bd18857c/Pillow-8.3.2-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.0 MB)
+Collecting sympy==1.9
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/78/43/33c5a5e7fbafbf51520f4e09cb0634a1ca1d4cd5469c57967e43183d7a42/sympy-1.9-py3-none-any.whl (6.2 MB)
+Collecting torch==1.12.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/09/e0/03c31c44805679550fce01bb1de47b32aab06e677c8afc5c91bc2fd68e7c/torch-1.12.0-cp37-cp37m-manylinux1_x86_64.whl (776.3 MB)
+Collecting typing_extensions==4.2.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/75/e1/932e06004039dd670c9d5e1df0cd606bf46e29a28e65d5bb28e894ea29c9/typing_extensions-4.2.0-py3-none-any.whl (24 kB)
+Installing collected packages: mpmath, dataclasses, typing_extensions, sympy, Pillow, numpy, humanfriendly, future, torch, coloredlogs
+Successfully installed Pillow-8.3.2 coloredlogs-15.0.1 dataclasses-0.6 future-1.0.0 humanfriendly-10.0 mpmath-1.2.1 numpy-1.21.6 sympy-1.9 torch-1.12.0 typing_extensions-4.2.0

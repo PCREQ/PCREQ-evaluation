@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "train.py", line 10, in <module>
+    from torch.utils.tensorboard import SummaryWriter
+  File "/dataset/lei/anaconda3/envs/hifi-gan-torch-1.9.0/lib/python3.7/site-packages/torch/utils/tensorboard/__init__.py", line 4, in <module>
+    LooseVersion = distutils.version.LooseVersion
+AttributeError: module 'distutils' has no attribute 'version'

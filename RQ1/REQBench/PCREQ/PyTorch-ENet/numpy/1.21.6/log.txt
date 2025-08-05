@@ -1,0 +1,9 @@
+2025-06-29 06:54:30,712 - INFO - *************Upgrade numpy from 1.16.0 to 1.21.6 in PyTorch-ENet*************
+2025-06-29 06:54:30,712 - INFO - Checking PyTorch-ENet is compatible with numpy1.21.6?...
+2025-06-29 06:54:36,789 - INFO - PyTorch-ENet is compatible with numpy1.21.6
+2025-06-29 06:54:37,147 - INFO - Checking torch1.1.0 is compatible with numpy1.21.6?...
+2025-06-29 06:54:52,936 - INFO - torch1.1.0 is compatible with numpy1.21.6
+2025-06-29 06:54:52,946 - INFO - Checking torchvision0.3.0 is compatible with numpy1.21.6?...
+2025-06-29 06:54:53,807 - INFO - torchvision0.3.0 is compatible with numpy1.21.6
+2025-06-29 06:54:55,913 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 06:54:55,913 - INFO - Time cost: 25.20272445678711 s

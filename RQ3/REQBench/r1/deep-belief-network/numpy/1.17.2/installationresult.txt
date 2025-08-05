@@ -1,0 +1,5 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting numpy==1.17.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/e5/e6/c3fdc53aed9fa19d6ff3abf97dfad768ae3afce1b7431f7500000816bda5/numpy-1.17.2-cp36-cp36m-manylinux1_x86_64.whl (20.4 MB)
+Installing collected packages: numpy
+Successfully installed numpy-1.17.2

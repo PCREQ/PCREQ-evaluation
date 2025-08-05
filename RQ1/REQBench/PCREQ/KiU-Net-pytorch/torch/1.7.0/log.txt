@@ -1,0 +1,9 @@
+2025-06-29 08:34:22,883 - INFO - *************Upgrade torch from 1.4.0 to 1.7.0 in KiU-Net-pytorch*************
+2025-06-29 08:34:22,883 - INFO - Checking KiU-Net-pytorch is compatible with torch1.7.0?...
+2025-06-29 08:34:25,145 - INFO - KiU-Net-pytorch is compatible with torch1.7.0
+2025-06-29 08:34:27,184 - INFO - Checking torchvision0.8.1 is compatible with torch1.7.0?...
+2025-06-29 08:34:30,392 - INFO - torchvision0.8.1 is compatible with torch1.7.0
+2025-06-29 08:34:30,398 - INFO - Checking KiU-Net-pytorch is compatible with torchvision0.8.1?...
+2025-06-29 08:34:30,758 - INFO - KiU-Net-pytorch is compatible with torchvision0.8.1
+2025-06-29 08:34:32,130 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 08:34:32,130 - INFO - Time cost: 9.247174263000488 s

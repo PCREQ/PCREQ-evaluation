@@ -1,0 +1,63 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting absl-py==1.4.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/dd/87/de5c32fa1b1c6c3305d576e299801d8655c175ca9557019906247b994331/absl_py-1.4.0-py3-none-any.whl (126 kB)
+Collecting astor==0.8.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c3/88/97eef84f48fa04fbd6750e62dcceafba6c63c81b7ac1420856c8dcc0a3f9/astor-0.8.1-py2.py3-none-any.whl (27 kB)
+Collecting cached-property==1.5.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/48/19/f2090f7dad41e225c7f2326e4cfe6fff49e57dedb5b53636c9551f86b069/cached_property-1.5.2-py2.py3-none-any.whl (7.6 kB)
+Collecting certifi==2021.5.30
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/05/1b/0a0dece0e8aa492a6ec9e4ad2fe366b511558cdc73fd3abc82ba7348e875/certifi-2021.5.30-py2.py3-none-any.whl (145 kB)
+Collecting dataclasses==0.8
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/fe/ca/75fac5856ab5cfa51bbbcefa250182e50441074fdc3f803f6e76451fab43/dataclasses-0.8-py3-none-any.whl (19 kB)
+Collecting gast==0.6.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a3/61/8001b38461d751cd1a0c3a6ae84346796a5758123f3ed97a1b121dfbf4f3/gast-0.6.0-py3-none-any.whl (21 kB)
+Collecting grpcio==1.43.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/39/99/3ec65ac96cdac250f4aeb2c052c98826755801890288cd4198dbdd6926dc/grpcio-1.43.0-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.1 MB)
+Collecting h5py==3.1.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/70/7a/e53e500335afb6b1aade11227cdf107fca54106a1dca5c9d13242a043f3b/h5py-3.1.0-cp36-cp36m-manylinux1_x86_64.whl (4.0 MB)
+Collecting importlib-metadata==4.8.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a0/a1/b153a0a4caf7a7e3f15c2cd56c7702e2cf3d89b1b359d1f1c5e59d68f4ce/importlib_metadata-4.8.3-py3-none-any.whl (17 kB)
+Collecting Keras-Applications==1.0.8
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/71/e3/19762fdfc62877ae9102edf6342d71b28fbfd9dea3d2f96a882ce099b03f/Keras_Applications-1.0.8-py3-none-any.whl (50 kB)
+Collecting Keras-Preprocessing==1.1.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/79/4c/7c3275a01e12ef9368a892926ab932b33bb13d55794881e3573482b378a7/Keras_Preprocessing-1.1.2-py2.py3-none-any.whl (42 kB)
+Collecting Markdown==3.3.7
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f3/df/ca72f352e15b6f8ce32b74af029f1189abffb906f7c137501ffe69c98a65/Markdown-3.3.7-py3-none-any.whl (97 kB)
+Collecting mock==5.1.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/6b/20/471f41173930550f279ccb65596a5ac19b9ac974a8d93679bcd3e0c31498/mock-5.1.0-py3-none-any.whl (30 kB)
+Collecting numpy==1.17.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/75/92/57179ed45307ec6179e344231c47da7f3f3da9e2eee5c8ab506bd279ce4e/numpy-1.17.1-cp36-cp36m-manylinux1_x86_64.whl (20.4 MB)
+Collecting opencv-python==4.1.2.30
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c0/a9/9828dfaf93f40e190ebfb292141df6b7ea1a2d57b46263e757f52be8589f/opencv_python-4.1.2.30-cp36-cp36m-manylinux1_x86_64.whl (28.3 MB)
+Collecting Pillow==6.1.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/14/41/db6dec65ddbc176a59b89485e8cc136a433ed9c6397b6bfe2cd38412051e/Pillow-6.1.0-cp36-cp36m-manylinux1_x86_64.whl (2.1 MB)
+Collecting protobuf==3.19.6
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/8f/8e/06fc0df62dd80a32739b51bb3256f1417349eb5c3899f6ccab3796937458/protobuf-3.19.6-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.1 MB)
+Collecting scipy==1.5.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c8/89/63171228d5ced148f5ced50305c89e8576ffc695a90b58fe5bb602b910c2/scipy-1.5.4-cp36-cp36m-manylinux1_x86_64.whl (25.9 MB)
+Collecting six==1.16.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting tensorboard==1.14.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/91/2d/2ed263449a078cd9c8a9ba50ebd50123adf1f8cfbea1492f9084169b89d9/tensorboard-1.14.0-py3-none-any.whl (3.1 MB)
+Collecting tensorflow==1.14.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/de/f0/96fb2e0412ae9692dbf400e5b04432885f677ad6241c088ccc5fe7724d69/tensorflow-1.14.0-cp36-cp36m-manylinux1_x86_64.whl (109.2 MB)
+Collecting tensorflow-estimator==1.14.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/3c/d5/21860a5b11caf0678fbc8319341b0ae21a07156911132e0e71bffed0510d/tensorflow_estimator-1.14.0-py2.py3-none-any.whl (488 kB)
+Collecting termcolor==1.1.0
+  Using cached termcolor-1.1.0-py3-none-any.whl
+Collecting tqdm==4.32.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/45/af/685bf3ce889ea191f3b916557f5677cc95a5e87b2fa120d74b5dd6d049d0/tqdm-4.32.1-py2.py3-none-any.whl (49 kB)
+Collecting typing_extensions==4.1.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/45/6b/44f7f8f1e110027cf88956b59f2fad776cca7e1704396d043f89effd3a0e/typing_extensions-4.1.1-py3-none-any.whl (26 kB)
+Collecting Werkzeug==2.0.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f4/f3/22afbdb20cc4654b10c98043414a14057cd27fdba9d4ae61cea596000ba2/Werkzeug-2.0.3-py3-none-any.whl (289 kB)
+Collecting zipp==3.6.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/bd/df/d4a4974a3e3957fd1c1fa3082366d7fff6e428ddb55f074bf64876f8e8ad/zipp-3.6.0-py3-none-any.whl (5.3 kB)
+Requirement already satisfied: setuptools>=41.0.0 in /home/lei/anaconda3/envs/py36-2/lib/python3.6/site-packages (from tensorboard==1.14.0->-r /home/lei/compatibility_analysis/compare/LLM/result/deepseek/r1/StyleGAN-Tensorflow-numpy-1.17.1.txt (line 20)) (59.6.0)
+Requirement already satisfied: wheel>=0.26 in /home/lei/anaconda3/envs/py36-2/lib/python3.6/site-packages (from tensorboard==1.14.0->-r /home/lei/compatibility_analysis/compare/LLM/result/deepseek/r1/StyleGAN-Tensorflow-numpy-1.17.1.txt (line 20)) (0.37.1)
+Collecting google-pasta>=0.1.6
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a3/de/c648ef6835192e6e2cc03f40b19eeda4382c49b5bafb43d88b931c4c74ac/google_pasta-0.2.0-py3-none-any.whl (57 kB)
+Collecting wrapt>=1.11.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/66/50/1c5ccb23dd63f8f3d312dc2d5e0e64c681faf7c2388fa1ab2553713cef11/wrapt-1.16.0-cp36-cp36m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (77 kB)
+Installing collected packages: zipp, typing-extensions, six, numpy, importlib-metadata, dataclasses, cached-property, Werkzeug, protobuf, Markdown, h5py, grpcio, absl-py, wrapt, termcolor, tensorflow-estimator, tensorboard, Keras-Preprocessing, Keras-Applications, google-pasta, gast, astor, tqdm, tensorflow, scipy, Pillow, opencv-python, mock, certifi
+Successfully installed Keras-Applications-1.0.8 Keras-Preprocessing-1.1.2 Markdown-3.3.7 Pillow-6.1.0 Werkzeug-2.0.3 absl-py-1.4.0 astor-0.8.1 cached-property-1.5.2 certifi-2021.5.30 dataclasses-0.8 gast-0.6.0 google-pasta-0.2.0 grpcio-1.43.0 h5py-3.1.0 importlib-metadata-4.8.3 mock-5.1.0 numpy-1.17.1 opencv-python-4.1.2.30 protobuf-3.19.6 scipy-1.5.4 six-1.16.0 tensorboard-1.14.0 tensorflow-1.14.0 tensorflow-estimator-1.14.0 termcolor-1.1.0 tqdm-4.32.1 typing-extensions-4.1.1 wrapt-1.16.0 zipp-3.6.0

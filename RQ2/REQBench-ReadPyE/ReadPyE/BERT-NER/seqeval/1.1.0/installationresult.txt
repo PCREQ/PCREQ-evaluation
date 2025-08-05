@@ -1,0 +1,28 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting seqeval==1.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/bc/6c/71a5ca457851287ceba1c969bfb21f46ffdae7dfae1fa30456ef4bdc6412/seqeval-1.1.0.tar.gz (37 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting numpy==1.21.6
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/6d/ad/ff3b21ebfe79a4d25b4a4f8e5cf9fd44a204adb6b33c09010f566f51027a/numpy-1.21.6-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (15.7 MB)
+Collecting tqdm==4.64
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/8a/c4/d15f1e627fff25443ded77ea70a7b5532d6371498f9285d44d62587e209c/tqdm-4.64.0-py2.py3-none-any.whl (78 kB)
+Collecting torch==1.8.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/56/74/6fc9dee50f7c93d6b7d9644554bdc9692f3023fa5d1de779666e6bf8ae76/torch-1.8.1-cp37-cp37m-manylinux1_x86_64.whl (804.1 MB)
+Collecting flask==2.2.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/0f/43/15f4f9ab225b0b25352412e8daa3d0e3d135fcf5e127070c74c3632c8b4c/Flask-2.2.2-py3-none-any.whl (101 kB)
+Collecting flask-cors==3.0.10
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/db/84/901e700de86604b1c4ef4b57110d4e947c218b9997adf5d38fa7da493bce/Flask_Cors-3.0.10-py2.py3-none-any.whl (14 kB)
+Collecting pytorch-transformers==1.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a3/b7/d3d18008a67e0b968d1ab93ad444fc05699403fa662f634b2f2c318a508b/pytorch_transformers-1.2.0-py3-none-any.whl (176 kB)
+ERROR: Cannot install -r /home/lei/compatibility_analysis/compare/ReadPyE/experiment/result/BERT-NER-seqeval-1.1.0.txt (line 1) and numpy==1.21.6 because these package versions have conflicting dependencies.
+
+The conflict is caused by:
+    The user requested numpy==1.21.6
+    seqeval 1.1.0 depends on numpy==1.19.2
+
+To fix this you could try to:
+1. loosen the range of package versions you've specified
+2. remove package versions to allow pip attempt to solve the dependency conflict
+
+ERROR: ResolutionImpossible: for help visit https://pip.pypa.io/en/latest/topics/dependency-resolution/#dealing-with-dependency-conflicts

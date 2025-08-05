@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "run.py", line 375, in <module>
+    tenOutput = estimate(tenOne, tenTwo)
+  File "run.py", line 361, in estimate
+    tenFlow = torch.nn.functional.interpolate(input=netNetwork(tenPreprocessedOne, tenPreprocessedTwo), size=(intHeight, intWidth), mode='bilinear', align_corners=False)
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "run.py", line 309, in forward
+    tenFeaturesOne = self.netFeatures(tenOne)
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "run.py", line 106, in forward
+    tenOne = self.netOne(tenInput)
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/torch/nn/modules/container.py", line 119, in forward
+    input = module(input)
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/torch/nn/modules/conv.py", line 399, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/torch/nn/modules/conv.py", line 396, in _conv_forward
+    self.padding, self.dilation, self.groups)
+RuntimeError: cuDNN error: CUDNN_STATUS_NOT_INITIALIZED

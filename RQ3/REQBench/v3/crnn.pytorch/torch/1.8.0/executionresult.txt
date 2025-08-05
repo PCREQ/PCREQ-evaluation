@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "demo.py", line 16, in <module>
+    model = model.cuda()
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 491, in cuda
+    return self._apply(lambda t: t.cuda(device))
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 387, in _apply
+    module._apply(fn)
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 387, in _apply
+    module._apply(fn)
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 387, in _apply
+    module._apply(fn)
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/torch/nn/modules/rnn.py", line 186, in _apply
+    self.flatten_parameters()
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/torch/nn/modules/rnn.py", line 176, in flatten_parameters
+    self.batch_first, bool(self.bidirectional))  # type: ignore
+RuntimeError: cuDNN error: CUDNN_STATUS_NOT_INITIALIZED

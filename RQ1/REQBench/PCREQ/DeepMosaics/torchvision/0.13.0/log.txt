@@ -1,0 +1,9 @@
+2025-06-29 11:45:11,627 - INFO - *************Upgrade torchvision from 0.8.2 to 0.13.0 in DeepMosaics*************
+2025-06-29 11:45:11,627 - INFO - Checking DeepMosaics is compatible with torchvision0.13.0?...
+2025-06-29 11:45:12,493 - INFO - DeepMosaics is compatible with torchvision0.13.0
+2025-06-29 11:45:14,376 - INFO - Checking torchvision0.13.0 is compatible with torch1.12.0?...
+2025-06-29 11:45:21,191 - INFO - torchvision0.13.0 is compatible with torch1.12.0
+2025-06-29 11:45:21,194 - INFO - Checking DeepMosaics is compatible with torch1.12.0?...
+2025-06-29 11:45:24,536 - INFO - DeepMosaics is compatible with torch1.12.0
+2025-06-29 11:45:25,117 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 11:45:25,118 - INFO - Time cost: 13.491838216781616 s

@@ -1,0 +1,42 @@
+[2025-05-28 16:00:22,309 - train - INFO] - One GPU or CPU training mode start...
+[2025-05-28 16:00:22,309 - train - WARNING] - You have chosen to benchmark training. This will turn on the CUDNN benchmark settingwhich can speed up your training considerably! You may see unexpected behavior when restarting from checkpoints due to RandomizedMultiLinearMap need deterministic turn on.
+[2025-05-28 16:00:41,528 - train - INFO] - Dataloader instances have finished. Train datasets: 12747394 Val datasets: 1694655 Train_batch_size/gpu: 64 Val_batch_size/gpu: 64.
+[2025-05-28 16:00:43,157 - train - INFO] - Model created, trainable parameters: 54687382.
+[2025-05-28 16:00:43,194 - train - INFO] - Optimizer and lr_scheduler created.
+[2025-05-28 16:00:43,194 - train - INFO] - Max_epochs: 1 Log_step_interval: 1 Validation_step_interval: 10.
+[2025-05-28 16:00:43,195 - train - INFO] - Training start...
+[2025-05-28 16:00:43,252 - trainer - WARNING] - Training is using GPU 0!
+Traceback (most recent call last):
+  File "train.py", line 210, in <module>
+    entry_point(config)
+  File "train.py", line 159, in entry_point
+    main(config, local_master, logger if local_master else None)
+  File "train.py", line 94, in main
+    trainer.train()
+  File "/home/lei/compatibility_analysis/pytorch/1.5/MASTER-pytorch/trainer/trainer.py", line 148, in train
+    result_dict = self._train_epoch(epoch)
+  File "/home/lei/compatibility_analysis/pytorch/1.5/MASTER-pytorch/trainer/trainer.py", line 246, in _train_epoch
+    outputs = self.model(images, target[:, :-1])  # need to remove <EOS> in target
+  File "/home/lei/anaconda3/envs/py36-4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/lei/compatibility_analysis/pytorch/1.5/MASTER-pytorch/model/master.py", line 102, in forward
+    encode_stage_result = self.encode_stage(_source)
+  File "/home/lei/anaconda3/envs/py36-4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/lei/anaconda3/envs/py36-4/lib/python3.6/site-packages/torch/nn/modules/container.py", line 119, in forward
+    input = module(input)
+  File "/home/lei/anaconda3/envs/py36-4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/lei/compatibility_analysis/pytorch/1.5/MASTER-pytorch/model/backbone.py", line 233, in forward
+    feature = self.backbone(x)
+  File "/home/lei/anaconda3/envs/py36-4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/lei/compatibility_analysis/pytorch/1.5/MASTER-pytorch/model/backbone.py", line 187, in forward
+    x = self.conv1(x)
+  File "/home/lei/anaconda3/envs/py36-4/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/lei/anaconda3/envs/py36-4/lib/python3.6/site-packages/torch/nn/modules/conv.py", line 399, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/home/lei/anaconda3/envs/py36-4/lib/python3.6/site-packages/torch/nn/modules/conv.py", line 396, in _conv_forward
+    self.padding, self.dilation, self.groups)
+RuntimeError: cuDNN error: CUDNN_STATUS_NOT_INITIALIZED

@@ -1,0 +1,9 @@
+2025-06-29 10:46:57,633 - INFO - *************Upgrade torch from 1.7.0 to 1.13.1 in 3d-ken-burns*************
+2025-06-29 10:46:57,634 - INFO - Checking 3d-ken-burns is compatible with torch1.13.1?...
+2025-06-29 10:47:01,351 - INFO - 3d-ken-burns is compatible with torch1.13.1
+2025-06-29 10:47:02,094 - INFO - Checking torchvision0.14.1 is compatible with torch1.13.1?...
+2025-06-29 10:47:09,587 - INFO - torchvision0.14.1 is compatible with torch1.13.1
+2025-06-29 10:47:09,601 - INFO - Checking 3d-ken-burns is compatible with torchvision0.14.1?...
+2025-06-29 10:47:09,947 - INFO - 3d-ken-burns is compatible with torchvision0.14.1
+2025-06-29 10:47:12,850 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 10:47:12,850 - INFO - Time cost: 15.218432903289795 s

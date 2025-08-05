@@ -1,0 +1,33 @@
+05/31/2025 04:00:30 - INFO - transformers.configuration_utils -   loading configuration file atis_model/config.json
+05/31/2025 04:00:30 - INFO - transformers.configuration_utils -   Model config BertConfig {
+  "architectures": [
+    "JointBERT"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "finetuning_task": "atis",
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+05/31/2025 04:00:30 - INFO - transformers.modeling_utils -   loading weights file atis_model/pytorch_model.bin
+05/31/2025 04:00:32 - INFO - transformers.modeling_utils -   All model checkpoint weights were used when initializing JointBERT.
+
+05/31/2025 04:00:32 - INFO - transformers.modeling_utils -   All the weights of JointBERT were initialized from the model checkpoint at atis_model.
+If your task is similar to the task the model of the ckeckpoint was trained on, you can already use JointBERT for predictions without further training.
+05/31/2025 04:00:34 - INFO - __main__ -   ***** Model Loaded *****
+05/31/2025 04:00:34 - INFO - __main__ -   Namespace(adam_epsilon=1e-08, data_dir='./data', do_eval=True, do_train=True, dropout_rate=0.1, eval_batch_size=64, gradient_accumulation_steps=1, ignore_index=0, intent_label_file='intent_label.txt', learning_rate=5e-05, logging_steps=200, max_grad_norm=1.0, max_seq_len=50, max_steps=-1, model_dir='atis_model', model_name_or_path='bert-base-uncased', model_type='bert', no_cuda=False, num_train_epochs=10.0, save_steps=200, seed=1234, slot_label_file='slot_label.txt', slot_loss_coef=1.0, slot_pad_label='PAD', task='atis', train_batch_size=32, use_crf=False, warmup_steps=0, weight_decay=0.0)
+05/31/2025 04:00:35 - INFO - transformers.tokenization_utils_base -   loading file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-vocab.txt from cache at /home/lei/.cache/torch/transformers/26bc1ad6c0ac742e9b52263248f6d0f00068293b33709fae12320c0e35ccfbbb.542ce4285a40d23a559526243235df47c5f75c197f04f37d1a0c124c32c9a084
+Predicting:   0%|          | 0/1 [00:00<?, ?it/s]Predicting: 100%|██████████| 1/1 [00:00<00:00, 84.48it/s]
+05/31/2025 04:00:35 - INFO - __main__ -   Prediction Done!

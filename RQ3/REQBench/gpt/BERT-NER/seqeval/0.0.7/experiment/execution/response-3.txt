@@ -1,0 +1,4 @@
+seqeval==0.0.7
+numpy==1.21.6
+torch==1.9.1
+pytorch-transformers==1.2.0

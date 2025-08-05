@@ -1,0 +1,81 @@
+
+                        **Debug Mission** 
+                        Resolve runtime crash caused by code-level incompatibilities in dependency chain.
+
+                        **Input Context**
+                        - Current environment: charset-normalizer==2.1.1
+click==8.1.3
+coverage==6.5.0
+cupy-cuda110==11.3.0
+dataclasses==0.6
+decorator==4.4.2
+dill==0.3.7
+fastrlock==0.8.1
+Flask==2.2.2
+future==0.18.3
+gevent==22.10.2
+greenlet==2.0.1
+h5py==3.7.0
+idna==3.4
+imageio==2.22.4
+imageio-ffmpeg==0.4.7
+importlib-metadata==5.0.0
+itsdangerous==2.1.2
+Jinja2==3.1.2
+MarkupSafe==2.1.1
+moviepy==1.0.3
+numpy==1.21.5
+opencv-contrib-python==4.6.0.66
+Pillow==9.3.0
+proglog==0.1.10
+requests==2.28.1
+scipy==1.7.2
+torch==1.8.0+cu110
+torchvision==0.9.0+cu110
+tqdm==4.64.1
+typing_extensions==4.4.0
+urllib3==1.26.12
+Werkzeug==2.2.2
+zipp==3.10.0
+zope.event==4.5.0
+zope.interface==5.5.1
+
+                        - Python version: 3.7
+                        - Crash traceback: Traceback (most recent call last):
+  File "depthestim.py", line 4, in <module>
+    import cupy
+ModuleNotFoundError: No module named 'cupy'
+
+
+                        **Analysis Protocol**
+                        1. Traceback Pattern Matching：
+                        a. Identify error type (ImportError/AttributeError/TypeError)
+                        b. Map to possible API changes in torchvision v0.9.0 or its dependencies
+                        2. Compatibility Matrix Check：
+                        a. Verify library-to-library API compatibility through version ranges
+                        b. Confirm project-to-library interface compatibility
+                        3. Breakpoint Isolation：
+                        b. Determine if conflict originates from：
+                            • Direct API changes in torchvision
+                            • Transitive dependency API shifts
+
+                        **Resolution Rules**
+                        - PRIMARY CONSTRAINT: Maintain torchvision==0.9.0
+                        - SECONDARY ADJUSTMENTS: 
+                        • Modify dependency versions only when API contracts allow
+                        • Prefer backward-compatible minor version changes
+
+                        **Output Mandates**
+                        STRICT FORMAT:
+                        lib1==x.y.z  
+                        lib2==a.b.c
+                        ...
+                        PROHIBITED:
+                        • Any non-version text.
+                        • Library additions/removals
+                        • Version placeholders
+                        MANDATORY:
+                        • Preserve original library names and count
+                        • Pin EXACT versions
+                        • Zero explanations/comments
+                        

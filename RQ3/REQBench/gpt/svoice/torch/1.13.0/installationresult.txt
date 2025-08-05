@@ -1,0 +1,131 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting antlr4-python3-runtime==4.8
+  Using cached antlr4_python3_runtime-4.8-py3-none-any.whl
+Collecting audioread==3.0.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/57/8d/30aa32745af16af0a9a650115fbe81bde7c610ed5c21b381fca0196f3a7f/audioread-3.0.1-py3-none-any.whl (23 kB)
+Collecting cffi==1.15.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/93/d0/2e2b27ea2f69b0ec9e481647822f8f77f5fc23faca2dd00d1ff009940eb7/cffi-1.15.1-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (427 kB)
+Collecting coloredlogs==15.0.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a7/06/3d6badcf13db419e25b07041d9c7b4a2c331d3f4e7134445ec5df57714cd/coloredlogs-15.0.1-py2.py3-none-any.whl (46 kB)
+Collecting colorlog==6.8.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f3/18/3e867ab37a24fdf073c1617b9c7830e06ec270b1ea4694a624038fc40a03/colorlog-6.8.2-py3-none-any.whl (11 kB)
+Collecting decorator==5.1.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d5/50/83c593b07763e1161326b3b8c6686f0f4b0f24d5526546bee538c89837d6/decorator-5.1.1-py3-none-any.whl (9.1 kB)
+Collecting future==1.0.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/da/71/ae30dadffc90b9006d77af76b393cb9dfbfc9629f339fc1574a1c52e6806/future-1.0.0-py3-none-any.whl (491 kB)
+Collecting humanfriendly==10.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f0/0f/310fb31e39e2d734ccaa2c0fb981ee41f7bd5056ce9bc29b2248bd569169/humanfriendly-10.0-py2.py3-none-any.whl (86 kB)
+Collecting hydra-colorlog==1.0.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/3a/83/ff87ca2f7981f505b4c8a7ddf1d23e78e6dba14f61eea399ab2d319a5133/hydra_colorlog-1.0.0-py3-none-any.whl (3.6 kB)
+Collecting hydra-core==1.0.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/79/03/fee705ef16675a103d8e929255f5fa0ee79432ac38bafad6935d6ad170f9/hydra_core-1.0.3-py3-none-any.whl (122 kB)
+Collecting importlib-resources==5.2.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c3/8d/cb49c07dd01e797e76e86f33c3472ebd861216b57296095f5c17be9b79e8/importlib_resources-5.2.0-py3-none-any.whl (27 kB)
+Collecting joblib==1.3.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/10/40/d551139c85db202f1f384ba8bcf96aca2f329440a844f924c8a0040b6d02/joblib-1.3.2-py3-none-any.whl (302 kB)
+Collecting librosa==0.8.0
+  Using cached librosa-0.8.0-py3-none-any.whl
+Collecting llvmlite==0.37.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/db/6f/abe6b4dffcb82f02b763da96f017119b381e7c413f160adbd43b23d8770f/llvmlite-0.37.0-cp37-cp37m-manylinux2014_x86_64.whl (26.3 MB)
+Collecting mpmath==1.2.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d4/cf/3965bddbb4f1a61c49aacae0e78fd1fe36b5dc36c797b31f30cf07dcbbb7/mpmath-1.2.1-py3-none-any.whl (532 kB)
+Collecting numba==0.54.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/94/56/0931a7d5cf757558a6c1d749d56cd32748b63dbc85be9993392a53b4c532/numba-0.54.0-2-cp37-cp37m-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (3.4 MB)
+Collecting numpy==1.20.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a5/42/560d269f604d3e186a57c21a363e77e199358d054884e61b73e405dd217c/numpy-1.20.3-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (15.3 MB)
+Collecting omegaconf==2.1.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/66/c8/7ef11e12f3844b210add2e003abf8a0c7981ce7b5553dc630b635e7b905e/omegaconf-2.1.1-py3-none-any.whl (74 kB)
+Collecting pesq==0.0.2
+  Using cached pesq-0.0.2-cp37-cp37m-linux_x86_64.whl
+Collecting Pillow==8.2.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/33/34/542152297dcc6c47a9dcb0685eac6d652d878ed3cea83bf2b23cb988e857/Pillow-8.2.0-cp37-cp37m-manylinux1_x86_64.whl (3.0 MB)
+Collecting pycparser==2.21
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/62/d5/5f610ebe421e85889f2e55e33b7f9a6795bd982198517d912eb1c76e1a53/pycparser-2.21-py2.py3-none-any.whl (118 kB)
+Collecting pystoi==0.3.3
+  Using cached pystoi-0.3.3-py2.py3-none-any.whl
+Collecting PyYAML==5.3.1
+  Using cached PyYAML-5.3.1-cp37-cp37m-linux_x86_64.whl
+Collecting resampy==0.2.2
+  Using cached resampy-0.2.2-py3-none-any.whl
+Collecting scikit-learn==0.24.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a8/eb/a48f25c967526b66d5f1fa7a984594f0bf0a5afafa94a8c4dbc317744620/scikit_learn-0.24.2-cp37-cp37m-manylinux2010_x86_64.whl (22.3 MB)
+Collecting scipy==1.5.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/dc/7e/8f6a79b102ca1ea928bae8998b05bf5dc24a90571db13cd119f275ba6252/scipy-1.5.4-cp37-cp37m-manylinux1_x86_64.whl (25.9 MB)
+Collecting six==1.16.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting soundfile==0.10.3.post1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/eb/f2/3cbbbf3b96fb9fa91582c438b574cff3f45b29c772f94c400e2c99ef5db9/SoundFile-0.10.3.post1-py2.py3-none-any.whl (21 kB)
+Collecting sympy==1.8
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/aa/26/956fece0fc67a6c299557d22158503206d8f14b2e0acc2daf7f06c5f4721/sympy-1.8-py3-none-any.whl (6.1 MB)
+Collecting threadpoolctl==2.2.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c6/e8/c216b9b60cbba4642d3ca1bae7a53daa0c24426f662e0e3ce3dc7f6caeaa/threadpoolctl-2.2.0-py3-none-any.whl (12 kB)
+Collecting torch==1.13.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/7a/fb/b1b11ae95ffa7099ca2e60ed5945e56130cc8740208f42aa77f17e03ab3c/torch-1.13.0-cp37-cp37m-manylinux1_x86_64.whl (890.2 MB)
+Collecting torchaudio==0.13.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/63/4c/3d2b79d1933e0e32d163a21a9b4734671b84d6cf6cf755f1b4136c9891df/torchaudio-0.13.0-cp37-cp37m-manylinux1_x86_64.whl (4.2 MB)
+Collecting torchvision==0.13.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/fe/68/d60b9e06f7970e6667df025d2a0e118d240f8f6efa2ca8e391739a7f076a/torchvision-0.13.0-cp37-cp37m-manylinux1_x86_64.whl (19.1 MB)
+Collecting tqdm==4.62.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/63/f3/b7a1b8e40fd1bd049a34566eb353527bb9b8e9b98f8b6cf803bb64d8ce95/tqdm-4.62.3-py2.py3-none-any.whl (76 kB)
+Collecting zipp==3.6.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/bd/df/d4a4974a3e3957fd1c1fa3082366d7fff6e428ddb55f074bf64876f8e8ad/zipp-3.6.0-py3-none-any.whl (5.3 kB)
+Collecting pooch>=1.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a8/87/77cc11c7a9ea9fd05503def69e3d18605852cd0d4b0d3b8f15bbeb3ef1d1/pooch-1.8.2-py3-none-any.whl (64 kB)
+Requirement already satisfied: setuptools in /home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages (from numba==0.54.0->-r /home/lei/compatibility_analysis/compare/LLM/result/chatgpt/svoice-torch-1.13.0.txt (line 16)) (57.5.0)
+Collecting typing-extensions
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ec/6b/63cc3df74987c36fe26157ee12e09e8f9db4de771e0f3404263117e75b95/typing_extensions-4.7.1-py3-none-any.whl (33 kB)
+Collecting nvidia-cuda-nvrtc-cu11==11.7.99
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ef/25/922c5996aada6611b79b53985af7999fc629aee1d5d001b6a22431e18fec/nvidia_cuda_nvrtc_cu11-11.7.99-2-py3-none-manylinux1_x86_64.whl (21.0 MB)
+Collecting nvidia-cublas-cu11==11.10.3.66
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ce/41/fdeb62b5437996e841d83d7d2714ca75b886547ee8017ee2fe6ea409d983/nvidia_cublas_cu11-11.10.3.66-py3-none-manylinux1_x86_64.whl (317.1 MB)
+Collecting nvidia-cudnn-cu11==8.5.0.96
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/dc/30/66d4347d6e864334da5bb1c7571305e501dcb11b9155971421bb7bb5315f/nvidia_cudnn_cu11-8.5.0.96-2-py3-none-manylinux1_x86_64.whl (557.1 MB)
+Collecting nvidia-cuda-runtime-cu11==11.7.99
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/36/92/89cf558b514125d2ebd8344dd2f0533404b416486ff681d5434a5832a019/nvidia_cuda_runtime_cu11-11.7.99-py3-none-manylinux1_x86_64.whl (849 kB)
+Collecting requests
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/70/8e/0e2d847013cb52cd35b38c009bb167a1a26b2ce6cd6965bf26b47bc0bf44/requests-2.31.0-py3-none-any.whl (62 kB)
+INFO: pip is looking at multiple versions of torchaudio to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of torch to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of threadpoolctl to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of sympy to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of soundfile to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of six to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of scipy to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of scikit-learn to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of resampy to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of pyyaml to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of pystoi to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of pycparser to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of pillow to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of pesq to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of omegaconf to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of numpy to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of numba to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of mpmath to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of llvmlite to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of librosa to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of joblib to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of importlib-resources to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of hydra-core to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of hydra-colorlog to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of humanfriendly to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of future to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of decorator to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of colorlog to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of coloredlogs to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of cffi to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of <Python from Requires-Python> to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of audioread to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of antlr4-python3-runtime to determine which version is compatible with other requirements. This could take a while.
+ERROR: Cannot install -r /home/lei/compatibility_analysis/compare/LLM/result/chatgpt/svoice-torch-1.13.0.txt (line 32), -r /home/lei/compatibility_analysis/compare/LLM/result/chatgpt/svoice-torch-1.13.0.txt (line 33) and torch==1.13.0 because these package versions have conflicting dependencies.
+
+The conflict is caused by:
+    The user requested torch==1.13.0
+    torchaudio 0.13.0 depends on torch==1.13.0
+    torchvision 0.13.0 depends on torch==1.12.0
+
+To fix this you could try to:
+1. loosen the range of package versions you've specified
+2. remove package versions to allow pip attempt to solve the dependency conflict
+
+ERROR: ResolutionImpossible: for help visit https://pip.pypa.io/en/latest/topics/dependency-resolution/#dealing-with-dependency-conflicts

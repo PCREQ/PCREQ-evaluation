@@ -1,0 +1,97 @@
+05/28/2025 01:30:56 - INFO - root -   Training/evaluation parameters Namespace(adam_epsilon=1e-08, arch='bert', data_name='kaggle', do_data=False, do_lower_case=True, do_test=False, do_train=True, epochs=1, eval_batch_size=8, eval_max_seq_len=256, fp16=False, fp16_opt_level='O1', grad_clip=1.0, gradient_accumulation_steps=1, learning_rate=2e-05, local_rank=-1, loss_scale=0, mode='min', monitor='valid_loss', n_gpu='2', predict_checkpoints=0, resume_path='', save_best=True, seed=42, sorted=1, train_batch_size=8, train_max_seq_len=256, valid_size=0.2, warmup_proportion=0.1, weight_decay=0.01)
+05/28/2025 01:30:57 - INFO - root -   Loading examples from cached file pybert/dataset/cached_train_examples_bert
+05/28/2025 01:30:58 - INFO - root -   Loading features from cached file pybert/dataset/cached_train_features_256_bert
+05/28/2025 01:31:03 - INFO - root -   sorted data by th length of input
+05/28/2025 01:31:05 - INFO - root -   Loading examples from cached file pybert/dataset/cached_valid_examples_bert
+05/28/2025 01:31:06 - INFO - root -   Loading features from cached file pybert/dataset/cached_valid_features_256_bert
+05/28/2025 01:31:07 - INFO - root -   initializing model
+05/28/2025 01:31:07 - INFO - transformers.configuration_utils -   loading configuration file pybert/pretrain/bert/base-uncased/config.json
+05/28/2025 01:31:07 - INFO - transformers.configuration_utils -   Model config BertConfig {
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "LABEL_0",
+    "1": "LABEL_1",
+    "2": "LABEL_2",
+    "3": "LABEL_3",
+    "4": "LABEL_4",
+    "5": "LABEL_5"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "label2id": {
+    "LABEL_0": 0,
+    "LABEL_1": 1,
+    "LABEL_2": 2,
+    "LABEL_3": 3,
+    "LABEL_4": 4,
+    "LABEL_5": 5
+  },
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+05/28/2025 01:31:07 - INFO - transformers.modeling_utils -   loading weights file pybert/pretrain/bert/base-uncased/pytorch_model.bin
+05/28/2025 01:31:10 - INFO - transformers.modeling_utils -   Weights of BertForMultiLable not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+05/28/2025 01:31:10 - INFO - transformers.modeling_utils -   Weights from pretrained model not used in BertForMultiLable: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias']
+05/28/2025 01:31:10 - INFO - root -   initializing callbacks
+05/28/2025 01:31:10 - INFO - root -   ***** Running training *****
+05/28/2025 01:31:10 - INFO - root -     Num examples = 127657
+05/28/2025 01:31:10 - INFO - root -     Num Epochs = 1
+05/28/2025 01:31:10 - INFO - root -     Total train batch size (w. parallel, distributed & accumulation) = 8
+05/28/2025 01:31:10 - INFO - root -     Gradient Accumulation steps = 1
+05/28/2025 01:31:10 - INFO - root -     Total optimization steps = 15958
+Traceback (most recent call last):
+  File "/home/lei/anaconda3/envs/py37-6/lib/python3.7/site-packages/torch/cuda/__init__.py", line 242, in _lazy_init
+    queued_call()
+  File "/home/lei/anaconda3/envs/py37-6/lib/python3.7/site-packages/torch/cuda/__init__.py", line 125, in _check_capability
+    capability = get_device_capability(d)
+  File "/home/lei/anaconda3/envs/py37-6/lib/python3.7/site-packages/torch/cuda/__init__.py", line 357, in get_device_capability
+    prop = get_device_properties(device)
+  File "/home/lei/anaconda3/envs/py37-6/lib/python3.7/site-packages/torch/cuda/__init__.py", line 375, in get_device_properties
+    return _get_device_properties(device)  # type: ignore[name-defined]
+RuntimeError: device >= 0 && device < num_gpus INTERNAL ASSERT FAILED at "../aten/src/ATen/cuda/CUDAContext.cpp":50, please report a bug to PyTorch. 
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "run_bert.py", line 216, in <module>
+    main()
+  File "run_bert.py", line 209, in main
+    run_train(args)
+  File "run_bert.py", line 116, in run_train
+    MultiLabelReport(id2label=id2label)])
+  File "/home/lei/compatibility_analysis/pytorch/1.0/Bert-Multi-Label-Text-Classification/pybert/train/trainer.py", line 27, in __init__
+    self.model, self.device = model_device(n_gpu = args.n_gpu, model=self.model)
+  File "/home/lei/compatibility_analysis/pytorch/1.0/Bert-Multi-Label-Text-Classification/pybert/common/tools.py", line 101, in model_device
+    model = model.to(device)
+  File "/home/lei/anaconda3/envs/py37-6/lib/python3.7/site-packages/torch/nn/modules/module.py", line 987, in to
+    return self._apply(convert)
+  File "/home/lei/anaconda3/envs/py37-6/lib/python3.7/site-packages/torch/nn/modules/module.py", line 639, in _apply
+    module._apply(fn)
+  File "/home/lei/anaconda3/envs/py37-6/lib/python3.7/site-packages/torch/nn/modules/module.py", line 639, in _apply
+    module._apply(fn)
+  File "/home/lei/anaconda3/envs/py37-6/lib/python3.7/site-packages/torch/nn/modules/module.py", line 639, in _apply
+    module._apply(fn)
+  File "/home/lei/anaconda3/envs/py37-6/lib/python3.7/site-packages/torch/nn/modules/module.py", line 662, in _apply
+    param_applied = fn(param)
+  File "/home/lei/anaconda3/envs/py37-6/lib/python3.7/site-packages/torch/nn/modules/module.py", line 985, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+  File "/home/lei/anaconda3/envs/py37-6/lib/python3.7/site-packages/torch/cuda/__init__.py", line 246, in _lazy_init
+    raise DeferredCudaCallError(msg) from e
+torch.cuda.DeferredCudaCallError: CUDA call failed lazily at initialization with error: device >= 0 && device < num_gpus INTERNAL ASSERT FAILED at "../aten/src/ATen/cuda/CUDAContext.cpp":50, please report a bug to PyTorch. 
+
+CUDA call was originally invoked at:
+
+['  File "run_bert.py", line 1, in <module>\n    import torch\n', '  File "<frozen importlib._bootstrap>", line 983, in _find_and_load\n', '  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked\n', '  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked\n', '  File "<frozen importlib._bootstrap_external>", line 728, in exec_module\n', '  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed\n', '  File "/home/lei/anaconda3/envs/py37-6/lib/python3.7/site-packages/torch/__init__.py", line 772, in <module>\n    _C._initExtension(manager_path())\n', '  File "<frozen importlib._bootstrap>", line 983, in _find_and_load\n', '  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked\n', '  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked\n', '  File "<frozen importlib._bootstrap_external>", line 728, in exec_module\n', '  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed\n', '  File "/home/lei/anaconda3/envs/py37-6/lib/python3.7/site-packages/torch/cuda/__init__.py", line 179, in <module>\n    _lazy_call(_check_capability)\n', '  File "/home/lei/anaconda3/envs/py37-6/lib/python3.7/site-packages/torch/cuda/__init__.py", line 177, in _lazy_call\n    _queued_calls.append((callable, traceback.format_stack()))\n']

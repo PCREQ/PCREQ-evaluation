@@ -1,0 +1,5 @@
+2025-06-29 04:49:34,825 - INFO - *************Upgrade matplotlib from 3.1.0 to 3.2.0 in Deep-SAD-PyTorch*************
+2025-06-29 04:49:34,825 - INFO - Checking Deep-SAD-PyTorch is compatible with matplotlib3.2.0?...
+2025-06-29 04:49:38,518 - INFO - Deep-SAD-PyTorch is compatible with matplotlib3.2.0
+2025-06-29 04:49:41,360 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 04:49:41,360 - INFO - Time cost: 6.5363450050354 s

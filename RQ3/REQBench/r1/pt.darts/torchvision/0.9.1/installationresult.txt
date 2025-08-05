@@ -1,0 +1,13 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting torch==1.8.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/56/74/6fc9dee50f7c93d6b7d9644554bdc9692f3023fa5d1de779666e6bf8ae76/torch-1.8.1-cp37-cp37m-manylinux1_x86_64.whl (804.1 MB)
+Collecting torchvision==0.9.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/93/8a/82062a33b5eb7f696bf23f8ccf04bf6fc81d1a4972740fb21c2569ada0a6/torchvision-0.9.1-cp37-cp37m-manylinux1_x86_64.whl (17.4 MB)
+Collecting numpy
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/6d/ad/ff3b21ebfe79a4d25b4a4f8e5cf9fd44a204adb6b33c09010f566f51027a/numpy-1.21.6-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (15.7 MB)
+Collecting typing-extensions
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ec/6b/63cc3df74987c36fe26157ee12e09e8f9db4de771e0f3404263117e75b95/typing_extensions-4.7.1-py3-none-any.whl (33 kB)
+Collecting pillow>=4.1.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/37/95/48565d6beb34deaacda1543b515dab9479b8fa8b9046703fd08ad447ddfe/Pillow-9.5.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.3 MB)
+Installing collected packages: typing-extensions, pillow, numpy, torch, torchvision
+Successfully installed numpy-1.21.6 pillow-9.5.0 torch-1.8.1 torchvision-0.9.1 typing-extensions-4.7.1

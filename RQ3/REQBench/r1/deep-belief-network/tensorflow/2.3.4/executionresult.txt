@@ -1,0 +1,58 @@
+WARNING:tensorflow:From /home/lei/compatibility_analysis/tensorflow/1.5/deep-belief-network/dbn/tensorflow/models.py:19: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2025-05-29 08:49:11.389199: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2025-05-29 08:49:11.460564: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: NVIDIA GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.545
+pciBusID: 0000:17:00.0
+2025-05-29 08:49:11.460822: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 1 with properties: 
+name: NVIDIA GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.545
+pciBusID: 0000:73:00.0
+2025-05-29 08:49:11.461046: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 2 with properties: 
+name: NVIDIA GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.545
+pciBusID: 0000:a6:00.0
+2025-05-29 08:49:11.461161: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudart.so.10.0'; dlerror: libcudart.so.10.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.4/lib64:/usr/local/cuda-11.4/lib64:
+2025-05-29 08:49:11.461217: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcublas.so.10.0'; dlerror: libcublas.so.10.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.4/lib64:/usr/local/cuda-11.4/lib64:
+2025-05-29 08:49:11.461267: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcufft.so.10.0'; dlerror: libcufft.so.10.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.4/lib64:/usr/local/cuda-11.4/lib64:
+2025-05-29 08:49:11.461320: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcurand.so.10.0'; dlerror: libcurand.so.10.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.4/lib64:/usr/local/cuda-11.4/lib64:
+2025-05-29 08:49:11.461372: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusolver.so.10.0'; dlerror: libcusolver.so.10.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.4/lib64:/usr/local/cuda-11.4/lib64:
+2025-05-29 08:49:11.461417: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusparse.so.10.0'; dlerror: libcusparse.so.10.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.4/lib64:/usr/local/cuda-11.4/lib64:
+2025-05-29 08:49:11.461466: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudnn.so.7'; dlerror: libcudnn.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.4/lib64:/usr/local/cuda-11.4/lib64:
+2025-05-29 08:49:11.461472: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1641] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2025-05-29 08:49:11.461799: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2025-05-29 08:49:11.477278: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2100000000 Hz
+2025-05-29 08:49:11.485309: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5578bb127c30 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2025-05-29 08:49:11.485324: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2025-05-29 08:49:11.885002: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5578bae2ce80 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2025-05-29 08:49:11.885082: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): NVIDIA GeForce RTX 2080 Ti, Compute Capability 7.5
+2025-05-29 08:49:11.885102: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (1): NVIDIA GeForce RTX 2080 Ti, Compute Capability 7.5
+2025-05-29 08:49:11.885115: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (2): NVIDIA GeForce RTX 2080 Ti, Compute Capability 7.5
+2025-05-29 08:49:11.885650: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2025-05-29 08:49:11.885686: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      
+WARNING:tensorflow:From /home/lei/compatibility_analysis/tensorflow/1.5/deep-belief-network/dbn/tensorflow/models.py:127: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
+
+WARNING:tensorflow:From /home/lei/compatibility_analysis/tensorflow/1.5/deep-belief-network/dbn/tensorflow/models.py:143: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /home/lei/compatibility_analysis/tensorflow/1.5/deep-belief-network/dbn/tensorflow/models.py:149: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /home/lei/compatibility_analysis/tensorflow/1.5/deep-belief-network/dbn/tensorflow/models.py:150: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+WARNING:tensorflow:From /home/lei/compatibility_analysis/tensorflow/1.5/deep-belief-network/dbn/tensorflow/models.py:178: The name tf.assign_add is deprecated. Please use tf.compat.v1.assign_add instead.
+
+WARNING:tensorflow:From /home/lei/compatibility_analysis/tensorflow/1.5/deep-belief-network/dbn/tensorflow/models.py:89: The name tf.variables_initializer is deprecated. Please use tf.compat.v1.variables_initializer instead.
+
+WARNING:tensorflow:From /home/lei/compatibility_analysis/tensorflow/1.5/deep-belief-network/dbn/tensorflow/models.py:338: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From /home/lei/compatibility_analysis/tensorflow/1.5/deep-belief-network/dbn/tensorflow/models.py:357: The name tf.train.GradientDescentOptimizer is deprecated. Please use tf.compat.v1.train.GradientDescentOptimizer instead.
+
+[START] Pre-training step:
+>> Epoch 1 finished 	RBM Reconstruction error 3.249004
+>> Epoch 1 finished 	RBM Reconstruction error 0.766020
+[END] Pre-training step
+[START] Fine tuning step:
+>> Epoch 0 finished 	ANN training loss 2.299795
+[END] Fine tuning step
+Done.
+Accuracy: 0.075000

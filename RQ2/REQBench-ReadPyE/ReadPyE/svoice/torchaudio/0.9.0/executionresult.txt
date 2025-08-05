@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "/home/lei/anaconda3/envs/py37/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/home/lei/anaconda3/envs/py37/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/lei/compatibility_analysis/pytorch/1.6/svoice/svoice/evaluate.py", line 21, in <module>
+    from .data.data import Validset
+  File "/home/lei/compatibility_analysis/pytorch/1.6/svoice/svoice/data/data.py", line 15, in <module>
+    import librosa
+  File "/home/lei/anaconda3/envs/py37/lib/python3.7/site-packages/librosa/__init__.py", line 12, in <module>
+    from . import core
+  File "/home/lei/anaconda3/envs/py37/lib/python3.7/site-packages/librosa/core/__init__.py", line 125, in <module>
+    from .time_frequency import *  # pylint: disable=wildcard-import
+  File "/home/lei/anaconda3/envs/py37/lib/python3.7/site-packages/librosa/core/time_frequency.py", line 11, in <module>
+    from ..util.exceptions import ParameterError
+  File "/home/lei/anaconda3/envs/py37/lib/python3.7/site-packages/librosa/util/__init__.py", line 77, in <module>
+    from .utils import *  # pylint: disable=wildcard-import
+  File "/home/lei/anaconda3/envs/py37/lib/python3.7/site-packages/librosa/util/utils.py", line 15, in <module>
+    from .decorators import deprecated
+  File "/home/lei/anaconda3/envs/py37/lib/python3.7/site-packages/librosa/util/decorators.py", line 9, in <module>
+    from numba.decorators import jit as optional_jit
+ModuleNotFoundError: No module named 'numba.decorators'

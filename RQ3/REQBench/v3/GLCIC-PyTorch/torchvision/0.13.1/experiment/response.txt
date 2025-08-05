@@ -1,0 +1,13 @@
+coloredlogs==15.0.1
+correlation-cuda==0.0.0
+humanfriendly==10.0
+mpmath==1.2.1
+numpy==1.23.5
+opencv-python==4.5.2.54
+Pillow==9.3.0
+resample2d-cuda==0.0.0
+sympy==1.10.1
+torch==1.12.1
+torchvision==0.13.1
+tqdm==4.61.1
+typing_extensions==4.7.1

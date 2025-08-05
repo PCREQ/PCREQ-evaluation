@@ -1,0 +1,5 @@
+2025-06-29 08:25:32,134 - INFO - *************Upgrade scipy from 1.4.1 to 1.7.2 in hifi-gan*************
+2025-06-29 08:25:32,134 - INFO - Checking hifi-gan is compatible with scipy1.7.2?...
+2025-06-29 08:25:32,420 - INFO - hifi-gan is compatible with scipy1.7.2
+2025-06-29 08:25:39,094 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 08:25:39,094 - INFO - Time cost: 6.961445093154907 s

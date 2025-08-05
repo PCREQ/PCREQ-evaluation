@@ -1,0 +1,6 @@
+/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/transformers/configuration_utils.py:337: UserWarning: Passing `gradient_checkpointing` to a config initialization is deprecated and will be removed in v5 Transformers. Using `model.gradient_checkpointing_enable()` instead, or if you are using the `Trainer` API, pass `gradient_checkpointing=True` in your `TrainingArguments`.
+  "Passing `gradient_checkpointing` to a config initialization is deprecated and will be removed in v5 "
+05/31/2025 07:01:32 - INFO - __main__ -   ***** Model Loaded *****
+05/31/2025 07:01:32 - INFO - __main__ -   Namespace(adam_epsilon=1e-08, add_sep_token=False, data_dir='./data', do_eval=True, do_train=True, dropout_rate=0.1, eval_batch_size=32, eval_dir='./eval', gradient_accumulation_steps=1, label_file='label.txt', learning_rate=2e-05, logging_steps=250, max_grad_norm=1.0, max_seq_len=200, max_steps=-1, model_dir='./model', model_name_or_path='bert-base-uncased', no_cuda=False, num_train_epochs=1.0, save_steps=250, seed=77, task='semeval', test_file='test.tsv', train_batch_size=8, train_file='train.tsv', warmup_steps=0, weight_decay=0.0)
+Predicting:   0%|          | 0/1 [00:00<?, ?it/s]Predicting: 100%|██████████| 1/1 [00:00<00:00, 22.78it/s]
+05/31/2025 07:04:49 - INFO - __main__ -   Prediction Done!

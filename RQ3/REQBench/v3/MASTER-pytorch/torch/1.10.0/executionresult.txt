@@ -1,0 +1,24 @@
+[2025-06-01 01:42:41,689 - train - INFO] - One GPU or CPU training mode start...
+[2025-06-01 01:42:41,689 - train - WARNING] - You have chosen to benchmark training. This will turn on the CUDNN benchmark settingwhich can speed up your training considerably! You may see unexpected behavior when restarting from checkpoints due to RandomizedMultiLinearMap need deterministic turn on.
+[2025-06-01 01:43:00,787 - train - INFO] - Dataloader instances have finished. Train datasets: 12747394 Val datasets: 1694655 Train_batch_size/gpu: 64 Val_batch_size/gpu: 64.
+[2025-06-01 01:43:02,936 - train - INFO] - Model created, trainable parameters: 54687382.
+[2025-06-01 01:43:02,937 - train - INFO] - Optimizer and lr_scheduler created.
+[2025-06-01 01:43:02,937 - train - INFO] - Max_epochs: 1 Log_step_interval: 1 Validation_step_interval: 10.
+[2025-06-01 01:43:02,937 - train - INFO] - Training start...
+[2025-06-01 01:43:02,995 - trainer - WARNING] - Training is using GPU 0!
+Traceback (most recent call last):
+  File "train.py", line 210, in <module>
+    entry_point(config)
+  File "train.py", line 159, in entry_point
+    main(config, local_master, logger if local_master else None)
+  File "train.py", line 94, in main
+    trainer.train()
+  File "/home/lei/compatibility_analysis/pytorch/1.5/MASTER-pytorch/trainer/trainer.py", line 148, in train
+    result_dict = self._train_epoch(epoch)
+  File "/home/lei/compatibility_analysis/pytorch/1.5/MASTER-pytorch/trainer/trainer.py", line 253, in _train_epoch
+    loss.backward()
+  File "/home/lei/anaconda3/envs/py36-4/lib/python3.6/site-packages/torch/_tensor.py", line 307, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/home/lei/anaconda3/envs/py36-4/lib/python3.6/site-packages/torch/autograd/__init__.py", line 156, in backward
+    allow_unreachable=True, accumulate_grad=True)  # allow_unreachable flag
+RuntimeError: one of the variables needed for gradient computation has been modified by an inplace operation: [torch.cuda.FloatTensor [64, 512, 6, 40]], which is output 0 of ReluBackward0, is at version 2; expected version 0 instead. Hint: enable anomaly detection to find the operation that failed to compute its gradient, with torch.autograd.set_detect_anomaly(True).

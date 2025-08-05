@@ -1,0 +1,24 @@
+GPU available: True, used: True
+TPU available: None, using: 0 TPU cores
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2]
+
+  | Name    | Type    | Params
+------------------------------------
+0 | wavenet | WaveNet | 10.6 K
+------------------------------------
+10.6 K    Trainable params
+0         Non-trainable params
+10.6 K    Total params
+Validation sanity check: 0it [00:00, ?it/s]Validation sanity check:  50%|█████     | 1/2 [00:00<00:00,  4.04it/s]                                                                      /home/lei/anaconda3/envs/py37-5/lib/python3.7/site-packages/pytorch_lightning/utilities/distributed.py:49: UserWarning: The validation_epoch_end should not return anything as of 9.1. To log, use self.log(...) or self.write(...) directly in the LightningModule
+  warnings.warn(*args, **kwargs)
+/home/lei/anaconda3/envs/py37-5/lib/python3.7/site-packages/pytorch_lightning/utilities/distributed.py:49: UserWarning: The {log:dict keyword} was deprecated in 0.9.1 and will be removed in 1.0.0
+Please use self.log(...) inside the lightningModule instead.
+
+# log on a step or aggregate epoch metric to the logger and/or progress bar
+# (inside LightningModule)
+self.log('train_loss', loss, on_step=True, on_epoch=True, prog_bar=True)
+  warnings.warn(*args, **kwargs)
+Training: 0it [00:00, ?it/s]Training:   0%|          | 0/24 [00:00<?, ?it/s]Epoch 0:   0%|          | 0/24 [00:00<?, ?it/s] Epoch 0:   4%|▍         | 1/24 [00:00<00:06,  3.72it/s]Epoch 0:   4%|▍         | 1/24 [00:00<00:06,  3.71it/s, loss=104, v_num=483]Epoch 0:   8%|▊         | 2/24 [00:00<00:03,  6.44it/s, loss=70.6, v_num=483]Epoch 0:  12%|█▎        | 3/24 [00:00<00:02,  8.51it/s, loss=48.5, v_num=483]Epoch 0:  17%|█▋        | 4/24 [00:00<00:01, 10.08it/s, loss=48.5, v_num=483]Epoch 0:  17%|█▋        | 4/24 [00:00<00:01, 10.08it/s, loss=39, v_num=483]  Epoch 0:  21%|██        | 5/24 [00:00<00:01, 11.41it/s, loss=31.4, v_num=483]Epoch 0:  25%|██▌       | 6/24 [00:00<00:01, 12.54it/s, loss=26.9, v_num=483]Epoch 0:  29%|██▉       | 7/24 [00:00<00:01, 13.49it/s, loss=26.9, v_num=483]Epoch 0:  29%|██▉       | 7/24 [00:00<00:01, 13.48it/s, loss=23.2, v_num=483]Epoch 0:  33%|███▎      | 8/24 [00:00<00:01, 14.35it/s, loss=21.2, v_num=483]Epoch 0:  38%|███▊      | 9/24 [00:00<00:00, 15.09it/s, loss=18.9, v_num=483]Epoch 0:  42%|████▏     | 10/24 [00:00<00:00, 15.77it/s, loss=18.9, v_num=483]Epoch 0:  42%|████▏     | 10/24 [00:00<00:00, 15.76it/s, loss=17.5, v_num=483]Epoch 0:  46%|████▌     | 11/24 [00:00<00:00, 16.34it/s, loss=16, v_num=483]  Epoch 0:  50%|█████     | 12/24 [00:00<00:00, 16.87it/s, loss=14.7, v_num=483]Epoch 0:  54%|█████▍    | 13/24 [00:00<00:00, 17.33it/s, loss=14.7, v_num=483]Epoch 0:  54%|█████▍    | 13/24 [00:00<00:00, 17.32it/s, loss=13.7, v_num=483]Epoch 0:  58%|█████▊    | 14/24 [00:00<00:00, 17.76it/s, loss=12.7, v_num=483]Epoch 0:  62%|██████▎   | 15/24 [00:00<00:00, 18.14it/s, loss=11.9, v_num=483]Epoch 0:  67%|██████▋   | 16/24 [00:00<00:00, 18.49it/s, loss=11.9, v_num=483]Epoch 0:  67%|██████▋   | 16/24 [00:00<00:00, 18.49it/s, loss=11.5, v_num=483]Epoch 0:  71%|███████   | 17/24 [00:00<00:00, 18.80it/s, loss=10.9, v_num=483]Epoch 0:  75%|███████▌  | 18/24 [00:01<00:00, 17.31it/s, loss=10.3, v_num=483]Epoch 0:  79%|███████▉  | 19/24 [00:01<00:00, 18.20it/s, loss=10.3, v_num=483]
+Validating: 0it [00:00, ?it/s][A
+Validating:  17%|█▋        | 1/6 [00:00<00:01,  3.74it/s][AEpoch 0:  92%|█████████▏| 22/24 [00:01<00:00, 16.55it/s, loss=10.3, v_num=483]Epoch 0: 100%|██████████| 24/24 [00:01<00:00, 16.43it/s, loss=10.3, v_num=483]
+                                                         [AEpoch 0: 100%|██████████| 24/24 [00:01<00:00, 16.40it/s, loss=10.3, v_num=483]

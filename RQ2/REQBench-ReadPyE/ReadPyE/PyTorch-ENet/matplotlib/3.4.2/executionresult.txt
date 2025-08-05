@@ -1,0 +1,12 @@
+
+Loading dataset...
+
+Selected dataset: camvid
+Dataset directory: data/CamVid
+Save directory: save/ENet_CamVid
+Traceback (most recent call last):
+  File "main.py", line 298, in <module>
+    loaders, w_class, class_encoding = load_dataset(dataset)
+  File "main.py", line 35, in load_dataset
+    [transforms.Resize((args.height, args.width)),
+AttributeError: module 'torchvision.transforms' has no attribute 'Resize'

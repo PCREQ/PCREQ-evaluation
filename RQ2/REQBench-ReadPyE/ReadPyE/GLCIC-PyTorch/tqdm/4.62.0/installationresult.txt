@@ -1,0 +1,34 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting pillow==9.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/86/d2/ca178ad71dcd1dcddbe2a3f7983639d2f8a20e723d9a978ab978ed08c874/Pillow-9.2.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.1 MB)
+Collecting tqdm==4.62
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/0b/e8/d6f4db0886dbba2fc87b5314f2d5127acdc782e4b51e6f86972a2e45ffd6/tqdm-4.62.0-py2.py3-none-any.whl (76 kB)
+Collecting numpy==1.21.6
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/6d/ad/ff3b21ebfe79a4d25b4a4f8e5cf9fd44a204adb6b33c09010f566f51027a/numpy-1.21.6-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (15.7 MB)
+Collecting opencv-python==4.6.0.66
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/af/bf/8d189a5c43460f6b5c8eb81ead8732e94b9f73ef8d9abba9e8f5a61a6531/opencv_python-4.6.0.66-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (60.9 MB)
+Collecting torch==1.8.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/56/74/6fc9dee50f7c93d6b7d9644554bdc9692f3023fa5d1de779666e6bf8ae76/torch-1.8.1-cp37-cp37m-manylinux1_x86_64.whl (804.1 MB)
+Collecting torchvision==0.12
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/11/5a/6dc5d28e352187502f80b4015fb05ccdd401fa6125f51750a789f2536c18/torchvision-0.12.0-cp37-cp37m-manylinux1_x86_64.whl (21.0 MB)
+Collecting typing-extensions
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ec/6b/63cc3df74987c36fe26157ee12e09e8f9db4de771e0f3404263117e75b95/typing_extensions-4.7.1-py3-none-any.whl (33 kB)
+Collecting requests
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/70/8e/0e2d847013cb52cd35b38c009bb167a1a26b2ce6cd6965bf26b47bc0bf44/requests-2.31.0-py3-none-any.whl (62 kB)
+INFO: pip is looking at multiple versions of torch to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of opencv-python to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of numpy to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of tqdm to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of <Python from Requires-Python> to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of pillow to determine which version is compatible with other requirements. This could take a while.
+ERROR: Cannot install -r /home/lei/compatibility_analysis/compare/ReadPyE/experiment/result/GLCIC-PyTorch-tqdm-4.62.0.txt (line 6) and torch==1.8.1 because these package versions have conflicting dependencies.
+
+The conflict is caused by:
+    The user requested torch==1.8.1
+    torchvision 0.12.0 depends on torch==1.11.0
+
+To fix this you could try to:
+1. loosen the range of package versions you've specified
+2. remove package versions to allow pip attempt to solve the dependency conflict
+
+ERROR: ResolutionImpossible: for help visit https://pip.pypa.io/en/latest/topics/dependency-resolution/#dealing-with-dependency-conflicts

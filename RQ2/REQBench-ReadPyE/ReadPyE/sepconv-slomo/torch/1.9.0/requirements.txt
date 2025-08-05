@@ -1,0 +1,5 @@
+cupy==11
+numpy==1.21.6
+pillow==9.2
+torch==1.9
+scikit-image==0.19.3

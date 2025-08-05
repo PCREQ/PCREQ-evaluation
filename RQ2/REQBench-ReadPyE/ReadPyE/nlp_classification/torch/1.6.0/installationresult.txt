@@ -1,0 +1,54 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting gluonnlp==0.10
+  Using cached gluonnlp-0.10.0-cp37-cp37m-linux_x86_64.whl
+Collecting gdown==4.5.1
+  Using cached gdown-4.5.1-py3-none-any.whl
+Collecting tqdm==4.64
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/8a/c4/d15f1e627fff25443ded77ea70a7b5532d6371498f9285d44d62587e209c/tqdm-4.64.0-py2.py3-none-any.whl (78 kB)
+Collecting torch==1.6
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/5d/5e/35140615fc1f925023f489e71086a9ecc188053d263d3594237281284d82/torch-1.6.0-cp37-cp37m-manylinux1_x86_64.whl (748.8 MB)
+Collecting scikit-learn==1.0.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/bd/05/e561bc99a615b5c099c7a9355409e5e57c525a108f1c2e156abb005b90a6/scikit_learn-1.0.2-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (24.8 MB)
+Collecting konlpy==0.6
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/5a/95/896914d9461c12f07e6f8afb1f7462e28395fc46b54fcbb96f1ea3cff8fb/konlpy-0.6.0-py2.py3-none-any.whl (19.4 MB)
+Collecting packaging
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/49/df/1fceb2f8900f8639e278b056416d49134fb8d84c5942ffaa01ad34782422/packaging-24.0-py3-none-any.whl (53 kB)
+Collecting cython
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c1/36/aba1e7f0d1a795d3d153853f57ce01af4e8fa20c17fd577f5da240a3f0a4/Cython-3.0.11-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.6 MB)
+Collecting numpy>=1.16.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/6d/ad/ff3b21ebfe79a4d25b4a4f8e5cf9fd44a204adb6b33c09010f566f51027a/numpy-1.21.6-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (15.7 MB)
+Collecting beautifulsoup4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/b1/fe/e8c672695b37eecc5cbf43e1d0638d88d66ba3a44c4d321c796f4e59167f/beautifulsoup4-4.12.3-py3-none-any.whl (147 kB)
+Collecting filelock
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/00/45/ec3407adf6f6b5bf867a4462b2b0af27597a26bd3cd6e2534cb6ab029938/filelock-3.12.2-py3-none-any.whl (10 kB)
+Collecting six
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/b7/ce/149a00dd41f10bc29e5921b496af8b574d8413afcd5e30dfa0ed46c2cc5e/six-1.17.0-py2.py3-none-any.whl (11 kB)
+Collecting requests[socks]
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/70/8e/0e2d847013cb52cd35b38c009bb167a1a26b2ce6cd6965bf26b47bc0bf44/requests-2.31.0-py3-none-any.whl (62 kB)
+Collecting future
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/da/71/ae30dadffc90b9006d77af76b393cb9dfbfc9629f339fc1574a1c52e6806/future-1.0.0-py3-none-any.whl (491 kB)
+Collecting scipy>=1.1.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/58/4f/11f34cfc57ead25752a7992b069c36f5d18421958ebd6466ecd849aeaf86/scipy-1.7.3-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (38.1 MB)
+Collecting joblib>=0.11
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/10/40/d551139c85db202f1f384ba8bcf96aca2f329440a844f924c8a0040b6d02/joblib-1.3.2-py3-none-any.whl (302 kB)
+Collecting threadpoolctl>=2.0.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/61/cf/6e354304bcb9c6413c4e02a747b600061c21d38ba51e7e544ac7bc66aecc/threadpoolctl-3.1.0-py3-none-any.whl (14 kB)
+Collecting JPype1>=0.7.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/11/4f/66e898a87b29a1332db747c932ced5a78171c66c908e875514ba44ce5a09/JPype1-1.5.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (488 kB)
+Collecting lxml>=4.1.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/35/c8/6c5bc30d71f7c9a618a3cc539dfa8602922b7677c2ebc4feae05cd1f0fdb/lxml-5.3.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.9 MB)
+Collecting typing-extensions
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ec/6b/63cc3df74987c36fe26157ee12e09e8f9db4de771e0f3404263117e75b95/typing_extensions-4.7.1-py3-none-any.whl (33 kB)
+Collecting soupsieve>1.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/49/37/673d6490efc51ec46d198c75903d99de59baffdd47aea3d071b80a9e4e89/soupsieve-2.4.1-py3-none-any.whl (36 kB)
+Requirement already satisfied: certifi>=2017.4.17 in /home/lei/anaconda3/envs/py37/lib/python3.7/site-packages (from requests[socks]->gdown==4.5.1->-r /home/lei/compatibility_analysis/compare/ReadPyE/experiment/result/nlp_classification-torch-1.6.0.txt (line 2)) (2022.12.7)
+Collecting charset-normalizer<4,>=2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/27/9f/68c828438af904d830e680a8d2f6182be97f3205d6d62edfeb4a029b4192/charset_normalizer-3.4.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (138 kB)
+Collecting urllib3<3,>=1.21.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d2/b2/b157855192a68541a91ba7b2bbcb91f1b4faa51f8bae38d8005c034be524/urllib3-2.0.7-py3-none-any.whl (124 kB)
+Collecting idna<4,>=2.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/76/c6/c88e154df9c4e1a2a66ccf0005a88dfb2650c1dffb6f5ce603dfbd452ce3/idna-3.10-py3-none-any.whl (70 kB)
+Collecting PySocks!=1.5.7,>=1.5.6
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/8d/59/b4572118e098ac8e46e399a1dd0f2d85403ce8bbaad9ec79373ed6badaf9/PySocks-1.7.1-py3-none-any.whl (16 kB)
+Installing collected packages: urllib3, typing-extensions, tqdm, threadpoolctl, soupsieve, six, PySocks, packaging, numpy, lxml, joblib, idna, future, filelock, cython, charset-normalizer, torch, scipy, requests, JPype1, gluonnlp, beautifulsoup4, scikit-learn, konlpy, gdown
+Successfully installed JPype1-1.5.0 PySocks-1.7.1 beautifulsoup4-4.12.3 charset-normalizer-3.4.0 cython-3.0.11 filelock-3.12.2 future-1.0.0 gdown-4.5.1 gluonnlp-0.10.0 idna-3.10 joblib-1.3.2 konlpy-0.6.0 lxml-5.3.0 numpy-1.21.6 packaging-24.0 requests-2.31.0 scikit-learn-1.0.2 scipy-1.7.3 six-1.17.0 soupsieve-2.4.1 threadpoolctl-3.1.0 torch-1.6.0 tqdm-4.64.0 typing-extensions-4.7.1 urllib3-2.0.7

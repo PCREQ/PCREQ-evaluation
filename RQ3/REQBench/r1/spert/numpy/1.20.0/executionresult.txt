@@ -1,0 +1,1475 @@
+--------------------------------------------------
+Config:
+{'label': 'conll04_train', 'model_type': 'spert', 'model_path': 'bert-base-cased', 'tokenizer_path': 'bert-base-cased', 'train_path': 'data/datasets/conll04/conll04_train.json', 'valid_path': 'data/datasets/conll04/conll04_dev.json', 'types_path': 'data/datasets/conll04/conll04_types.json', 'train_batch_size': '2', 'eval_batch_size': '1', 'neg_entity_count': '100', 'neg_relation_count': '100', 'epochs': '1', 'lr': '5e-5', 'lr_warmup': '0.1', 'weight_decay': '0.01', 'max_grad_norm': '1.0', 'rel_filter_threshold': '0.4', 'size_embedding': '25', 'prop_drop': '0.1', 'max_span_size': '10', 'store_predictions': 'true', 'store_examples': 'true', 'sampling_processes': '4', 'max_pairs': '1000', 'final_eval': 'true', 'log_path': 'data/log/', 'save_path': 'data/save/'}
+Repeat 1 times
+--------------------------------------------------
+Iteration 0
+--------------------------------------------------
+2025-05-30 11:32:27,231 [MainThread  ] [INFO ]  Datasets: data/datasets/conll04/conll04_train.json, data/datasets/conll04/conll04_dev.json
+2025-05-30 11:32:27,231 [MainThread  ] [INFO ]  Model type: spert
+Parse dataset 'train':   0%|          | 0/922 [00:00<?, ?it/s]Parse dataset 'train':   5%|▌         | 48/922 [00:00<00:01, 476.80it/s]Parse dataset 'train':  11%|█         | 100/922 [00:00<00:01, 496.62it/s]Parse dataset 'train':  16%|█▋        | 151/922 [00:00<00:01, 500.44it/s]Parse dataset 'train':  23%|██▎       | 210/922 [00:00<00:01, 531.33it/s]Parse dataset 'train':  29%|██▊       | 264/922 [00:00<00:01, 492.21it/s]Parse dataset 'train':  34%|███▍      | 314/922 [00:00<00:01, 484.16it/s]Parse dataset 'train':  40%|███▉      | 366/922 [00:00<00:01, 492.10it/s]Parse dataset 'train':  45%|████▌     | 416/922 [00:00<00:01, 383.22it/s]Parse dataset 'train':  51%|█████     | 466/922 [00:01<00:01, 412.41it/s]Parse dataset 'train':  56%|█████▌    | 514/922 [00:01<00:00, 430.24it/s]Parse dataset 'train':  62%|██████▏   | 570/922 [00:01<00:00, 463.71it/s]Parse dataset 'train':  67%|██████▋   | 619/922 [00:01<00:00, 459.93it/s]Parse dataset 'train':  73%|███████▎  | 675/922 [00:01<00:00, 484.78it/s]Parse dataset 'train':  79%|███████▉  | 730/922 [00:01<00:00, 493.02it/s]Parse dataset 'train':  85%|████████▍ | 783/922 [00:01<00:00, 502.63it/s]Parse dataset 'train':  90%|█████████ | 834/922 [00:01<00:00, 480.45it/s]Parse dataset 'train':  96%|█████████▋| 888/922 [00:01<00:00, 494.50it/s]Parse dataset 'train': 100%|██████████| 922/922 [00:01<00:00, 473.38it/s]
+Parse dataset 'valid':   0%|          | 0/231 [00:00<?, ?it/s]Parse dataset 'valid':  22%|██▏       | 50/231 [00:00<00:00, 491.09it/s]Parse dataset 'valid':  43%|████▎     | 100/231 [00:00<00:00, 475.56it/s]Parse dataset 'valid':  64%|██████▍   | 148/231 [00:00<00:00, 476.34it/s]Parse dataset 'valid':  85%|████████▍ | 196/231 [00:00<00:00, 459.33it/s]Parse dataset 'valid': 100%|██████████| 231/231 [00:00<00:00, 477.87it/s]2025-05-30 11:32:29,683 [MainThread  ] [INFO ]  Relation type count: 6
+2025-05-30 11:32:29,683 [MainThread  ] [INFO ]  Entity type count: 5
+2025-05-30 11:32:29,683 [MainThread  ] [INFO ]  Entities:
+2025-05-30 11:32:29,683 [MainThread  ] [INFO ]  No Entity=0
+2025-05-30 11:32:29,683 [MainThread  ] [INFO ]  Location=1
+2025-05-30 11:32:29,683 [MainThread  ] [INFO ]  Organization=2
+2025-05-30 11:32:29,683 [MainThread  ] [INFO ]  People=3
+2025-05-30 11:32:29,683 [MainThread  ] [INFO ]  Other=4
+2025-05-30 11:32:29,683 [MainThread  ] [INFO ]  Relations:
+2025-05-30 11:32:29,683 [MainThread  ] [INFO ]  No Relation=0
+2025-05-30 11:32:29,683 [MainThread  ] [INFO ]  Work for=1
+2025-05-30 11:32:29,683 [MainThread  ] [INFO ]  Kill=2
+2025-05-30 11:32:29,683 [MainThread  ] [INFO ]  Organization based in=3
+2025-05-30 11:32:29,683 [MainThread  ] [INFO ]  Live in=4
+2025-05-30 11:32:29,683 [MainThread  ] [INFO ]  Located in=5
+2025-05-30 11:32:29,683 [MainThread  ] [INFO ]  Dataset: train
+2025-05-30 11:32:29,683 [MainThread  ] [INFO ]  Document count: 922
+2025-05-30 11:32:29,683 [MainThread  ] [INFO ]  Relation count: 1283
+2025-05-30 11:32:29,683 [MainThread  ] [INFO ]  Entity count: 3377
+2025-05-30 11:32:29,683 [MainThread  ] [INFO ]  Dataset: valid
+2025-05-30 11:32:29,683 [MainThread  ] [INFO ]  Document count: 231
+2025-05-30 11:32:29,683 [MainThread  ] [INFO ]  Relation count: 343
+2025-05-30 11:32:29,683 [MainThread  ] [INFO ]  Entity count: 893
+2025-05-30 11:32:29,683 [MainThread  ] [INFO ]  Updates per epoch: 461
+2025-05-30 11:32:29,683 [MainThread  ] [INFO ]  Updates total: 461
+
+Some weights of the model checkpoint at bert-base-cased were not used when initializing SpERT: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing SpERT from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing SpERT from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of SpERT were not initialized from the model checkpoint at bert-base-cased and are newly initialized: ['rel_classifier.weight', 'rel_classifier.bias', 'entity_classifier.weight', 'entity_classifier.bias', 'size_embeddings.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+nn.Linear(config.hidden_size * 2 + size_embedding, entity_types)
+torch.nn.CrossEntropyLoss(reduction='none')
+2025-05-30 11:32:37,610 [MainThread  ] [INFO ]  Train epoch: 0
+Train epoch 0:   0%|          | 0/461 [00:00<?, ?it/s]Train epoch 0:   0%|          | 1/461 [00:06<51:12,  6.68s/it]Train epoch 0:   1%|          | 3/461 [00:06<13:44,  1.80s/it]Train epoch 0:   1%|          | 5/461 [00:07<07:00,  1.09it/s]Train epoch 0:   2%|▏         | 7/461 [00:07<04:18,  1.75it/s]Train epoch 0:   2%|▏         | 9/461 [00:07<02:55,  2.58it/s]Train epoch 0:   2%|▏         | 11/461 [00:07<02:08,  3.51it/s]Train epoch 0:   3%|▎         | 13/461 [00:07<01:38,  4.53it/s]Train epoch 0:   3%|▎         | 15/461 [00:07<01:18,  5.67it/s]Train epoch 0:   4%|▎         | 17/461 [00:08<01:05,  6.80it/s]Train epoch 0:   4%|▍         | 19/461 [00:08<00:56,  7.84it/s]Train epoch 0:   5%|▍         | 21/461 [00:08<00:50,  8.69it/s]Train epoch 0:   5%|▍         | 23/461 [00:08<00:47,  9.22it/s]Train epoch 0:   5%|▌         | 25/461 [00:08<00:44,  9.72it/s]Train epoch 0:   6%|▌         | 27/461 [00:09<00:43, 10.02it/s]Train epoch 0:   6%|▋         | 29/461 [00:09<00:42, 10.27it/s]Train epoch 0:   7%|▋         | 31/461 [00:09<00:41, 10.46it/s]Train epoch 0:   7%|▋         | 33/461 [00:09<00:40, 10.50it/s]Train epoch 0:   8%|▊         | 35/461 [00:09<00:40, 10.48it/s]Train epoch 0:   8%|▊         | 37/461 [00:09<00:40, 10.48it/s]Train epoch 0:   8%|▊         | 39/461 [00:10<00:39, 10.63it/s]Train epoch 0:   9%|▉         | 41/461 [00:10<00:39, 10.68it/s]Train epoch 0:   9%|▉         | 43/461 [00:10<00:39, 10.62it/s]Train epoch 0:  10%|▉         | 45/461 [00:10<00:38, 10.69it/s]Train epoch 0:  10%|█         | 47/461 [00:10<00:38, 10.65it/s]Train epoch 0:  11%|█         | 49/461 [00:11<00:38, 10.63it/s]Train epoch 0:  11%|█         | 51/461 [00:11<00:38, 10.52it/s]Train epoch 0:  11%|█▏        | 53/461 [00:11<00:39, 10.42it/s]Train epoch 0:  12%|█▏        | 55/461 [00:11<00:38, 10.41it/s]Train epoch 0:  12%|█▏        | 57/461 [00:11<00:38, 10.44it/s]Train epoch 0:  13%|█▎        | 59/461 [00:12<00:38, 10.52it/s]Train epoch 0:  13%|█▎        | 61/461 [00:12<00:38, 10.43it/s]Train epoch 0:  14%|█▎        | 63/461 [00:12<00:37, 10.51it/s]Train epoch 0:  14%|█▍        | 65/461 [00:12<00:37, 10.42it/s]Train epoch 0:  15%|█▍        | 67/461 [00:12<00:38, 10.24it/s]Train epoch 0:  15%|█▍        | 69/461 [00:13<00:58,  6.73it/s]Train epoch 0:  15%|█▌        | 71/461 [00:13<00:51,  7.57it/s]Train epoch 0:  16%|█▌        | 72/461 [00:13<00:49,  7.91it/s]Train epoch 0:  16%|█▌        | 74/461 [00:13<00:44,  8.72it/s]Train epoch 0:  16%|█▋        | 76/461 [00:13<00:41,  9.30it/s]Train epoch 0:  17%|█▋        | 78/461 [00:14<00:39,  9.75it/s]Train epoch 0:  17%|█▋        | 80/461 [00:14<00:37, 10.06it/s]Train epoch 0:  18%|█▊        | 82/461 [00:14<00:37, 10.00it/s]Train epoch 0:  18%|█▊        | 84/461 [00:14<00:36, 10.28it/s]Train epoch 0:  19%|█▊        | 86/461 [00:14<00:35, 10.46it/s]Train epoch 0:  19%|█▉        | 88/461 [00:15<00:35, 10.55it/s]Train epoch 0:  20%|█▉        | 90/461 [00:15<00:35, 10.56it/s]Train epoch 0:  20%|█▉        | 92/461 [00:15<00:34, 10.62it/s]Train epoch 0:  20%|██        | 94/461 [00:15<00:34, 10.64it/s]Train epoch 0:  21%|██        | 96/461 [00:15<00:34, 10.50it/s]Train epoch 0:  21%|██▏       | 98/461 [00:16<00:34, 10.48it/s]Train epoch 0:  22%|██▏       | 100/461 [00:16<00:34, 10.53it/s]Train epoch 0:  22%|██▏       | 102/461 [00:16<00:33, 10.59it/s]Train epoch 0:  23%|██▎       | 104/461 [00:16<00:32, 11.08it/s]torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)Train epoch 0:  23%|██▎       | 106/461 [00:16<00:30, 11.57it/s]Train epoch 0:  23%|██▎       | 108/461 [00:16<00:30, 11.64it/s]Train epoch 0:  24%|██▍       | 110/461 [00:17<00:29, 11.70it/s]Train epoch 0:  24%|██▍       | 112/461 [00:17<00:29, 11.88it/s]Train epoch 0:  25%|██▍       | 114/461 [00:17<00:29, 11.62it/s]Train epoch 0:  25%|██▌       | 116/461 [00:17<00:28, 12.12it/s]Train epoch 0:  26%|██▌       | 118/461 [00:17<00:28, 11.90it/s]Train epoch 0:  26%|██▌       | 120/461 [00:17<00:29, 11.38it/s]Train epoch 0:  26%|██▋       | 122/461 [00:18<00:28, 11.75it/s]Train epoch 0:  27%|██▋       | 124/461 [00:18<00:28, 11.73it/s]Train epoch 0:  27%|██▋       | 126/461 [00:18<00:28, 11.93it/s]Train epoch 0:  28%|██▊       | 128/461 [00:18<00:27, 12.26it/s]Train epoch 0:  28%|██▊       | 130/461 [00:18<00:27, 12.19it/s]Train epoch 0:  29%|██▊       | 132/461 [00:18<00:26, 12.25it/s]Train epoch 0:  29%|██▉       | 134/461 [00:19<00:26, 12.19it/s]Train epoch 0:  30%|██▉       | 136/461 [00:19<00:28, 11.46it/s]Train epoch 0:  30%|██▉       | 138/461 [00:19<00:28, 11.51it/s]Train epoch 0:  30%|███       | 140/461 [00:19<00:27, 11.77it/s]Train epoch 0:  31%|███       | 142/461 [00:19<00:26, 11.91it/s]Train epoch 0:  31%|███       | 144/461 [00:19<00:25, 12.30it/s]Train epoch 0:  32%|███▏      | 146/461 [00:20<00:25, 12.28it/s]Train epoch 0:  32%|███▏      | 148/461 [00:20<00:25, 12.34it/s]Train epoch 0:  33%|███▎      | 150/461 [00:20<00:24, 12.53it/s]Train epoch 0:  33%|███▎      | 152/461 [00:20<00:25, 12.14it/s]Train epoch 0:  33%|███▎      | 154/461 [00:20<00:25, 12.12it/s]Train epoch 0:  34%|███▍      | 156/461 [00:20<00:24, 12.53it/s]Train epoch 0:  34%|███▍      | 158/461 [00:21<00:24, 12.56it/s]Train epoch 0:  35%|███▍      | 160/461 [00:21<00:24, 12.13it/s]Train epoch 0:  35%|███▌      | 162/461 [00:21<00:23, 12.58it/s]Train epoch 0:  36%|███▌      | 164/461 [00:21<00:23, 12.43it/s]Train epoch 0:  36%|███▌      | 166/461 [00:21<00:24, 12.02it/s]Train epoch 0:  36%|███▋      | 168/461 [00:21<00:23, 12.35it/s]Train epoch 0:  37%|███▋      | 170/461 [00:22<00:23, 12.39it/s]Train epoch 0:  37%|███▋      | 172/461 [00:22<00:24, 11.93it/s]Train epoch 0:  38%|███▊      | 174/461 [00:22<00:23, 12.28it/s]Train epoch 0:  38%|███▊      | 176/461 [00:22<00:23, 12.06it/s]Train epoch 0:  39%|███▊      | 178/461 [00:22<00:22, 12.38it/s]Train epoch 0:  39%|███▉      | 180/461 [00:22<00:22, 12.47it/s]Train epoch 0:  39%|███▉      | 182/461 [00:23<00:23, 11.98it/s]Train epoch 0:  40%|███▉      | 184/461 [00:23<00:23, 11.87it/s]Train epoch 0:  40%|████      | 186/461 [00:23<00:23, 11.94it/s]Train epoch 0:  41%|████      | 188/461 [00:23<00:22, 12.17it/s]Train epoch 0:  41%|████      | 190/461 [00:23<00:21, 12.43it/s]Train epoch 0:  42%|████▏     | 192/461 [00:23<00:20, 13.35it/s]Train epoch 0:  42%|████▏     | 194/461 [00:23<00:20, 13.25it/s]Train epoch 0:  43%|████▎     | 196/461 [00:24<00:19, 13.50it/s]Train epoch 0:  43%|████▎     | 198/461 [00:24<00:18, 14.06it/s]Train epoch 0:  43%|████▎     | 200/461 [00:24<00:18, 14.33it/s]Train epoch 0:  44%|████▍     | 202/461 [00:24<00:17, 14.42it/s]Train epoch 0:  44%|████▍     | 204/461 [00:24<00:17, 14.94it/s]Train epoch 0:  45%|████▍     | 206/461 [00:24<00:16, 15.11it/s]Train epoch 0:  45%|████▌     | 208/461 [00:24<00:17, 14.29it/s]Train epoch 0:  46%|████▌     | 210/461 [00:25<00:18, 13.65it/s]
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)Train epoch 0:  46%|████▌     | 212/461 [00:25<00:17, 13.96it/s]Train epoch 0:  46%|████▋     | 214/461 [00:25<00:18, 13.35it/s]Train epoch 0:  47%|████▋     | 216/461 [00:25<00:18, 13.36it/s]Train epoch 0:  47%|████▋     | 218/461 [00:25<00:17, 13.63it/s]Train epoch 0:  48%|████▊     | 220/461 [00:25<00:17, 13.56it/s]Train epoch 0:  48%|████▊     | 222/461 [00:25<00:17, 13.55it/s]Train epoch 0:  49%|████▊     | 224/461 [00:26<00:16, 14.04it/s]Train epoch 0:  49%|████▉     | 226/461 [00:26<00:16, 14.08it/s]Train epoch 0:  49%|████▉     | 228/461 [00:26<00:16, 14.03it/s]Train epoch 0:  50%|████▉     | 230/461 [00:26<00:16, 13.68it/s]Train epoch 0:  50%|█████     | 232/461 [00:26<00:16, 13.69it/s]Train epoch 0:  51%|█████     | 234/461 [00:26<00:17, 13.04it/s]Train epoch 0:  51%|█████     | 236/461 [00:27<00:17, 12.74it/s]Train epoch 0:  52%|█████▏    | 238/461 [00:27<00:17, 12.85it/s]Train epoch 0:  52%|█████▏    | 240/461 [00:27<00:16, 13.03it/s]Train epoch 0:  52%|█████▏    | 242/461 [00:27<00:16, 12.95it/s]Train epoch 0:  53%|█████▎    | 244/461 [00:27<00:16, 13.24it/s]Train epoch 0:  53%|█████▎    | 246/461 [00:27<00:16, 13.07it/s]Train epoch 0:  54%|█████▍    | 248/461 [00:27<00:16, 12.99it/s]Train epoch 0:  54%|█████▍    | 250/461 [00:28<00:16, 12.90it/s]Train epoch 0:  55%|█████▍    | 252/461 [00:28<00:16, 12.88it/s]Train epoch 0:  55%|█████▌    | 254/461 [00:28<00:16, 12.51it/s]Train epoch 0:  56%|█████▌    | 256/461 [00:29<00:58,  3.50it/s]Train epoch 0:  56%|█████▌    | 258/461 [00:30<00:45,  4.46it/s]Train epoch 0:  56%|█████▋    | 260/461 [00:30<00:36,  5.51it/s]Train epoch 0:  57%|█████▋    | 262/461 [00:30<00:29,  6.64it/s]Train epoch 0:  57%|█████▋    | 264/461 [00:30<00:25,  7.68it/s]Train epoch 0:  58%|█████▊    | 266/461 [00:30<00:22,  8.63it/s]Train epoch 0:  58%|█████▊    | 268/461 [00:30<00:20,  9.61it/s]Train epoch 0:  59%|█████▊    | 270/461 [00:31<00:19, 10.02it/s]Train epoch 0:  59%|█████▉    | 272/461 [00:31<00:17, 10.50it/s]Train epoch 0:  59%|█████▉    | 274/461 [00:31<00:17, 10.81it/s]Train epoch 0:  60%|█████▉    | 276/461 [00:31<00:16, 11.08it/s]Train epoch 0:  60%|██████    | 278/461 [00:31<00:15, 11.69it/s]Train epoch 0:  61%|██████    | 280/461 [00:31<00:15, 11.77it/s]Train epoch 0:  61%|██████    | 282/461 [00:32<00:15, 11.90it/s]Train epoch 0:  62%|██████▏   | 284/461 [00:32<00:14, 12.10it/s]Train epoch 0:  62%|██████▏   | 286/461 [00:32<00:14, 12.11it/s]Train epoch 0:  62%|██████▏   | 288/461 [00:32<00:14, 12.18it/s]Train epoch 0:  63%|██████▎   | 290/461 [00:32<00:14, 12.11it/s]Train epoch 0:  63%|██████▎   | 292/461 [00:32<00:13, 12.14it/s]Train epoch 0:  64%|██████▍   | 294/461 [00:33<00:13, 12.23it/s]Train epoch 0:  64%|██████▍   | 296/461 [00:33<00:13, 12.34it/s]Train epoch 0:  65%|██████▍   | 298/461 [00:33<00:13, 12.20it/s]Train epoch 0:  65%|██████▌   | 300/461 [00:33<00:13, 12.17it/s]Train epoch 0:  66%|██████▌   | 302/461 [00:33<00:13, 12.04it/s]Train epoch 0:  66%|██████▌   | 304/461 [00:33<00:12, 12.25it/s]Train epoch 0:  66%|██████▋   | 306/461 [00:34<00:12, 12.10it/s]Train epoch 0:  67%|██████▋   | 308/461 [00:34<00:12, 12.20it/s]Train epoch 0:  67%|██████▋   | 310/461 [00:34<00:12, 12.23it/s]Train epoch 0:  68%|██████▊   | 312/461 [00:34<00:12, 12.21it/s]Train epoch 0:  68%|██████▊   | 314/461 [00:34<00:12, 12.17it/s]Train epoch 0:  69%|██████▊   | 316/461 [00:34<00:12, 11.73it/s]
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)Train epoch 0:  69%|██████▉   | 318/461 [00:35<00:12, 11.78it/s]Train epoch 0:  69%|██████▉   | 320/461 [00:35<00:11, 11.90it/s]Train epoch 0:  70%|██████▉   | 322/461 [00:35<00:11, 12.03it/s]Train epoch 0:  70%|███████   | 324/461 [00:35<00:11, 12.11it/s]Train epoch 0:  71%|███████   | 326/461 [00:35<00:11, 11.80it/s]Train epoch 0:  71%|███████   | 328/461 [00:35<00:11, 11.81it/s]Train epoch 0:  72%|███████▏  | 330/461 [00:36<00:10, 11.99it/s]Train epoch 0:  72%|███████▏  | 332/461 [00:36<00:10, 11.99it/s]Train epoch 0:  72%|███████▏  | 334/461 [00:36<00:10, 12.07it/s]Train epoch 0:  73%|███████▎  | 336/461 [00:36<00:10, 12.11it/s]Train epoch 0:  73%|███████▎  | 338/461 [00:36<00:10, 12.19it/s]Train epoch 0:  74%|███████▍  | 340/461 [00:36<00:09, 12.29it/s]Train epoch 0:  74%|███████▍  | 342/461 [00:37<00:09, 11.93it/s]Train epoch 0:  75%|███████▍  | 344/461 [00:37<00:09, 11.91it/s]Train epoch 0:  75%|███████▌  | 346/461 [00:37<00:09, 12.04it/s]Train epoch 0:  75%|███████▌  | 348/461 [00:37<00:09, 12.08it/s]Train epoch 0:  76%|███████▌  | 350/461 [00:37<00:09, 12.04it/s]Train epoch 0:  76%|███████▋  | 352/461 [00:37<00:09, 11.84it/s]Train epoch 0:  77%|███████▋  | 354/461 [00:38<00:08, 12.01it/s]Train epoch 0:  77%|███████▋  | 356/461 [00:38<00:08, 12.16it/s]torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)Train epoch 0:  78%|███████▊  | 358/461 [00:38<00:08, 12.00it/s]torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)Train epoch 0:  78%|███████▊  | 360/461 [00:38<00:08, 11.89it/s]Train epoch 0:  79%|███████▊  | 362/461 [00:38<00:08, 12.06it/s]Train epoch 0:  79%|███████▉  | 364/461 [00:38<00:07, 12.23it/s]Train epoch 0:  79%|███████▉  | 366/461 [00:39<00:07, 12.21it/s]Train epoch 0:  80%|███████▉  | 368/461 [00:39<00:07, 12.18it/s]Train epoch 0:  80%|████████  | 370/461 [00:39<00:07, 12.22it/s]Train epoch 0:  81%|████████  | 372/461 [00:39<00:07, 12.21it/s]Train epoch 0:  81%|████████  | 374/461 [00:39<00:07, 11.89it/s]Train epoch 0:  82%|████████▏ | 376/461 [00:39<00:07, 12.00it/s]Train epoch 0:  82%|████████▏ | 378/461 [00:40<00:06, 12.20it/s]Train epoch 0:  82%|████████▏ | 380/461 [00:40<00:06, 12.21it/s]Train epoch 0:  83%|████████▎ | 382/461 [00:40<00:06, 12.19it/s]Train epoch 0:  83%|████████▎ | 384/461 [00:40<00:06, 12.21it/s]Train epoch 0:  84%|████████▎ | 386/461 [00:40<00:06, 12.24it/s]Train epoch 0:  84%|████████▍ | 388/461 [00:40<00:05, 12.25it/s]Train epoch 0:  85%|████████▍ | 390/461 [00:41<00:05, 12.21it/s]Train epoch 0:  85%|████████▌ | 392/461 [00:41<00:05, 12.23it/s]Train epoch 0:  85%|████████▌ | 394/461 [00:41<00:05, 12.17it/s]Train epoch 0:  86%|████████▌ | 396/461 [00:41<00:05, 12.21it/s]Train epoch 0:  86%|████████▋ | 398/461 [00:41<00:05, 12.29it/s]Train epoch 0:  87%|████████▋ | 400/461 [00:41<00:05, 12.12it/s]Train epoch 0:  87%|████████▋ | 402/461 [00:41<00:04, 11.94it/s]Train epoch 0:  88%|████████▊ | 404/461 [00:42<00:04, 11.79it/s]Train epoch 0:  88%|████████▊ | 406/461 [00:42<00:04, 11.76it/s]Train epoch 0:  89%|████████▊ | 408/461 [00:42<00:04, 11.97it/s]Train epoch 0:  89%|████████▉ | 410/461 [00:42<00:04, 11.48it/s]Train epoch 0:  89%|████████▉ | 412/461 [00:42<00:04, 11.72it/s]Train epoch 0:  90%|████████▉ | 414/461 [00:43<00:03, 11.79it/s]Train epoch 0:  90%|█████████ | 416/461 [00:43<00:03, 11.87it/s]Train epoch 0:  91%|█████████ | 418/461 [00:43<00:03, 12.05it/s]Train epoch 0:  91%|█████████ | 420/461 [00:43<00:03, 12.12it/s]Train epoch 0:  92%|█████████▏| 422/461 [00:43<00:03, 12.18it/s]
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)Train epoch 0:  92%|█████████▏| 424/461 [00:43<00:03, 11.99it/s]Train epoch 0:  92%|█████████▏| 426/461 [00:44<00:02, 11.73it/s]Train epoch 0:  93%|█████████▎| 428/461 [00:44<00:02, 11.72it/s]Train epoch 0:  93%|█████████▎| 430/461 [00:44<00:02, 11.89it/s]Train epoch 0:  94%|█████████▎| 432/461 [00:44<00:02, 12.05it/s]Train epoch 0:  94%|█████████▍| 434/461 [00:44<00:02, 12.06it/s]Train epoch 0:  95%|█████████▍| 436/461 [00:44<00:02, 12.04it/s]Train epoch 0:  95%|█████████▌| 438/461 [00:45<00:01, 12.01it/s]Train epoch 0:  95%|█████████▌| 440/461 [00:45<00:01, 12.04it/s]Train epoch 0:  96%|█████████▌| 442/461 [00:45<00:01, 12.07it/s]Train epoch 0:  96%|█████████▋| 444/461 [00:45<00:01, 12.17it/s]Train epoch 0:  97%|█████████▋| 446/461 [00:45<00:01, 12.18it/s]Train epoch 0:  97%|█████████▋| 448/461 [00:45<00:01, 12.15it/s]Train epoch 0:  98%|█████████▊| 450/461 [00:46<00:00, 12.22it/s]Train epoch 0:  98%|█████████▊| 452/461 [00:46<00:00, 12.26it/s]Train epoch 0:  98%|█████████▊| 454/461 [00:46<00:00, 12.29it/s]Train epoch 0:  99%|█████████▉| 456/461 [00:46<00:00, 12.11it/s]Train epoch 0:  99%|█████████▉| 458/461 [00:46<00:00, 12.21it/s]Train epoch 0: 100%|█████████▉| 460/461 [00:46<00:00, 12.31it/s]
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+Train epoch 0: 100%|██████████| 461/461 [00:47<00:00,  9.72it/s]
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+torch.nn.utils.clip_grad_norm_(self._model.parameters(), self._max_grad_norm)
+2025-05-30 11:33:25,028 [MainThread  ] [INFO ]  Evaluate: valid
+
+Evaluate epoch 1:   0%|          | 0/231 [00:00<?, ?it/s]Evaluate epoch 1:   0%|          | 1/231 [00:05<21:28,  5.60s/it]Evaluate epoch 1:   3%|▎         | 8/231 [00:05<01:56,  1.91it/s]Evaluate epoch 1:   6%|▋         | 15/231 [00:05<00:50,  4.24it/s]Evaluate epoch 1:  10%|▉         | 22/231 [00:05<00:28,  7.29it/s]Evaluate epoch 1:  13%|█▎        | 29/231 [00:06<00:18, 11.17it/s]Evaluate epoch 1:  16%|█▌        | 36/231 [00:06<00:12, 15.90it/s]Evaluate epoch 1:  19%|█▊        | 43/231 [00:06<00:08, 21.40it/s]Evaluate epoch 1:  22%|██▏       | 50/231 [00:06<00:06, 27.51it/s]Evaluate epoch 1:  25%|██▍       | 57/231 [00:06<00:05, 33.85it/s]Evaluate epoch 1:  28%|██▊       | 64/231 [00:06<00:04, 40.12it/s]Evaluate epoch 1:  31%|███       | 71/231 [00:06<00:03, 45.82it/s]Evaluate epoch 1:  34%|███▍      | 78/231 [00:06<00:03, 50.98it/s]Evaluate epoch 1:  37%|███▋      | 85/231 [00:06<00:02, 55.24it/s]Evaluate epoch 1:  40%|███▉      | 92/231 [00:06<00:02, 58.43it/s]Evaluate epoch 1:  43%|████▎     | 99/231 [00:07<00:02, 60.50it/s]Evaluate epoch 1:  46%|████▌     | 106/231 [00:07<00:02, 62.29it/s]Evaluate epoch 1:  49%|████▉     | 113/231 [00:07<00:01, 63.69it/s]Evaluate epoch 1:  52%|█████▏    | 120/231 [00:07<00:01, 64.63it/s]Evaluate epoch 1:  55%|█████▍    | 127/231 [00:07<00:01, 65.49it/s]Evaluate epoch 1:  58%|█████▊    | 134/231 [00:07<00:01, 65.78it/s]Evaluate epoch 1:  61%|██████    | 141/231 [00:07<00:01, 66.20it/s]Evaluate epoch 1:  64%|██████▍   | 148/231 [00:07<00:01, 65.78it/s]Evaluate epoch 1:  67%|██████▋   | 155/231 [00:07<00:01, 65.96it/s]Evaluate epoch 1:  70%|███████   | 162/231 [00:08<00:01, 66.20it/s]Evaluate epoch 1:  73%|███████▎  | 169/231 [00:08<00:00, 65.34it/s]Evaluate epoch 1:  76%|███████▌  | 176/231 [00:08<00:00, 65.90it/s]Evaluate epoch 1:  79%|███████▉  | 183/231 [00:08<00:00, 66.36it/s]Evaluate epoch 1:  82%|████████▏ | 190/231 [00:08<00:00, 66.56it/s]Evaluate epoch 1:  85%|████████▌ | 197/231 [00:08<00:00, 66.73it/s]Evaluate epoch 1:  88%|████████▊ | 204/231 [00:08<00:00, 66.24it/s]Evaluate epoch 1:  91%|█████████▏| 211/231 [00:08<00:00, 66.46it/s]Evaluate epoch 1:  94%|█████████▍| 218/231 [00:08<00:00, 66.86it/s]Evaluate epoch 1:  97%|█████████▋| 225/231 [00:08<00:00, 67.20it/s]Evaluate epoch 1: 100%|██████████| 231/231 [00:09<00:00, 24.74it/s]Evaluation
+
+--- Entities (named entity recognition (NER)) ---
+An entity is considered correct if the entity type and span is predicted correctly
+
+                type    precision       recall     f1-score      support
+               Other         0.00         0.00         0.00        118.0
+                 Loc         0.00         0.00         0.00        322.0
+                 Org         0.00         0.00         0.00        170.0
+                Peop         0.00         0.00         0.00        283.0
+
+               micro         0.00         0.00         0.00        893.0
+               macro         0.00         0.00         0.00        893.0
+
+--- Relations ---
+
+Without named entity classification (NEC)
+A relation is considered correct if the relation type and the spans of the two related entities are predicted correctly (entity type is not considered)
+
+                type    precision       recall     f1-score      support
+                Work         0.00         0.00         0.00         69.0
+               LocIn         0.00         0.00         0.00         65.0
+               OrgBI         0.00         0.00         0.00         76.0
+                Live         0.00         0.00         0.00         91.0
+                Kill         0.00         0.00         0.00         42.0
+
+               micro         0.00         0.00         0.00        343.0
+               macro         0.00         0.00         0.00        343.0
+
+With named entity classification (NEC)
+A relation is considered correct if the relation type and the two related entities are predicted correctly (in span and entity type)
+
+                type    precision       recall     f1-score      support
+                Work         0.00         0.00         0.00         69.0
+               LocIn         0.00         0.00         0.00         65.0
+               OrgBI         0.00         0.00         0.00         76.0
+                Live         0.00         0.00         0.00         91.0
+                Kill         0.00         0.00         0.00         42.0
+
+               micro         0.00         0.00         0.00        343.0
+               macro         0.00         0.00         0.00        343.0
+2025-05-30 11:33:34,989 [MainThread  ] [INFO ]  Logged in: data/log/conll04_train/2025-05-30_11:32:26.799959
+2025-05-30 11:33:34,989 [MainThread  ] [INFO ]  Saved in: data/save/conll04_train/2025-05-30_11:32:26.799959
+
+/home/lei/compatibility_analysis/pytorch/1.4/spert/spert/evaluator.py:92: UserWarning: Examples cannot be stored since Jinja2 is not installed.
+  warnings.warn("Examples cannot be stored since Jinja2 is not installed.")

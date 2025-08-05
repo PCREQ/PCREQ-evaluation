@@ -1,0 +1,28 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting coloredlogs==15.0.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a7/06/3d6badcf13db419e25b07041d9c7b4a2c331d3f4e7134445ec5df57714cd/coloredlogs-15.0.1-py2.py3-none-any.whl (46 kB)
+Collecting future==1.0.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/da/71/ae30dadffc90b9006d77af76b393cb9dfbfc9629f339fc1574a1c52e6806/future-1.0.0-py3-none-any.whl (491 kB)
+Collecting humanfriendly==10.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f0/0f/310fb31e39e2d734ccaa2c0fb981ee41f7bd5056ce9bc29b2248bd569169/humanfriendly-10.0-py2.py3-none-any.whl (86 kB)
+Collecting mpmath==1.2.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d4/cf/3965bddbb4f1a61c49aacae0e78fd1fe36b5dc36c797b31f30cf07dcbbb7/mpmath-1.2.1-py3-none-any.whl (532 kB)
+Collecting numpy==1.16.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/98/5b/e1bf225ed4614b6a482ea783f75ce571b0d440ba247f6f52c0b7347d6e18/numpy-1.16.5-cp37-cp37m-manylinux1_x86_64.whl (17.3 MB)
+Collecting Pillow==6.2.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/34/b7/fb24ad352b747340ec1975c84c30cca37bb93a0079e037d1f0930afd65ad/Pillow-6.2.0-cp37-cp37m-manylinux1_x86_64.whl (2.1 MB)
+Collecting sympy==1.2
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/b0/47/54f3a752f3b88b9487f38e5e6b7bb96e0b60286b50fd818999f1ffead0cc/sympy-1.2.tar.gz (5.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.4/5.4 MB 17.3 MB/s eta 0:00:00
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting torch==1.6.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/5d/5e/35140615fc1f925023f489e71086a9ecc188053d263d3594237281284d82/torch-1.6.0-cp37-cp37m-manylinux1_x86_64.whl (748.8 MB)
+Building wheels for collected packages: sympy
+  Building wheel for sympy (setup.py): started
+  Building wheel for sympy (setup.py): finished with status 'done'
+  Created wheel for sympy: filename=sympy-1.2-py3-none-any.whl size=4738506 sha256=892e1ca330d9a05868d82c290a43ec20ab3025a6903a4c96ace861cd334ccbca
+  Stored in directory: /home/lei/.cache/pip/wheels/95/20/4d/ddae720dd7b91354dac041a05f1be4feadfe1396982d93396f
+Successfully built sympy
+Installing collected packages: mpmath, sympy, Pillow, numpy, humanfriendly, future, torch, coloredlogs
+Successfully installed Pillow-6.2.0 coloredlogs-15.0.1 future-1.0.0 humanfriendly-10.0 mpmath-1.2.1 numpy-1.16.5 sympy-1.2 torch-1.6.0

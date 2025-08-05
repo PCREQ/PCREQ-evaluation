@@ -1,0 +1,7 @@
+2025-06-29 11:14:21,574 - INFO - *************Upgrade numpy from 1.15.0 to 1.16.2 in pytorch-spynet*************
+2025-06-29 11:14:21,574 - INFO - Checking pytorch-spynet is compatible with numpy1.16.2?...
+2025-06-29 11:14:26,804 - INFO - pytorch-spynet is compatible with numpy1.16.2
+2025-06-29 11:14:26,866 - INFO - Checking torch1.6.0 is compatible with numpy1.16.2?...
+2025-06-29 11:15:05,254 - INFO - torch1.6.0 is compatible with numpy1.16.2
+2025-06-29 11:15:06,877 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 11:15:06,877 - INFO - Time cost: 45.30939507484436 s

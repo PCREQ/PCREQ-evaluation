@@ -1,0 +1,27 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting cupy==11.3.0
+  Using cached cupy-11.3.0-cp37-cp37m-linux_x86_64.whl
+Collecting fastrlock==0.8.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/42/4e/8bff5aa98ba1406c23a7dded13fea0bf2f536b4f8f7096fcbea0303e9cf5/fastrlock-0.8.2-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_24_x86_64.whl (47 kB)
+Collecting future==1.0.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/da/71/ae30dadffc90b9006d77af76b393cb9dfbfc9629f339fc1574a1c52e6806/future-1.0.0-py3-none-any.whl (491 kB)
+Collecting numpy==1.21.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/50/46/292cff79f5b30151b027400efdb3f740ea03271b600751b6696cf550c10d/numpy-1.21.5-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (15.7 MB)
+Collecting Pillow==9.3.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c0/47/4023dab2d77ea3f687939770b06e0c191b4a5a20590f158a6e8dbb03e357/Pillow-9.3.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.2 MB)
+Collecting torch==1.13.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/7a/fb/b1b11ae95ffa7099ca2e60ed5945e56130cc8740208f42aa77f17e03ab3c/torch-1.13.0-cp37-cp37m-manylinux1_x86_64.whl (890.2 MB)
+Collecting typing-extensions
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ec/6b/63cc3df74987c36fe26157ee12e09e8f9db4de771e0f3404263117e75b95/typing_extensions-4.7.1-py3-none-any.whl (33 kB)
+Collecting nvidia-cublas-cu11==11.10.3.66
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ce/41/fdeb62b5437996e841d83d7d2714ca75b886547ee8017ee2fe6ea409d983/nvidia_cublas_cu11-11.10.3.66-py3-none-manylinux1_x86_64.whl (317.1 MB)
+Collecting nvidia-cuda-nvrtc-cu11==11.7.99
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ef/25/922c5996aada6611b79b53985af7999fc629aee1d5d001b6a22431e18fec/nvidia_cuda_nvrtc_cu11-11.7.99-2-py3-none-manylinux1_x86_64.whl (21.0 MB)
+Collecting nvidia-cuda-runtime-cu11==11.7.99
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/36/92/89cf558b514125d2ebd8344dd2f0533404b416486ff681d5434a5832a019/nvidia_cuda_runtime_cu11-11.7.99-py3-none-manylinux1_x86_64.whl (849 kB)
+Collecting nvidia-cudnn-cu11==8.5.0.96
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/dc/30/66d4347d6e864334da5bb1c7571305e501dcb11b9155971421bb7bb5315f/nvidia_cudnn_cu11-8.5.0.96-2-py3-none-manylinux1_x86_64.whl (557.1 MB)
+Requirement already satisfied: wheel in /home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages (from nvidia-cublas-cu11==11.10.3.66->torch==1.13.0->-r /home/lei/compatibility_analysis/compare/LLM/result/deepseek/r1/pytorch-liteflownet-torch-1.13.0.txt (line 6)) (0.38.4)
+Requirement already satisfied: setuptools in /home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages (from nvidia-cublas-cu11==11.10.3.66->torch==1.13.0->-r /home/lei/compatibility_analysis/compare/LLM/result/deepseek/r1/pytorch-liteflownet-torch-1.13.0.txt (line 6)) (57.5.0)
+Installing collected packages: fastrlock, typing-extensions, Pillow, nvidia-cuda-runtime-cu11, nvidia-cuda-nvrtc-cu11, nvidia-cublas-cu11, numpy, future, nvidia-cudnn-cu11, cupy, torch
+Successfully installed Pillow-9.3.0 cupy-11.3.0 fastrlock-0.8.2 future-1.0.0 numpy-1.21.5 nvidia-cublas-cu11-11.10.3.66 nvidia-cuda-nvrtc-cu11-11.7.99 nvidia-cuda-runtime-cu11-11.7.99 nvidia-cudnn-cu11-8.5.0.96 torch-1.13.0 typing-extensions-4.7.1

@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "predict.py", line 10, in <module>
+    from utils import init_logger, load_tokenizer, get_intent_labels, get_slot_labels, MODEL_CLASSES
+  File "/home/lei/compatibility_analysis/pytorch/1.6/JointBERT/utils.py", line 12, in <module>
+    from model import JointBERT, JointDistilBERT, JointAlbert
+  File "/home/lei/compatibility_analysis/pytorch/1.6/JointBERT/model/__init__.py", line 1, in <module>
+    from .modeling_jointbert import JointBERT
+  File "/home/lei/compatibility_analysis/pytorch/1.6/JointBERT/model/modeling_jointbert.py", line 4, in <module>
+    from torchcrf import CRF
+ModuleNotFoundError: No module named 'torchcrf'

@@ -1,0 +1,5 @@
+2025-06-29 13:03:53,841 - INFO - *************Upgrade seqeval from 0.0.5 to 1.2.1 in BERT-NER*************
+2025-06-29 13:03:53,841 - INFO - Checking BERT-NER is compatible with seqeval1.2.1?...
+2025-06-29 13:03:53,978 - INFO - BERT-NER is compatible with seqeval1.2.1
+2025-06-29 13:03:54,124 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 13:03:54,124 - INFO - Time cost: 0.28439903259277344 s

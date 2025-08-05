@@ -1,0 +1,60 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting absl-py==0.7.1
+  Using cached absl_py-0.7.1-py3-none-any.whl
+Collecting astor==0.8.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d1/4f/950dfae467b384fc96bc6469de25d832534f6b4441033c39f914efd13418/astor-0.8.0-py2.py3-none-any.whl (27 kB)
+Collecting bleach==3.1.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ab/05/27e1466475e816d3001efb6e0a85a819be17411420494a1e602c36f8299d/bleach-3.1.0-py2.py3-none-any.whl (157 kB)
+Collecting captcha==0.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/90/fe/d4ddf1e6576073b5eaea76e9b2afa022c626212a30c871968480be3ccb7b/captcha-0.3-py3-none-any.whl (101 kB)
+Collecting certifi==2019.3.9
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/60/75/f692a584e85b7eaba0e03827b3d51f45f571c2e793dd731e598828d380aa/certifi-2019.3.9-py2.py3-none-any.whl (158 kB)
+Collecting chardet==3.0.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/bc/a9/01ffebfb562e4274b6487b4bb1ddec7ca55ec7510b22e4c51f14098443b8/chardet-3.0.4-py2.py3-none-any.whl (133 kB)
+Collecting Click==7.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/fa/37/45185cb5abbc30d7257104c434fe0b07e5a195a6847506c074527aa599ec/Click-7.0-py2.py3-none-any.whl (81 kB)
+Collecting cycler==0.10.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f7/d2/e07d3ebb2bd7af696440ce7e754c59dd546ffe1bbe732c8ab68b9c834e61/cycler-0.10.0-py2.py3-none-any.whl (6.5 kB)
+Collecting easydict==1.8
+  Using cached easydict-1.8-py3-none-any.whl
+Collecting Flask==1.0.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/7f/e7/08578774ed4536d3242b14dacb4696386634607af824ea997202cd0edb4b/Flask-1.0.2-py2.py3-none-any.whl (91 kB)
+Collecting gast==0.2.2
+  Using cached gast-0.2.2-py3-none-any.whl
+Collecting grpcio==1.24.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/30/54/c9810421e41ec0bca2228c6f06b1b1189b196b69533cbcac9f71b44727f8/grpcio-1.24.3-cp36-cp36m-manylinux2010_x86_64.whl (2.2 MB)
+Collecting html5lib==1.0.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a5/62/bbd2be0e7943ec8504b517e62bab011b4946e1258842bc159e5dfde15b96/html5lib-1.0.1-py2.py3-none-any.whl (117 kB)
+Collecting idna==2.7
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/4b/2a/0276479a4b3caeb8a8c1af2f8e4355746a97fab05a372e4a2c6a6b876165/idna-2.7-py2.py3-none-any.whl (58 kB)
+Collecting itsdangerous==1.1.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/76/ae/44b03b253d6fade317f32c24d100b3b35c2239807046a4c953c7b89fa49e/itsdangerous-1.1.0-py2.py3-none-any.whl (16 kB)
+Collecting Jinja2==2.10.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/1d/e7/fd8b501e7a6dfe492a433deb7b9d833d39ca74916fa8bc63dd1a4947a671/Jinja2-2.10.1-py2.py3-none-any.whl (124 kB)
+Collecting Markdown==3.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f5/e4/d8c18f2555add57ff21bf25af36d827145896a07607486cc79a2aea641af/Markdown-3.1-py2.py3-none-any.whl (87 kB)
+Collecting MarkupSafe==1.1.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/9d/d3/75cddfad6ca1d1bb3a017cece499a65e54ceb4583800f1256b8ad07bb57f/MarkupSafe-1.1.1-cp36-cp36m-manylinux2010_x86_64.whl (32 kB)
+Collecting matplotlib==3.1.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/57/4f/dd381ecf6c6ab9bcdaa8ea912e866dedc6e696756156d8ecc087e20817e2/matplotlib-3.1.1-cp36-cp36m-manylinux1_x86_64.whl (13.1 MB)
+Collecting numpy==1.17.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ae/c9/69096779fd29bf3066e24124e1c88213e40bf9d2eab4786d21948a37c40b/numpy-1.17.5-cp36-cp36m-manylinux1_x86_64.whl (20.0 MB)
+Collecting olefile==0.46
+  Using cached olefile-0.46-py2.py3-none-any.whl
+Collecting Pillow==6.2.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/8a/fd/bbbc569f98f47813c50a116b539d97b3b17a86ac7a309f83b2022d26caf2/Pillow-6.2.2-cp36-cp36m-manylinux1_x86_64.whl (2.1 MB)
+Collecting protobuf==3.9.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f6/d5/e18969c31e24300551373d96286383d861332cafbf2bfea6d6453fcf2923/protobuf-3.9.2-cp36-cp36m-manylinux1_x86_64.whl (1.2 MB)
+Collecting pyparsing==2.4.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c0/0c/fc2e007d9a992d997f04a80125b0f183da7fb554f1de701bbb70a8e7d479/pyparsing-2.4.5-py2.py3-none-any.whl (67 kB)
+Collecting python-dateutil==2.8.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/41/17/c62faccbfbd163c7f57f3844689e3a78bae1f403648a6afb1d0866d87fbb/python_dateutil-2.8.0-py2.py3-none-any.whl (226 kB)
+Collecting pytz==2018.9
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/61/28/1d3920e4d1d50b19bc5d24398a7cd85cc7b9a75a490570d5a30c57622d34/pytz-2018.9-py2.py3-none-any.whl (510 kB)
+Collecting requests==2.22.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/51/bd/23c926cd341ea6b7dd0b2a00aba99ae0f828be89d72b2190f27c11d4b7fb/requests-2.22.0-py2.py3-none-any.whl (57 kB)
+Collecting six==1.12.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/73/fb/00a976f728d0d1fecfe898238ce23f502a721c0ac0ecfedb80e0d88c64e9/six-1.12.0-py2.py3-none-any.whl (10 kB)
+WARNING: Skipping page https://pypi.tuna.tsinghua.edu.cn/simple/tensorboard/ because the GET request got Content-Type: application/vnd.pypi.simple.v1+json.The only supported Content-Type is text/html
+ERROR: Could not find a version that satisfies the requirement tensorboard==2.0.2 (from versions: none)
+ERROR: No matching distribution found for tensorboard==2.0.2

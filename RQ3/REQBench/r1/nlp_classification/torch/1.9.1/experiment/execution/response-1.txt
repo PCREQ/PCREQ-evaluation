@@ -1,0 +1,4 @@
+torch==1.9.1
+numpy==1.21.2
+typing_extensions==3.7.4.3
+dataclasses==0.6

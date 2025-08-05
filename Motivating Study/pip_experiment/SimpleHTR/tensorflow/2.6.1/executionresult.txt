@@ -1,0 +1,68 @@
+2024-07-18 14:47:08.578053: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2024-07-18 14:47:08.578151: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+Traceback (most recent call last):
+  File "main.py", line 202, in <module>
+    main()
+  File "main.py", line 197, in main
+    model = Model(char_list_from_file(), decoder_type, must_restore=True, dump=args.dump)
+  File "/home/lei/compatibility_analysis/tensorflow/2.4/SimpleHTR/src/model.py", line 43, in __init__
+    self.setup_cnn()
+  File "/home/lei/compatibility_analysis/tensorflow/2.4/SimpleHTR/src/model.py", line 73, in setup_cnn
+    conv_norm = tf.compat.v1.layers.batch_normalization(conv, training=self.is_train)
+  File "/dataset/lei/anaconda3/envs/SimpleHTR-tensorflow-2.6.1/lib/python3.6/site-packages/tensorflow/python/util/lazy_loader.py", line 62, in __getattr__
+    module = self._load()
+  File "/dataset/lei/anaconda3/envs/SimpleHTR-tensorflow-2.6.1/lib/python3.6/site-packages/tensorflow/python/util/lazy_loader.py", line 45, in _load
+    module = importlib.import_module(self.__name__)
+  File "/dataset/lei/anaconda3/envs/SimpleHTR-tensorflow-2.6.1/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/dataset/lei/anaconda3/envs/SimpleHTR-tensorflow-2.6.1/lib/python3.6/site-packages/keras/__init__.py", line 20, in <module>
+    from keras import distribute
+  File "/dataset/lei/anaconda3/envs/SimpleHTR-tensorflow-2.6.1/lib/python3.6/site-packages/keras/distribute/__init__.py", line 18, in <module>
+    from keras.distribute import sidecar_evaluator
+  File "/dataset/lei/anaconda3/envs/SimpleHTR-tensorflow-2.6.1/lib/python3.6/site-packages/keras/distribute/sidecar_evaluator.py", line 22, in <module>
+    from keras.optimizers.optimizer_experimental import (
+  File "/dataset/lei/anaconda3/envs/SimpleHTR-tensorflow-2.6.1/lib/python3.6/site-packages/keras/optimizers/__init__.py", line 26, in <module>
+    from keras.optimizers.legacy import adadelta as adadelta_legacy
+  File "/dataset/lei/anaconda3/envs/SimpleHTR-tensorflow-2.6.1/lib/python3.6/site-packages/keras/optimizers/legacy/adadelta.py", line 17, in <module>
+    from keras.optimizers.optimizer_v2 import adadelta
+  File "/dataset/lei/anaconda3/envs/SimpleHTR-tensorflow-2.6.1/lib/python3.6/site-packages/keras/optimizers/optimizer_v2/adadelta.py", line 21, in <module>
+    from keras.optimizers.optimizer_v2 import optimizer_v2
+  File "/dataset/lei/anaconda3/envs/SimpleHTR-tensorflow-2.6.1/lib/python3.6/site-packages/keras/optimizers/optimizer_v2/optimizer_v2.py", line 26, in <module>
+    from keras import initializers
+  File "/dataset/lei/anaconda3/envs/SimpleHTR-tensorflow-2.6.1/lib/python3.6/site-packages/keras/initializers/__init__.py", line 22, in <module>
+    from keras.initializers import initializers_v2
+  File "/dataset/lei/anaconda3/envs/SimpleHTR-tensorflow-2.6.1/lib/python3.6/site-packages/keras/initializers/initializers_v2.py", line 23, in <module>
+    from keras.dtensor import utils
+  File "/dataset/lei/anaconda3/envs/SimpleHTR-tensorflow-2.6.1/lib/python3.6/site-packages/keras/dtensor/__init__.py", line 22, in <module>
+    from tensorflow.compat.v2.experimental import dtensor as dtensor_api
+ImportError: cannot import name 'dtensor'

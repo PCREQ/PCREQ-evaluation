@@ -1,0 +1,20 @@
+WARNING:tensorflow:From /home/lei/anaconda3/envs/py36-2/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+2025-05-30 01:50:54.634769: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+-->图片尺寸: 60 X 100
+-->验证码长度: 4
+-->验证码共36类 ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+-->使用测试集为 sample/train/
+-->使验证集为 sample/test/
+>>> Start model test
+>>> input batch images shape: (100, 6000)
+>>> input batch labels shape: (100, 144)
+>>> input x: Tensor("Reshape:0", shape=(?, 60, 100, 1), dtype=float32)
+>>> convolution 3:  (?, 8, 13, 128)
+>>> input batch predict shape: (?, 144)
+>>> End model test
+定时保存模型成功
+第10次训练 >>> 
+[训练集] 字符准确率为 1.00000 图片准确率为 1.00000 >>> loss 0.0000075467
+[验证集] 字符准确率为 0.03750 图片准确率为 0.00000 >>> loss 0.0000075467

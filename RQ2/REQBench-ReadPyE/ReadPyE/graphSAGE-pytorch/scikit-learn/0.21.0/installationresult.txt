@@ -1,0 +1,21 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting pyhocon==0.3.5
+  Using cached pyhocon-0.3.5-py3-none-any.whl
+Collecting numpy==1.19.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/14/32/d3fa649ad7ec0b82737b92fefd3c4dd376b0bb23730715124569f38f3a08/numpy-1.19.5-cp36-cp36m-manylinux2010_x86_64.whl (14.8 MB)
+Collecting torch==1.8.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/dd/b9/824df420f6abf551e41bbaacbaa0be8321dc104f9f3803051513844dc310/torch-1.8.1-cp36-cp36m-manylinux1_x86_64.whl (804.1 MB)
+Collecting scikit-learn==0.21
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/b7/6c/ec121123c671d980c6969dfc69d0f09e1d7f88d80d373f511e61d773b85c/scikit_learn-0.21.0-cp36-cp36m-manylinux1_x86_64.whl (6.6 MB)
+Collecting pyparsing==2.0.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/8f/f4/3a70b5e5b865b1ec45fe48dc5a57cd4facb5c7bd80e5cb1255c362732e81/pyparsing-2.0.3-py2.py3-none-any.whl (37 kB)
+Collecting typing-extensions
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/45/6b/44f7f8f1e110027cf88956b59f2fad776cca7e1704396d043f89effd3a0e/typing_extensions-4.1.1-py3-none-any.whl (26 kB)
+Collecting dataclasses
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/fe/ca/75fac5856ab5cfa51bbbcefa250182e50441074fdc3f803f6e76451fab43/dataclasses-0.8-py3-none-any.whl (19 kB)
+Collecting joblib>=0.11
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/7c/91/d3ba0401e62d7e42816bc7d97b82d19c95c164b3e149a87c0a1c026a735e/joblib-1.1.1-py2.py3-none-any.whl (309 kB)
+Collecting scipy>=0.17.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c8/89/63171228d5ced148f5ced50305c89e8576ffc695a90b58fe5bb602b910c2/scipy-1.5.4-cp36-cp36m-manylinux1_x86_64.whl (25.9 MB)
+Installing collected packages: numpy, typing-extensions, scipy, pyparsing, joblib, dataclasses, torch, scikit-learn, pyhocon
+Successfully installed dataclasses-0.8 joblib-1.1.1 numpy-1.19.5 pyhocon-0.3.5 pyparsing-2.0.3 scikit-learn-0.21.0 scipy-1.5.4 torch-1.8.1 typing-extensions-4.1.1

@@ -1,0 +1,45 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting certifi==2021.5.30
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/05/1b/0a0dece0e8aa492a6ec9e4ad2fe366b511558cdc73fd3abc82ba7348e875/certifi-2021.5.30-py2.py3-none-any.whl (145 kB)
+Collecting numpy==1.19.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/14/32/d3fa649ad7ec0b82737b92fefd3c4dd376b0bb23730715124569f38f3a08/numpy-1.19.5-cp36-cp36m-manylinux2010_x86_64.whl (14.8 MB)
+Collecting Pillow==8.3.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/cc/e2/31c6ee4acc116b65c40badc4a6eeb38e7cdb697c0e9a365397de52d17c08/Pillow-8.3.2-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.0 MB)
+Collecting pyhocon==0.3.51
+  Using cached pyhocon-0.3.51-py3-none-any.whl
+Collecting pyparsing==2.3.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/de/0a/001be530836743d8be6c2d85069f46fecf84ac6c18c7f5fb8125ee11d854/pyparsing-2.3.1-py2.py3-none-any.whl (61 kB)
+Collecting scikit-learn==0.24.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d3/eb/d0e658465c029feb7083139d9ead51000742e88b1fb7f1504e19e1b4ce6e/scikit_learn-0.24.2-cp36-cp36m-manylinux2010_x86_64.whl (22.2 MB)
+Collecting scipy==1.5.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c8/89/63171228d5ced148f5ced50305c89e8576ffc695a90b58fe5bb602b910c2/scipy-1.5.4-cp36-cp36m-manylinux1_x86_64.whl (25.9 MB)
+Collecting six==1.16.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting sklearn==0.0.post1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/db/1e/af4e9cded5093a92e60d4ae7149a02c7427661b2db66c8ea4d34b17864a2/sklearn-0.0.post1.tar.gz (3.6 kB)
+    ERROR: Command errored out with exit status 1:
+     command: /home/lei/anaconda3/envs/py36-5/bin/python -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-9qirquut/sklearn_7304fbe2a44f4157af2655ed97ca707b/setup.py'"'"'; __file__='"'"'/tmp/pip-install-9qirquut/sklearn_7304fbe2a44f4157af2655ed97ca707b/setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-delpb9zj
+         cwd: /tmp/pip-install-9qirquut/sklearn_7304fbe2a44f4157af2655ed97ca707b/
+    Complete output (18 lines):
+    The 'sklearn' PyPI package is deprecated, use 'scikit-learn'
+    rather than 'sklearn' for pip commands.
+    
+    Here is how to fix this error in the main use cases:
+    - use 'pip install scikit-learn' rather than 'pip install sklearn'
+    - replace 'sklearn' by 'scikit-learn' in your pip requirements files
+      (requirements.txt, setup.py, setup.cfg, Pipfile, etc ...)
+    - if the 'sklearn' package is used by one of your dependencies,
+      it would be great if you take some time to track which package uses
+      'sklearn' instead of 'scikit-learn' and report it to their issue tracker
+    - as a last resort, set the environment variable
+      SKLEARN_ALLOW_DEPRECATED_SKLEARN_PACKAGE_INSTALL=True to avoid this error
+    
+    More information is available at
+    https://github.com/scikit-learn/sklearn-pypi-package
+    
+    If the previous advice does not cover your use case, feel free to report it at
+    https://github.com/scikit-learn/sklearn-pypi-package/issues/new
+    ----------------------------------------
+WARNING: Discarding https://pypi.tuna.tsinghua.edu.cn/packages/db/1e/af4e9cded5093a92e60d4ae7149a02c7427661b2db66c8ea4d34b17864a2/sklearn-0.0.post1.tar.gz#sha256=76b9ed1623775168657b86b5fe966d45752e5c87f528de6240c38923b94147c5 (from https://pypi.tuna.tsinghua.edu.cn/simple/sklearn/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+ERROR: Could not find a version that satisfies the requirement sklearn==0.0.post1 (from versions: 0.0, 0.0.post1, 0.0.post2, 0.0.post4, 0.0.post5, 0.0.post7, 0.0.post9, 0.0.post10, 0.0.post11, 0.0.post12)
+ERROR: No matching distribution found for sklearn==0.0.post1

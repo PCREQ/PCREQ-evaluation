@@ -1,0 +1,5 @@
+2025-06-28 23:44:09,356 - INFO - *************Upgrade tensorflow from 1.7.0 to 1.7.1 in cnn_captcha*************
+2025-06-28 23:44:09,356 - INFO - Checking cnn_captcha is compatible with tensorflow1.7.1?...
+2025-06-28 23:44:19,532 - INFO - cnn_captcha is compatible with tensorflow1.7.1
+2025-06-28 23:44:24,770 - INFO - *************New requirements.txt has been generated!*************
+2025-06-28 23:44:24,770 - INFO - Time cost: 15.428264856338501 s

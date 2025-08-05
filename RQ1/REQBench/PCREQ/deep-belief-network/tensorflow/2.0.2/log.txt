@@ -1,0 +1,14 @@
+2025-06-28 16:42:44,360 - INFO - *************Upgrade tensorflow from 1.5.0 to 2.0.2 in deep-belief-network*************
+2025-06-28 16:42:44,360 - INFO - Checking deep-belief-network is compatible with tensorflow2.0.2?...
+2025-06-28 16:42:52,758 - INFO - deep-belief-network-tensorflow-1.5.0-2.0.2（装饰器改变）python.ops.nn_ops.softmax_cross_entropy_with_logits_v2--@tf_export("nn.softmax_cross_entropy_with_logits", v1=[])
+2025-06-28 16:42:52,785 - INFO - deep-belief-network is not compatible with tensorflow-2.0.2, change to tensorflow-2.0.1
+2025-06-28 16:42:52,785 - INFO - Checking deep-belief-network is compatible with tensorflow2.0.1?...
+2025-06-28 16:43:01,738 - INFO - deep-belief-network-tensorflow-1.5.0-2.0.1（装饰器改变）python.ops.nn_ops.softmax_cross_entropy_with_logits_v2--@tf_export("nn.softmax_cross_entropy_with_logits", v1=[])
+2025-06-28 16:43:01,749 - INFO - deep-belief-network is not compatible with tensorflow-2.0.1, change to tensorflow-2.0.0
+2025-06-28 16:43:01,749 - INFO - Checking deep-belief-network is compatible with tensorflow2.0.0?...
+2025-06-28 16:43:10,031 - INFO - deep-belief-network-tensorflow-1.5.0-2.0.0（装饰器改变）python.ops.nn_ops.softmax_cross_entropy_with_logits_v2--@tf_export("nn.softmax_cross_entropy_with_logits", v1=[])
+2025-06-28 16:43:10,040 - INFO - deep-belief-network is not compatible with tensorflow-2.0.0, change to tensorflow-1.15.5
+2025-06-28 16:43:10,040 - INFO - Checking deep-belief-network is compatible with tensorflow1.15.5?...
+2025-06-28 16:43:18,981 - INFO - deep-belief-network is compatible with tensorflow1.15.5
+2025-06-28 16:43:25,344 - INFO - *************New requirements.txt has been generated!*************
+2025-06-28 16:43:25,344 - INFO - Time cost: 40.98542785644531 s

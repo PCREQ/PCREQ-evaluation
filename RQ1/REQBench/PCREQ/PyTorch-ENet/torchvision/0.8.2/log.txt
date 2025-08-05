@@ -1,0 +1,9 @@
+2025-06-29 06:36:41,245 - INFO - *************Upgrade torchvision from 0.3.0 to 0.8.2 in PyTorch-ENet*************
+2025-06-29 06:36:41,245 - INFO - Checking PyTorch-ENet is compatible with torchvision0.8.2?...
+2025-06-29 06:36:41,549 - INFO - PyTorch-ENet is compatible with torchvision0.8.2
+2025-06-29 06:36:41,676 - INFO - Checking torchvision0.8.2 is compatible with torch1.7.1?...
+2025-06-29 06:36:44,280 - INFO - torchvision0.8.2 is compatible with torch1.7.1
+2025-06-29 06:36:44,282 - INFO - Checking PyTorch-ENet is compatible with torch1.7.1?...
+2025-06-29 06:36:45,194 - INFO - PyTorch-ENet is compatible with torch1.7.1
+2025-06-29 06:36:45,406 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 06:36:45,406 - INFO - Time cost: 4.162827968597412 s

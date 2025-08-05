@@ -1,0 +1,5 @@
+2025-06-29 12:51:58,639 - INFO - *************Upgrade pytorch-lightning from 1.1.0 to 1.5.1 in PedalNetRT*************
+2025-06-29 12:51:58,640 - INFO - Checking PedalNetRT is compatible with pytorch-lightning1.5.1?...
+2025-06-29 12:51:59,100 - INFO - PedalNetRT is compatible with pytorch-lightning1.5.1
+2025-06-29 12:52:05,173 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 12:52:05,174 - INFO - Time cost: 6.535718679428101 s

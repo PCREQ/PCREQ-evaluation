@@ -1,0 +1,18 @@
+INFO:__main__:Eval estimates | 1/8 | 3.7 it/sec
+INFO:__main__:Eval estimates | 2/8 | 4.1 it/sec
+INFO:__main__:Eval estimates | 3/8 | 4.5 it/sec
+INFO:__main__:Eval estimates | 4/8 | 5.0 it/sec
+INFO:__main__:Eval estimates | 5/8 | 5.5 it/sec
+INFO:__main__:Eval estimates | 6/8 | 6.0 it/sec
+INFO:__main__:Eval estimates | 7/8 | 6.4 it/sec
+INFO:__main__:Eval estimates | 8/8 | 6.1 it/sec
+INFO:__main__:Eval metrics | 1/8 | 27235.7 it/sec
+INFO:__main__:Eval metrics | 2/8 | 20763.9 it/sec
+INFO:__main__:Eval metrics | 3/8 | 21076.9 it/sec
+INFO:__main__:Eval metrics | 4/8 | 21777.3 it/sec
+INFO:__main__:Eval metrics | 5/8 | 22349.8 it/sec
+INFO:__main__:Eval metrics | 6/8 | 22866.1 it/sec
+INFO:__main__:Eval metrics | 7/8 | 23547.0 it/sec
+INFO:__main__:Eval metrics | 8/8 | 24307.0 it/sec
+INFO:__main__:[1mTest set performance: SISNRi=-1.68 PESQ=0.0, STOI=0.0.[0m
+{"sisnr": -1.6803839206695557, "pesq": 0.0, "stoi": 0.0}

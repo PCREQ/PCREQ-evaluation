@@ -1,0 +1,12 @@
+/home/lei/anaconda3/envs/py37-5/lib/python3.7/site-packages/pytorch_lightning/metrics/__init__.py:44: LightningDeprecationWarning: `pytorch_lightning.metrics.*` module has been renamed to `torchmetrics.*` and split off to its own package (https://github.com/PyTorchLightning/metrics) since v1.3 and will be removed in v1.5
+  "`pytorch_lightning.metrics.*` module has been renamed to `torchmetrics.*` and split off to its own package"
+Traceback (most recent call last):
+  File "train.py", line 56, in <module>
+    main(args)
+  File "train.py", line 21, in main
+    model = PedalNet(vars(args))
+  File "/home/lei/compatibility_analysis/pytorch/1.7/PedalNetRT/model.py", line 118, in __init__
+    self.hparams = hparams
+  File "/home/lei/anaconda3/envs/py37-5/lib/python3.7/site-packages/torch/nn/modules/module.py", line 826, in __setattr__
+    object.__setattr__(self, name, value)
+AttributeError: can't set attribute

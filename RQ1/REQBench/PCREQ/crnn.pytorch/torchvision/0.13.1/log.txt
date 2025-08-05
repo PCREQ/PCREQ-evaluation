@@ -1,0 +1,9 @@
+2025-06-29 04:01:03,644 - INFO - *************Upgrade torchvision from 0.4.0 to 0.13.1 in crnn.pytorch*************
+2025-06-29 04:01:03,644 - INFO - Checking crnn.pytorch is compatible with torchvision0.13.1?...
+2025-06-29 04:01:03,933 - INFO - crnn.pytorch is compatible with torchvision0.13.1
+2025-06-29 04:01:04,055 - INFO - Checking torchvision0.13.1 is compatible with torch1.12.1?...
+2025-06-29 04:01:08,528 - INFO - torchvision0.13.1 is compatible with torch1.12.1
+2025-06-29 04:01:08,531 - INFO - Checking crnn.pytorch is compatible with torch1.12.1?...
+2025-06-29 04:01:09,618 - INFO - crnn.pytorch is compatible with torch1.12.1
+2025-06-29 04:01:10,029 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 04:01:10,029 - INFO - Time cost: 6.386200904846191 s

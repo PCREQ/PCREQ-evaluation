@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "augment.py", line 17, in <module>
+    writer = SummaryWriter(log_dir=os.path.join(config.path, "tb"))
+  File "/dataset/lei/anaconda3/envs/pt.darts-tensorboardX-1.7/lib/python3.7/site-packages/tensorboardX/writer.py", line 254, in __init__
+    self._get_file_writer()
+  File "/dataset/lei/anaconda3/envs/pt.darts-tensorboardX-1.7/lib/python3.7/site-packages/tensorboardX/writer.py", line 310, in _get_file_writer
+    self.file_writer = FileWriter(logdir=self.logdir, **self.kwargs)
+TypeError: __init__() got an unexpected keyword argument 'log_dir'

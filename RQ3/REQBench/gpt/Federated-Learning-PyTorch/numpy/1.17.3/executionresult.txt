@@ -1,0 +1,31 @@
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:16<00:00, 16.70s/it]100%|██████████| 1/1 [00:16<00:00, 16.70s/it]
+MLP(
+  (layer_input): Linear(in_features=784, out_features=64, bias=True)
+  (relu): ReLU()
+  (dropout): Dropout(p=0.5, inplace=False)
+  (layer_hidden): Linear(in_features=64, out_features=10, bias=True)
+  (softmax): Softmax(dim=1)
+)
+Train Epoch: 1 [0/60000 (0%)]	Loss: -0.096223
+Train Epoch: 1 [3200/60000 (5%)]	Loss: -0.130472
+Train Epoch: 1 [6400/60000 (11%)]	Loss: -0.181576
+Train Epoch: 1 [9600/60000 (16%)]	Loss: -0.306686
+Train Epoch: 1 [12800/60000 (21%)]	Loss: -0.305397
+Train Epoch: 1 [16000/60000 (27%)]	Loss: -0.368464
+Train Epoch: 1 [19200/60000 (32%)]	Loss: -0.387584
+Train Epoch: 1 [22400/60000 (37%)]	Loss: -0.458952
+Train Epoch: 1 [25600/60000 (43%)]	Loss: -0.461118
+Train Epoch: 1 [28800/60000 (48%)]	Loss: -0.595847
+Train Epoch: 1 [32000/60000 (53%)]	Loss: -0.597554
+Train Epoch: 1 [35200/60000 (59%)]	Loss: -0.556303
+Train Epoch: 1 [38400/60000 (64%)]	Loss: -0.557993
+Train Epoch: 1 [41600/60000 (69%)]	Loss: -0.597003
+Train Epoch: 1 [44800/60000 (75%)]	Loss: -0.575175
+Train Epoch: 1 [48000/60000 (80%)]	Loss: -0.616249
+Train Epoch: 1 [51200/60000 (85%)]	Loss: -0.734467
+Train Epoch: 1 [54400/60000 (91%)]	Loss: -0.682393
+Train Epoch: 1 [57600/60000 (96%)]	Loss: -0.748149
+
+Train loss: -0.48946507129746714
+Test on 10000 samples
+Test Accuracy: 81.36%

@@ -1,0 +1,9 @@
+2025-06-29 04:19:51,629 - INFO - *************Upgrade numpy from 1.17.2 to 1.18.5 in siren*************
+2025-06-29 04:19:51,629 - INFO - Checking siren is compatible with numpy1.18.5?...
+2025-06-29 04:19:57,872 - INFO - siren is compatible with numpy1.18.5
+2025-06-29 04:20:34,564 - INFO - Checking siren is compatible with astroid2.15.8?...
+2025-06-29 04:20:34,564 - INFO - siren is compatible with astroid2.15.8
+2025-06-29 04:20:34,635 - INFO - Checking siren is compatible with pylint2.17.7?...
+2025-06-29 04:20:34,635 - INFO - siren is compatible with pylint2.17.7
+2025-06-29 04:20:36,962 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 04:20:36,963 - INFO - Time cost: 45.335264682769775 s

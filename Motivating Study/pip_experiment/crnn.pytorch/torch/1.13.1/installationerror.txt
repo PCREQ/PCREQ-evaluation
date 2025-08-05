@@ -1,0 +1,20 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting torch==1.13.1
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/00/86/77a9eddbf46f1bca2468d16a401911f58917f95b63402d6a7a4522521e5d/torch-1.13.1-cp37-cp37m-manylinux1_x86_64.whl (887.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 887.5/887.5 MB 838.2 kB/s eta 0:00:00
+Requirement already satisfied: nvidia-cublas-cu11==11.10.3.66 in /home/lei/anaconda3/envs/crnn.pytorch-torch/lib/python3.7/site-packages (from torch==1.13.1) (11.10.3.66)
+Requirement already satisfied: typing-extensions in /home/lei/anaconda3/envs/crnn.pytorch-torch/lib/python3.7/site-packages (from torch==1.13.1) (4.7.1)
+Requirement already satisfied: nvidia-cuda-runtime-cu11==11.7.99 in /home/lei/anaconda3/envs/crnn.pytorch-torch/lib/python3.7/site-packages (from torch==1.13.1) (11.7.99)
+Requirement already satisfied: nvidia-cuda-nvrtc-cu11==11.7.99 in /home/lei/anaconda3/envs/crnn.pytorch-torch/lib/python3.7/site-packages (from torch==1.13.1) (11.7.99)
+Requirement already satisfied: nvidia-cudnn-cu11==8.5.0.96 in /home/lei/anaconda3/envs/crnn.pytorch-torch/lib/python3.7/site-packages (from torch==1.13.1) (8.5.0.96)
+Requirement already satisfied: wheel in /home/lei/anaconda3/envs/crnn.pytorch-torch/lib/python3.7/site-packages (from nvidia-cublas-cu11==11.10.3.66->torch==1.13.1) (0.38.4)
+Requirement already satisfied: setuptools in /home/lei/anaconda3/envs/crnn.pytorch-torch/lib/python3.7/site-packages (from nvidia-cublas-cu11==11.10.3.66->torch==1.13.1) (65.6.3)
+Installing collected packages: torch
+  Attempting uninstall: torch
+    Found existing installation: torch 1.13.0
+    Uninstalling torch-1.13.0:
+      Successfully uninstalled torch-1.13.0
+Successfully installed torch-1.13.1
+
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+torchvision 0.4.0 requires torch==1.2.0, but you have torch 1.13.1 which is incompatible.

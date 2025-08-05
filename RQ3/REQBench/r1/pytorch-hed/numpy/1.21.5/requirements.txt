@@ -1,0 +1,10 @@
+coloredlogs==15.0.1
+dataclasses==0.6
+future==0.18.3
+humanfriendly==10.0
+mpmath==1.2.1
+numpy==1.21.5
+Pillow==9.5.0
+sympy==1.11.1
+torch==1.10.2+cu111
+typing_extensions==4.7.1

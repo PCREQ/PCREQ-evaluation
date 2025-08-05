@@ -1,0 +1,22 @@
+use gpu: 1 to train.
+begin loading training dataset to memory
+finish loading training dataset to memory
+begin loading test dataset to memory
+finish loading test dataset to memory
+/home/lei/anaconda3/envs/py37-5/lib/python3.7/site-packages/torch/nn/_reduction.py:44: UserWarning: size_average and reduce args will be deprecated, please use reduction='mean' instead.
+  warnings.warn(warning.format(ret))
+[10]	loss:	0.69114	time lapsed:	1.32 s
+[20]	loss:	0.65770	time lapsed:	1.00 s
+[30]	loss:	0.62443	time lapsed:	1.00 s
+[40]	loss:	0.59294	time lapsed:	1.01 s
+[50]	loss:	0.60570	time lapsed:	1.00 s
+[60]	loss:	0.57406	time lapsed:	1.00 s
+[70]	loss:	0.58680	time lapsed:	1.00 s
+[80]	loss:	0.55951	time lapsed:	1.01 s
+[90]	loss:	0.56821	time lapsed:	1.01 s
+[100]	loss:	0.54940	time lapsed:	1.01 s
+**********************************************************************
+[100]	Test set	correct:	71	error:	329	precision:	0.177500
+**********************************************************************
+######################################################################
+final accuracy:  0.008875

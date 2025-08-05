@@ -1,0 +1,22 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting pillow==9.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/86/d2/ca178ad71dcd1dcddbe2a3f7983639d2f8a20e723d9a978ab978ed08c874/Pillow-9.2.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.1 MB)
+Collecting moviepy==2.dev2
+  Using cached moviepy-2.0.0.dev2-py3-none-any.whl
+Collecting numpy==1.16.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/98/5b/e1bf225ed4614b6a482ea783f75ce571b0d440ba247f6f52c0b7347d6e18/numpy-1.16.5-cp37-cp37m-manylinux1_x86_64.whl (17.3 MB)
+Collecting torch==1.7.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/90/5d/095ddddc91c8a769a68c791c019c5793f9c4456a688ddd235d6670924ecb/torch-1.7.1-cp37-cp37m-manylinux1_x86_64.whl (776.8 MB)
+INFO: pip is looking at multiple versions of <Python from Requires-Python> to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of pillow to determine which version is compatible with other requirements. This could take a while.
+ERROR: Cannot install -r /home/lei/compatibility_analysis/compare/ReadPyE/experiment/result/pytorch-hed-numpy-1.16.5.txt (line 2) and numpy==1.16.5 because these package versions have conflicting dependencies.
+
+The conflict is caused by:
+    The user requested numpy==1.16.5
+    moviepy 2.0.0.dev2 depends on numpy>=1.17.3
+
+To fix this you could try to:
+1. loosen the range of package versions you've specified
+2. remove package versions to allow pip attempt to solve the dependency conflict
+
+ERROR: ResolutionImpossible: for help visit https://pip.pypa.io/en/latest/topics/dependency-resolution/#dealing-with-dependency-conflicts

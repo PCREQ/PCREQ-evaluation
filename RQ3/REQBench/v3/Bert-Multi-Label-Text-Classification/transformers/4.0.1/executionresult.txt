@@ -1,0 +1,17 @@
+In Transformers v4.0.0, the default path to cache downloaded models changed from '~/.cache/torch/transformers' to '~/.cache/huggingface/transformers'. Since you don't seem to have overridden and '~/.cache/torch/transformers' is a directory that exists, we're moving it to '~/.cache/huggingface/transformers' to avoid redownloading models you have already in the cache. You should only see this message once.
+Traceback (most recent call last):
+  File "run_bert.py", line 10, in <module>
+    from pybert.io.bert_processor import BertProcessor
+  File "/home/lei/compatibility_analysis/pytorch/1.0/Bert-Multi-Label-Text-Classification/pybert/io/bert_processor.py", line 8, in <module>
+    from transformers import BertTokenizer
+  File "/home/lei/anaconda3/envs/py37-6/lib/python3.7/site-packages/transformers/__init__.py", line 22, in <module>
+    from .integrations import (  # isort:skip
+  File "/home/lei/anaconda3/envs/py37-6/lib/python3.7/site-packages/transformers/integrations.py", line 5, in <module>
+    from .trainer_utils import EvaluationStrategy
+  File "/home/lei/anaconda3/envs/py37-6/lib/python3.7/site-packages/transformers/trainer_utils.py", line 25, in <module>
+    from .file_utils import is_tf_available, is_torch_available, is_torch_tpu_available
+  File "/home/lei/anaconda3/envs/py37-6/lib/python3.7/site-packages/transformers/file_utils.py", line 227, in <module>
+    shutil.move(old_default_cache_path, default_cache_path)
+  File "/home/lei/anaconda3/envs/py37-6/lib/python3.7/shutil.py", line 564, in move
+    raise Error("Destination path '%s' already exists" % real_dst)
+shutil.Error: Destination path '/home/lei/.cache/huggingface/transformers/transformers' already exists

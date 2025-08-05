@@ -1,0 +1,9 @@
+2025-06-29 06:36:59,533 - INFO - *************Upgrade torchvision from 0.3.0 to 0.10.1 in PyTorch-ENet*************
+2025-06-29 06:36:59,533 - INFO - Checking PyTorch-ENet is compatible with torchvision0.10.1?...
+2025-06-29 06:36:59,839 - INFO - PyTorch-ENet is compatible with torchvision0.10.1
+2025-06-29 06:36:59,954 - INFO - Checking torchvision0.10.1 is compatible with torch1.9.1?...
+2025-06-29 06:37:02,930 - INFO - torchvision0.10.1 is compatible with torch1.9.1
+2025-06-29 06:37:02,932 - INFO - Checking PyTorch-ENet is compatible with torch1.9.1?...
+2025-06-29 06:37:03,836 - INFO - PyTorch-ENet is compatible with torch1.9.1
+2025-06-29 06:37:04,057 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 06:37:04,057 - INFO - Time cost: 4.524553298950195 s

@@ -1,0 +1,20 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting torchaudio==0.10.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/43/52/684e35d23a47ad9ada21c79d2752d44c33d927214ff53097949c72c783c6/torchaudio-0.10.0-cp37-cp37m-manylinux1_x86_64.whl (2.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.9/2.9 MB 9.6 MB/s eta 0:00:00
+Collecting torch==1.10.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c4/0f/e209948db1f0c2fae6e617f928d83952795bc5298979db2e880cd2d688a1/torch-1.10.0-cp37-cp37m-manylinux1_x86_64.whl (881.9 MB)
+Requirement already satisfied: typing-extensions in /home/lei/anaconda3/envs/svoice-torchaudio/lib/python3.7/site-packages (from torch==1.10.0->torchaudio==0.10.0) (4.7.1)
+Installing collected packages: torch, torchaudio
+  Attempting uninstall: torch
+    Found existing installation: torch 1.9.1
+    Uninstalling torch-1.9.1:
+      Successfully uninstalled torch-1.9.1
+  Attempting uninstall: torchaudio
+    Found existing installation: torchaudio 0.9.1
+    Uninstalling torchaudio-0.9.1:
+      Successfully uninstalled torchaudio-0.9.1
+Successfully installed torch-1.10.0 torchaudio-0.10.0
+
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+torchvision 0.7.0 requires torch==1.6.0, but you have torch 1.10.0 which is incompatible.

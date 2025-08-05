@@ -1,0 +1,2 @@
+DEPRECATION: Python 3.5 reached the end of its life on September 13th, 2020. Please upgrade your Python as Python 3.5 is no longer maintained. pip 21.0 will drop support for Python 3.5 in January 2021. pip 21.0 will remove support for this functionality.
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple

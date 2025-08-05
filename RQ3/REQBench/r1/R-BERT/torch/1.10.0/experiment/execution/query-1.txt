@@ -1,0 +1,158 @@
+
+                        **Debug Mission** 
+                        Resolve runtime crash caused by code-level incompatibilities in dependency chain.
+
+                        **Input Context**
+                        - Current environment: charset-normalizer==3.3.2
+click==8.1.7
+coloredlogs==15.0.1
+filelock==3.12.2
+future==1.0.0
+humanfriendly==10.0
+idna==3.7
+importlib-metadata==6.7.0
+joblib==1.3.2
+mpmath==1.2.1
+numpy==1.21.6
+packaging==24.0
+regex==2024.4.16
+requests==2.31.0
+sacremoses==0.0.53
+sentencepiece==0.2.0
+six==1.16.0
+sympy==1.10.1
+tokenizers==0.10.3
+torch==1.10.0
+tqdm==4.66.4
+transformers==4.12.0
+typing_extensions==4.7.1
+urllib3==2.0.7
+zipp==3.15.0
+
+                        - Python version: 3.7
+                        - Crash traceback: Traceback (most recent call last):
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/urllib3/connectionpool.py", line 803, in urlopen
+    **response_kw,
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/urllib3/connectionpool.py", line 492, in _make_request
+    raise new_e
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/urllib3/connectionpool.py", line 468, in _make_request
+    self._validate_conn(conn)
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/urllib3/connectionpool.py", line 1097, in _validate_conn
+    conn.connect()
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/urllib3/connection.py", line 658, in connect
+    assert_fingerprint=self.assert_fingerprint,
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/urllib3/connection.py", line 793, in _ssl_wrap_socket_and_match_hostname
+    tls_in_tls=tls_in_tls,
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/urllib3/util/ssl_.py", line 471, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/urllib3/util/ssl_.py", line 515, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/ssl.py", line 423, in wrap_socket
+    session=session
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/ssl.py", line 870, in _create
+    self.do_handshake()
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/requests/adapters.py", line 497, in send
+    chunked=chunked,
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/urllib3/connectionpool.py", line 846, in urlopen
+    method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/urllib3/util/retry.py", line 470, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/urllib3/util/util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/urllib3/connectionpool.py", line 803, in urlopen
+    **response_kw,
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/urllib3/connectionpool.py", line 492, in _make_request
+    raise new_e
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/urllib3/connectionpool.py", line 468, in _make_request
+    self._validate_conn(conn)
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/urllib3/connectionpool.py", line 1097, in _validate_conn
+    conn.connect()
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/urllib3/connection.py", line 658, in connect
+    assert_fingerprint=self.assert_fingerprint,
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/urllib3/connection.py", line 793, in _ssl_wrap_socket_and_match_hostname
+    tls_in_tls=tls_in_tls,
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/urllib3/util/ssl_.py", line 471, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/urllib3/util/ssl_.py", line 515, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/ssl.py", line 423, in wrap_socket
+    session=session
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/ssl.py", line 870, in _create
+    self.do_handshake()
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "predict.py", line 206, in <module>
+    predict(pred_config)
+  File "predict.py", line 146, in predict
+    dataset = convert_input_file_to_tensor_dataset(pred_config, args)
+  File "predict.py", line 48, in convert_input_file_to_tensor_dataset
+    tokenizer = load_tokenizer(args)
+  File "/home/lei/compatibility_analysis/pytorch/1.6/R-BERT/utils.py", line 19, in load_tokenizer
+    tokenizer = BertTokenizer.from_pretrained(args.model_name_or_path)
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/transformers/tokenization_utils_base.py", line 1655, in from_pretrained
+    local_files_only=local_files_only,
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/transformers/tokenization_utils_base.py", line 3468, in get_fast_tokenizer_file
+    path_or_repo, revision=revision, use_auth_token=use_auth_token, local_files_only=local_files_only
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/transformers/file_utils.py", line 1819, in get_list_of_files
+    path_or_repo, revision=revision, token=token
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/huggingface_hub/utils/_validators.py", line 118, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/huggingface_hub/hf_api.py", line 1677, in model_info
+    r = get_session().get(path, headers=headers, timeout=timeout, params=params)
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/requests/sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/huggingface_hub/utils/_http.py", line 63, in send
+    return super().send(request, *args, **kwargs)
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/requests/adapters.py", line 501, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: (ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')), '(Request ID: 4bcc8053-9f66-44cd-8392-6f950dc2ef93)')
+
+
+                        **Analysis Protocol**
+                        1. Traceback Pattern Matching：
+                        a. Identify error type (ImportError/AttributeError/TypeError)
+                        b. Map to possible API changes in torch v1.10.0 or its dependencies
+                        2. Compatibility Matrix Check：
+                        a. Verify library-to-library API compatibility through version ranges
+                        b. Confirm project-to-library interface compatibility
+                        3. Breakpoint Isolation：
+                        b. Determine if conflict originates from：
+                            • Direct API changes in torch
+                            • Transitive dependency API shifts
+
+                        **Resolution Rules**
+                        - PRIMARY CONSTRAINT: Maintain torch==1.10.0
+                        - SECONDARY ADJUSTMENTS: 
+                        • Modify dependency versions only when API contracts allow
+                        • Prefer backward-compatible minor version changes
+
+                        **Output Mandates**
+                        STRICT FORMAT:
+                        lib1==x.y.z  
+                        lib2==a.b.c
+                        ...
+                        PROHIBITED:
+                        • Any non-version text.
+                        • Library additions/removals
+                        • Version placeholders
+                        MANDATORY:
+                        • Preserve original library names and count
+                        • Pin EXACT versions
+                        • Zero explanations/comments
+                        

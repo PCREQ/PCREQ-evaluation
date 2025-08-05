@@ -1,0 +1,25 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting numpy==1.19.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/14/32/d3fa649ad7ec0b82737b92fefd3c4dd376b0bb23730715124569f38f3a08/numpy-1.19.5-cp36-cp36m-manylinux2010_x86_64.whl (14.8 MB)
+Collecting pyhocon==0.3.5
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/6d/b1/63ccab62d605ea38aaa28a12bc72bb67a857c2fd90eded577784ef1a4422/pyhocon-0.3.5.tar.gz (59 kB)
+Collecting torch==1.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/69/60/f685fb2cfb3088736bafbc9bdbb455327bdc8906b606da9c9a81bae1c81e/torch-1.1.0-cp36-cp36m-manylinux1_x86_64.whl (676.9 MB)
+Collecting scikit-learn==0.24.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d3/eb/d0e658465c029feb7083139d9ead51000742e88b1fb7f1504e19e1b4ce6e/scikit_learn-0.24.2-cp36-cp36m-manylinux2010_x86_64.whl (22.2 MB)
+Collecting pyparsing==2.0.3
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/8f/f4/3a70b5e5b865b1ec45fe48dc5a57cd4facb5c7bd80e5cb1255c362732e81/pyparsing-2.0.3-py2.py3-none-any.whl (37 kB)
+Collecting threadpoolctl>=2.0.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/61/cf/6e354304bcb9c6413c4e02a747b600061c21d38ba51e7e544ac7bc66aecc/threadpoolctl-3.1.0-py3-none-any.whl (14 kB)
+Collecting scipy>=0.19.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c8/89/63171228d5ced148f5ced50305c89e8576ffc695a90b58fe5bb602b910c2/scipy-1.5.4-cp36-cp36m-manylinux1_x86_64.whl (25.9 MB)
+Collecting joblib>=0.11
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/7c/91/d3ba0401e62d7e42816bc7d97b82d19c95c164b3e149a87c0a1c026a735e/joblib-1.1.1-py2.py3-none-any.whl (309 kB)
+Building wheels for collected packages: pyhocon
+  Building wheel for pyhocon (setup.py): started
+  Building wheel for pyhocon (setup.py): finished with status 'done'
+  Created wheel for pyhocon: filename=pyhocon-0.3.5-py3-none-any.whl size=11116 sha256=449c2b83889abc0df244ea9bbff86f8bbc143c1b97212f534b3b180603c28f80
+  Stored in directory: /home/lei/.cache/pip/wheels/08/18/f2/27acfeb06c29b4d5492690d6efdc84e618b8ffa3bad0ffe03b
+Successfully built pyhocon
+Installing collected packages: numpy, threadpoolctl, scipy, pyparsing, joblib, torch, scikit-learn, pyhocon
+Successfully installed joblib-1.1.1 numpy-1.19.5 pyhocon-0.3.5 pyparsing-2.0.3 scikit-learn-0.24.2 scipy-1.5.4 threadpoolctl-3.1.0 torch-1.1.0

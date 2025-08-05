@@ -1,0 +1,1 @@
+ERROR: Invalid requirement: "Based on the error traceback and analysis, here's the adjusted requirements.txt with compatible versions while maintaining torch==1.5.0:" (from line 1 of /home/lei/compatibility_analysis/compare/LLM/result/deepseek/v3/hifi-gan-torch-1.5.0.txt)

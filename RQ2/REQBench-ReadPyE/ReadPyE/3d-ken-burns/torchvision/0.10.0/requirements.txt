@@ -1,0 +1,9 @@
+torchvision==0.10.0
+opencv-python==4.6.0.66
+flask==2.2.2
+h5py==3.7
+scipy==1.9
+gevent==0.12.2
+torch==1.7.1
+moviepy==2.dev2
+cupy==11

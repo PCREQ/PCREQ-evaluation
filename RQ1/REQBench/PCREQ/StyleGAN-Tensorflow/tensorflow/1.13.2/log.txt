@@ -1,0 +1,5 @@
+2025-06-28 18:40:53,753 - INFO - *************Upgrade tensorflow from 1.13.1 to 1.13.2 in StyleGAN-Tensorflow*************
+2025-06-28 18:40:53,753 - INFO - Checking StyleGAN-Tensorflow is compatible with tensorflow1.13.2?...
+2025-06-28 18:41:11,089 - INFO - StyleGAN-Tensorflow is compatible with tensorflow1.13.2
+2025-06-28 18:41:17,231 - INFO - *************New requirements.txt has been generated!*************
+2025-06-28 18:41:17,231 - INFO - Time cost: 23.494781970977783 s

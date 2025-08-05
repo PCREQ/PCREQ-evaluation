@@ -1,0 +1,84 @@
+
+                        **Debug Mission** 
+                        Resolve runtime crash caused by code-level incompatibilities in dependency chain.
+
+                        **Input Context**
+                        - Current environment: absl-py==0.10.0
+astor==0.8.1
+bleach==3.1.5
+captcha==0.3
+certifi==2019.3.9
+chardet==3.0.4
+Click==7.0
+cycler==0.10.0
+easydict==1.8
+Flask==1.0.2
+gast==0.3.3
+grpcio==1.33.2
+html5lib==0.9999999
+idna==2.8
+itsdangerous==1.1.0
+Jinja2==2.10.1
+Markdown==3.2.2
+MarkupSafe==1.1.1
+matplotlib==3.3.4
+numpy==1.18.5
+olefile==0.46
+Pillow==8.1.0
+protobuf==3.13.0
+pyparsing==2.4.7
+python-dateutil==2.8.1
+pytz==2018.9
+requests==2.21.0
+six==1.15.0
+tensorboard==2.3.0
+tensorflow==2.3.1
+termcolor==1.1.0
+urllib3==1.24.3
+Werkzeug==1.0.1
+
+                        - Python version: 3.6
+                        - Crash traceback: Traceback (most recent call last):
+  File "train_model.py", line 273, in <module>
+    main()
+  File "train_model.py", line 267, in main
+    image_suffix, train_batch_size, test_batch_size, verify=False)
+  File "train_model.py", line 59, in __init__
+    super(TrainModel, self).__init__(image_height, image_width, len(label), char_set, model_save_dir)
+  File "/home/lei/compatibility_analysis/tensorflow/1.7/cnn_captcha/cnnlib/network.py", line 22, in __init__
+    self.X = tf.placeholder(tf.float32, [None, self.image_height * self.image_width])  # 特征向量
+AttributeError: module 'tensorflow' has no attribute 'placeholder'
+
+
+                        **Analysis Protocol**
+                        1. Traceback Pattern Matching：
+                        a. Identify error type (ImportError/AttributeError/TypeError)
+                        b. Map to possible API changes in tensorflow v2.3.1 or its dependencies
+                        2. Compatibility Matrix Check：
+                        a. Verify library-to-library API compatibility through version ranges
+                        b. Confirm project-to-library interface compatibility
+                        3. Breakpoint Isolation：
+                        b. Determine if conflict originates from：
+                            • Direct API changes in tensorflow
+                            • Transitive dependency API shifts
+
+                        **Resolution Rules**
+                        - PRIMARY CONSTRAINT: Maintain tensorflow==2.3.1
+                        - SECONDARY ADJUSTMENTS: 
+                        • Modify dependency versions only when API contracts allow
+                        • Prefer backward-compatible minor version changes
+
+                        **Output Mandates**
+                        STRICT FORMAT:
+                        lib1==x.y.z  
+                        lib2==a.b.c
+                        ...
+                        PROHIBITED:
+                        • Any non-version text.
+                        • Library additions/removals
+                        • Version placeholders
+                        MANDATORY:
+                        • Preserve original library names and count
+                        • Pin EXACT versions
+                        • Zero explanations/comments
+                        

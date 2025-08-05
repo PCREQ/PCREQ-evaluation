@@ -1,0 +1,17 @@
+2025-06-28 16:43:25,527 - INFO - *************Upgrade tensorflow from 1.5.0 to 2.0.3 in deep-belief-network*************
+2025-06-28 16:43:25,528 - INFO - Checking deep-belief-network is compatible with tensorflow2.0.3?...
+2025-06-28 16:43:33,927 - INFO - deep-belief-network-tensorflow-1.5.0-2.0.3（装饰器改变）python.ops.math_ops.to_float--@tf_export(v1=["to_float"])
+2025-06-28 16:43:33,952 - INFO - deep-belief-network is not compatible with tensorflow-2.0.3, change to tensorflow-2.0.2
+2025-06-28 16:43:33,952 - INFO - Checking deep-belief-network is compatible with tensorflow2.0.2?...
+2025-06-28 16:43:43,077 - INFO - deep-belief-network-tensorflow-1.5.0-2.0.2（装饰器改变）python.ops.math_ops.to_float--@tf_export(v1=["to_float"])
+2025-06-28 16:43:43,093 - INFO - deep-belief-network is not compatible with tensorflow-2.0.2, change to tensorflow-2.0.1
+2025-06-28 16:43:43,093 - INFO - Checking deep-belief-network is compatible with tensorflow2.0.1?...
+2025-06-28 16:43:51,431 - INFO - deep-belief-network-tensorflow-1.5.0-2.0.1（装饰器改变）python.ops.math_ops.to_float--@tf_export(v1=["to_float"])
+2025-06-28 16:43:51,446 - INFO - deep-belief-network is not compatible with tensorflow-2.0.1, change to tensorflow-2.0.0
+2025-06-28 16:43:51,446 - INFO - Checking deep-belief-network is compatible with tensorflow2.0.0?...
+2025-06-28 16:44:00,443 - INFO - deep-belief-network-tensorflow-1.5.0-2.0.0（装饰器改变）python.ops.math_ops.to_float--@tf_export(v1=["to_float"])
+2025-06-28 16:44:00,458 - INFO - deep-belief-network is not compatible with tensorflow-2.0.0, change to tensorflow-1.15.5
+2025-06-28 16:44:00,458 - INFO - Checking deep-belief-network is compatible with tensorflow1.15.5?...
+2025-06-28 16:44:09,119 - INFO - deep-belief-network is compatible with tensorflow1.15.5
+2025-06-28 16:44:15,518 - INFO - *************New requirements.txt has been generated!*************
+2025-06-28 16:44:15,518 - INFO - Time cost: 49.99192953109741 s

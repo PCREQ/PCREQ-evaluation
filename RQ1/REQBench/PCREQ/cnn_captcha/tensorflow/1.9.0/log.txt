@@ -1,0 +1,9 @@
+2025-06-28 23:46:04,160 - INFO - *************Upgrade tensorflow from 1.7.0 to 1.9.0 in cnn_captcha*************
+2025-06-28 23:46:04,160 - INFO - Checking cnn_captcha is compatible with tensorflow1.9.0?...
+2025-06-28 23:46:14,205 - INFO - cnn_captcha is compatible with tensorflow1.9.0
+2025-06-28 23:46:14,997 - INFO - Checking tensorflow1.9.0 is compatible with tensorboard1.9.0?...
+2025-06-28 23:47:43,719 - INFO - tensorflow1.9.0 is compatible with tensorboard1.9.0
+2025-06-28 23:47:43,719 - INFO - Checking cnn_captcha is compatible with tensorboard1.9.0?...
+2025-06-28 23:47:43,745 - INFO - cnn_captcha is compatible with tensorboard1.9.0
+2025-06-28 23:47:47,280 - INFO - *************New requirements.txt has been generated!*************
+2025-06-28 23:47:47,280 - INFO - Time cost: 103.12189102172852 s

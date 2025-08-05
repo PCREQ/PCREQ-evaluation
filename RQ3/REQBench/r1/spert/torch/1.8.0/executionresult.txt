@@ -1,0 +1,108 @@
+--------------------------------------------------
+Config:
+{'label': 'conll04_train', 'model_type': 'spert', 'model_path': 'bert-base-cased', 'tokenizer_path': 'bert-base-cased', 'train_path': 'data/datasets/conll04/conll04_train.json', 'valid_path': 'data/datasets/conll04/conll04_dev.json', 'types_path': 'data/datasets/conll04/conll04_types.json', 'train_batch_size': '2', 'eval_batch_size': '1', 'neg_entity_count': '100', 'neg_relation_count': '100', 'epochs': '1', 'lr': '5e-5', 'lr_warmup': '0.1', 'weight_decay': '0.01', 'max_grad_norm': '1.0', 'rel_filter_threshold': '0.4', 'size_embedding': '25', 'prop_drop': '0.1', 'max_span_size': '10', 'store_predictions': 'true', 'store_examples': 'true', 'sampling_processes': '4', 'max_pairs': '1000', 'final_eval': 'true', 'log_path': 'data/log/', 'save_path': 'data/save/'}
+Repeat 1 times
+--------------------------------------------------
+Iteration 0
+--------------------------------------------------
+2025-05-30 07:21:46,085 [MainThread  ] [INFO ]  Datasets: data/datasets/conll04/conll04_train.json, data/datasets/conll04/conll04_dev.json
+2025-05-30 07:21:46,086 [MainThread  ] [INFO ]  Model type: spert
+Parse dataset 'train':   0%|          | 0/922 [00:00<?, ?it/s]Parse dataset 'train':   5%|▌         | 48/922 [00:00<00:01, 479.74it/s]Parse dataset 'train':  11%|█         | 101/922 [00:00<00:01, 505.94it/s]Parse dataset 'train':  16%|█▋        | 152/922 [00:00<00:01, 507.64it/s]Parse dataset 'train':  23%|██▎       | 210/922 [00:00<00:01, 535.99it/s]Parse dataset 'train':  29%|██▊       | 264/922 [00:00<00:01, 488.07it/s]Parse dataset 'train':  34%|███▍      | 314/922 [00:00<00:01, 472.94it/s]Parse dataset 'train':  40%|███▉      | 366/922 [00:00<00:01, 487.20it/s]Parse dataset 'train':  45%|████▌     | 416/922 [00:00<00:01, 486.14it/s]Parse dataset 'train':  50%|█████     | 465/922 [00:00<00:00, 485.35it/s]Parse dataset 'train':  56%|█████▌    | 514/922 [00:01<00:00, 482.04it/s]Parse dataset 'train':  61%|██████    | 563/922 [00:01<00:00, 406.60it/s]Parse dataset 'train':  66%|██████▌   | 609/922 [00:01<00:00, 419.48it/s]Parse dataset 'train':  72%|███████▏  | 660/922 [00:01<00:00, 443.19it/s]Parse dataset 'train':  77%|███████▋  | 714/922 [00:01<00:00, 469.72it/s]Parse dataset 'train':  83%|████████▎ | 763/922 [00:01<00:00, 470.54it/s]Parse dataset 'train':  88%|████████▊ | 813/922 [00:01<00:00, 478.10it/s]Parse dataset 'train':  93%|█████████▎| 862/922 [00:01<00:00, 470.72it/s]Parse dataset 'train':  99%|█████████▉| 913/922 [00:01<00:00, 477.77it/s]Parse dataset 'train': 100%|██████████| 922/922 [00:01<00:00, 472.34it/s]
+Parse dataset 'valid':   0%|          | 0/231 [00:00<?, ?it/s]Parse dataset 'valid':  22%|██▏       | 50/231 [00:00<00:00, 489.18it/s]Parse dataset 'valid':  43%|████▎     | 99/231 [00:00<00:00, 478.21it/s]Parse dataset 'valid':  64%|██████▎   | 147/231 [00:00<00:00, 474.20it/s]Parse dataset 'valid':  84%|████████▍ | 195/231 [00:00<00:00, 454.82it/s]Parse dataset 'valid': 100%|██████████| 231/231 [00:00<00:00, 474.66it/s]2025-05-30 07:21:48,545 [MainThread  ] [INFO ]  Relation type count: 6
+2025-05-30 07:21:48,545 [MainThread  ] [INFO ]  Entity type count: 5
+2025-05-30 07:21:48,545 [MainThread  ] [INFO ]  Entities:
+2025-05-30 07:21:48,545 [MainThread  ] [INFO ]  No Entity=0
+2025-05-30 07:21:48,545 [MainThread  ] [INFO ]  Location=1
+2025-05-30 07:21:48,545 [MainThread  ] [INFO ]  Organization=2
+2025-05-30 07:21:48,545 [MainThread  ] [INFO ]  People=3
+2025-05-30 07:21:48,545 [MainThread  ] [INFO ]  Other=4
+2025-05-30 07:21:48,545 [MainThread  ] [INFO ]  Relations:
+2025-05-30 07:21:48,545 [MainThread  ] [INFO ]  No Relation=0
+2025-05-30 07:21:48,545 [MainThread  ] [INFO ]  Work for=1
+2025-05-30 07:21:48,545 [MainThread  ] [INFO ]  Kill=2
+2025-05-30 07:21:48,545 [MainThread  ] [INFO ]  Organization based in=3
+2025-05-30 07:21:48,545 [MainThread  ] [INFO ]  Live in=4
+2025-05-30 07:21:48,545 [MainThread  ] [INFO ]  Located in=5
+2025-05-30 07:21:48,545 [MainThread  ] [INFO ]  Dataset: train
+2025-05-30 07:21:48,545 [MainThread  ] [INFO ]  Document count: 922
+2025-05-30 07:21:48,545 [MainThread  ] [INFO ]  Relation count: 1283
+2025-05-30 07:21:48,545 [MainThread  ] [INFO ]  Entity count: 3377
+2025-05-30 07:21:48,545 [MainThread  ] [INFO ]  Dataset: valid
+2025-05-30 07:21:48,545 [MainThread  ] [INFO ]  Document count: 231
+2025-05-30 07:21:48,545 [MainThread  ] [INFO ]  Relation count: 343
+2025-05-30 07:21:48,545 [MainThread  ] [INFO ]  Entity count: 893
+2025-05-30 07:21:48,545 [MainThread  ] [INFO ]  Updates per epoch: 461
+2025-05-30 07:21:48,545 [MainThread  ] [INFO ]  Updates total: 461
+
+Some weights of the model checkpoint at bert-base-cased were not used when initializing SpERT: ['cls.predictions.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing SpERT from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing SpERT from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of SpERT were not initialized from the model checkpoint at bert-base-cased and are newly initialized: ['entity_classifier.bias', 'rel_classifier.bias', 'rel_classifier.weight', 'entity_classifier.weight', 'size_embeddings.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+nn.Linear(config.hidden_size * 2 + size_embedding, entity_types)
+torch.nn.CrossEntropyLoss(reduction='none')
+2025-05-30 07:22:14,871 [MainThread  ] [INFO ]  Train epoch: 0
+Train epoch 0:   0%|          | 0/461 [00:00<?, ?it/s]torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+torch.tensor(entity_types, dtype=torch.long)
+Train epoch 0:   0%|          | 0/461 [00:07<?, ?it/s]
+Process SpawnProcess-1:
+Traceback (most recent call last):
+  File "/home/lei/anaconda3/envs/py37-4/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/home/lei/anaconda3/envs/py37-4/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/lei/compatibility_analysis/pytorch/1.4/spert/spert.py", line 17, in __train
+    types_path=run_args.types_path, input_reader_cls=input_reader.JsonInputReader)
+  File "/home/lei/compatibility_analysis/pytorch/1.4/spert/spert/spert_trainer.py", line 94, in train
+    self._train_epoch(model, compute_loss, optimizer, train_dataset, updates_epoch, epoch)
+  File "/home/lei/compatibility_analysis/pytorch/1.4/spert/spert/spert_trainer.py", line 192, in _train_epoch
+    relations=batch['rels'], rel_masks=batch['rel_masks'])
+  File "/home/lei/anaconda3/envs/py37-4/lib/python3.7/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/lei/compatibility_analysis/pytorch/1.4/spert/spert/models.py", line 224, in forward
+    return self._forward_train(*args, **kwargs)
+  File "/home/lei/compatibility_analysis/pytorch/1.4/spert/spert/models.py", line 62, in _forward_train
+    h = self.bert(input_ids=encodings, attention_mask=context_masks)['last_hidden_state']
+  File "/home/lei/anaconda3/envs/py37-4/lib/python3.7/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/lei/anaconda3/envs/py37-4/lib/python3.7/site-packages/transformers/models/bert/modeling_bert.py", line 981, in forward
+    return_dict=return_dict,
+  File "/home/lei/anaconda3/envs/py37-4/lib/python3.7/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/lei/anaconda3/envs/py37-4/lib/python3.7/site-packages/transformers/models/bert/modeling_bert.py", line 575, in forward
+    output_attentions,
+  File "/home/lei/anaconda3/envs/py37-4/lib/python3.7/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/lei/anaconda3/envs/py37-4/lib/python3.7/site-packages/transformers/models/bert/modeling_bert.py", line 461, in forward
+    past_key_value=self_attn_past_key_value,
+  File "/home/lei/anaconda3/envs/py37-4/lib/python3.7/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/lei/anaconda3/envs/py37-4/lib/python3.7/site-packages/transformers/models/bert/modeling_bert.py", line 394, in forward
+    output_attentions,
+  File "/home/lei/anaconda3/envs/py37-4/lib/python3.7/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/lei/anaconda3/envs/py37-4/lib/python3.7/site-packages/transformers/models/bert/modeling_bert.py", line 253, in forward
+    mixed_query_layer = self.query(hidden_states)
+  File "/home/lei/anaconda3/envs/py37-4/lib/python3.7/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/lei/anaconda3/envs/py37-4/lib/python3.7/site-packages/torch/nn/modules/linear.py", line 94, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/home/lei/anaconda3/envs/py37-4/lib/python3.7/site-packages/torch/nn/functional.py", line 1753, in linear
+    return torch._C._nn.linear(input, weight, bias)
+RuntimeError: CUDA error: CUBLAS_STATUS_INTERNAL_ERROR when calling `cublasCreate(handle)`

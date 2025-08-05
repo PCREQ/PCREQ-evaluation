@@ -1,0 +1,15 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting torch==1.8.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/46/99/8b658e5095b9fb02e38ccb7ecc931eb1a03b5160d77148aecf68f8a7eeda/torch-1.8.0-cp36-cp36m-manylinux1_x86_64.whl (735.5 MB)
+Requirement already satisfied: dataclasses in /home/lei/anaconda3/envs/MASTER-pytorch-torch/lib/python3.6/site-packages (from torch==1.8.0) (0.8)
+Requirement already satisfied: numpy in /home/lei/anaconda3/envs/MASTER-pytorch-torch/lib/python3.6/site-packages (from torch==1.8.0) (1.16.4)
+Requirement already satisfied: typing-extensions in /home/lei/anaconda3/envs/MASTER-pytorch-torch/lib/python3.6/site-packages (from torch==1.8.0) (4.1.1)
+Installing collected packages: torch
+  Attempting uninstall: torch
+    Found existing installation: torch 1.7.1
+    Uninstalling torch-1.7.1:
+      Successfully uninstalled torch-1.7.1
+Successfully installed torch-1.8.0
+
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+torchvision 0.6.1 requires torch==1.5.1, but you have torch 1.8.0 which is incompatible.

@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "example_classification.py", line 4, in <module>
+    from sklearn.datasets import load_digits
+  File "/home/lei/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/datasets/__init__.py", line 22, in <module>
+    from .twenty_newsgroups import fetch_20newsgroups
+  File "/home/lei/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/datasets/twenty_newsgroups.py", line 44, in <module>
+    from ..feature_extraction.text import CountVectorizer
+  File "/home/lei/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/feature_extraction/__init__.py", line 10, in <module>
+    from . import text
+  File "/home/lei/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/feature_extraction/text.py", line 28, in <module>
+    from ..preprocessing import normalize
+  File "/home/lei/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/preprocessing/__init__.py", line 8, in <module>
+    from .data import Binarizer
+  File "/home/lei/anaconda3/envs/py36/lib/python3.6/site-packages/sklearn/preprocessing/data.py", line 17, in <module>
+    from scipy import stats
+  File "/home/lei/anaconda3/envs/py36/lib/python3.6/site-packages/scipy/stats/__init__.py", line 348, in <module>
+    from .stats import *
+  File "/home/lei/anaconda3/envs/py36/lib/python3.6/site-packages/scipy/stats/stats.py", line 177, in <module>
+    from . import distributions
+  File "/home/lei/anaconda3/envs/py36/lib/python3.6/site-packages/scipy/stats/distributions.py", line 13, in <module>
+    from . import _continuous_distns
+  File "/home/lei/anaconda3/envs/py36/lib/python3.6/site-packages/scipy/stats/_continuous_distns.py", line 15, in <module>
+    from scipy._lib._numpy_compat import broadcast_to
+  File "/home/lei/anaconda3/envs/py36/lib/python3.6/site-packages/scipy/_lib/_numpy_compat.py", line 10, in <module>
+    from numpy.testing.nosetester import import_nose
+ModuleNotFoundError: No module named 'numpy.testing.nosetester'

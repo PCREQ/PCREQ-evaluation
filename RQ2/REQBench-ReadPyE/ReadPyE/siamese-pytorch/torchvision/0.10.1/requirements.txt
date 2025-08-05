@@ -1,0 +1,7 @@
+matplotlib==3.5.3
+python-gflags==3.1.2
+pillow==9.2
+numpy==1.21.6
+scipy==1.7.3
+torch==1.12.1
+torchvision==0.1.9

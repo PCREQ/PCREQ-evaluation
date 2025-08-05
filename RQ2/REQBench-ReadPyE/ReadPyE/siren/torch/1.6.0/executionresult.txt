@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "scripts/train_inpainting_siren.py", line 9, in <module>
+    from siren import SIREN
+ModuleNotFoundError: No module named 'siren'

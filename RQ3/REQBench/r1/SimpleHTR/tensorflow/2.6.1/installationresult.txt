@@ -1,0 +1,31 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting absl-py==0.15.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/97/75/f5e61fb67ecbe45c31035b17562464e11b91a2b8a351bae5ca0db2969e3b/absl_py-0.15.0-py3-none-any.whl (132 kB)
+Collecting astunparse==1.6.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/2b/03/13dde6512ad7b4557eb792fbcf0c653af6076b81e5941d36ec61f7ce6028/astunparse-1.6.3-py2.py3-none-any.whl (12 kB)
+Collecting cachetools==4.2.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ea/c1/4740af52db75e6dbdd57fc7e9478439815bbac549c1c05881be27d19a17d/cachetools-4.2.4-py3-none-any.whl (10 kB)
+Collecting certifi==2021.5.30
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/05/1b/0a0dece0e8aa492a6ec9e4ad2fe366b511558cdc73fd3abc82ba7348e875/certifi-2021.5.30-py2.py3-none-any.whl (145 kB)
+Collecting charset-normalizer==2.0.12
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/06/b3/24afc8868eba069a7f03650ac750a778862dc34941a4bebeb58706715726/charset_normalizer-2.0.12-py3-none-any.whl (39 kB)
+Collecting cycler==0.11.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/5c/f9/695d6bedebd747e5eb0fe8fad57b72fdf25411273a39791cde838d5a8f51/cycler-0.11.0-py3-none-any.whl (6.4 kB)
+Collecting dataclasses==0.8
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/fe/ca/75fac5856ab5cfa51bbbcefa250182e50441074fdc3f803f6e76451fab43/dataclasses-0.8-py3-none-any.whl (19 kB)
+Collecting editdistance==0.5.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/dc/34/381c67595831fc9daa30c9247cfb8116941fc7380b571a390bbff6da011e/editdistance-0.5.2-cp36-cp36m-manylinux1_x86_64.whl (173 kB)
+Collecting flatbuffers==1.12
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/eb/26/712e578c5f14e26ae3314c39a1bdc4eb2ec2f4ddc89b708cf8e0a0d20423/flatbuffers-1.12-py2.py3-none-any.whl (15 kB)
+Collecting gast==0.4.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/b6/48/583c032b79ae5b3daa02225a675aeb673e58d2cb698e78510feceb11958c/gast-0.4.0-py3-none-any.whl (9.8 kB)
+Collecting google-auth==1.35.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/fb/7a/1b3eb54caee1b8c73c2c3645f78a382eca4805a301a30c64a078e736e446/google_auth-1.35.0-py2.py3-none-any.whl (152 kB)
+Collecting google-auth-oauthlib==0.4.6
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/b1/0e/0636cc1448a7abc444fb1b3a63655e294e0d2d49092dc3de05241be6d43c/google_auth_oauthlib-0.4.6-py2.py3-none-any.whl (18 kB)
+Collecting google-pasta==0.2.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a3/de/c648ef6835192e6e2cc03f40b19eeda4382c49b5bafb43d88b931c4c74ac/google_pasta-0.2.0-py3-none-any.whl (57 kB)
+Collecting grpcio==1.37.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/de/ed/a6ac635bfd93e0a3655bd71e0de1b87f182c0d4bb0cfb544a9df03399d46/grpcio-1.37.0-cp36-cp36m-manylinux2014_x86_64.whl (4.2 MB)
+ERROR: Could not find a version that satisfies the requirement h5py==3.5.0 (from versions: 2.2.1, 2.3.0b1, 2.3.0, 2.3.1, 2.4.0b1, 2.4.0, 2.5.0, 2.6.0, 2.7.0rc2, 2.7.0, 2.7.1, 2.8.0rc1, 2.8.0, 2.9.0rc1, 2.9.0, 2.10.0, 3.0.0rc1, 3.0.0, 3.1.0)
+ERROR: No matching distribution found for h5py==3.5.0

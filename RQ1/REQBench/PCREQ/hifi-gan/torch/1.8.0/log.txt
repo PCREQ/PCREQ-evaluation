@@ -1,0 +1,5 @@
+2025-06-29 07:41:20,057 - INFO - *************Upgrade torch from 1.4.0 to 1.8.0 in hifi-gan*************
+2025-06-29 07:41:20,057 - INFO - Checking hifi-gan is compatible with torch1.8.0?...
+2025-06-29 07:41:21,535 - INFO - hifi-gan is compatible with torch1.8.0
+2025-06-29 07:41:25,307 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 07:41:25,307 - INFO - Time cost: 5.25124716758728 s

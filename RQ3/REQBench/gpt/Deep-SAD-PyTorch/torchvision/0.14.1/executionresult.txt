@@ -1,0 +1,55 @@
+INFO:root:Log file is ../log/DeepSAD/mnist_test/log.txt
+INFO:root:Data path is ../data
+INFO:root:Export path is ../log/DeepSAD/mnist_test
+INFO:root:Dataset: mnist
+INFO:root:Normal class: 0
+INFO:root:Ratio of labeled normal train samples: 0.00
+INFO:root:Ratio of labeled anomalous samples: 0.01
+INFO:root:Pollution ratio of unlabeled train data: 0.10
+INFO:root:Known anomaly class: 1
+INFO:root:Network: mnist_LeNet
+INFO:root:Eta-parameter: 1.00
+INFO:root:Set seed to 2.
+INFO:root:Computation device: cuda
+INFO:root:Number of threads: 0
+INFO:root:Number of dataloader workers: 0
+INFO:root:Pretraining: True
+INFO:root:Pretraining optimizer: adam
+INFO:root:Pretraining learning rate: 0.0001
+INFO:root:Pretraining epochs: 1
+INFO:root:Pretraining learning rate scheduler milestones: ()
+INFO:root:Pretraining batch size: 128
+INFO:root:Pretraining weight decay: 0.0005
+INFO:root:Starting pretraining...
+/home/lei/anaconda3/envs/py37-4/lib/python3.7/site-packages/torch/optim/lr_scheduler.py:143: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  "https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate", UserWarning)
+Traceback (most recent call last):
+  File "main.py", line 239, in <module>
+    main()
+  File "/home/lei/anaconda3/envs/py37-4/lib/python3.7/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/lei/anaconda3/envs/py37-4/lib/python3.7/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/lei/anaconda3/envs/py37-4/lib/python3.7/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/lei/anaconda3/envs/py37-4/lib/python3.7/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "main.py", line 180, in main
+    n_jobs_dataloader=n_jobs_dataloader)
+  File "/home/lei/compatibility_analysis/pytorch/1.1/Deep-SAD-PyTorch/src/DeepSAD.py", line 101, in pretrain
+    self.ae_net = self.ae_trainer.train(dataset, self.ae_net)
+  File "/home/lei/compatibility_analysis/pytorch/1.1/Deep-SAD-PyTorch/src/optim/ae_trainer.py", line 66, in train
+    rec = ae_net(inputs)
+  File "/home/lei/anaconda3/envs/py37-4/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/lei/compatibility_analysis/pytorch/1.1/Deep-SAD-PyTorch/src/networks/mnist_LeNet.py", line 69, in forward
+    x = self.encoder(x)
+  File "/home/lei/anaconda3/envs/py37-4/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/lei/compatibility_analysis/pytorch/1.1/Deep-SAD-PyTorch/src/networks/mnist_LeNet.py", line 29, in forward
+    x = self.fc1(x)
+  File "/home/lei/anaconda3/envs/py37-4/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/lei/anaconda3/envs/py37-4/lib/python3.7/site-packages/torch/nn/modules/linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: CUDA error: CUBLAS_STATUS_INVALID_VALUE when calling `cublasSgemm( handle, opa, opb, m, n, k, &alpha, a, lda, b, ldb, &beta, c, ldc)`

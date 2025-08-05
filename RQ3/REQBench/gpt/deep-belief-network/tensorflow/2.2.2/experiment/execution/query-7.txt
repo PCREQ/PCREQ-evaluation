@@ -1,0 +1,62 @@
+
+                        **Debug Mission** 
+                        Resolve runtime crash caused by code-level incompatibilities in dependency chain.
+
+                        **Input Context**
+                        - Current environment: absl-py==0.9.0
+bleach==3.1.1
+certifi==2020.12.5
+dataclasses==0.8
+html5lib==1.0.1
+importlib-metadata==1.7.0
+Markdown==3.2.2
+numpy==1.18.2
+protobuf==3.12.2
+scikit-learn==0.22.2.post1
+scipy==1.4.1
+six==1.15.0
+tensorflow==2.2.2
+tensorflow-tensorboard==2.2.2
+typing_extensions==3.7.4.3
+Werkzeug==1.0.1
+zipp==1.2.0
+
+                        - Python version: 3.6
+                        - Crash traceback: Traceback (most recent call last):
+  File "example_classification.py", line 1, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+
+
+                        **Analysis Protocol**
+                        1. Traceback Pattern Matching：
+                        a. Identify error type (ImportError/AttributeError/TypeError)
+                        b. Map to possible API changes in tensorflow v2.2.2 or its dependencies
+                        2. Compatibility Matrix Check：
+                        a. Verify library-to-library API compatibility through version ranges
+                        b. Confirm project-to-library interface compatibility
+                        3. Breakpoint Isolation：
+                        b. Determine if conflict originates from：
+                            • Direct API changes in tensorflow
+                            • Transitive dependency API shifts
+
+                        **Resolution Rules**
+                        - PRIMARY CONSTRAINT: Maintain tensorflow==2.2.2
+                        - SECONDARY ADJUSTMENTS: 
+                        • Modify dependency versions only when API contracts allow
+                        • Prefer backward-compatible minor version changes
+
+                        **Output Mandates**
+                        STRICT FORMAT:
+                        lib1==x.y.z  
+                        lib2==a.b.c
+                        ...
+                        PROHIBITED:
+                        • Any non-version text.
+                        • Library additions/removals
+                        • Version placeholders
+                        MANDATORY:
+                        • Preserve original library names and count
+                        • Pin EXACT versions
+                        • Zero explanations/comments
+                        

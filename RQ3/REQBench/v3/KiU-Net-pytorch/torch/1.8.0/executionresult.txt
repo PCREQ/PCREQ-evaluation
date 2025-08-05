@@ -1,0 +1,20 @@
+Let's use 3 GPUs!
+Total_params: 291234
+Traceback (most recent call last):
+  File "train.py", line 211, in <module>
+    output = model(X_batch)
+  File "/home/lei/anaconda3/envs/py36-1/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/lei/anaconda3/envs/py36-1/lib/python3.6/site-packages/torch/nn/parallel/data_parallel.py", line 165, in forward
+    return self.module(*inputs[0], **kwargs[0])
+  File "/home/lei/anaconda3/envs/py36-1/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/lei/compatibility_analysis/pytorch/1.4/KiU-Net-pytorch/arch/ae.py", line 251, in forward
+    out = F.relu(self.en1_bn(F.max_pool2d(self.encoder1(x),2,2)))  #U-Net branch
+  File "/home/lei/anaconda3/envs/py36-1/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/lei/anaconda3/envs/py36-1/lib/python3.6/site-packages/torch/nn/modules/conv.py", line 399, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/home/lei/anaconda3/envs/py36-1/lib/python3.6/site-packages/torch/nn/modules/conv.py", line 396, in _conv_forward
+    self.padding, self.dilation, self.groups)
+RuntimeError: cuDNN error: CUDNN_STATUS_NOT_INITIALIZED

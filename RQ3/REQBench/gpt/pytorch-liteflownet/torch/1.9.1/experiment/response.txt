@@ -1,0 +1,6 @@
+cupy==11.3.0
+fastrlock==0.8.2
+future==1.0.0
+numpy==1.19.5
+Pillow==8.3.2
+torch==1.9.1

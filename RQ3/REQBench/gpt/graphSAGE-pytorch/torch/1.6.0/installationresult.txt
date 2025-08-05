@@ -1,0 +1,33 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting certifi==2021.5.30
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/05/1b/0a0dece0e8aa492a6ec9e4ad2fe366b511558cdc73fd3abc82ba7348e875/certifi-2021.5.30-py2.py3-none-any.whl (145 kB)
+Collecting numpy==1.16.6
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/90/b1/ba7e59da253c58aaf874ea790ae71d6870255a5243010d94688c41618678/numpy-1.16.6-cp36-cp36m-manylinux1_x86_64.whl (17.4 MB)
+Collecting Pillow==8.3.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/cc/e2/31c6ee4acc116b65c40badc4a6eeb38e7cdb697c0e9a365397de52d17c08/Pillow-8.3.2-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.0 MB)
+Collecting pyhocon==0.3.51
+  Using cached pyhocon-0.3.51-py3-none-any.whl
+Collecting pyparsing==2.3.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/de/0a/001be530836743d8be6c2d85069f46fecf84ac6c18c7f5fb8125ee11d854/pyparsing-2.3.1-py2.py3-none-any.whl (61 kB)
+Collecting scikit-learn==0.24.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/e2/4c/6111b9a325f29527d7f262e2ee8c730d354b47a728d955e186dacad57a0d/scikit_learn-0.24.1-cp36-cp36m-manylinux2010_x86_64.whl (22.2 MB)
+Collecting scipy==1.2.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c7/d6/661cf4fb32ecda40fc03685ef0995db3d3300c619f461751621f646ab3f6/scipy-1.2.3-cp36-cp36m-manylinux1_x86_64.whl (24.8 MB)
+Collecting six==1.12.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/73/fb/00a976f728d0d1fecfe898238ce23f502a721c0ac0ecfedb80e0d88c64e9/six-1.12.0-py2.py3-none-any.whl (10 kB)
+Collecting sklearn==0.0
+  Using cached sklearn-0.0-py2.py3-none-any.whl
+Collecting torch==1.6.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/38/53/914885a93a44b96c0dd1c36f36ff10afe341f091230aad68f7228d61db1e/torch-1.6.0-cp36-cp36m-manylinux1_x86_64.whl (748.8 MB)
+Collecting torchvision==0.7.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/8e/dc/4a939cfbd38398f4765f712576df21425241020bfccc200af76d19088533/torchvision-0.7.0-cp36-cp36m-manylinux1_x86_64.whl (5.9 MB)
+Collecting tqdm==4.19.9
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/b3/c4/b67cf1ab472b770e08e94105a0c7ca7032cd070627c435f5998c9cf6e64f/tqdm-4.19.9-py2.py3-none-any.whl (52 kB)
+Collecting joblib>=0.11
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/7c/91/d3ba0401e62d7e42816bc7d97b82d19c95c164b3e149a87c0a1c026a735e/joblib-1.1.1-py2.py3-none-any.whl (309 kB)
+Collecting threadpoolctl>=2.0.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/61/cf/6e354304bcb9c6413c4e02a747b600061c21d38ba51e7e544ac7bc66aecc/threadpoolctl-3.1.0-py3-none-any.whl (14 kB)
+Collecting future
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/da/71/ae30dadffc90b9006d77af76b393cb9dfbfc9629f339fc1574a1c52e6806/future-1.0.0-py3-none-any.whl (491 kB)
+Installing collected packages: numpy, threadpoolctl, scipy, joblib, future, torch, scikit-learn, pyparsing, Pillow, tqdm, torchvision, sklearn, six, pyhocon, certifi
+Successfully installed Pillow-8.3.2 certifi-2021.5.30 future-1.0.0 joblib-1.1.1 numpy-1.16.6 pyhocon-0.3.51 pyparsing-2.3.1 scikit-learn-0.24.1 scipy-1.2.3 six-1.12.0 sklearn-0.0 threadpoolctl-3.1.0 torch-1.6.0 torchvision-0.7.0 tqdm-4.19.9

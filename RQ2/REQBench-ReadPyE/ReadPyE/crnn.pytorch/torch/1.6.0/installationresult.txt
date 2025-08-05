@@ -1,0 +1,23 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting pillow==9.0.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c3/56/bdf1b802e111050e3fe11150e09d2e220478cf5af4256e7fa628663fa08f/Pillow-9.0.1-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.3 MB)
+Collecting numpy==1.21.6
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/6d/ad/ff3b21ebfe79a4d25b4a4f8e5cf9fd44a204adb6b33c09010f566f51027a/numpy-1.21.6-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (15.7 MB)
+Collecting lmdb==1.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/4d/cf/3230b1c9b0bec406abb85a9332ba5805bdd03a1d24025c6bbcfb8ed71539/lmdb-1.3.0-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (298 kB)
+Collecting six==1.16
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting torchfile==0.1
+  Using cached torchfile-0.1.0-py3-none-any.whl
+Collecting warpctc-pytorch10-cpu==0.1.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/63/73/de041ffbeb1871f4ac807df8f54cbbd202241a74b43dbae5d7fb9a444f17/warpctc_pytorch10_cpu-0.1.3-cp37-cp37m-manylinux1_x86_64.whl (965 kB)
+Collecting torch==1.6
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/5d/5e/35140615fc1f925023f489e71086a9ecc188053d263d3594237281284d82/torch-1.6.0-cp37-cp37m-manylinux1_x86_64.whl (748.8 MB)
+Collecting torchvision==0.1.9
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/e2/56/34a58783d2fefe2da5c4558c213386c810e7b2ab04dd8d6fe474a91b695a/torchvision-0.1.9-py2.py3-none-any.whl (43 kB)
+Collecting future
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/da/71/ae30dadffc90b9006d77af76b393cb9dfbfc9629f339fc1574a1c52e6806/future-1.0.0-py3-none-any.whl (491 kB)
+WARNING: The candidate selected for download or install is a yanked version: 'torchvision' candidate (version 0.1.9 at https://pypi.tuna.tsinghua.edu.cn/packages/e2/56/34a58783d2fefe2da5c4558c213386c810e7b2ab04dd8d6fe474a91b695a/torchvision-0.1.9-py2.py3-none-any.whl (from https://pypi.tuna.tsinghua.edu.cn/simple/torchvision/))
+Reason for being yanked: <none given>
+Installing collected packages: warpctc-pytorch10-cpu, torchfile, lmdb, six, pillow, numpy, future, torch, torchvision
+Successfully installed future-1.0.0 lmdb-1.3.0 numpy-1.21.6 pillow-9.0.1 six-1.16.0 torch-1.6.0 torchfile-0.1.0 torchvision-0.1.9 warpctc-pytorch10-cpu-0.1.3

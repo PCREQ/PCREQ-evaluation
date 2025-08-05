@@ -1,0 +1,114 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting absl-py==2.1.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a2/ad/e0d3c824784ff121c03cc031f944bc7e139a8f1870ffd2845cc2dd76f6c4/absl_py-2.1.0-py3-none-any.whl (133 kB)
+Collecting cachetools==4.2.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ea/c1/4740af52db75e6dbdd57fc7e9478439815bbac549c1c05881be27d19a17d/cachetools-4.2.4-py3-none-any.whl (10 kB)
+Collecting charset-normalizer==2.0.9
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/47/84/b06f6729fac8108c5fa3e13cde19b0b3de66ba5538c325496dbe39f5ff8e/charset_normalizer-2.0.9-py3-none-any.whl (39 kB)
+Collecting cycler==0.11.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/5c/f9/695d6bedebd747e5eb0fe8fad57b72fdf25411273a39791cde838d5a8f51/cycler-0.11.0-py3-none-any.whl (6.4 kB)
+Collecting dataclasses==0.6
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/26/2f/1095cdc2868052dd1e64520f7c0d5c8c550ad297e944e641dbf1ffbb9a5d/dataclasses-0.6-py3-none-any.whl (14 kB)
+Collecting fsspec==2022.7.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/58/fe/96674000d326e859ca2c654eeb9178f728e79ab466c2195bee305773d5a3/fsspec-2022.7.1-py3-none-any.whl (141 kB)
+Collecting future==1.0.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/da/71/ae30dadffc90b9006d77af76b393cb9dfbfc9629f339fc1574a1c52e6806/future-1.0.0-py3-none-any.whl (491 kB)
+Collecting google-auth==1.30.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/96/21/bfde897baf6f0df050205a23bbfd9dcbedcac522b22eb9382d29e39fdd15/google_auth-1.30.2-py2.py3-none-any.whl (146 kB)
+Collecting google-auth-oauthlib==0.4.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/9d/d3/7541e89f1fc456eef157224f597a8bba22589db6369a03eaba68c11f07a0/google_auth_oauthlib-0.4.4-py2.py3-none-any.whl (18 kB)
+Collecting grpcio==1.41.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/fe/58/aa3ef8bbf78679ab431aef8a8484c3da8290a6b470dbe170000759d845da/grpcio-1.41.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.9 MB)
+Collecting idna==3.7
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/e5/3e/741d8c82801c347547f8a2a06aa57dbb1992be9e948df2ea0eda2c8b79e8/idna-3.7-py3-none-any.whl (66 kB)
+Collecting importlib-metadata==4.8.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a0/a1/b153a0a4caf7a7e3f15c2cd56c7702e2cf3d89b1b359d1f1c5e59d68f4ce/importlib_metadata-4.8.3-py3-none-any.whl (17 kB)
+Collecting kiwisolver==1.3.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d2/46/231de802ade4225b76b96cffe419cf3ce52bbe92e3b092cf12db7d11c207/kiwisolver-1.3.1-cp37-cp37m-manylinux1_x86_64.whl (1.1 MB)
+Collecting Markdown==3.3.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/6e/33/1ae0f71395e618d6140fbbc9587cc3156591f748226075e0f7d6f9176522/Markdown-3.3.4-py3-none-any.whl (97 kB)
+Collecting MarkupSafe==2.1.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/9f/83/b221ce5a0224f409b9f02b0dc6cb0b921c46033f4870d64fa3e8a96af701/MarkupSafe-2.1.1-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (25 kB)
+Collecting matplotlib==3.3.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/23/3d/db9a6b3c83c9511301152dbb64a029c3a4313c86eaef12c237b13ecf91d6/matplotlib-3.3.4-cp37-cp37m-manylinux1_x86_64.whl (11.5 MB)
+Collecting numpy==1.20.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a5/42/560d269f604d3e186a57c21a363e77e199358d054884e61b73e405dd217c/numpy-1.20.3-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (15.3 MB)
+Collecting oauthlib==3.1.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/e8/5d/9dd1c29e5a786525f6342f6c1d812ed2e37edc653ad297048c1668988053/oauthlib-3.1.1-py2.py3-none-any.whl (146 kB)
+Collecting Pillow==8.3.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/41/07/ecb2a0d55460385163c82a4bd65263a00510966dddbd54876796bd18857c/Pillow-8.3.2-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.0 MB)
+Collecting protobuf==3.19.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/03/6b/12b307892ef5e9f4a1a92f5996922561c453540f5ce22a09038d2486b451/protobuf-3.19.4-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.1 MB)
+Collecting pyasn1==0.4.8
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/62/1e/a94a8d635fa3ce4cfc7f506003548d0a2447ae76fd5ca53932970fe3053f/pyasn1-0.4.8-py2.py3-none-any.whl (77 kB)
+Collecting pyasn1-modules==0.2.8
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/95/de/214830a981892a3e286c3794f41ae67a4495df1108c3da8a9f62159b9a9d/pyasn1_modules-0.2.8-py2.py3-none-any.whl (155 kB)
+Collecting pyparsing==2.4.7
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/8a/bb/488841f56197b13700afd5658fc279a2025a39e22449b7cf29864669b15d/pyparsing-2.4.7-py2.py3-none-any.whl (67 kB)
+Collecting python-dateutil==2.8.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d4/70/d60450c3dd48ef87586924207ae8907090de0b306af2bce5d134d78615cb/python_dateutil-2.8.1-py2.py3-none-any.whl (227 kB)
+Collecting pytorch-lightning==1.4.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/24/0e/165868360b3102a524828d1554e8d07f00e84c3ef85fed66192efb828e4b/pytorch_lightning-1.4.2-py3-none-any.whl (916 kB)
+Collecting PyYAML==5.4.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/7a/a5/393c087efdc78091afa2af9f1378762f9821c9c1d7a22c5753fb5ac5f97a/PyYAML-5.4.1-cp37-cp37m-manylinux1_x86_64.whl (636 kB)
+Collecting requests==2.26.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/92/96/144f70b972a9c0eabbd4391ef93ccd49d0f2747f4f6a2a2738e99e5adc65/requests-2.26.0-py2.py3-none-any.whl (62 kB)
+Collecting requests-oauthlib==1.3.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a3/12/b92740d845ab62ea4edf04d2f4164d82532b5a0b03836d4d4e71c6f3d379/requests_oauthlib-1.3.0-py2.py3-none-any.whl (23 kB)
+Collecting rsa==4.7.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/e9/93/0c0f002031f18b53af7a6166103c02b9c0667be528944137cc954ec921b3/rsa-4.7.2-py3-none-any.whl (34 kB)
+Collecting scipy==1.5.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/dc/7e/8f6a79b102ca1ea928bae8998b05bf5dc24a90571db13cd119f275ba6252/scipy-1.5.4-cp37-cp37m-manylinux1_x86_64.whl (25.9 MB)
+Collecting six==1.16.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting tensorboard==2.4.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/64/21/eebd23060763fedeefb78bc2b286e00fa1d8abda6f70efa2ee08c28af0d4/tensorboard-2.4.1-py3-none-any.whl (10.6 MB)
+Collecting tensorboard-data-server==0.6.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/60/f9/802efd84988bffd9f644c03b6e66fde8e76c3aa33db4279ddd11c5d61f4b/tensorboard_data_server-0.6.1-py3-none-manylinux2010_x86_64.whl (4.9 MB)
+Collecting tensorboard-plugin-wit==1.8.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/1a/c1/499e600ba0c618b451cd9c425ae1c177249940a2086316552fee7d86c954/tensorboard_plugin_wit-1.8.0-py3-none-any.whl (781 kB)
+Collecting torch==1.8.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/56/74/6fc9dee50f7c93d6b7d9644554bdc9692f3023fa5d1de779666e6bf8ae76/torch-1.8.1-cp37-cp37m-manylinux1_x86_64.whl (804.1 MB)
+Collecting torchmetrics==0.5.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f3/89/cf04627bcdf877da69238e8b440c6cec7b4513a03ede4ce10d7d9b5b44e6/torchmetrics-0.5.0-py3-none-any.whl (272 kB)
+Collecting tqdm==4.62.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/63/f3/b7a1b8e40fd1bd049a34566eb353527bb9b8e9b98f8b6cf803bb64d8ce95/tqdm-4.62.3-py2.py3-none-any.whl (76 kB)
+Collecting urllib3==1.26.6
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/5f/64/43575537846896abac0b15c3e5ac678d787a4021e906703f1766bfb8ea11/urllib3-1.26.6-py2.py3-none-any.whl (138 kB)
+Collecting Werkzeug==2.0.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/bd/24/11c3ea5a7e866bf2d97f0501d0b4b1c9bbeade102bb4b588f0d2919a5212/Werkzeug-2.0.1-py3-none-any.whl (288 kB)
+Collecting zipp==3.5.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/92/d9/89f433969fb8dc5b9cbdd4b4deb587720ec1aeb59a020cf15002b9593eef/zipp-3.5.0-py3-none-any.whl (5.7 kB)
+Requirement already satisfied: setuptools>=40.3.0 in /home/lei/anaconda3/envs/py37-5/lib/python3.7/site-packages (from google-auth==1.30.2->-r /home/lei/compatibility_analysis/compare/LLM/result/chatgpt/PedalNetRT-pytorch-lightning-1.4.2.txt (line 8)) (59.5.0)
+Collecting typing-extensions>=3.6.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ec/6b/63cc3df74987c36fe26157ee12e09e8f9db4de771e0f3404263117e75b95/typing_extensions-4.7.1-py3-none-any.whl (33 kB)
+Collecting fsspec[http]!=2021.06.0,>=2021.05.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/bd/64/f0d369ede0ca54fdd520bdee5086dbaf0af81dac53a2ce847bd1ec6e0bf1/fsspec-2023.1.0-py3-none-any.whl (143 kB)
+Collecting packaging>=17.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/49/df/1fceb2f8900f8639e278b056416d49134fb8d84c5942ffaa01ad34782422/packaging-24.0-py3-none-any.whl (53 kB)
+Collecting pyDeprecate==0.3.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a2/17/ff7ec2752f53ea245499b23ee64e76d12f45fcde7a5b1b445f9c58cd1ec0/pyDeprecate-0.3.1-py3-none-any.whl (10 kB)
+Requirement already satisfied: certifi>=2017.4.17 in /home/lei/anaconda3/envs/py37-5/lib/python3.7/site-packages (from requests==2.26.0->-r /home/lei/compatibility_analysis/compare/LLM/result/chatgpt/PedalNetRT-pytorch-lightning-1.4.2.txt (line 27)) (2022.12.7)
+Requirement already satisfied: wheel>=0.26 in /home/lei/anaconda3/envs/py37-5/lib/python3.7/site-packages (from tensorboard==2.4.1->-r /home/lei/compatibility_analysis/compare/LLM/result/chatgpt/PedalNetRT-pytorch-lightning-1.4.2.txt (line 32)) (0.38.4)
+Collecting fsspec[http]!=2021.06.0,>=2021.05.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/37/57/eb7c3c10b187d3b8565946772ce0229c79e3c623010eda0aeb5032ff56f4/fsspec-2022.11.0-py3-none-any.whl (139 kB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/4c/3d/86112db0fc482c4b11031516340e2d9978aa837ee104b4bebaaad0fae465/fsspec-2022.10.0-py3-none-any.whl (138 kB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/82/f3/30f7925f22f623ebac35b40d48151578ef7303d897764e1d95323727611b/fsspec-2022.8.2-py3-none-any.whl (140 kB)
+Collecting aiohttp
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a5/e7/af237a28203958d885f7f57731cb4f9c510597a35c593c5c20224dd72072/aiohttp-3.8.6-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (987 kB)
+Collecting async-timeout<5.0,>=4.0.0a3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a7/fa/e01228c2938de91d47b307831c62ab9e4001e747789d0b05baf779a6488c/async_timeout-4.0.3-py3-none-any.whl (5.7 kB)
+Collecting multidict<7.0,>=4.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/0a/f0/b256648385dfda067688570b10e7b90eacd3711c26635763560cbad0a447/multidict-6.0.5-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (99 kB)
+Collecting frozenlist>=1.1.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/b2/18/3b0eb2690b3bf4d340a221d0e76b6c5f4cac9d5dd37fb8c7b6ec25c2f510/frozenlist-1.3.3-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (148 kB)
+Collecting attrs>=17.3.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/6a/21/5b6702a7f963e95456c0de2d495f67bf5fd62840ac655dc451586d23d39a/attrs-24.2.0-py3-none-any.whl (63 kB)
+Collecting aiosignal>=1.1.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/76/ac/a7305707cb852b7e16ff80eaf5692309bde30e2b1100a1fcacdc8f731d97/aiosignal-1.3.1-py3-none-any.whl (7.6 kB)
+Collecting yarl<2.0,>=1.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/45/33/d958b3f31420ccc99075e9355d9cb27b0c39d712dbcb0a6cda408c1aa6c4/yarl-1.9.4-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (289 kB)
+Collecting asynctest==0.13.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/e8/b6/8d17e169d577ca7678b11cd0d3ceebb0a6089a7f4a2de4b945fe4b1c86db/asynctest-0.13.0-py3-none-any.whl (26 kB)
+Installing collected packages: tensorboard-plugin-wit, pyasn1, dataclasses, zipp, Werkzeug, urllib3, typing-extensions, tqdm, tensorboard-data-server, six, rsa, PyYAML, pyparsing, pyDeprecate, pyasn1-modules, protobuf, Pillow, packaging, oauthlib, numpy, multidict, MarkupSafe, kiwisolver, idna, future, fsspec, frozenlist, cycler, charset-normalizer, cachetools, asynctest, absl-py, yarl, torch, scipy, requests, python-dateutil, importlib-metadata, grpcio, google-auth, async-timeout, aiosignal, torchmetrics, requests-oauthlib, matplotlib, Markdown, attrs, google-auth-oauthlib, aiohttp, tensorboard, pytorch-lightning
+Successfully installed Markdown-3.3.4 MarkupSafe-2.1.1 Pillow-8.3.2 PyYAML-5.4.1 Werkzeug-2.0.1 absl-py-2.1.0 aiohttp-3.8.6 aiosignal-1.3.1 async-timeout-4.0.3 asynctest-0.13.0 attrs-24.2.0 cachetools-4.2.4 charset-normalizer-2.0.9 cycler-0.11.0 dataclasses-0.6 frozenlist-1.3.3 fsspec-2022.7.1 future-1.0.0 google-auth-1.30.2 google-auth-oauthlib-0.4.4 grpcio-1.41.0 idna-3.7 importlib-metadata-4.8.3 kiwisolver-1.3.1 matplotlib-3.3.4 multidict-6.0.5 numpy-1.20.3 oauthlib-3.1.1 packaging-24.0 protobuf-3.19.4 pyDeprecate-0.3.1 pyasn1-0.4.8 pyasn1-modules-0.2.8 pyparsing-2.4.7 python-dateutil-2.8.1 pytorch-lightning-1.4.2 requests-2.26.0 requests-oauthlib-1.3.0 rsa-4.7.2 scipy-1.5.4 six-1.16.0 tensorboard-2.4.1 tensorboard-data-server-0.6.1 tensorboard-plugin-wit-1.8.0 torch-1.8.1 torchmetrics-0.5.0 tqdm-4.62.3 typing-extensions-4.7.1 urllib3-1.26.6 yarl-1.9.4 zipp-3.5.0

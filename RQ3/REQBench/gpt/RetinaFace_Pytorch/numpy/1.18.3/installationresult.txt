@@ -1,0 +1,54 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting coloredlogs==15.0.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a7/06/3d6badcf13db419e25b07041d9c7b4a2c331d3f4e7134445ec5df57714cd/coloredlogs-15.0.1-py2.py3-none-any.whl (46 kB)
+Collecting cycler==0.11.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/5c/f9/695d6bedebd747e5eb0fe8fad57b72fdf25411273a39791cde838d5a8f51/cycler-0.11.0-py3-none-any.whl (6.4 kB)
+Collecting humanfriendly==10.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f0/0f/310fb31e39e2d734ccaa2c0fb981ee41f7bd5056ce9bc29b2248bd569169/humanfriendly-10.0-py2.py3-none-any.whl (86 kB)
+Collecting imageio==2.9.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/6e/57/5d899fae74c1752f52869b613a8210a2480e1a69688e65df6cb26117d45d/imageio-2.9.0-py3-none-any.whl (3.3 MB)
+Collecting kiwisolver==1.1.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/93/f8/518fb0bb89860eea6ff1b96483fbd9236d5ee991485d0f3eceff1770f654/kiwisolver-1.1.0-cp37-cp37m-manylinux1_x86_64.whl (90 kB)
+Collecting matplotlib==3.2.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/b2/c2/71fcf957710f3ba1f09088b35776a799ba7dd95f7c2b195ec800933b276b/matplotlib-3.2.1-cp37-cp37m-manylinux1_x86_64.whl (12.4 MB)
+Collecting mpmath==1.2.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d4/cf/3965bddbb4f1a61c49aacae0e78fd1fe36b5dc36c797b31f30cf07dcbbb7/mpmath-1.2.1-py3-none-any.whl (532 kB)
+Collecting networkx==2.6.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/e9/93/aa6613aa70d6eb4868e667068b5a11feca9645498fd31b954b6c4bb82fa5/networkx-2.6.3-py3-none-any.whl (1.9 MB)
+Collecting numpy==1.18.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/e7/38/f14d6706ae4fa327bdb023ef40b4d902bccd314d886fac4031687a8acc74/numpy-1.18.3-cp37-cp37m-manylinux1_x86_64.whl (20.2 MB)
+Collecting opencv-python==4.1.0.25
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/de/52/61b9619a7a95a8d809515f68f1441224a07ce1873fd3af5e662851014a55/opencv_python-4.1.0.25-cp37-cp37m-manylinux1_x86_64.whl (26.6 MB)
+Collecting Pillow==6.2.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/89/3e/31c2e5385d7588016c6f7ac552e81c3fff2bef4bc61b6f82f8177752405c/Pillow-6.2.1-cp37-cp37m-manylinux1_x86_64.whl (2.1 MB)
+Collecting protobuf==3.20.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/af/26/cf27940ece6bb8890a67f741eb9da5359b72749f816edf210a28fe01a247/protobuf-3.20.0-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl (1.0 MB)
+Collecting pyparsing==2.4.7
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/8a/bb/488841f56197b13700afd5658fc279a2025a39e22449b7cf29864669b15d/pyparsing-2.4.7-py2.py3-none-any.whl (67 kB)
+Collecting python-dateutil==2.8.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/41/17/c62faccbfbd163c7f57f3844689e3a78bae1f403648a6afb1d0866d87fbb/python_dateutil-2.8.0-py2.py3-none-any.whl (226 kB)
+Collecting PyWavelets==1.1.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/62/bd/592c7242fdd1218a96431512e77265c50812315ef72570ace85e1cfae298/PyWavelets-1.1.1-cp37-cp37m-manylinux1_x86_64.whl (4.4 MB)
+Collecting scikit-image==0.16.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/dc/48/454bf836d302465475e02bc0468b879302145b07a005174c409a5b5869c7/scikit_image-0.16.2-cp37-cp37m-manylinux1_x86_64.whl (26.5 MB)
+Collecting scipy==1.5.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/dc/7e/8f6a79b102ca1ea928bae8998b05bf5dc24a90571db13cd119f275ba6252/scipy-1.5.4-cp37-cp37m-manylinux1_x86_64.whl (25.9 MB)
+Collecting six==1.16.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting sympy==1.10.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d0/04/66be21ceb305c66a4b326b0ae44cc4f027a43bc08cac204b48fb45bb3653/sympy-1.10.1-py3-none-any.whl (6.4 MB)
+Collecting tensorboardX==1.8
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c3/12/dcaf67e1312475b26db9e45e7bb6f32b540671a9ee120b3a72d9e09bc517/tensorboardX-1.8-py2.py3-none-any.whl (216 kB)
+Collecting terminaltables==3.1.0
+  Using cached terminaltables-3.1.0-py3-none-any.whl
+Collecting torch==1.1.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ac/23/a4b5c189dd624411ec84613b717594a00480282b949e3448d189c4aa4e47/torch-1.1.0-cp37-cp37m-manylinux1_x86_64.whl (676.9 MB)
+Collecting torchvision==0.3.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/cc/9b/208f48d5a5013bdb0c27a84a02df4fcf5fd24ab5902667c11e554a12b681/torchvision-0.3.0-cp37-cp37m-manylinux1_x86_64.whl (2.6 MB)
+Collecting tqdm==4.32.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/45/af/685bf3ce889ea191f3b916557f5677cc95a5e87b2fa120d74b5dd6d049d0/tqdm-4.32.1-py2.py3-none-any.whl (49 kB)
+Collecting typing_extensions==4.7.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ec/6b/63cc3df74987c36fe26157ee12e09e8f9db4de771e0f3404263117e75b95/typing_extensions-4.7.1-py3-none-any.whl (33 kB)
+Requirement already satisfied: setuptools in /home/lei/anaconda3/envs/py37-1/lib/python3.7/site-packages (from kiwisolver==1.1.0->-r /home/lei/compatibility_analysis/compare/LLM/result/chatgpt/RetinaFace_Pytorch-numpy-1.18.3.txt (line 5)) (59.5.0)
+Installing collected packages: terminaltables, mpmath, typing_extensions, tqdm, sympy, six, pyparsing, protobuf, Pillow, numpy, networkx, kiwisolver, humanfriendly, cycler, torch, tensorboardX, scipy, PyWavelets, python-dateutil, opencv-python, imageio, coloredlogs, torchvision, matplotlib, scikit-image
+Successfully installed Pillow-6.2.1 PyWavelets-1.1.1 coloredlogs-15.0.1 cycler-0.11.0 humanfriendly-10.0 imageio-2.9.0 kiwisolver-1.1.0 matplotlib-3.2.1 mpmath-1.2.1 networkx-2.6.3 numpy-1.18.3 opencv-python-4.1.0.25 protobuf-3.20.0 pyparsing-2.4.7 python-dateutil-2.8.0 scikit-image-0.16.2 scipy-1.5.4 six-1.16.0 sympy-1.10.1 tensorboardX-1.8 terminaltables-3.1.0 torch-1.1.0 torchvision-0.3.0 tqdm-4.32.1 typing_extensions-4.7.1

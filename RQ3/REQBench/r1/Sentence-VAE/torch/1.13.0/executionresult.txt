@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "train.py", line 8, in <module>
+    from tensorboardX import SummaryWriter
+  File "/home/lei/anaconda3/envs/py37-5/lib/python3.7/site-packages/tensorboardX/__init__.py", line 5, in <module>
+    from .torchvis import TorchVis
+  File "/home/lei/anaconda3/envs/py37-5/lib/python3.7/site-packages/tensorboardX/torchvis.py", line 10, in <module>
+    from .writer import SummaryWriter
+  File "/home/lei/anaconda3/envs/py37-5/lib/python3.7/site-packages/tensorboardX/writer.py", line 16, in <module>
+    from .comet_utils import CometLogger
+  File "/home/lei/anaconda3/envs/py37-5/lib/python3.7/site-packages/tensorboardX/comet_utils.py", line 7, in <module>
+    from .summary import _clean_tag
+  File "/home/lei/anaconda3/envs/py37-5/lib/python3.7/site-packages/tensorboardX/summary.py", line 12, in <module>
+    from .proto.summary_pb2 import Summary
+  File "/home/lei/anaconda3/envs/py37-5/lib/python3.7/site-packages/tensorboardX/proto/summary_pb2.py", line 5, in <module>
+    from google.protobuf.internal import builder as _builder
+ImportError: cannot import name 'builder' from 'google.protobuf.internal' (/home/lei/anaconda3/envs/py37-5/lib/python3.7/site-packages/google/protobuf/internal/__init__.py)

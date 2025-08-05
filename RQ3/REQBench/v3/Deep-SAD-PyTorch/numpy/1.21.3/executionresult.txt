@@ -1,0 +1,49 @@
+INFO:root:Log file is ../log/DeepSAD/mnist_test/log.txt
+INFO:root:Data path is ../data
+INFO:root:Export path is ../log/DeepSAD/mnist_test
+INFO:root:Dataset: mnist
+INFO:root:Normal class: 0
+INFO:root:Ratio of labeled normal train samples: 0.00
+INFO:root:Ratio of labeled anomalous samples: 0.01
+INFO:root:Pollution ratio of unlabeled train data: 0.10
+INFO:root:Known anomaly class: 1
+INFO:root:Network: mnist_LeNet
+INFO:root:Eta-parameter: 1.00
+INFO:root:Set seed to 2.
+INFO:root:Computation device: cuda
+INFO:root:Number of threads: 0
+INFO:root:Number of dataloader workers: 0
+INFO:root:Pretraining: True
+INFO:root:Pretraining optimizer: adam
+INFO:root:Pretraining learning rate: 0.0001
+INFO:root:Pretraining epochs: 1
+INFO:root:Pretraining learning rate scheduler milestones: ()
+INFO:root:Pretraining batch size: 128
+INFO:root:Pretraining weight decay: 0.0005
+INFO:root:Starting pretraining...
+THCudaCheck FAIL file=/pytorch/aten/src/THC/THCGeneral.cpp line=383 error=11 : invalid argument
+INFO:root:| Epoch: 001/001 | Train Time: 0.639s | Train Loss: 0.263133 |
+INFO:root:Pretraining Time: 0.639s
+INFO:root:Finished pretraining.
+INFO:root:Testing autoencoder...
+INFO:root:Test Loss: 0.224851
+INFO:root:Test AUC: 51.23%
+INFO:root:Test Time: 0.678s
+INFO:root:Finished testing autoencoder.
+INFO:root:Training optimizer: adam
+INFO:root:Training learning rate: 0.0001
+INFO:root:Training epochs: 1
+INFO:root:Training learning rate scheduler milestones: (50,)
+INFO:root:Training batch size: 128
+INFO:root:Training weight decay: 5e-07
+INFO:root:Initializing center c...
+INFO:root:Center c initialized.
+INFO:root:Starting training...
+INFO:root:| Epoch: 001/001 | Train Time: 0.552s | Train Loss: 3.380861 |
+INFO:root:Training Time: 0.552s
+INFO:root:Finished training.
+INFO:root:Starting testing...
+INFO:root:Test Loss: 1.576255
+INFO:root:Test AUC: 82.45%
+INFO:root:Test Time: 0.624s
+INFO:root:Finished testing.

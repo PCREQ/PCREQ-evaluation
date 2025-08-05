@@ -1,0 +1,78 @@
+WARNING: Logging before flag parsing goes to stderr.
+W0528 12:52:01.415608 139912347488832 module_wrapper.py:139] From /home/lei/compatibility_analysis/tensorflow/1.7/cnn_captcha/cnnlib/network.py:22: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+W0528 12:52:01.453916 139912347488832 module_wrapper.py:139] From /home/lei/compatibility_analysis/tensorflow/1.7/cnn_captcha/cnnlib/network.py:62: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+W0528 12:52:01.454073 139912347488832 lazy_loader.py:50] 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+W0528 12:52:01.817648 139912347488832 module_wrapper.py:139] From /home/lei/compatibility_analysis/tensorflow/1.7/cnn_captcha/cnnlib/network.py:64: The name tf.random_normal is deprecated. Please use tf.random.normal instead.
+
+W0528 12:52:01.823675 139912347488832 module_wrapper.py:139] From /home/lei/compatibility_analysis/tensorflow/1.7/cnn_captcha/cnnlib/network.py:66: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+W0528 12:52:01.824565 139912347488832 deprecation.py:506] From /home/lei/compatibility_analysis/tensorflow/1.7/cnn_captcha/cnnlib/network.py:67: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+W0528 12:52:01.887478 139912347488832 deprecation.py:323] From /home/lei/anaconda3/envs/py36-2/lib/python3.6/site-packages/tensorflow_core/python/ops/nn_impl.py:183: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+W0528 12:52:01.891608 139912347488832 module_wrapper.py:139] From train_model.py:144: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+W0528 12:52:02.069097 139912347488832 module_wrapper.py:139] From train_model.py:156: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+W0528 12:52:02.090309 139912347488832 module_wrapper.py:139] From train_model.py:157: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2025-05-28 12:52:02.091435: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2025-05-28 12:52:02.163141: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: NVIDIA GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.545
+pciBusID: 0000:17:00.0
+2025-05-28 12:52:02.163396: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 1 with properties: 
+name: NVIDIA GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.545
+pciBusID: 0000:73:00.0
+2025-05-28 12:52:02.163600: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 2 with properties: 
+name: NVIDIA GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.545
+pciBusID: 0000:a6:00.0
+2025-05-28 12:52:02.163740: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudart.so.10.0'; dlerror: libcudart.so.10.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.4/lib64:/usr/local/cuda-11.4/lib64:
+2025-05-28 12:52:02.163803: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcublas.so.10.0'; dlerror: libcublas.so.10.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.4/lib64:/usr/local/cuda-11.4/lib64:
+2025-05-28 12:52:02.163855: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcufft.so.10.0'; dlerror: libcufft.so.10.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.4/lib64:/usr/local/cuda-11.4/lib64:
+2025-05-28 12:52:02.163917: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcurand.so.10.0'; dlerror: libcurand.so.10.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.4/lib64:/usr/local/cuda-11.4/lib64:
+2025-05-28 12:52:02.163967: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusolver.so.10.0'; dlerror: libcusolver.so.10.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.4/lib64:/usr/local/cuda-11.4/lib64:
+2025-05-28 12:52:02.164017: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusparse.so.10.0'; dlerror: libcusparse.so.10.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.4/lib64:/usr/local/cuda-11.4/lib64:
+2025-05-28 12:52:02.164066: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudnn.so.7'; dlerror: libcudnn.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-11.4/lib64:/usr/local/cuda-11.4/lib64:
+2025-05-28 12:52:02.164073: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1641] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2025-05-28 12:52:02.164449: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2025-05-28 12:52:02.179238: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2100000000 Hz
+2025-05-28 12:52:02.188008: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5562cf22ea90 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2025-05-28 12:52:02.188079: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2025-05-28 12:52:02.655463: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5562ceaad750 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2025-05-28 12:52:02.655559: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): NVIDIA GeForce RTX 2080 Ti, Compute Capability 7.5
+2025-05-28 12:52:02.655580: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (1): NVIDIA GeForce RTX 2080 Ti, Compute Capability 7.5
+2025-05-28 12:52:02.655595: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (2): NVIDIA GeForce RTX 2080 Ti, Compute Capability 7.5
+2025-05-28 12:52:02.656110: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2025-05-28 12:52:02.656142: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      
+W0528 12:52:02.666511 139912347488832 module_wrapper.py:139] From train_model.py:158: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+W0528 12:52:03.376365 139912347488832 module_wrapper.py:139] From train_model.py:170: The name tf.summary.FileWriter is deprecated. Please use tf.compat.v1.summary.FileWriter instead.
+
+-->图片尺寸: 60 X 100
+-->验证码长度: 4
+-->验证码共36类 ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+-->使用测试集为 sample/train/
+-->使验证集为 sample/test/
+>>> Start model test
+>>> input batch images shape: (100, 6000)
+>>> input batch labels shape: (100, 144)
+>>> input x: Tensor("Reshape:0", shape=(?, 60, 100, 1), dtype=float32)
+>>> convolution 3:  (?, 8, 13, 128)
+>>> input batch predict shape: (?, 144)
+>>> End model test
+定时保存模型成功
+第10次训练 >>> 
+[训练集] 字符准确率为 1.00000 图片准确率为 1.00000 >>> loss 0.0000266583
+[验证集] 字符准确率为 0.02750 图片准确率为 0.00000 >>> loss 0.0000266583

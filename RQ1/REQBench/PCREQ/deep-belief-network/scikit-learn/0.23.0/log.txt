@@ -1,0 +1,17 @@
+2025-06-28 18:38:01,355 - INFO - *************Upgrade scikit-learn from 0.18.1 to 0.23.0 in deep-belief-network*************
+2025-06-28 18:38:01,356 - INFO - Checking deep-belief-network is compatible with scikit-learn0.23.0?...
+2025-06-28 18:38:04,917 - INFO - deep-belief-network is not compatible with scikit-learn0.23.0-The sklearn.metrics.classification.accuracy_score is deprecated.
+2025-06-28 18:38:04,929 - INFO - deep-belief-network is not compatible with scikit-learn-0.23.0, change to scikit-learn-0.22.2
+2025-06-28 18:38:04,929 - INFO - Checking deep-belief-network is compatible with scikit-learn0.22.2?...
+2025-06-28 18:38:08,370 - INFO - deep-belief-network is not compatible with scikit-learn0.22.2-The sklearn.metrics.classification.accuracy_score is deprecated.
+2025-06-28 18:38:08,373 - INFO - deep-belief-network is not compatible with scikit-learn-0.22.2, change to scikit-learn-0.22.1
+2025-06-28 18:38:08,373 - INFO - Checking deep-belief-network is compatible with scikit-learn0.22.1?...
+2025-06-28 18:38:11,753 - INFO - deep-belief-network is not compatible with scikit-learn0.22.1-The sklearn.metrics.classification.accuracy_score is deprecated.
+2025-06-28 18:38:11,756 - INFO - deep-belief-network is not compatible with scikit-learn-0.22.1, change to scikit-learn-0.22
+2025-06-28 18:38:11,756 - INFO - Checking deep-belief-network is compatible with scikit-learn0.22?...
+2025-06-28 18:38:15,274 - INFO - deep-belief-network is not compatible with scikit-learn0.22-The sklearn.metrics.classification.accuracy_score is deprecated.
+2025-06-28 18:38:15,277 - INFO - deep-belief-network is not compatible with scikit-learn-0.22, change to scikit-learn-0.21.3
+2025-06-28 18:38:15,277 - INFO - Checking deep-belief-network is compatible with scikit-learn0.21.3?...
+2025-06-28 18:38:18,616 - INFO - deep-belief-network is compatible with scikit-learn0.21.3
+2025-06-28 18:38:21,449 - INFO - *************New requirements.txt has been generated!*************
+2025-06-28 18:38:21,449 - INFO - Time cost: 20.09583806991577 s

@@ -1,0 +1,11 @@
+[2025-05-28 15:05:35,410 - train - INFO] - One GPU or CPU training mode start...
+[2025-05-28 15:05:35,410 - train - WARNING] - You have chosen to benchmark training. This will turn on the CUDNN benchmark settingwhich can speed up your training considerably! You may see unexpected behavior when restarting from checkpoints due to RandomizedMultiLinearMap need deterministic turn on.
+[2025-05-28 15:05:54,612 - train - INFO] - Dataloader instances have finished. Train datasets: 12747394 Val datasets: 1694655 Train_batch_size/gpu: 64 Val_batch_size/gpu: 64.
+[2025-05-28 15:05:56,075 - train - INFO] - Model created, trainable parameters: 54687382.
+[2025-05-28 15:05:56,076 - train - INFO] - Optimizer and lr_scheduler created.
+[2025-05-28 15:05:56,076 - train - INFO] - Max_epochs: 1 Log_step_interval: 1 Validation_step_interval: 10.
+[2025-05-28 15:05:56,076 - train - INFO] - Training start...
+[2025-05-28 15:05:56,132 - trainer - WARNING] - Training is using GPU 0!
+[2025-05-28 15:06:01,672 - trainer - INFO] - Train Epoch:[1/1] Step:[1/1] Loss: 5.573648 Loss_avg: 5.573648 LR: 0.00040000
+[2025-05-28 15:06:01,778 - trainer - INFO] - [Epoch End] Epoch:[1/1] Loss: 5.573648 LR: 0.00040000
+[2025-05-28 15:06:01,778 - train - INFO] - Distributed training end...

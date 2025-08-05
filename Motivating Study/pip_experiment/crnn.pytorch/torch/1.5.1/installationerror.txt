@@ -1,0 +1,15 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting torch==1.5.1
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/a4/cf/007b6de316c9f3d4cb315a60c308342cc299e464167f5ebc369e93b5e23a/torch-1.5.1-cp37-cp37m-manylinux1_x86_64.whl (753.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 753.2/753.2 MB 832.8 kB/s eta 0:00:00
+Requirement already satisfied: future in /home/lei/anaconda3/envs/crnn.pytorch-torch/lib/python3.7/site-packages (from torch==1.5.1) (1.0.0)
+Requirement already satisfied: numpy in /home/lei/anaconda3/envs/crnn.pytorch-torch/lib/python3.7/site-packages (from torch==1.5.1) (1.17.2)
+Installing collected packages: torch
+  Attempting uninstall: torch
+    Found existing installation: torch 1.5.0
+    Uninstalling torch-1.5.0:
+      Successfully uninstalled torch-1.5.0
+Successfully installed torch-1.5.1
+
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+torchvision 0.4.0 requires torch==1.2.0, but you have torch 1.5.1 which is incompatible.

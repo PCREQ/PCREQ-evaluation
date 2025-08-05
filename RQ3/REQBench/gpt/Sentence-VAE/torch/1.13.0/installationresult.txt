@@ -1,0 +1,49 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting click==8.1.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c2/f1/df59e28c642d583f7dacffb1e0965d0e00b218e0186d7858ac5233dce840/click-8.1.3-py3-none-any.whl (96 kB)
+Collecting coloredlogs==15.0.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a7/06/3d6badcf13db419e25b07041d9c7b4a2c331d3f4e7134445ec5df57714cd/coloredlogs-15.0.1-py2.py3-none-any.whl (46 kB)
+Collecting future==1.0.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/da/71/ae30dadffc90b9006d77af76b393cb9dfbfc9629f339fc1574a1c52e6806/future-1.0.0-py3-none-any.whl (491 kB)
+Collecting humanfriendly==10.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f0/0f/310fb31e39e2d734ccaa2c0fb981ee41f7bd5056ce9bc29b2248bd569169/humanfriendly-10.0-py2.py3-none-any.whl (86 kB)
+Collecting importlib-metadata==4.13.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d0/98/c277899f5aa21f6e6946e1c83f2af650cbfee982763ffb91db07ff7d3a13/importlib_metadata-4.13.0-py3-none-any.whl (23 kB)
+Collecting joblib==1.2.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/91/d4/3b4c8e5a30604df4c7518c562d4bf0502f2fa29221459226e140cf846512/joblib-1.2.0-py3-none-any.whl (297 kB)
+Collecting mpmath==1.2.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d4/cf/3965bddbb4f1a61c49aacae0e78fd1fe36b5dc36c797b31f30cf07dcbbb7/mpmath-1.2.1-py3-none-any.whl (532 kB)
+Collecting nltk==3.6.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/aa/b8/09ac15436591cefc0adc882798d5cf629f13addae0495b20b682219e3afe/nltk-3.6.5-py3-none-any.whl (1.5 MB)
+Collecting numpy==1.21.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/68/2d/0fe6592a96a1da097a33fb87b9618197c8a1801e84c7483fa7b93794a87c/numpy-1.21.2-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (15.7 MB)
+Collecting protobuf==3.20.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/b7/f4/dcd86d49321e73404df0e181a92313c539b4fcdd5f34fc7bdfdb1c588c56/protobuf-3.20.2-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl (1.0 MB)
+Collecting regex==2024.4.16
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/9a/05/18911646681dfab0ffb76b4b958356c0a3d211bb08e9a2f33f1e9487977d/regex-2024.4.16-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (761 kB)
+Collecting six==1.16.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting sympy==1.10.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d0/04/66be21ceb305c66a4b326b0ae44cc4f027a43bc08cac204b48fb45bb3653/sympy-1.10.1-py3-none-any.whl (6.4 MB)
+Collecting tensorboardX==2.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/99/0b/a26bbe92667c549d39c40b80c5ddec638fbae9521f04aeef26560e07e504/tensorboardX-2.4-py2.py3-none-any.whl (124 kB)
+Collecting torch==1.13.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/7a/fb/b1b11ae95ffa7099ca2e60ed5945e56130cc8740208f42aa77f17e03ab3c/torch-1.13.0-cp37-cp37m-manylinux1_x86_64.whl (890.2 MB)
+Collecting tqdm==4.64.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/8a/c4/d15f1e627fff25443ded77ea70a7b5532d6371498f9285d44d62587e209c/tqdm-4.64.0-py2.py3-none-any.whl (78 kB)
+Collecting typing_extensions==4.0.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/05/e4/baf0031e39cf545f0c9edd5b1a2ea12609b7fcba2d58e118b11753d68cf0/typing_extensions-4.0.1-py3-none-any.whl (22 kB)
+Collecting zipp==3.8.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/80/0e/16a7ee38617aab6a624e95948d314097cc2669edae9b02ded53309941cfc/zipp-3.8.0-py3-none-any.whl (5.4 kB)
+Collecting nvidia-cudnn-cu11==8.5.0.96
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/dc/30/66d4347d6e864334da5bb1c7571305e501dcb11b9155971421bb7bb5315f/nvidia_cudnn_cu11-8.5.0.96-2-py3-none-manylinux1_x86_64.whl (557.1 MB)
+Collecting nvidia-cuda-runtime-cu11==11.7.99
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/36/92/89cf558b514125d2ebd8344dd2f0533404b416486ff681d5434a5832a019/nvidia_cuda_runtime_cu11-11.7.99-py3-none-manylinux1_x86_64.whl (849 kB)
+Collecting nvidia-cuda-nvrtc-cu11==11.7.99
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ef/25/922c5996aada6611b79b53985af7999fc629aee1d5d001b6a22431e18fec/nvidia_cuda_nvrtc_cu11-11.7.99-2-py3-none-manylinux1_x86_64.whl (21.0 MB)
+Collecting nvidia-cublas-cu11==11.10.3.66
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ce/41/fdeb62b5437996e841d83d7d2714ca75b886547ee8017ee2fe6ea409d983/nvidia_cublas_cu11-11.10.3.66-py3-none-manylinux1_x86_64.whl (317.1 MB)
+Requirement already satisfied: setuptools in /home/lei/anaconda3/envs/py37-5/lib/python3.7/site-packages (from nvidia-cublas-cu11==11.10.3.66->torch==1.13.0->-r /home/lei/compatibility_analysis/compare/LLM/result/chatgpt/Sentence-VAE-torch-1.13.0.txt (line 15)) (59.5.0)
+Requirement already satisfied: wheel in /home/lei/anaconda3/envs/py37-5/lib/python3.7/site-packages (from nvidia-cublas-cu11==11.10.3.66->torch==1.13.0->-r /home/lei/compatibility_analysis/compare/LLM/result/chatgpt/Sentence-VAE-torch-1.13.0.txt (line 15)) (0.38.4)
+Installing collected packages: mpmath, zipp, typing_extensions, tqdm, sympy, six, regex, protobuf, nvidia-cuda-runtime-cu11, nvidia-cuda-nvrtc-cu11, nvidia-cublas-cu11, numpy, joblib, humanfriendly, future, tensorboardX, nvidia-cudnn-cu11, importlib-metadata, coloredlogs, torch, click, nltk
+Successfully installed click-8.1.3 coloredlogs-15.0.1 future-1.0.0 humanfriendly-10.0 importlib-metadata-4.13.0 joblib-1.2.0 mpmath-1.2.1 nltk-3.6.5 numpy-1.21.2 nvidia-cublas-cu11-11.10.3.66 nvidia-cuda-nvrtc-cu11-11.7.99 nvidia-cuda-runtime-cu11-11.7.99 nvidia-cudnn-cu11-8.5.0.96 protobuf-3.20.2 regex-2024.4.16 six-1.16.0 sympy-1.10.1 tensorboardX-2.4 torch-1.13.0 tqdm-4.64.0 typing_extensions-4.0.1 zipp-3.8.0

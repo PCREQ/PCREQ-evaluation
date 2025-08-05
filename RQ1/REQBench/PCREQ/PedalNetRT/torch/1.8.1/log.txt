@@ -1,0 +1,7 @@
+2025-06-29 12:06:52,529 - INFO - *************Upgrade torch from 1.7.0 to 1.8.1 in PedalNetRT*************
+2025-06-29 12:06:52,529 - INFO - Checking PedalNetRT is compatible with torch1.8.1?...
+2025-06-29 12:06:55,816 - INFO - PedalNetRT is compatible with torch1.8.1
+2025-06-29 12:07:02,339 - INFO - Checking pytorch-lightning1.1.0 is compatible with torch1.8.1?...
+2025-06-29 12:07:07,245 - INFO - pytorch-lightning1.1.0 is compatible with torch1.8.1
+2025-06-29 12:07:08,847 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 12:07:08,847 - INFO - Time cost: 16.31886911392212 s

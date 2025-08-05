@@ -1,0 +1,7 @@
+2025-06-29 03:34:31,622 - INFO - *************Upgrade numpy from 1.16.2 to 1.17.4 in cnn_captcha*************
+2025-06-29 03:34:31,622 - INFO - Checking cnn_captcha is compatible with numpy1.17.4?...
+2025-06-29 03:34:37,569 - INFO - cnn_captcha is compatible with numpy1.17.4
+2025-06-29 03:34:39,667 - INFO - Checking tensorflow1.7.0 is compatible with numpy1.17.4?...
+2025-06-29 03:36:06,562 - INFO - tensorflow1.7.0 is compatible with numpy1.17.4
+2025-06-29 03:36:08,695 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 03:36:08,695 - INFO - Time cost: 97.07435369491577 s

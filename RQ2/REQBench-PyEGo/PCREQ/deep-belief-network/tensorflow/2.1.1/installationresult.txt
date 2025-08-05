@@ -1,0 +1,61 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting absl-py==1.4.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/dd/87/de5c32fa1b1c6c3305d576e299801d8655c175ca9557019906247b994331/absl_py-1.4.0-py3-none-any.whl (126 kB)
+Collecting bleach==1.5.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/33/70/86c5fec937ea4964184d4d6c4f0b9551564f821e1c3575907639036d9b90/bleach-1.5.0-py2.py3-none-any.whl (17 kB)
+Collecting certifi==2021.5.30
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/05/1b/0a0dece0e8aa492a6ec9e4ad2fe366b511558cdc73fd3abc82ba7348e875/certifi-2021.5.30-py2.py3-none-any.whl (145 kB)
+Collecting dataclasses==0.8
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/fe/ca/75fac5856ab5cfa51bbbcefa250182e50441074fdc3f803f6e76451fab43/dataclasses-0.8-py3-none-any.whl (19 kB)
+Collecting html5lib==0.9999999
+  Using cached html5lib-0.9999999-py3-none-any.whl
+Collecting importlib-metadata==4.8.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a0/a1/b153a0a4caf7a7e3f15c2cd56c7702e2cf3d89b1b359d1f1c5e59d68f4ce/importlib_metadata-4.8.3-py3-none-any.whl (17 kB)
+Collecting markdown==3.3.7
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f3/df/ca72f352e15b6f8ce32b74af029f1189abffb906f7c137501ffe69c98a65/Markdown-3.3.7-py3-none-any.whl (97 kB)
+Collecting numpy==1.16.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/87/2d/e4656149cbadd3a8a0369fcd1a9c7d61cc7b87b3903b85389c70c989a696/numpy-1.16.4-cp36-cp36m-manylinux1_x86_64.whl (17.3 MB)
+Collecting protobuf==3.19.6
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/8f/8e/06fc0df62dd80a32739b51bb3256f1417349eb5c3899f6ccab3796937458/protobuf-3.19.6-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.1 MB)
+Collecting scikit-learn==0.18.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ae/d2/efa7f8bef195c459a527edc58bf863bd44fde727630486cb8256e9a5a326/scikit_learn-0.18.1-cp36-cp36m-manylinux1_x86_64.whl (11.8 MB)
+Collecting scipy==0.18.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/74/c0/f0bf4eaef1b6aa7bdd1ae5597ce1d9e729417b3ca085c47d0f1c640d34f8/scipy-0.18.1-cp36-cp36m-manylinux1_x86_64.whl (42.5 MB)
+Collecting six==1.16.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting tensorflow==1.15.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/8f/6c/23c292d24b7861af55649f72f05faf0c379b75f75e89580d8a64657f77ad/tensorflow-1.15.5-cp36-cp36m-manylinux2010_x86_64.whl (110.5 MB)
+Collecting typing_extensions==4.1.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/45/6b/44f7f8f1e110027cf88956b59f2fad776cca7e1704396d043f89effd3a0e/typing_extensions-4.1.1-py3-none-any.whl (26 kB)
+Collecting werkzeug==2.0.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f4/f3/22afbdb20cc4654b10c98043414a14057cd27fdba9d4ae61cea596000ba2/Werkzeug-2.0.3-py3-none-any.whl (289 kB)
+Collecting zipp==3.6.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/bd/df/d4a4974a3e3957fd1c1fa3082366d7fff6e428ddb55f074bf64876f8e8ad/zipp-3.6.0-py3-none-any.whl (5.3 kB)
+Collecting astor==0.6
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/69/32/e8a3285c0be9ce7ef42bfa302b995109036994713344b6baeed88bb12146/astor-0.6-py2.py3-none-any.whl (26 kB)
+Collecting gast==0.2.2
+  Using cached gast-0.2.2-py3-none-any.whl
+Collecting google-pasta==0.1.6
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f9/68/a14620bfb042691f532dcde8576ff82ee82e4c003cdc0a3dbee5f289cee6/google_pasta-0.1.6-py3-none-any.whl (51 kB)
+Collecting keras-applications==1.0.8
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/71/e3/19762fdfc62877ae9102edf6342d71b28fbfd9dea3d2f96a882ce099b03f/Keras_Applications-1.0.8-py3-none-any.whl (50 kB)
+Collecting keras-preprocessing==1.0.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/fc/94/74e0fa783d3fc07e41715973435dd051ca89c550881b3454233c39c73e69/Keras_Preprocessing-1.0.5-py2.py3-none-any.whl (30 kB)
+Collecting opt-einsum==2.3.2
+  Using cached opt_einsum-2.3.2-py3-none-any.whl
+Collecting tensorboard==1.15.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/1e/e9/d3d747a97f7188f48aa5eda486907f3b345cd409f0a0850468ba867db246/tensorboard-1.15.0-py3-none-any.whl (3.8 MB)
+Collecting tensorflow-estimator==1.15.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/de/62/2ee9cd74c9fa2fa450877847ba560b260f5d0fb70ee0595203082dafcc9d/tensorflow_estimator-1.15.1-py2.py3-none-any.whl (503 kB)
+Collecting termcolor==1.1.0
+  Using cached termcolor-1.1.0-py3-none-any.whl
+Collecting wrapt==1.11.1
+  Using cached wrapt-1.11.1-cp36-cp36m-linux_x86_64.whl
+Collecting h5py==2.10.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/60/06/cafdd44889200e5438b897388f3075b52a8ef01f28a17366d91de0fa2d05/h5py-2.10.0-cp36-cp36m-manylinux1_x86_64.whl (2.9 MB)
+Collecting grpcio==1.8.6
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/de/b3/c1744b5a8d7a4f2ebefc488b05bf2f0c634d2d57647cca95de5cf44ce710/grpcio-1.8.6-cp36-cp36m-manylinux1_x86_64.whl (6.0 MB)
+Requirement already satisfied: wheel>=0.26 in /home/lei/anaconda3/envs/py36/lib/python3.6/site-packages (from tensorflow==1.15.5->-r ../report/deep-belief-network/tensorflow/2.1.1/requirements-1.txt (line 13)) (0.26.0)
+Requirement already satisfied: setuptools>=41.0.0 in /home/lei/anaconda3/envs/py36/lib/python3.6/site-packages (from tensorboard==1.15.0->-r ../report/deep-belief-network/tensorflow/2.1.1/requirements-1.txt (line 23)) (59.6.0)
+Installing collected packages: zipp, typing-extensions, six, protobuf, numpy, importlib-metadata, dataclasses, werkzeug, markdown, h5py, grpcio, absl-py, wrapt, termcolor, tensorflow-estimator, tensorboard, opt-einsum, keras-preprocessing, keras-applications, html5lib, google-pasta, gast, astor, tensorflow, scipy, scikit-learn, certifi, bleach
+Successfully installed absl-py-1.4.0 astor-0.6 bleach-1.5.0 certifi-2021.5.30 dataclasses-0.8 gast-0.2.2 google-pasta-0.1.6 grpcio-1.8.6 h5py-2.10.0 html5lib-0.9999999 importlib-metadata-4.8.3 keras-applications-1.0.8 keras-preprocessing-1.0.5 markdown-3.3.7 numpy-1.16.4 opt-einsum-2.3.2 protobuf-3.19.6 scikit-learn-0.18.1 scipy-0.18.1 six-1.16.0 tensorboard-1.15.0 tensorflow-1.15.5 tensorflow-estimator-1.15.1 termcolor-1.1.0 typing-extensions-4.1.1 werkzeug-2.0.3 wrapt-1.11.1 zipp-3.6.0

@@ -1,0 +1,40 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting absl-py==0.9.0
+  Using cached absl_py-0.9.0-py3-none-any.whl
+Collecting attrs==19.3.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a2/db/4313ab3be961f7a763066401fb77f7748373b6094076ae2bda2806988af6/attrs-19.3.0-py2.py3-none-any.whl (39 kB)
+Collecting backcall==0.1.0
+  Using cached backcall-0.1.0-py3-none-any.whl
+Collecting beautifulsoup4==4.6.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/9e/d4/10f46e5cfac773e22707237bfcd51bbffeaf0a576b0a847ec7ab15bd7ace/beautifulsoup4-4.6.0-py3-none-any.whl (86 kB)
+Collecting bleach==3.1.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/9a/1e/7d6cb3b27cd2c490558349ca5d5cc05b390b017da1c704cac807ac8bd9fb/bleach-3.1.5-py2.py3-none-any.whl (151 kB)
+Collecting cachetools==4.1.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/b3/59/524ffb454d05001e2be74c14745b485681c6ed5f2e625f71d135704c0909/cachetools-4.1.0-py3-none-any.whl (10 kB)
+Collecting certifi==2020.4.5.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/57/2b/26e37a4b034800c960a00c4e1b3d9ca5d7014e983e6e729e33ea2f36426c/certifi-2020.4.5.1-py2.py3-none-any.whl (157 kB)
+Collecting chardet==3.0.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/bc/a9/01ffebfb562e4274b6487b4bb1ddec7ca55ec7510b22e4c51f14098443b8/chardet-3.0.4-py2.py3-none-any.whl (133 kB)
+Collecting click==7.1.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d2/3d/fa76db83bf75c4f8d338c2fd15c8d33fdd7ad23a9b5e57eb6c5de26b430e/click-7.1.2-py2.py3-none-any.whl (82 kB)
+Collecting colorama==0.4.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c9/dc/45cdef1b4d119eb96316b3117e6d5708a08029992b2fee2c143c7a0a5cc5/colorama-0.4.3-py2.py3-none-any.whl (15 kB)
+Collecting coloredlogs==15.0.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a7/06/3d6badcf13db419e25b07041d9c7b4a2c331d3f4e7134445ec5df57714cd/coloredlogs-15.0.1-py2.py3-none-any.whl (46 kB)
+Collecting Cython==0.29.19
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/9a/bd/d39af77b8c3a0b8881b960c467272f29a6b8c70fb425e8c665abb81e0b82/Cython-0.29.19-cp37-cp37m-manylinux1_x86_64.whl (2.0 MB)
+Collecting decorator==4.4.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ed/1b/72a1821152d07cf1d8b6fce298aeb06a7eb90f4d6d41acec9861e7cc6df0/decorator-4.4.2-py2.py3-none-any.whl (9.2 kB)
+Collecting defusedxml==0.6.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/06/74/9b387472866358ebc08732de3da6dc48e44b0aacd2ddaa5cb85ab7e986a2/defusedxml-0.6.0-py2.py3-none-any.whl (23 kB)
+Collecting entrypoints==0.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ac/c6/44694103f8c221443ee6b0041f69e2740d89a25641e62fb4f2ee568f2f9c/entrypoints-0.3-py2.py3-none-any.whl (11 kB)
+Collecting filelock==3.0.12
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/93/83/71a2ee6158bb9f39a90c0dea1637f81d5eef866e188e1971a1b1ab01a35a/filelock-3.0.12-py3-none-any.whl (7.6 kB)
+Collecting future==0.18.2
+  Using cached future-0.18.2-py3-none-any.whl
+Collecting gdown==3.11.0
+  Using cached gdown-3.11.0-py3-none-any.whl
+ERROR: Ignored the following versions that require a different python version: 2.2.0 Requires-Python >=3.8; 2.2.1 Requires-Python >=3.8; 2.2.2 Requires-Python >=3.8; 2.3.0 Requires-Python >=3.8; 24.3.0 Requires-Python >=3.8; 25.1.0 Requires-Python >=3.8; 25.2.0 Requires-Python >=3.8; 25.3.0 Requires-Python >=3.8; 3.1.0 Requires-Python >=3.8; 3.1.0a1 Requires-Python >=3.8; 3.1.0b1 Requires-Python >=3.8; 3.1.0rc1 Requires-Python >=3.8; 3.1.0rc2 Requires-Python >=3.8; 3.1.1 Requires-Python >=3.8; 3.12.3 Requires-Python >=3.8; 3.12.4 Requires-Python >=3.8; 3.13.0 Requires-Python >=3.8; 3.13.1 Requires-Python >=3.8; 3.13.2 Requires-Python >=3.8; 3.13.3 Requires-Python >=3.8; 3.13.4 Requires-Python >=3.8; 3.14.0 Requires-Python >=3.8; 3.15.0 Requires-Python >=3.8; 3.15.1 Requires-Python >=3.8; 3.15.2 Requires-Python >=3.8; 3.15.3 Requires-Python >=3.8; 3.15.4 Requires-Python >=3.8; 3.16.0 Requires-Python >=3.8; 3.16.1 Requires-Python >=3.8; 3.17.0 Requires-Python >=3.9; 3.18.0 Requires-Python >=3.9; 5.0.0 Requires-Python >=3.8; 5.0.0rc1 Requires-Python >=3.8; 5.0.1 Requires-Python >=3.8; 5.1.0 Requires-Python >=3.8; 5.2.0 Requires-Python >=3.8; 5.2.1 Requires-Python >=3.8; 6.0.0 Requires-Python >=3.9; 6.1.0 Requires-Python >=3.8; 6.2.0 Requires-Python >=3.9; 8.2.0 Requires-Python >=3.10; 8.2.1 Requires-Python >=3.10
+ERROR: Could not find a version that satisfies the requirement gluonnlp==0.11.0 (from versions: 0.1.0, 0.1.0.post0, 0.2.0, 0.2.0.post0, 0.3.0, 0.3.1, 0.3.2, 0.3.3, 0.3.3.post0, 0.3.3.post1, 0.4.0, 0.4.1, 0.5.0, 0.5.0.post0, 0.6.0, 0.7.0, 0.7.1, 0.8.0, 0.8.1, 0.8.2, 0.8.3, 0.9.0.post0, 0.9.1, 0.9.2, 0.10.0)
+ERROR: No matching distribution found for gluonnlp==0.11.0

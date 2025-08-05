@@ -1,0 +1,9 @@
+2025-06-29 07:04:39,331 - INFO - *************Upgrade torchvision from 0.2.2 to 0.6.0 in ConSinGAN*************
+2025-06-29 07:04:39,331 - INFO - Checking ConSinGAN is compatible with torchvision0.6.0?...
+2025-06-29 07:05:19,773 - INFO - ConSinGAN is compatible with torchvision0.6.0
+2025-06-29 07:05:23,463 - INFO - Checking torchvision0.6.0 is compatible with torch1.5.0?...
+2025-06-29 07:05:25,462 - INFO - torchvision0.6.0 is compatible with torch1.5.0
+2025-06-29 07:05:25,464 - INFO - Checking ConSinGAN is compatible with torch1.5.0?...
+2025-06-29 07:05:30,238 - INFO - ConSinGAN is compatible with torch1.5.0
+2025-06-29 07:05:34,348 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 07:05:34,348 - INFO - Time cost: 55.019047021865845 s

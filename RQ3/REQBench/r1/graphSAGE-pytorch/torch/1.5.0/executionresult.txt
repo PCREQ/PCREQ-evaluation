@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/dataset/lei/anaconda3/envs/graphSAGE-pytorch-torch-1.5.0/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/dataset/lei/anaconda3/envs/graphSAGE-pytorch-torch-1.5.0/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/lei/compatibility_analysis/pytorch/1.0/graphSAGE-pytorch/src/main.py", line 72, in <module>
+    graphSage, classification = apply_model(dataCenter, ds, graphSage, classification, unsupervised_loss, args.b_sz, args.unsup_loss, device, args.learn_method)
+  File "/home/lei/compatibility_analysis/pytorch/1.0/graphSAGE-pytorch/src/utils.py", line 186, in apply_model
+    nn.utils.clip_grad_norm_(model.parameters(), 5)
+  File "/dataset/lei/anaconda3/envs/graphSAGE-pytorch-torch-1.5.0/lib/python3.6/site-packages/torch/nn/utils/clip_grad.py", line 30, in clip_grad_norm_
+    total_norm = torch.norm(torch.stack([torch.norm(p.grad.detach(), norm_type) for p in parameters]), norm_type)
+RuntimeError: stack expects a non-empty TensorList

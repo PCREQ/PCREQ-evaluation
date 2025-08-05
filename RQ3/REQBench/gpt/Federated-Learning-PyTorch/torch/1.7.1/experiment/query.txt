@@ -1,0 +1,60 @@
+
+                **Task**
+                Upgrade torch to 1.7.1 in requirements.txt while maintaining full dependency compatibility.
+
+                **Input Context**
+                - Full requirements.txt: coloredlogs==15.0.1
+correlation-cuda==0.0.0
+cycler==0.11.0
+humanfriendly==10.0
+kiwisolver==1.4.5
+matplotlib==3.0.1
+mpmath==1.2.1
+numpy==1.15.4
+Pillow==6.2.2
+protobuf==4.24.4
+pyparsing==3.1.2
+python-dateutil==2.9.0.post0
+resample2d-cuda==0.0.0
+six==1.16.0
+sympy==1.10.1
+tensorboardX==1.4
+torch==1.2.0
+torchvision==0.4.0
+tqdm==4.66.4
+typing_extensions==4.7.1
+
+                - Python version: 3.7
+
+                **Resolution Protocol**
+                1. Dependency Tree Analysis: Map all library interdependencies
+                2. Conflict Detection: Identify version clashes through:
+                a. Library-to-library constraints 
+                b. Python version compatibility
+                3. Version Negotiation: Resolve conflicts by:
+                a. Prioritizing torch==1.7.1 retention
+                b. Making minimal version adjustments to other libraries
+                c. Preserving original library set
+
+                **Hard Constraints**
+                - STRICTLY MAINTAIN: Original library names/quantity
+                - MUST ENSURE: Full compatibility chain from Python 3.7 → torch → dependencies
+                - FORBIDDEN: 
+                • Downgrading torch from 1.7.1
+                • Adding/removing packages
+                • Explanatory content
+
+                **Output Mandates**
+                STRICT FORMAT:
+                lib1==x.y.z  
+                lib2==a.b.c
+                ...
+                PROHIBITED:
+                • Any non-version text.
+                • Library additions/removals
+                • Version placeholders
+                MANDATORY:
+                • Preserve original library names and count
+                • Pin EXACT versions
+                • Zero explanations/comments
+                

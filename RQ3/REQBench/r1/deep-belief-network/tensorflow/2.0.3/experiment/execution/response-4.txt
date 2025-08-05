@@ -1,0 +1,17 @@
+absl-py==1.4.0
+bleach==3.7.0
+certifi==2021.5.30
+dataclasses==0.8
+html5lib==0.9999999
+importlib-metadata==2.0.0
+Markdown==3.3.7
+numpy==1.18.5
+protobuf==3.10.0
+scikit-learn==0.22.2
+scipy==1.4.1
+six==1.12.0
+tensorflow==2.0.3
+tensorflow-tensorboard==2.0.0
+typing_extensions==4.1.1
+Werkzeug==1.0.1
+zipp==1.0.0

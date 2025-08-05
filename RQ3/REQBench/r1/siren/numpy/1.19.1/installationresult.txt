@@ -1,0 +1,138 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting absl-py==0.9.0
+  Using cached absl_py-0.9.0-py3-none-any.whl
+Collecting argh==0.26.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/06/1c/e667a7126f0b84aaa1c56844337bf0ac12445d1beb9c8a6199a7314944bf/argh-0.26.2-py2.py3-none-any.whl (30 kB)
+Collecting astor==0.8.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c3/88/97eef84f48fa04fbd6750e62dcceafba6c63c81b7ac1420856c8dcc0a3f9/astor-0.8.1-py2.py3-none-any.whl (27 kB)
+Collecting astroid==2.3.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/13/e1/74a63c85c501c29c52da5be604c025e368f4dd77daf1fa13c878a33e5a36/astroid-2.3.1-py3-none-any.whl (205 kB)
+Collecting attrs==19.1.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/23/96/d828354fa2dbdf216eaa7b7de0db692f12c234f7ef888cc14980ef40d1d2/attrs-19.1.0-py2.py3-none-any.whl (35 kB)
+Collecting autopep8==1.4.4
+  Using cached autopep8-1.4.4-py2.py3-none-any.whl
+Collecting backcall==0.1.0
+  Using cached backcall-0.1.0-py3-none-any.whl
+Collecting bleach==6.0.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ac/e2/dfcab68c9b2e7800c8f06b85c76e5f978d05b195a958daa9b1dda54a1db6/bleach-6.0.0-py3-none-any.whl (162 kB)
+Collecting blessings==1.7
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/03/74/489f85a78247609c6b4f13733cbf3ba0d864b11aa565617b645d6fdf2a4a/blessings-1.7-py3-none-any.whl (18 kB)
+Collecting bottle==0.12.18
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/e9/39/2bf3a1fd963e749cdbe5036a184eda8c37d8af25d1297d94b8b7aeec17c4/bottle-0.12.18-py3-none-any.whl (89 kB)
+Collecting cachetools==4.0.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/08/6a/abf83cb951617793fd49c98cb9456860f5df66ff89883c8660aa0672d425/cachetools-4.0.0-py3-none-any.whl (10 kB)
+Collecting certifi==2019.6.16
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/69/1b/b853c7a9d4f6a6d00749e94eb6f3a041e342a885b87340b79c1ef73e3a78/certifi-2019.6.16-py2.py3-none-any.whl (157 kB)
+Collecting chardet==3.0.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/bc/a9/01ffebfb562e4274b6487b4bb1ddec7ca55ec7510b22e4c51f14098443b8/chardet-3.0.4-py2.py3-none-any.whl (133 kB)
+Collecting Click==7.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/fa/37/45185cb5abbc30d7257104c434fe0b07e5a195a6847506c074527aa599ec/Click-7.0-py2.py3-none-any.whl (81 kB)
+Collecting coloredlogs==15.0.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a7/06/3d6badcf13db419e25b07041d9c7b4a2c331d3f4e7134445ec5df57714cd/coloredlogs-15.0.1-py2.py3-none-any.whl (46 kB)
+Collecting configparser==4.0.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/7a/2a/95ed0501cf5d8709490b1d3a3f9b5cf340da6c433f896bbe9ce08dbe6785/configparser-4.0.2-py2.py3-none-any.whl (22 kB)
+Collecting CProfileV==1.0.7
+  Using cached CProfileV-1.0.7-py3-none-any.whl
+Collecting cycler==0.10.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f7/d2/e07d3ebb2bd7af696440ce7e754c59dd546ffe1bbe732c8ab68b9c834e61/cycler-0.10.0-py2.py3-none-any.whl (6.5 kB)
+Collecting decorator==4.4.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/5f/88/0075e461560a1e750a0dcbf77f1d9de775028c37a19a346a6c565a257399/decorator-4.4.0-py2.py3-none-any.whl (8.3 kB)
+Collecting defusedxml==0.6.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/06/74/9b387472866358ebc08732de3da6dc48e44b0aacd2ddaa5cb85ab7e986a2/defusedxml-0.6.0-py2.py3-none-any.whl (23 kB)
+Collecting docker-pycreds==0.4.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f5/e8/f6bd1eee09314e7e6dee49cbe2c5e22314ccdb38db16c9fc72d2fa80d054/docker_pycreds-0.4.0-py2.py3-none-any.whl (9.0 kB)
+Collecting docopt==0.6.2
+  Using cached docopt-0.6.2-py2.py3-none-any.whl
+Collecting entrypoints==0.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ac/c6/44694103f8c221443ee6b0041f69e2740d89a25641e62fb4f2ee568f2f9c/entrypoints-0.3-py2.py3-none-any.whl (11 kB)
+Collecting fastparquet==0.3.2
+  Using cached fastparquet-0.3.2-cp37-cp37m-linux_x86_64.whl
+Collecting future==0.18.0
+  Using cached future-0.18.0-py3-none-any.whl
+Collecting gast==0.2.2
+  Using cached gast-0.2.2-py3-none-any.whl
+Collecting git-pylint-commit-hook==2.5.1
+  Using cached git_pylint_commit_hook-2.5.1-py3-none-any.whl
+Collecting gitdb2==2.0.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/da/30/a407568aa8d8f25db817cf50121a958722f3fc5f87e3a6fba1f40c0633e3/gitdb2-2.0.5-py2.py3-none-any.whl (62 kB)
+Collecting GitPython==3.0.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/8e/c7/70bd352e8a561a9b6d1cde9aa313b9d7c871b0c94c3821f44c01f3187e1d/GitPython-3.0.2-py3-none-any.whl (453 kB)
+Collecting google-auth==1.10.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/36/f8/84b5771faec3eba9fe0c91c8c5896364a8ba08852c0dea5ad2025026dd95/google_auth-1.10.0-py2.py3-none-any.whl (76 kB)
+Collecting google-auth-oauthlib==0.4.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/7b/b8/88def36e74bee9fce511c9519571f4e485e890093ab7442284f4ffaef60b/google_auth_oauthlib-0.4.1-py2.py3-none-any.whl (18 kB)
+Collecting google-pasta==0.1.8
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c3/fd/1e86bc4837cc9a3a5faf3db9b1854aa04ad35b5f381f9648fbe81a6f94e4/google_pasta-0.1.8-py3-none-any.whl (57 kB)
+Collecting gpustat==0.6.0
+  Using cached gpustat-0.6.0-py3-none-any.whl
+Collecting gql==0.1.0
+  Using cached gql-0.1.0-py3-none-any.whl
+Collecting graphql-core==2.2.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/6a/11/bc4a7eb440124271289d93e4d208bd07d94196038fabbe2a52435a07d3d3/graphql_core-2.2.1-py2.py3-none-any.whl (250 kB)
+Collecting grpcio==1.26.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/bc/b3/0052e38c640d52b710e235b15821cc3c61d0065bf54e70a44550ef127349/grpcio-1.26.0-cp37-cp37m-manylinux2010_x86_64.whl (2.4 MB)
+Collecting h5py==2.10.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/3f/c0/abde58b837e066bca19a3f7332d9d0493521d7dd6b48248451a9e3fe2214/h5py-2.10.0-cp37-cp37m-manylinux1_x86_64.whl (2.9 MB)
+Collecting humanfriendly==10.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f0/0f/310fb31e39e2d734ccaa2c0fb981ee41f7bd5056ce9bc29b2248bd569169/humanfriendly-10.0-py2.py3-none-any.whl (86 kB)
+Collecting idna==2.8
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/14/2c/cd551d81dbe15200be1cf41cd03869a46fe7226e7450af7a6545bfc474c9/idna-2.8-py2.py3-none-any.whl (58 kB)
+Collecting ignite==1.1.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/7e/5b/a6cad8504b89363c434cfe61c40a701520bef86979fa22389e0f710fd049/ignite-1.1.0-py2.py3-none-any.whl (4.5 kB)
+Collecting imageio==2.5.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/af/0a/943c965d372dae0b1f1482677d29030ab834351a61a9a632fd62f27f1523/imageio-2.5.0-py3-none-any.whl (3.3 MB)
+Collecting imgaug==0.3.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/11/df/5a3bba95b4600d5ca7aff072082ef0d9837056dd28cc4e738e7ce88dd8f8/imgaug-0.3.0-py2.py3-none-any.whl (819 kB)
+Collecting importlib-metadata==0.23
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f6/d2/40b3fa882147719744e6aa50ac39cf7a22a913cbcba86a0371176c425a3b/importlib_metadata-0.23-py2.py3-none-any.whl (28 kB)
+Collecting inspect-it==0.3.2
+  Using cached inspect_it-0.3.2-py3-none-any.whl
+Collecting ipdb==0.13.2
+  Using cached ipdb-0.13.2-py3-none-any.whl
+Collecting ipykernel==5.1.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d4/16/43f51f65a8a08addf04f909a0938b06ba1ee1708b398a9282474531bd893/ipykernel-5.1.2-py3-none-any.whl (116 kB)
+Collecting ipython==7.7.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f6/c4/a79582814bdfe92bfca4d286a729304ffdf13f5135132cfcaea13cf1b2b3/ipython-7.7.0-py3-none-any.whl (774 kB)
+Collecting ipython-genutils==0.2.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/fa/bc/9bd3b5c2b4774d5f33b2d544f1460be9df7df2fe42f352135381c347c69a/ipython_genutils-0.2.0-py2.py3-none-any.whl (26 kB)
+Collecting ipywidgets==7.5.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/56/a0/dbcf5881bb2f51e8db678211907f16ea0a182b232c591a6d6f276985ca95/ipywidgets-7.5.1-py2.py3-none-any.whl (121 kB)
+Collecting isort==4.3.21
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/e5/b0/c121fd1fa3419ea9bfd55c7f9c4fedfec5143208d8c7ad3ce3db6c623c21/isort-4.3.21-py2.py3-none-any.whl (42 kB)
+Collecting jedi==0.15.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/55/54/da994f359e4e7da4776a200e76dbc85ba5fc319eefc22e33d55296d95a1d/jedi-0.15.1-py2.py3-none-any.whl (1.0 MB)
+Collecting Jinja2==2.10.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/1d/e7/fd8b501e7a6dfe492a433deb7b9d833d39ca74916fa8bc63dd1a4947a671/Jinja2-2.10.1-py2.py3-none-any.whl (124 kB)
+Collecting joblib==0.13.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/cd/c1/50a758e8247561e58cb87305b1e90b171b8c767b15b12a1734001f41d356/joblib-0.13.2-py2.py3-none-any.whl (278 kB)
+Collecting json5==0.8.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/30/44/062543d4a6718f99d82e5ecf9140dbdee8a03122f2c34fbd0b0609891707/json5-0.8.5-py2.py3-none-any.whl (26 kB)
+Collecting jsonschema==3.0.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/54/48/f5f11003ceddcd4ad292d4d9b5677588e9169eef41f88e38b2888e7ec6c4/jsonschema-3.0.2-py2.py3-none-any.whl (54 kB)
+Collecting jupyter==1.0.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/83/df/0f5dd132200728a86190397e1ea87cd76244e42d39ec5e88efd25b2abd7e/jupyter-1.0.0-py2.py3-none-any.whl (2.7 kB)
+Collecting jupyter-client==5.3.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/13/81/fe0eee1bcf949851a120254b1f530ae1e01bdde2d3ab9710c6ff81525061/jupyter_client-5.3.4-py2.py3-none-any.whl (92 kB)
+Collecting jupyter-console==6.0.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/cb/ee/6374ae8c21b7d0847f9c3722dcdfac986b8e54fa9ad9ea66e1eb6320d2b8/jupyter_console-6.0.0-py2.py3-none-any.whl (21 kB)
+Collecting jupyter-core==4.6.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/fb/82/86437f661875e30682e99d04c13ba6c216f86f5f6ca6ef212d3ee8b6ca11/jupyter_core-4.6.1-py2.py3-none-any.whl (82 kB)
+Collecting jupyterlab==1.0.9
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/19/c8/a72dee5f80fd0392a86c914474167e9b613c0e7ba77268d6e10cb4770422/jupyterlab-1.0.9-py2.py3-none-any.whl (17.0 MB)
+Collecting jupyterlab-server==1.0.6
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/78/98/5b87b9d38176bd98f23b58a8fb730e5124618d68571a011abbd38ad4a842/jupyterlab_server-1.0.6-py3-none-any.whl (27 kB)
+Collecting jupyterthemes==0.20.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/8a/08/9dee6dfd7f2aad6c30282d55c8f495b4dc1e4747b4e2bdbeb80572ddf312/jupyterthemes-0.20.0-py2.py3-none-any.whl (7.0 MB)
+Collecting Keras-Applications==1.0.8
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/71/e3/19762fdfc62877ae9102edf6342d71b28fbfd9dea3d2f96a882ce099b03f/Keras_Applications-1.0.8-py3-none-any.whl (50 kB)
+Collecting Keras-Preprocessing==1.1.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/28/6a/8c1f62c37212d9fc441a7e26736df51ce6f0e38455816445471f10da4f0a/Keras_Preprocessing-1.1.0-py2.py3-none-any.whl (41 kB)
+Collecting kiwisolver==1.1.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/93/f8/518fb0bb89860eea6ff1b96483fbd9236d5ee991485d0f3eceff1770f654/kiwisolver-1.1.0-cp37-cp37m-manylinux1_x86_64.whl (90 kB)
+Collecting lazy-object-proxy==1.4.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/11/a0/98687a75455408ce1b222b46ef66062b5af422c3f7451f080663ba68b5df/lazy_object_proxy-1.4.2-cp37-cp37m-manylinux1_x86_64.whl (49 kB)
+Collecting lesscpy==0.13.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/10/d0/fdd9874972e07ae8727a3d26b433891d8605b96999ea99bbf506e756a7b1/lesscpy-0.13.0-py2.py3-none-any.whl (48 kB)
+ERROR: Ignored the following versions that require a different python version: 0.10.0 Requires-Python >=3.8.0; 0.11.0 Requires-Python >=3.8.0; 0.12.0 Requires-Python >=3.8; 0.12.0 Requires-Python >=3.8.0; 0.12.0rc1 Requires-Python >=3.8; 0.12.1 Requires-Python >=3.8; 0.28.0 Requires-Python >=3.8; 0.28.0.dev2 Requires-Python >=3.8; 0.28.1 Requires-Python >=3.8; 0.29.2 Requires-Python >=3.8; 0.29.3 Requires-Python >=3.8; 0.29.4 Requires-Python >=3.8; 0.30.0 Requires-Python >=3.8; 0.30.0a0 Requires-Python >=3.8; 0.30.1 Requires-Python >=3.8; 0.30.2 Requires-Python >=3.8; 0.30.3 Requires-Python >=3.8; 0.30.4 Requires-Python >=3.8; 0.30.5 Requires-Python >=3.8; 0.31.0 Requires-Python >=3.8; 0.31.1 Requires-Python >=3.8; 0.31.2 Requires-Python >=3.8; 0.31.3 Requires-Python >=3.8; 0.40.0 Requires-Python >=3.8; 0.40.0rc1 Requires-Python >=3.8; 0.40.1 Requires-Python >=3.8; 0.40.1rc1 Requires-Python >=3.8; 0.41.0 Requires-Python >=3.8; 0.41.0rc1 Requires-Python >=3.8; 0.41.1 Requires-Python >=3.8; 0.42.0 Requires-Python >=3.9; 0.42.0rc1 Requires-Python >=3.9; 0.43.0 Requires-Python >=3.9; 0.43.0rc1 Requires-Python >=3.9; 0.44.0 Requires-Python >=3.10; 0.44.0rc1 Requires-Python >=3.10; 0.44.0rc2 Requires-Python >=3.10; 0.8.2 Requires-Python >=3.8; 0.8.3 Requires-Python >=3.8; 0.9.17 Requires-Python >=3.8; 0.9.18 Requires-Python >=3.8; 0.9.19 Requires-Python >=3.8; 0.9.20 Requires-Python >=3.8; 0.9.21 Requires-Python >=3.8; 0.9.22 Requires-Python >=3.8; 0.9.23 Requires-Python >=3.8; 0.9.24 Requires-Python >=3.8; 0.9.25 Requires-Python >=3.8; 0.9.26 Requires-Python >=3.8.0; 0.9.27 Requires-Python >=3.8.0; 0.9.28 Requires-Python >=3.8.0; 1.10.0 Requires-Python >=3.8; 1.11.0 Requires-Python >=3.9; 1.4.0 Requires-Python >=3.8; 1.4.2 Requires-Python >=3.8; 1.4.6 Requires-Python >=3.8; 1.4.7 Requires-Python >=3.8; 1.4.8 Requires-Python >=3.10; 1.5.0 Requires-Python >=3.9; 1.5.1 Requires-Python >=3.9; 1.63.0 Requires-Python >=3.8; 1.63.0rc1 Requires-Python >=3.8; 1.63.0rc2 Requires-Python >=3.8; 1.63.2 Requires-Python >=3.8; 1.64.0 Requires-Python >=3.8; 1.64.0rc1 Requires-Python >=3.8; 1.64.1 Requires-Python >=3.8; 1.64.3 Requires-Python >=3.8; 1.65.0 Requires-Python >=3.8; 1.65.0rc1 Requires-Python >=3.8; 1.65.0rc2 Requires-Python >=3.8; 1.65.1 Requires-Python >=3.8; 1.65.2 Requires-Python >=3.8; 1.65.4 Requires-Python >=3.8; 1.65.5 Requires-Python >=3.8; 1.66.0 Requires-Python >=3.8; 1.66.0rc1 Requires-Python >=3.8; 1.66.0rc2 Requires-Python >=3.8; 1.66.0rc3 Requires-Python >=3.8; 1.66.0rc5 Requires-Python >=3.8; 1.66.1 Requires-Python >=3.8; 1.66.2 Requires-Python >=3.8; 1.67.0 Requires-Python >=3.8; 1.67.0rc1 Requires-Python >=3.8; 1.67.1 Requires-Python >=3.8; 1.68.0 Requires-Python >=3.8; 1.68.0rc1 Requires-Python >=3.8; 1.68.1 Requires-Python >=3.8; 1.69.0 Requires-Python >=3.8; 1.69.0rc1 Requires-Python >=3.8; 1.70.0 Requires-Python >=3.8; 1.70.0rc1 Requires-Python >=3.8; 1.71.0 Requires-Python >=3.9; 1.71.0rc2 Requires-Python >=3.9; 1.72.0 Requires-Python >=3.9; 1.72.0rc1 Requires-Python >=3.9; 1.73.0rc1 Requires-Python >=3.9; 2.1.0 Requires-Python >=3.8; 2.1.1 Requires-Python >=3.8; 2.1.2 Requires-Python >=3.8; 2.2.0 Requires-Python >=3.8; 2.2.1 Requires-Python >=3.8; 2.2.2 Requires-Python >=3.8; 2.25.0 Requires-Python >=3.8; 2.25.1 Requires-Python >=3.8; 2.25.2 Requires-Python >=3.8; 2.25.3 Requires-Python >=3.8; 2.25.4 Requires-Python >=3.8; 2.26.0 Requires-Python >=3.8; 2.27.0 Requires-Python >=3.8; 2.27.1 Requires-Python >=3.8; 2.27.2 Requires-Python >=3.8; 2.27.3 Requires-Python >=3.8; 2.3.0 Requires-Python >=3.8; 2.3.1 Requires-Python >=3.8; 2.3.2 Requires-Python >=3.9; 2.31.3 Requires-Python >=3.8; 2.31.4 Requires-Python >=3.8; 2.31.5 Requires-Python >=3.8; 2.31.6 Requires-Python >=3.8; 2.32.0 Requires-Python >=3.8; 2.33.0 Requires-Python >=3.8; 2.33.1 Requires-Python >=3.8; 2.34.0 Requires-Python >=3.8; 2.34.1 Requires-Python >=3.8; 2.34.2 Requires-Python >=3.8; 2.35.0 Requires-Python >=3.8; 2.35.1 Requires-Python >=3.8; 2.36.0 Requires-Python >=3.9; 2.36.1 Requires-Python >=3.9; 2.37.0 Requires-Python >=3.9; 2022.11.0 Requires-Python >=3.8; 2022.12.0 Requires-Python >=3.8; 2023.1.0 Requires-Python >=3.8; 2023.10.0 Requires-Python >=3.8; 2023.10.1 Requires-Python >=3.8; 2023.2.0 Requires-Python >=3.8; 2023.4.0 Requires-Python >=3.8; 2023.7.0 Requires-Python >=3.8; 2023.8.0 Requires-Python >=3.8; 2024.11.0 Requires-Python >=3.9; 2024.2.0 Requires-Python >=3.8; 2024.5.0 Requires-Python >=3.9; 24.3.0 Requires-Python >=3.8; 25.1.0 Requires-Python >=3.8; 25.2.0 Requires-Python >=3.8; 25.3.0 Requires-Python >=3.8; 3.0.0 Requires-Python >=3.8.0; 3.0.0a1 Requires-Python >=3.8.0; 3.0.0a2 Requires-Python >=3.8.0; 3.0.0a3 Requires-Python >=3.8.0; 3.0.0a4 Requires-Python >=3.8.0; 3.0.0a5 Requires-Python >=3.8.0; 3.0.0a6 Requires-Python >=3.8.0; 3.0.0a7 Requires-Python >=3.8.0; 3.0.0a8 Requires-Python >=3.8.0; 3.0.0a9 Requires-Python >=3.8.0; 3.0.0b0 Requires-Python >=3.8.0; 3.0.1 Requires-Python >=3.8.0; 3.0.2 Requires-Python >=3.8.0; 3.0.3 Requires-Python >=3.8.0; 3.1.0 Requires-Python >=3.8.0; 3.10.0 Requires-Python >=3.8; 3.11.0 Requires-Python >=3.8; 3.12.0 Requires-Python >=3.9; 3.12.1 Requires-Python >=3.9; 3.13.0 Requires-Python >=3.9; 3.2.0 Requires-Python >=3.8.0; 3.2.1 Requires-Python >=3.8.0; 3.2.2 Requires-Python >=3.8.0; 3.2.3 Requires-Python >=3.8.0; 3.2.4 Requires-Python >=3.8.0; 3.3.0 Requires-Python >=3.9.0; 3.3.1 Requires-Python >=3.9.0; 3.3.10 Requires-Python >=3.9.0; 3.3.2 Requires-Python >=3.9.0; 3.3.3 Requires-Python >=3.9.0; 3.3.4 Requires-Python >=3.9.0; 3.3.5 Requires-Python >=3.9.0; 3.3.6 Requires-Python >=3.9.0; 3.3.7 Requires-Python >=3.9.0; 3.3.8 Requires-Python >=3.9.0; 3.3.9 Requires-Python >=3.9.0; 3.6.0b3 Requires-Python >=3.8.1; 3.6.0b4 Requires-Python >=3.8.1; 3.9.0 Requires-Python >=3.8; 4.0.0 Requires-Python >=3.8; 4.0.0a0 Requires-Python >=3.8.1; 4.0.0a0 Requires-Python >=3.9.0; 4.0.0a33 Requires-Python >=3.8; 4.0.0a34 Requires-Python >=3.8; 4.0.0a35 Requires-Python >=3.8; 4.0.0a36 Requires-Python >=3.8; 4.0.0b0 Requires-Python >=3.8; 4.0.0b0 Requires-Python >=3.8.1; 4.0.0b1 Requires-Python >=3.8; 4.0.0b2 Requires-Python >=3.8; 4.0.0rc0 Requires-Python >=3.8; 4.0.0rc1 Requires-Python >=3.8; 4.0.1 Requires-Python >=3.8; 4.0.10 Requires-Python >=3.8; 4.0.11 Requires-Python >=3.8; 4.0.12 Requires-Python >=3.8; 4.0.13 Requires-Python >=3.8; 4.0.2 Requires-Python >=3.8; 4.0.3 Requires-Python >=3.8; 4.0.4 Requires-Python >=3.8; 4.0.5 Requires-Python >=3.8; 4.0.6 Requires-Python >=3.8; 4.0.7 Requires-Python >=3.8; 4.0.8 Requires-Python >=3.8; 4.0.9 Requires-Python >=3.8; 4.1.0 Requires-Python >=3.8; 4.1.0a1 Requires-Python >=3.8; 4.1.0a2 Requires-Python >=3.8; 4.1.0a3 Requires-Python >=3.8; 4.1.0a4 Requires-Python >=3.8; 4.1.0b0 Requires-Python >=3.8; 4.1.0b1 Requires-Python >=3.8; 4.1.0b2 Requires-Python >=3.8; 4.1.0rc0 Requires-Python >=3.8; 4.1.0rc1 Requires-Python >=3.8; 4.1.1 Requires-Python >=3.8; 4.1.2 Requires-Python >=3.8; 4.1.3 Requires-Python >=3.8; 4.1.4 Requires-Python >=3.8; 4.1.5 Requires-Python >=3.8; 4.1.6 Requires-Python >=3.8; 4.1.7 Requires-Python >=3.8; 4.1.8 Requires-Python >=3.8; 4.18.0 Requires-Python >=3.8; 4.18.0a1 Requires-Python >=3.8; 4.18.0a10 Requires-Python >=3.8; 4.18.0a2 Requires-Python >=3.8; 4.18.0a3 Requires-Python >=3.8; 4.18.0a4 Requires-Python >=3.8; 4.18.0a5 Requires-Python >=3.8; 4.18.0a6 Requires-Python >=3.8; 4.18.0a7 Requires-Python >=3.8; 4.18.0a8 Requires-Python >=3.8; 4.18.0a9 Requires-Python >=3.8; 4.18.1 Requires-Python >=3.8; 4.18.2 Requires-Python >=3.8; 4.18.3 Requires-Python >=3.8; 4.18.4 Requires-Python >=3.8; 4.18.5 Requires-Python >=3.8; 4.18.6 Requires-Python >=3.8; 4.19.0 Requires-Python >=3.8; 4.19.1 Requires-Python >=3.8; 4.19.2 Requires-Python >=3.8; 4.2.0 Requires-Python >=3.8; 4.2.0a0 Requires-Python >=3.8; 4.2.0a1 Requires-Python >=3.8; 4.2.0a2 Requires-Python >=3.8; 4.2.0b0 Requires-Python >=3.8; 4.2.0b1 Requires-Python >=3.8; 4.2.0b2 Requires-Python >=3.8; 4.2.0b3 Requires-Python >=3.8; 4.2.0rc0 Requires-Python >=3.8; 4.2.1 Requires-Python >=3.8; 4.2.2 Requires-Python >=3.8; 4.2.3 Requires-Python >=3.8; 4.2.4 Requires-Python >=3.8; 4.2.5 Requires-Python >=3.8; 4.2.6 Requires-Python >=3.8; 4.2.7 Requires-Python >=3.8; 4.20.0 Requires-Python >=3.8; 4.21.0 Requires-Python >=3.8; 4.21.1 Requires-Python >=3.8; 4.22.0 Requires-Python >=3.8; 4.23.0 Requires-Python >=3.8; 4.24.0 Requires-Python >=3.9; 4.3.0 Requires-Python >=3.8; 4.3.0a0 Requires-Python >=3.8; 4.3.0a1 Requires-Python >=3.8; 4.3.0a2 Requires-Python >=3.8; 4.3.0b0 Requires-Python >=3.8; 4.3.0b1 Requires-Python >=3.8; 4.3.0b2 Requires-Python >=3.8; 4.3.0b3 Requires-Python >=3.8; 4.3.0rc0 Requires-Python >=3.8; 4.3.0rc1 Requires-Python >=3.8; 4.3.1 Requires-Python >=3.8; 4.3.2 Requires-Python >=3.8; 4.3.3 Requires-Python >=3.8; 4.3.4 Requires-Python >=3.8; 4.3.5 Requires-Python >=3.8; 4.3.6 Requires-Python >=3.8; 4.3.7 Requires-Python >=3.8; 4.4.0 Requires-Python >=3.9; 4.4.0a0 Requires-Python >=3.8; 4.4.0a1 Requires-Python >=3.9; 4.4.0a2 Requires-Python >=3.9; 4.4.0a3 Requires-Python >=3.9; 4.4.0b0 Requires-Python >=3.9; 4.4.0b1 Requires-Python >=3.9; 4.4.0b2 Requires-Python >=3.9; 4.4.0rc0 Requires-Python >=3.9; 4.4.0rc1 Requires-Python >=3.9; 4.4.1 Requires-Python >=3.9; 4.4.2 Requires-Python >=3.9; 4.4.3 Requires-Python >=3.9; 4.5.0a0 Requires-Python >=3.9; 4.5.0a1 Requires-Python >=3.9; 5.0.0 Requires-Python >=3.8; 5.1.0 Requires-Python >=3.8; 5.1.1 Requires-Python >=3.8; 5.1.2 Requires-Python >=3.8; 5.1.3 Requires-Python >=3.8; 5.1.4 Requires-Python >=3.8; 5.1.5 Requires-Python >=3.8; 5.12.0 Requires-Python >=3.8.0; 5.13.0 Requires-Python >=3.8.0; 5.13.1 Requires-Python >=3.8.0; 5.13.2 Requires-Python >=3.8.0; 5.2.0 Requires-Python >=3.8; 5.2.1 Requires-Python >=3.8; 5.3.0 Requires-Python >=3.8; 5.3.1 Requires-Python >=3.8; 5.3.2 Requires-Python >=3.8; 5.4.0 Requires-Python >=3.8; 5.5.0 Requires-Python >=3.8; 5.5.1 Requires-Python >=3.8; 5.6.0 Requires-Python >=3.8; 5.6.1 Requires-Python >=3.8; 5.7.0 Requires-Python >=3.8; 5.7.1 Requires-Python >=3.8; 5.7.2 Requires-Python >=3.8; 5.8.0 Requires-Python >=3.8; 5.8.1 Requires-Python >=3.8; 6.0.0 Requires-Python >=3.8; 6.0.0 Requires-Python >=3.9; 6.0.0 Requires-Python >=3.9.0; 6.0.1 Requires-Python >=3.8; 6.0.1 Requires-Python >=3.9.0; 6.1.0 Requires-Python >=3.8; 6.10.0 Requires-Python >=3.8; 6.11.0 Requires-Python >=3.8; 6.17.0 Requires-Python >=3.8; 6.17.1 Requires-Python >=3.8; 6.18.0 Requires-Python >=3.8; 6.18.1 Requires-Python >=3.8; 6.18.2 Requires-Python >=3.8; 6.18.3 Requires-Python >=3.8; 6.19.0 Requires-Python >=3.8; 6.19.1 Requires-Python >=3.8; 6.19.2 Requires-Python >=3.8; 6.19.3 Requires-Python >=3.8; 6.19.4 Requires-Python >=3.8; 6.2.0 Requires-Python >=3.9; 6.20.0 Requires-Python >=3.8; 6.20.1 Requires-Python >=3.8; 6.20.2 Requires-Python >=3.8; 6.21.0 Requires-Python >=3.8; 6.21.1 Requires-Python >=3.8; 6.21.2 Requires-Python >=3.8; 6.21.3 Requires-Python >=3.8; 6.22.0 Requires-Python >=3.8; 6.23.0 Requires-Python >=3.8; 6.23.1 Requires-Python >=3.8; 6.23.2 Requires-Python >=3.8; 6.23.3 Requires-Python >=3.8; 6.24.0 Requires-Python >=3.8; 6.25.0 Requires-Python >=3.8; 6.25.1 Requires-Python >=3.8; 6.25.2 Requires-Python >=3.8; 6.26.0 Requires-Python >=3.8; 6.27.0 Requires-Python >=3.8; 6.27.1 Requires-Python >=3.8; 6.28.0 Requires-Python >=3.8; 6.29.0 Requires-Python >=3.8; 6.29.1 Requires-Python >=3.8; 6.29.2 Requires-Python >=3.8; 6.29.3 Requires-Python >=3.8; 6.29.4 Requires-Python >=3.8; 6.29.5 Requires-Python >=3.8; 6.8.0 Requires-Python >=3.8; 6.9.0 Requires-Python >=3.8; 7.0.0 Requires-Python >=3.8; 7.0.0a0 Requires-Python >=3.8; 7.0.0a1 Requires-Python >=3.9; 7.0.1 Requires-Python >=3.8; 7.0.2 Requires-Python >=3.8; 7.1.0 Requires-Python >=3.8; 7.2.0 Requires-Python >=3.8; 7.2.0 Requires-Python >=3.9; 7.2.1 Requires-Python >=3.8; 8.0.0 Requires-Python >=3.8; 8.0.0a1 Requires-Python >=3.8; 8.0.0a2 Requires-Python >=3.8; 8.0.0a3 Requires-Python >=3.8; 8.0.0a4 Requires-Python >=3.8; 8.0.0b0 Requires-Python >=3.8; 8.0.0b1 Requires-Python >=3.8; 8.0.0b2 Requires-Python >=3.8; 8.0.0b3 Requires-Python >=3.8; 8.0.0rc0 Requires-Python >=3.8; 8.0.0rc1 Requires-Python >=3.8; 8.0.1 Requires-Python >=3.8; 8.0.2 Requires-Python >=3.8; 8.0.3 Requires-Python >=3.8; 8.1.0 Requires-Python >=3.8; 8.1.1 Requires-Python >=3.8; 8.10.0 Requires-Python >=3.8; 8.11.0 Requires-Python >=3.8; 8.12.0 Requires-Python >=3.8; 8.12.1 Requires-Python >=3.8; 8.12.2 Requires-Python >=3.8; 8.12.3 Requires-Python >=3.8; 8.13.0 Requires-Python >=3.8; 8.13.1 Requires-Python >=3.9; 8.13.2 Requires-Python >=3.9; 8.14.0 Requires-Python >=3.9; 8.15.0 Requires-Python >=3.9; 8.16.0 Requires-Python >=3.9; 8.16.1 Requires-Python >=3.9; 8.17.0 Requires-Python >=3.9; 8.17.1 Requires-Python >=3.9; 8.17.2 Requires-Python >=3.9; 8.18.0 Requires-Python >=3.9; 8.18.1 Requires-Python >=3.9; 8.19.0 Requires-Python >=3.10; 8.2.0 Requires-Python >=3.10; 8.2.0 Requires-Python >=3.8; 8.2.1 Requires-Python >=3.10; 8.20.0 Requires-Python >=3.10; 8.21.0 Requires-Python >=3.10; 8.22.0 Requires-Python >=3.10; 8.22.1 Requires-Python >=3.10; 8.22.2 Requires-Python >=3.10; 8.23.0 Requires-Python >=3.10; 8.24.0 Requires-Python >=3.10; 8.25.0 Requires-Python >=3.10; 8.26.0 Requires-Python >=3.10; 8.27.0 Requires-Python >=3.10; 8.28.0 Requires-Python >=3.10; 8.29.0 Requires-Python >=3.10; 8.3.0 Requires-Python >=3.8; 8.3.1 Requires-Python >=3.8; 8.30.0 Requires-Python >=3.10; 8.31.0 Requires-Python >=3.10; 8.32.0 Requires-Python >=3.10; 8.33.0 Requires-Python >=3.10; 8.34.0 Requires-Python >=3.10; 8.35.0 Requires-Python >=3.10; 8.36.0 Requires-Python >=3.10; 8.4.0 Requires-Python >=3.8; 8.5.0 Requires-Python >=3.8; 8.6.0 Requires-Python >=3.8; 8.6.0 Requires-Python >=3.9; 8.6.1 Requires-Python >=3.8; 8.6.1 Requires-Python >=3.9; 8.6.2 Requires-Python >=3.8; 8.6.3 Requires-Python >=3.8; 8.7.0 Requires-Python >=3.8; 8.7.0 Requires-Python >=3.9; 8.8.0 Requires-Python >=3.8; 8.9.0 Requires-Python >=3.8; 9.0.0 Requires-Python >=3.11; 9.0.0b1 Requires-Python >=3.11; 9.0.0b2 Requires-Python >=3.11; 9.0.1 Requires-Python >=3.11; 9.0.2 Requires-Python >=3.11; 9.1.0 Requires-Python >=3.11; 9.2.0 Requires-Python >=3.11
+ERROR: Could not find a version that satisfies the requirement llvmlite==0.36.2 (from versions: 0.2.0, 0.2.1, 0.2.2, 0.4.0, 0.5.0, 0.6.0, 0.7.0, 0.8.0, 0.9.0, 0.10.0, 0.11.0, 0.12.0.1, 0.12.1, 0.13.0, 0.14.0, 0.15.0, 0.16.0, 0.17.0, 0.17.1, 0.18.0, 0.19.0, 0.20.0, 0.21.0, 0.22.0, 0.23.0, 0.23.2, 0.24.0, 0.25.0, 0.26.0, 0.27.0, 0.27.1, 0.28.0, 0.29.0, 0.30.0, 0.31.0, 0.32.0, 0.32.1, 0.33.0, 0.34.0, 0.35.0, 0.36.0, 0.37.0, 0.38.0, 0.38.1, 0.39.0, 0.39.1)
+ERROR: No matching distribution found for llvmlite==0.36.2

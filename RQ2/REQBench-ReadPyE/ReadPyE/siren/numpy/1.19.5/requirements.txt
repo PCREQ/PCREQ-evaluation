@@ -1,0 +1,6 @@
+tqdm==4.64
+numpy==1.19.5
+setuptools==65.0.2
+matplotlib==3.5.3
+pillow==9.2
+torch==1.12.1

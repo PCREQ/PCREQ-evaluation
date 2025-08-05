@@ -1,0 +1,5 @@
+2025-06-29 18:32:38,306 - INFO - *************Upgrade torch from 1.0.1 to 1.2.0 in graphSAGE-pytorch*************
+2025-06-29 18:32:38,306 - INFO - Checking graphSAGE-pytorch is compatible with torch1.2.0?...
+2025-06-29 18:32:39,081 - INFO - graphSAGE-pytorch is compatible with torch1.2.0
+2025-06-29 18:32:40,555 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 18:32:40,555 - INFO - Time cost: 2.250044345855713 s

@@ -1,0 +1,5 @@
+2025-06-29 08:48:13,008 - INFO - *************Upgrade tensorboardx from 2.0 to 2.6.2.2 in Sentence-VAE*************
+2025-06-29 08:48:13,008 - INFO - Checking Sentence-VAE is compatible with tensorboardx2.6.2.2?...
+2025-06-29 08:48:13,225 - INFO - Sentence-VAE is compatible with tensorboardx2.6.2.2
+2025-06-29 08:48:13,554 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 08:48:13,554 - INFO - Time cost: 0.5475175380706787 s

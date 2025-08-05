@@ -1,0 +1,5 @@
+2025-06-29 08:26:24,020 - INFO - *************Upgrade matplotlib from 3.1.3 to 3.3.4 in hifi-gan*************
+2025-06-29 08:26:24,020 - INFO - Checking hifi-gan is compatible with matplotlib3.3.4?...
+2025-06-29 08:26:27,579 - INFO - hifi-gan is compatible with matplotlib3.3.4
+2025-06-29 08:26:28,889 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 08:26:28,890 - INFO - Time cost: 4.870118856430054 s

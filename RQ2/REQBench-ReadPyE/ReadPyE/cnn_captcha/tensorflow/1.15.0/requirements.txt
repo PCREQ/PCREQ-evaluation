@@ -1,0 +1,7 @@
+matplotlib==3.3.4
+pillow==8.4
+captcha==0.4
+numpy==1.19.5
+requests==2.27.1
+tensorflow==1.11
+flask==2.0.3

@@ -1,0 +1,9 @@
+2025-06-28 23:37:20,311 - INFO - *************Upgrade numpy from 1.16.4 to 1.19.3 in StyleGAN-Tensorflow*************
+2025-06-28 23:37:20,311 - INFO - Checking StyleGAN-Tensorflow is compatible with numpy1.19.3?...
+2025-06-28 23:37:26,500 - INFO - StyleGAN-Tensorflow is compatible with numpy1.19.3
+2025-06-28 23:37:28,778 - INFO - Checking opencv-python4.1.0.25 is compatible with numpy1.19.3?...
+2025-06-28 23:37:28,780 - INFO - opencv-python4.1.0.25 is compatible with numpy1.19.3
+2025-06-28 23:37:28,784 - INFO - Checking tensorflow1.13.1 is compatible with numpy1.19.3?...
+2025-06-28 23:39:34,619 - INFO - tensorflow1.13.1 is compatible with numpy1.19.3
+2025-06-28 23:39:36,520 - INFO - *************New requirements.txt has been generated!*************
+2025-06-28 23:39:36,520 - INFO - Time cost: 136.21116733551025 s

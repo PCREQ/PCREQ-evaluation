@@ -1,0 +1,54 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting charset-normalizer==3.4.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/27/9f/68c828438af904d830e680a8d2f6182be97f3205d6d62edfeb4a029b4192/charset_normalizer-3.4.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (138 kB)
+Collecting cupy==11.3.0
+  Using cached cupy-11.3.0-cp37-cp37m-linux_x86_64.whl
+Collecting dataclasses==0.6
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/26/2f/1095cdc2868052dd1e64520f7c0d5c8c550ad297e944e641dbf1ffbb9a5d/dataclasses-0.6-py3-none-any.whl (14 kB)
+Collecting decorator==4.4.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ed/1b/72a1821152d07cf1d8b6fce298aeb06a7eb90f4d6d41acec9861e7cc6df0/decorator-4.4.2-py2.py3-none-any.whl (9.2 kB)
+Collecting fastrlock==0.8.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/42/4e/8bff5aa98ba1406c23a7dded13fea0bf2f536b4f8f7096fcbea0303e9cf5/fastrlock-0.8.2-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_24_x86_64.whl (47 kB)
+Collecting future==1.0.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/da/71/ae30dadffc90b9006d77af76b393cb9dfbfc9629f339fc1574a1c52e6806/future-1.0.0-py3-none-any.whl (491 kB)
+Collecting idna==3.10
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/76/c6/c88e154df9c4e1a2a66ccf0005a88dfb2650c1dffb6f5ce603dfbd452ce3/idna-3.10-py3-none-any.whl (70 kB)
+Collecting imageio==2.31.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/7b/88/59411e1a652ac3338d348901ffa5a73daf1f67fcb3f97d750237d4fa0821/imageio-2.31.2-py3-none-any.whl (313 kB)
+Collecting imageio-ffmpeg==0.5.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/fe/44/c9e18a73dfd939b5b0ec843870ac72f1f6c17e31a03149b687a85465bff7/imageio_ffmpeg-0.5.1-py3-none-manylinux2010_x86_64.whl (26.9 MB)
+Collecting moviepy==1.0.3
+  Using cached moviepy-1.0.3-py3-none-any.whl
+Collecting networkx==2.6.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/e9/93/aa6613aa70d6eb4868e667068b5a11feca9645498fd31b954b6c4bb82fa5/networkx-2.6.3-py3-none-any.whl (1.9 MB)
+Collecting numpy==1.21.6
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/6d/ad/ff3b21ebfe79a4d25b4a4f8e5cf9fd44a204adb6b33c09010f566f51027a/numpy-1.21.6-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (15.7 MB)
+Collecting packaging==24.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/49/df/1fceb2f8900f8639e278b056416d49134fb8d84c5942ffaa01ad34782422/packaging-24.0-py3-none-any.whl (53 kB)
+Collecting Pillow==9.4.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/dc/8a/ee6c0ecdf39a5674881a9ea82b488751be6feb7723b62c7df64229d60f85/Pillow-9.4.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.3 MB)
+Collecting proglog==0.1.10
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/8b/f5/cab5cf6a540c31f5099043de0ae43990fd9cf66f75ecb5e9f254a4e4d4ee/proglog-0.1.10-py3-none-any.whl (6.1 kB)
+Collecting PyWavelets==1.3.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ae/56/4441877073d8a5266dbf7b04c7f3dc66f1149c8efb9323e0ef987a9bb1ce/PyWavelets-1.3.0-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl (6.4 MB)
+Collecting requests==2.31.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/70/8e/0e2d847013cb52cd35b38c009bb167a1a26b2ce6cd6965bf26b47bc0bf44/requests-2.31.0-py3-none-any.whl (62 kB)
+Collecting scikit-image==0.19.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/2d/ba/63ce953b7d593bd493e80be158f2d9f82936582380aee0998315510633aa/scikit_image-0.19.3-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (13.5 MB)
+Collecting scipy==1.7.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/58/4f/11f34cfc57ead25752a7992b069c36f5d18421958ebd6466ecd849aeaf86/scipy-1.7.3-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (38.1 MB)
+Collecting tifffile==2021.11.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d8/38/85ae5ed77598ca90558c17a2f79ddaba33173b31cf8d8f545d34d9134f0d/tifffile-2021.11.2-py3-none-any.whl (178 kB)
+Collecting torch==1.7.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d9/74/d52c014fbfb50aefc084d2bf5ffaa0a8456f69c586782b59f93ef45e2da9/torch-1.7.0-cp37-cp37m-manylinux1_x86_64.whl (776.7 MB)
+Collecting tqdm==4.67.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d0/30/dc54f88dd4a2b5dc8a0279bdd7270e735851848b762aeb1c1184ed1f6b14/tqdm-4.67.1-py3-none-any.whl (78 kB)
+Collecting typing_extensions==4.7.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ec/6b/63cc3df74987c36fe26157ee12e09e8f9db4de771e0f3404263117e75b95/typing_extensions-4.7.1-py3-none-any.whl (33 kB)
+Collecting urllib3==2.0.7
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d2/b2/b157855192a68541a91ba7b2bbcb91f1b4faa51f8bae38d8005c034be524/urllib3-2.0.7-py3-none-any.whl (124 kB)
+Requirement already satisfied: setuptools in /home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages (from imageio-ffmpeg==0.5.1->-r /home/lei/compatibility_analysis/compare/LLM/result/deepseek/r1/sepconv-slomo-pillow-9.4.0.txt (line 9)) (57.5.0)
+Collecting certifi>=2017.4.17
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/4a/7e/3db2bd1b1f9e95f7cddca6d6e75e2f2bd9f51b1246e546d88addca0106bd/certifi-2025.4.26-py3-none-any.whl (159 kB)
+Installing collected packages: fastrlock, dataclasses, urllib3, typing_extensions, tqdm, Pillow, packaging, numpy, networkx, imageio-ffmpeg, idna, future, decorator, charset-normalizer, certifi, torch, tifffile, scipy, requests, PyWavelets, proglog, imageio, cupy, scikit-image, moviepy
+Successfully installed Pillow-9.4.0 PyWavelets-1.3.0 certifi-2025.4.26 charset-normalizer-3.4.0 cupy-11.3.0 dataclasses-0.6 decorator-4.4.2 fastrlock-0.8.2 future-1.0.0 idna-3.10 imageio-2.31.2 imageio-ffmpeg-0.5.1 moviepy-1.0.3 networkx-2.6.3 numpy-1.21.6 packaging-24.0 proglog-0.1.10 requests-2.31.0 scikit-image-0.19.3 scipy-1.7.3 tifffile-2021.11.2 torch-1.7.0 tqdm-4.67.1 typing_extensions-4.7.1 urllib3-2.0.7

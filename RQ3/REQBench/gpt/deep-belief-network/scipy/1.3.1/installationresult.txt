@@ -1,0 +1,40 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting absl-py==1.4.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/dd/87/de5c32fa1b1c6c3305d576e299801d8655c175ca9557019906247b994331/absl_py-1.4.0-py3-none-any.whl (126 kB)
+Collecting bleach==1.5.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/33/70/86c5fec937ea4964184d4d6c4f0b9551564f821e1c3575907639036d9b90/bleach-1.5.0-py2.py3-none-any.whl (17 kB)
+Collecting certifi==2021.5.30
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/05/1b/0a0dece0e8aa492a6ec9e4ad2fe366b511558cdc73fd3abc82ba7348e875/certifi-2021.5.30-py2.py3-none-any.whl (145 kB)
+Collecting dataclasses==0.8
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/fe/ca/75fac5856ab5cfa51bbbcefa250182e50441074fdc3f803f6e76451fab43/dataclasses-0.8-py3-none-any.whl (19 kB)
+Collecting html5lib==0.9999999
+  Using cached html5lib-0.9999999-py3-none-any.whl
+Collecting importlib-metadata==2.1.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/98/b8/8ec57a8ef46fbe7f185318c7ff7df9a06c9df451d9a59a067bfa851bb828/importlib_metadata-2.1.1-py2.py3-none-any.whl (10 kB)
+Collecting Markdown==3.3.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/6e/33/1ae0f71395e618d6140fbbc9587cc3156591f748226075e0f7d6f9176522/Markdown-3.3.4-py3-none-any.whl (97 kB)
+Collecting numpy==1.16.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/87/2d/e4656149cbadd3a8a0369fcd1a9c7d61cc7b87b3903b85389c70c989a696/numpy-1.16.4-cp36-cp36m-manylinux1_x86_64.whl (17.3 MB)
+Collecting protobuf==3.19.6
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/8f/8e/06fc0df62dd80a32739b51bb3256f1417349eb5c3899f6ccab3796937458/protobuf-3.19.6-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.1 MB)
+Collecting scikit-learn==0.19.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f9/c8/8db4108aba5e2166cd2ea4eafa1a4b82f89240a1fa85733029cc2358ad1f/scikit_learn-0.19.2-cp36-cp36m-manylinux1_x86_64.whl (4.9 MB)
+Collecting scipy==1.3.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/29/50/a552a5aff252ae915f522e44642bb49a7b7b31677f9580cfd11bcc869976/scipy-1.3.1-cp36-cp36m-manylinux1_x86_64.whl (25.2 MB)
+Collecting six==1.16.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting tensorflow==1.5.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/04/79/a37d0b373757b4d283c674a64127bd8864d69f881c639b1ee5953e2d9301/tensorflow-1.5.0-cp36-cp36m-manylinux1_x86_64.whl (44.4 MB)
+Collecting tensorflow-tensorboard==1.5.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/cc/fa/91c06952517b4f1bc075545b062a4112e30cebe558a6b962816cb33efa27/tensorflow_tensorboard-1.5.1-py3-none-any.whl (3.0 MB)
+Collecting typing_extensions==4.0.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/05/e4/baf0031e39cf545f0c9edd5b1a2ea12609b7fcba2d58e118b11753d68cf0/typing_extensions-4.0.1-py3-none-any.whl (22 kB)
+Collecting Werkzeug==0.14.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/20/c4/12e3e56473e52375aa29c4764e70d1b8f3efa6682bef8d0aae04fe335243/Werkzeug-0.14.1-py2.py3-none-any.whl (322 kB)
+Collecting zipp==1.0.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f4/50/cc72c5bcd48f6e98219fc4a88a5227e9e28b81637a99c49feba1d51f4d50/zipp-1.0.0-py2.py3-none-any.whl (4.1 kB)
+Requirement already satisfied: wheel>=0.26 in /home/lei/anaconda3/envs/py36-1/lib/python3.6/site-packages (from tensorflow==1.5.0->-r /home/lei/compatibility_analysis/compare/LLM/result/chatgpt/deep-belief-network-scipy-1.3.1.txt (line 13)) (0.37.1)
+Collecting more-itertools
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/0b/ff/1ad78678bee731ae5414ea5e97396b3f91de32186028daa614d322ac5a8b/more_itertools-8.14.0-py3-none-any.whl (52 kB)
+Installing collected packages: more-itertools, zipp, six, importlib-metadata, html5lib, Werkzeug, protobuf, numpy, Markdown, bleach, tensorflow-tensorboard, absl-py, typing-extensions, tensorflow, scipy, scikit-learn, dataclasses, certifi
+Successfully installed Markdown-3.3.4 Werkzeug-0.14.1 absl-py-1.4.0 bleach-1.5.0 certifi-2021.5.30 dataclasses-0.8 html5lib-0.9999999 importlib-metadata-2.1.1 more-itertools-8.14.0 numpy-1.16.4 protobuf-3.19.6 scikit-learn-0.19.2 scipy-1.3.1 six-1.16.0 tensorflow-1.5.0 tensorflow-tensorboard-1.5.1 typing-extensions-4.0.1 zipp-1.0.0

@@ -1,0 +1,19 @@
+Start to train.
+/home/lei/anaconda3/envs/py37-1/lib/python3.7/site-packages/torchvision/models/_utils.py:209: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  f"The parameter '{pretrained_param}' is deprecated since 0.13 and may be removed in the future, "
+/home/lei/anaconda3/envs/py37-1/lib/python3.7/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Traceback (most recent call last):
+  File "train.py", line 152, in <module>
+    main()
+  File "train.py", line 110, in main
+    optimizer.step()
+  File "/home/lei/anaconda3/envs/py37-1/lib/python3.7/site-packages/torch/optim/optimizer.py", line 140, in wrapper
+    out = func(*args, **kwargs)
+  File "/home/lei/anaconda3/envs/py37-1/lib/python3.7/site-packages/torch/optim/optimizer.py", line 23, in _use_grad
+    ret = func(self, *args, **kwargs)
+  File "/home/lei/anaconda3/envs/py37-1/lib/python3.7/site-packages/torch/optim/adam.py", line 218, in step
+    state['exp_avg'] = torch.zeros_like(p, memory_format=torch.preserve_format)
+RuntimeError: CUDA error: an illegal memory access was encountered
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.

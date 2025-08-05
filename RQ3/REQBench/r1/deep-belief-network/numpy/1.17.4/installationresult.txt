@@ -1,0 +1,5 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting numpy==1.17.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d2/ab/43e678759326f728de861edbef34b8e2ad1b1490505f20e0d1f0716c3bf4/numpy-1.17.4-cp36-cp36m-manylinux1_x86_64.whl (20.0 MB)
+Installing collected packages: numpy
+Successfully installed numpy-1.17.4

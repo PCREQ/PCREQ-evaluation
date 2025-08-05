@@ -1,0 +1,5 @@
+2025-06-29 10:55:21,431 - INFO - *************Upgrade torchaudio from 0.6.0 to 0.12.0 in svoice*************
+2025-06-29 10:55:21,432 - INFO - Checking svoice is compatible with torchaudio0.12.0?...
+2025-06-29 10:55:21,710 - INFO - svoice is compatible with torchaudio0.12.0
+2025-06-29 10:55:23,295 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 10:55:23,295 - INFO - Time cost: 1.8642542362213135 s

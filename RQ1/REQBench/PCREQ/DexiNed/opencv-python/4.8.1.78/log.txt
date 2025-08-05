@@ -1,0 +1,5 @@
+2025-06-29 08:33:52,994 - INFO - *************Upgrade opencv-python from 4.6.0.66 to 4.8.1.78 in DexiNed*************
+2025-06-29 08:33:52,994 - INFO - Checking DexiNed is compatible with opencv-python4.8.1.78?...
+2025-06-29 08:33:53,996 - INFO - DexiNed is compatible with opencv-python4.8.1.78
+2025-06-29 08:33:54,291 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 08:33:54,291 - INFO - Time cost: 1.2990899085998535 s

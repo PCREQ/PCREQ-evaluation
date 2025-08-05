@@ -1,0 +1,39 @@
+01/11 03:57:58 PM | 
+01/11 03:57:58 PM | Parameters:
+01/11 03:57:58 PM | AUX_WEIGHT=0.4
+01/11 03:57:58 PM | BATCH_SIZE=256
+01/11 03:57:58 PM | CUTOUT_LENGTH=16
+01/11 03:57:58 PM | DATA_PATH=./data/
+01/11 03:57:58 PM | DATASET=cifar10
+01/11 03:57:58 PM | DROP_PATH_PROB=0.2
+01/11 03:57:58 PM | EPOCHS=1
+01/11 03:57:58 PM | GENOTYPE=Genotype(normal=[[('sep_conv_3x3', 0), ('dil_conv_5x5', 1)], [('skip_connect', 0), ('dil_conv_3x3', 2)], [('sep_conv_3x3', 1), ('skip_connect', 0)], [('sep_conv_3x3', 1), ('skip_connect', 0)]], normal_concat=range(2, 6), reduce=[[('max_pool_3x3', 0), ('max_pool_3x3', 1)], [('max_pool_3x3', 0), ('skip_connect', 2)], [('skip_connect', 3), ('max_pool_3x3', 0)], [('skip_connect', 2), ('max_pool_3x3', 0)]], reduce_concat=range(2, 6))
+01/11 03:57:58 PM | GPUS=[0, 1, 2]
+01/11 03:57:58 PM | GRAD_CLIP=5.0
+01/11 03:57:58 PM | INIT_CHANNELS=36
+01/11 03:57:58 PM | LAYERS=20
+01/11 03:57:58 PM | LR=0.025
+01/11 03:57:58 PM | MOMENTUM=0.9
+01/11 03:57:58 PM | NAME=cifar10
+01/11 03:57:58 PM | PATH=augments/cifar10
+01/11 03:57:58 PM | PRINT_FREQ=200
+01/11 03:57:58 PM | SEED=2
+01/11 03:57:58 PM | WEIGHT_DECAY=0.0003
+01/11 03:57:58 PM | WORKERS=4
+01/11 03:57:58 PM | 
+01/11 03:57:58 PM | Logger is set - training start
+01/11 03:58:01 PM | Model size = 3.159 MB
+01/11 03:58:01 PM | Epoch 0 LR 0.025
+Files already downloaded and verified
+Files already downloaded and verified
+THCudaCheck FAIL file=/pytorch/aten/src/THC/THCGeneral.cpp line=405 error=11 : invalid argument
+THCudaCheck FAIL file=/pytorch/aten/src/THC/THCGeneral.cpp line=405 error=11 : invalid argument
+THCudaCheck FAIL file=/pytorch/aten/src/THC/THCGeneral.cpp line=405 error=11 : invalid argument
+01/11 03:58:07 PM | Train: [  1/1] Step 000/195 Loss 3.241 Prec@(1,5) (9.4%, 55.5%)
+01/11 03:59:15 PM | Train: [  1/1] Step 195/195 Loss 2.612 Prec@(1,5) (30.0%, 80.8%)
+01/11 03:59:15 PM | Train: [  1/1] Final Prec@1 29.9700%
+01/11 03:59:16 PM | Valid: [  1/1] Step 000/039 Loss 1.463 Prec@(1,5) (44.5%, 91.8%)
+01/11 03:59:21 PM | Valid: [  1/1] Step 039/039 Loss 1.558 Prec@(1,5) (45.0%, 92.0%)
+01/11 03:59:21 PM | Valid: [  1/1] Final Prec@1 45.0200%
+01/11 03:59:21 PM | Final best Prec@1 = 45.0200%
+

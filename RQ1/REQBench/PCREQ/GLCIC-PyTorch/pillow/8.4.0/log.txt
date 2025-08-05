@@ -1,0 +1,7 @@
+2025-06-29 19:02:45,701 - INFO - *************Upgrade pillow from 8.2.0 to 8.4.0 in GLCIC-PyTorch*************
+2025-06-29 19:02:45,701 - INFO - Checking GLCIC-PyTorch is compatible with pillow8.4.0?...
+2025-06-29 19:02:46,079 - INFO - GLCIC-PyTorch is compatible with pillow8.4.0
+2025-06-29 19:02:46,459 - INFO - Checking torchvision0.10.0 is compatible with pillow8.4.0?...
+2025-06-29 19:02:48,680 - INFO - torchvision0.10.0 is compatible with pillow8.4.0
+2025-06-29 19:02:49,064 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 19:02:49,064 - INFO - Time cost: 3.3642327785491943 s

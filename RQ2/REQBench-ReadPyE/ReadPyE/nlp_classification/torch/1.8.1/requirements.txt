@@ -1,0 +1,6 @@
+gluonnlp==0.10
+gdown==4.5.1
+tqdm==4.64
+scikit-learn==1.0.2
+torch==1.8.1
+konlpy==0.6

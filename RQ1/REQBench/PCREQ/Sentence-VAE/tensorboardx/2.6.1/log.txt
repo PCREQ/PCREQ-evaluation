@@ -1,0 +1,9 @@
+2025-06-29 08:48:10,100 - INFO - *************Upgrade tensorboardx from 2.0 to 2.6.1 in Sentence-VAE*************
+2025-06-29 08:48:10,100 - INFO - Checking Sentence-VAE is compatible with tensorboardx2.6.1?...
+2025-06-29 08:48:10,318 - INFO - Sentence-VAE is compatible with tensorboardx2.6.1
+2025-06-29 08:48:10,518 - INFO - Checking tensorboardx2.6.1 is compatible with protobuf4.24.4?...
+2025-06-29 08:48:10,917 - INFO - tensorboardx2.6.1 is compatible with protobuf4.24.4
+2025-06-29 08:48:10,917 - INFO - Checking Sentence-VAE is compatible with protobuf4.24.4?...
+2025-06-29 08:48:10,918 - INFO - Sentence-VAE is compatible with protobuf4.24.4
+2025-06-29 08:48:11,041 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 08:48:11,041 - INFO - Time cost: 0.9416394233703613 s

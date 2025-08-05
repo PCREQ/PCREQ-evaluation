@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "train.py", line 56, in <module>
+    main(args)
+  File "train.py", line 21, in main
+    model = PedalNet(vars(args))
+  File "/home/lei/compatibility_analysis/pytorch/1.7/PedalNetRT/model.py", line 118, in __init__
+    self.hparams = hparams
+  File "/home/lei/anaconda3/envs/py37-5/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1317, in __setattr__
+    super().__setattr__(name, value)
+AttributeError: can't set attribute

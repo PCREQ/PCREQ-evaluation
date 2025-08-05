@@ -1,0 +1,12 @@
+[2025-06-01 02:03:14,205 - train - INFO] - One GPU or CPU training mode start...
+[2025-06-01 02:03:14,205 - train - WARNING] - You have chosen to benchmark training. This will turn on the CUDNN benchmark settingwhich can speed up your training considerably! You may see unexpected behavior when restarting from checkpoints due to RandomizedMultiLinearMap need deterministic turn on.
+[2025-06-01 02:03:32,790 - train - INFO] - Dataloader instances have finished. Train datasets: 12747394 Val datasets: 1694655 Train_batch_size/gpu: 64 Val_batch_size/gpu: 64.
+[2025-06-01 02:03:34,546 - train - INFO] - Model created, trainable parameters: 54687382.
+[2025-06-01 02:03:34,546 - train - INFO] - Optimizer and lr_scheduler created.
+[2025-06-01 02:03:34,547 - train - INFO] - Max_epochs: 1 Log_step_interval: 1 Validation_step_interval: 10.
+[2025-06-01 02:03:34,547 - train - INFO] - Training start...
+[2025-06-01 02:03:34,604 - trainer - WARNING] - Training is using GPU 0!
+[W TensorIterator.cpp:918] Warning: Mixed memory format inputs detected while calling the operator. The operator will output contiguous tensor even if some of the inputs are in channels_last format. (function operator())
+[2025-06-01 02:03:41,035 - trainer - INFO] - Train Epoch:[1/1] Step:[1/1] Loss: 5.591794 Loss_avg: 5.591794 LR: 0.00040000
+[2025-06-01 02:03:41,150 - trainer - INFO] - [Epoch End] Epoch:[1/1] Loss: 5.591794 LR: 0.00040000
+[2025-06-01 02:03:41,151 - train - INFO] - Distributed training end...

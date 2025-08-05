@@ -1,0 +1,4 @@
+moviepy==2.dev2
+pillow==9.2
+numpy==1.19.1
+torch==1.7.1

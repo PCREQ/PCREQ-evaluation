@@ -1,0 +1,5 @@
+numpy==1.21.6
+cupy==11
+pillow==9.2
+moviepy==2.dev2
+torch==1.7.1

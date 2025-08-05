@@ -1,0 +1,4 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+WARNING: Skipping page https://pypi.tuna.tsinghua.edu.cn/simple/absl-py/ because the GET request got Content-Type: application/vnd.pypi.simple.v1+json.The only supported Content-Type is text/html
+ERROR: Could not find a version that satisfies the requirement absl-py==1.4.0 (from versions: none)
+ERROR: No matching distribution found for absl-py==1.4.0

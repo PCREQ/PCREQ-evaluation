@@ -1,0 +1,5 @@
+2025-06-28 16:40:06,316 - INFO - *************Upgrade tensorflow from 1.5.0 to 1.15.0 in deep-belief-network*************
+2025-06-28 16:40:06,316 - INFO - Checking deep-belief-network is compatible with tensorflow1.15.0?...
+2025-06-28 16:40:14,736 - INFO - deep-belief-network is compatible with tensorflow1.15.0
+2025-06-28 16:40:28,306 - INFO - *************New requirements.txt has been generated!*************
+2025-06-28 16:40:28,306 - INFO - Time cost: 21.99093770980835 s

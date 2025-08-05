@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "/dataset/lei/anaconda3/envs/svoice-torch-1.10.1/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/dataset/lei/anaconda3/envs/svoice-torch-1.10.1/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/lei/compatibility_analysis/pytorch/1.6/svoice/svoice/evaluate.py", line 21, in <module>
+    from .data.data import Validset
+  File "/home/lei/compatibility_analysis/pytorch/1.6/svoice/svoice/data/data.py", line 21, in <module>
+    from .audio import Audioset
+  File "/home/lei/compatibility_analysis/pytorch/1.6/svoice/svoice/data/audio.py", line 15, in <module>
+    import torchaudio
+  File "/dataset/lei/anaconda3/envs/svoice-torch-1.10.1/lib/python3.7/site-packages/torchaudio/__init__.py", line 1, in <module>
+    from . import extension
+  File "/dataset/lei/anaconda3/envs/svoice-torch-1.10.1/lib/python3.7/site-packages/torchaudio/extension/__init__.py", line 5, in <module>
+    _init_extension()
+  File "/dataset/lei/anaconda3/envs/svoice-torch-1.10.1/lib/python3.7/site-packages/torchaudio/extension/extension.py", line 12, in _init_extension
+    _init_script_module(ext)
+  File "/dataset/lei/anaconda3/envs/svoice-torch-1.10.1/lib/python3.7/site-packages/torchaudio/extension/extension.py", line 19, in _init_script_module
+    torch.classes.load_library(path)
+  File "/dataset/lei/anaconda3/envs/svoice-torch-1.10.1/lib/python3.7/site-packages/torch/_classes.py", line 48, in load_library
+    torch.ops.load_library(path)
+  File "/dataset/lei/anaconda3/envs/svoice-torch-1.10.1/lib/python3.7/site-packages/torch/_ops.py", line 110, in load_library
+    ctypes.CDLL(path)
+  File "/dataset/lei/anaconda3/envs/svoice-torch-1.10.1/lib/python3.7/ctypes/__init__.py", line 364, in __init__
+    self._handle = _dlopen(self._name, mode)
+OSError: /dataset/lei/anaconda3/envs/svoice-torch-1.10.1/lib/python3.7/site-packages/torchaudio/_torchaudio.so: undefined symbol: _ZNK2at6Tensor6deviceEv

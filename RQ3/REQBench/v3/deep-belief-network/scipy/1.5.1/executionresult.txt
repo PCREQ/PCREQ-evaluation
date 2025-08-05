@@ -1,0 +1,26 @@
+/home/lei/anaconda3/envs/py36-1/lib/python3.6/site-packages/sklearn/utils/deprecation.py:144: FutureWarning: The sklearn.metrics.classification module is  deprecated in version 0.22 and will be removed in version 0.24. The corresponding classes / functions should instead be imported from sklearn.metrics. Anything that cannot be imported from sklearn.metrics is now part of the private API.
+  warnings.warn(message, FutureWarning)
+Traceback (most recent call last):
+  File "example_classification.py", line 8, in <module>
+    from dbn.tensorflow import SupervisedDBNClassification
+  File "/home/lei/compatibility_analysis/tensorflow/1.5/deep-belief-network/dbn/tensorflow/__init__.py", line 1, in <module>
+    from .models import BinaryRBM, UnsupervisedDBN, SupervisedDBNRegression, SupervisedDBNClassification
+  File "/home/lei/compatibility_analysis/tensorflow/1.5/deep-belief-network/dbn/tensorflow/models.py", line 5, in <module>
+    import tensorflow as tf
+  File "/home/lei/anaconda3/envs/py36-1/lib/python3.6/site-packages/tensorflow/__init__.py", line 102, in <module>
+    from tensorflow_core import *
+  File "/home/lei/anaconda3/envs/py36-1/lib/python3.6/site-packages/tensorflow_core/__init__.py", line 36, in <module>
+    from tensorflow._api.v1 import compat
+  File "/home/lei/anaconda3/envs/py36-1/lib/python3.6/site-packages/tensorflow_core/_api/v1/compat/__init__.py", line 24, in <module>
+    from tensorflow._api.v1.compat import v2
+  File "/home/lei/anaconda3/envs/py36-1/lib/python3.6/site-packages/tensorflow_core/_api/v1/compat/v2/__init__.py", line 322, in <module>
+    from tensorboard.summary._tf import summary
+  File "/home/lei/anaconda3/envs/py36-1/lib/python3.6/site-packages/tensorboard/summary/__init__.py", line 32, in <module>
+    from tensorboard.summary import v2
+  File "/home/lei/anaconda3/envs/py36-1/lib/python3.6/site-packages/tensorboard/summary/v2.py", line 24, in <module>
+    from tensorboard.plugins.audio.summary_v2 import audio
+  File "/home/lei/anaconda3/envs/py36-1/lib/python3.6/site-packages/tensorboard/plugins/audio/summary_v2.py", line 30, in <module>
+    from tensorboard.compat import tf2 as tf
+  File "/home/lei/anaconda3/envs/py36-1/lib/python3.6/site-packages/tensorboard/compat/__init__.py", line 28, in <module>
+    import tensorboard.lazy as _lazy
+AttributeError: module 'tensorboard' has no attribute 'lazy'

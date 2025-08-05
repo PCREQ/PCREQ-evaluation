@@ -1,0 +1,33 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting librosa==0.3.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/15/e6/e9aaaf9f8a6c251bf535aa8a0054c6004130aca2af4c3a3e997c26c795b4/librosa-0.3.1.tar.gz (2.3 MB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting numpy==1.21.6
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/6d/ad/ff3b21ebfe79a4d25b4a4f8e5cf9fd44a204adb6b33c09010f566f51027a/numpy-1.21.6-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (15.7 MB)
+Collecting matplotlib==0.86.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f8/d0/46d6bf56ca3a466e79fe4884ec244c0a9cf035846dfb707c1bb90804a105/matplotlib-0.86.2.tar.gz (2.6 MB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'error'
+  error: subprocess-exited-with-error
+  
+  × python setup.py egg_info did not run successfully.
+  │ exit code: 1
+  ╰─> [7 lines of output]
+      Traceback (most recent call last):
+        File "<string>", line 36, in <module>
+        File "<pip-setuptools-caller>", line 34, in <module>
+        File "/tmp/pip-install-nsdzqnl3/matplotlib_2dbd28a54cba4636b81019142094a97a/setup.py", line 103
+          print 'installing data to', datapath
+                                   ^
+      SyntaxError: Missing parentheses in call to 'print'. Did you mean print('installing data to', datapath)?
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+error: metadata-generation-failed
+
+× Encountered error while generating package metadata.
+╰─> See above for output.
+
+note: This is an issue with the package mentioned above, not pip.
+hint: See above for details.

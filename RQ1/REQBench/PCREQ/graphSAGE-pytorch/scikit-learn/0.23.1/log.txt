@@ -1,0 +1,5 @@
+2025-06-29 18:49:16,527 - INFO - *************Upgrade scikit-learn from 0.20.3 to 0.23.1 in graphSAGE-pytorch*************
+2025-06-29 18:49:16,527 - INFO - Checking graphSAGE-pytorch is compatible with scikit-learn0.23.1?...
+2025-06-29 18:49:20,910 - INFO - graphSAGE-pytorch is compatible with scikit-learn0.23.1
+2025-06-29 18:49:24,365 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 18:49:24,365 - INFO - Time cost: 7.839076280593872 s

@@ -1,0 +1,33 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting pillow==9.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/86/d2/ca178ad71dcd1dcddbe2a3f7983639d2f8a20e723d9a978ab978ed08c874/Pillow-9.2.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.1 MB)
+Collecting moviepy==2.dev2
+  Using cached moviepy-2.0.0.dev2-py3-none-any.whl
+Collecting numpy==1.19.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/08/d6/a6aaa29fea945bc6c61d11f6e0697b325ff7446de5ffd62c2fa02f627048/numpy-1.19.5-cp37-cp37m-manylinux2010_x86_64.whl (14.8 MB)
+Collecting torch==1.7.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/90/5d/095ddddc91c8a769a68c791c019c5793f9c4456a688ddd235d6670924ecb/torch-1.7.1-cp37-cp37m-manylinux1_x86_64.whl (776.8 MB)
+Collecting decorator<5.0,>=4.0.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ed/1b/72a1821152d07cf1d8b6fce298aeb06a7eb90f4d6d41acec9861e7cc6df0/decorator-4.4.2-py2.py3-none-any.whl (9.2 kB)
+Collecting imageio-ffmpeg>=0.2.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/fe/44/c9e18a73dfd939b5b0ec843870ac72f1f6c17e31a03149b687a85465bff7/imageio_ffmpeg-0.5.1-py3-none-manylinux2010_x86_64.whl (26.9 MB)
+Collecting imageio<3.0,>=2.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/7b/88/59411e1a652ac3338d348901ffa5a73daf1f67fcb3f97d750237d4fa0821/imageio-2.31.2-py3-none-any.whl (313 kB)
+Collecting proglog<=1.0.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/8b/f5/cab5cf6a540c31f5099043de0ae43990fd9cf66f75ecb5e9f254a4e4d4ee/proglog-0.1.10-py3-none-any.whl (6.1 kB)
+Collecting requests<3.0,>=2.8.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/70/8e/0e2d847013cb52cd35b38c009bb167a1a26b2ce6cd6965bf26b47bc0bf44/requests-2.31.0-py3-none-any.whl (62 kB)
+Collecting typing-extensions
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ec/6b/63cc3df74987c36fe26157ee12e09e8f9db4de771e0f3404263117e75b95/typing_extensions-4.7.1-py3-none-any.whl (33 kB)
+Requirement already satisfied: setuptools in /home/lei/anaconda3/envs/py37/lib/python3.7/site-packages (from imageio-ffmpeg>=0.2.0->moviepy==2.dev2->-r /home/lei/compatibility_analysis/compare/ReadPyE/experiment/result/pytorch-hed-numpy-1.19.5.txt (line 2)) (65.0.2)
+Collecting tqdm
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d0/30/dc54f88dd4a2b5dc8a0279bdd7270e735851848b762aeb1c1184ed1f6b14/tqdm-4.67.1-py3-none-any.whl (78 kB)
+Requirement already satisfied: certifi>=2017.4.17 in /home/lei/anaconda3/envs/py37/lib/python3.7/site-packages (from requests<3.0,>=2.8.1->moviepy==2.dev2->-r /home/lei/compatibility_analysis/compare/ReadPyE/experiment/result/pytorch-hed-numpy-1.19.5.txt (line 2)) (2022.12.7)
+Collecting charset-normalizer<4,>=2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/27/9f/68c828438af904d830e680a8d2f6182be97f3205d6d62edfeb4a029b4192/charset_normalizer-3.4.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (138 kB)
+Collecting urllib3<3,>=1.21.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d2/b2/b157855192a68541a91ba7b2bbcb91f1b4faa51f8bae38d8005c034be524/urllib3-2.0.7-py3-none-any.whl (124 kB)
+Collecting idna<4,>=2.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/76/c6/c88e154df9c4e1a2a66ccf0005a88dfb2650c1dffb6f5ce603dfbd452ce3/idna-3.10-py3-none-any.whl (70 kB)
+Installing collected packages: urllib3, typing-extensions, tqdm, pillow, numpy, imageio-ffmpeg, idna, decorator, charset-normalizer, torch, requests, proglog, imageio, moviepy
+Successfully installed charset-normalizer-3.4.0 decorator-4.4.2 idna-3.10 imageio-2.31.2 imageio-ffmpeg-0.5.1 moviepy-2.0.0.dev2 numpy-1.19.5 pillow-9.2.0 proglog-0.1.10 requests-2.31.0 torch-1.7.1 tqdm-4.67.1 typing-extensions-4.7.1 urllib3-2.0.7

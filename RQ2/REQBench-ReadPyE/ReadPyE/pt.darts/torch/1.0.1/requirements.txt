@@ -1,0 +1,6 @@
+torch==1.0.1
+pillow==9.2
+graphviz==0.20.1
+numpy==1.21.6
+torchvision==0.1.9
+tensorboardx==2.5.1

@@ -1,0 +1,84 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting pillow==8.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/33/34/542152297dcc6c47a9dcb0685eac6d652d878ed3cea83bf2b23cb988e857/Pillow-8.2.0-cp37-cp37m-manylinux1_x86_64.whl (3.0 MB)
+Collecting moviepy==2.dev2
+  Using cached moviepy-2.0.0.dev2-py3-none-any.whl
+Collecting numpy==1.21.6
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/6d/ad/ff3b21ebfe79a4d25b4a4f8e5cf9fd44a204adb6b33c09010f566f51027a/numpy-1.21.6-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (15.7 MB)
+Collecting torch==1.7.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/90/5d/095ddddc91c8a769a68c791c019c5793f9c4456a688ddd235d6670924ecb/torch-1.7.1-cp37-cp37m-manylinux1_x86_64.whl (776.8 MB)
+Collecting proglog<=1.0.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/8b/f5/cab5cf6a540c31f5099043de0ae43990fd9cf66f75ecb5e9f254a4e4d4ee/proglog-0.1.10-py3-none-any.whl (6.1 kB)
+Collecting requests<3.0,>=2.8.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/70/8e/0e2d847013cb52cd35b38c009bb167a1a26b2ce6cd6965bf26b47bc0bf44/requests-2.31.0-py3-none-any.whl (62 kB)
+Collecting imageio-ffmpeg>=0.2.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/fe/44/c9e18a73dfd939b5b0ec843870ac72f1f6c17e31a03149b687a85465bff7/imageio_ffmpeg-0.5.1-py3-none-manylinux2010_x86_64.whl (26.9 MB)
+Collecting decorator<5.0,>=4.0.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ed/1b/72a1821152d07cf1d8b6fce298aeb06a7eb90f4d6d41acec9861e7cc6df0/decorator-4.4.2-py2.py3-none-any.whl (9.2 kB)
+Collecting imageio<3.0,>=2.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/7b/88/59411e1a652ac3338d348901ffa5a73daf1f67fcb3f97d750237d4fa0821/imageio-2.31.2-py3-none-any.whl (313 kB)
+Collecting typing-extensions
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ec/6b/63cc3df74987c36fe26157ee12e09e8f9db4de771e0f3404263117e75b95/typing_extensions-4.7.1-py3-none-any.whl (33 kB)
+Collecting imageio<3.0,>=2.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c7/b0/7b6c35b8636ed773325cdb6f5ac3cd36afba63d99e20ed59c521cf5018b4/imageio-2.31.1-py3-none-any.whl (313 kB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f7/9d/47d0a9d0f267e9155963db8608ffbc448f2b5d4e5414d8e608309f422094/imageio-2.31.0-py3-none-any.whl (313 kB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/26/ae/862bd5b3751d9b7bf8db5fb1595bd06d2875997ca79d85bd5847eb7916af/imageio-2.30.0-py3-none-any.whl (312 kB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a9/37/c338ad2a5600d1f5189540c19e86ba209594aa0e9ad8bb68c6f588ec29d2/imageio-2.29.0-py3-none-any.whl (3.4 MB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/e9/67/98ed2279fcd66cc50112abb8f5a3de4526307dc43a16d220d7b48afd113a/imageio-2.28.1-py3-none-any.whl (3.4 MB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/e3/45/833991b7dd3abf47b1c51ec99ab5bed5546d83ee40d45e761e38f98b686c/imageio-2.28.0-py3-none-any.whl (3.4 MB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ad/5b/fa636ec082247ffc250c2a16bb262f3405654cbb098a70996d99d59677eb/imageio-2.27.0-py3-none-any.whl (3.4 MB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/86/c2/d822a7f53a3ac91868419baac685c21812124ae882888e722fe01b529e09/imageio-2.26.1-py3-none-any.whl (3.4 MB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/dc/0b/202efcb00ba89c749bb7b22634c917f29a58bdf052dabe8041f23743974f/imageio-2.26.0-py3-none-any.whl (3.4 MB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/3a/44/c38984042369cc03d2cdd19480a38722cd0b1750b952efc6c6907a16ddfb/imageio-2.25.1-py3-none-any.whl (3.4 MB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/48/c7/1226f9ee3935c79fb46cb345a55ca422f2cf93962352c9ca0c32dddac765/imageio-2.25.0-py3-none-any.whl (3.4 MB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/11/4a/3e6de99afd3227c68b384f5dd420fe8c2d95f9ad765826a3ce75c5f22dc7/imageio-2.24.0-py3-none-any.whl (3.4 MB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/94/e2/418f886809ecb3a7f54d1621557030a22a7cbc30865176206c5b2a05e802/imageio-2.23.0-py3-none-any.whl (3.4 MB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/33/4d/d31ab40bb761fb381c7514e6070c6e1643c44f83a2a48a83e4066227737f/imageio-2.22.4-py3-none-any.whl (3.4 MB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/e2/7f/eec12ebea34fcb37c7aba19131509ca89a8eda6e1dad05fc68d4473deed7/imageio-2.22.3-py3-none-any.whl (3.4 MB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/97/e2/c5bb16905ab91a0fac03f2a4f1579835bcfea3e297f8cf53e4e2b43c270c/imageio-2.22.2-py3-none-any.whl (3.4 MB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ec/5b/521fcf5836cc46672b04e1ec7a94c0869ca6cc6a6e147277f1eb8cbb6886/imageio-2.22.1-py3-none-any.whl (3.4 MB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/78/7a/3e4e595faea7112785de0a78efd8349a860b2ce6cd4d8fc15afe42c27f5f/imageio-2.22.0-py3-none-any.whl (3.4 MB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/05/df/6a83cabdccb4fdede85ad944a5815f7f9e3e2129bd14873d316bc5b077c2/imageio-2.21.3-py3-none-any.whl (3.4 MB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/3e/07/ebbc1c526c0c9fea353024f789b3cc8316eb44537710778630a812ea2e8e/imageio-2.21.2-py3-none-any.whl (3.4 MB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/19/ea/fe0cf58fe26999fc22b7cc75215a6093e1f9e146b747b1c39ad7ed320e92/imageio-2.21.1-py3-none-any.whl (3.4 MB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/48/81/a250e97a06a50bff5011c5f3e70d3f31274b8826aca5061a6d3d4c3a68d7/imageio-2.21.0-py3-none-any.whl (3.4 MB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/cf/b4/3f3579cde78bac3d7a84f2a41b297900eb7989efeea507c6aaef4d0437b5/imageio-2.20.0-py3-none-any.whl (3.4 MB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/9a/65/e566d02fffd9dec9a111cc0fb5c74e9a29bc50029db57b88b82fbd900d3a/imageio-2.19.5-py3-none-any.whl (3.4 MB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/b6/78/3cf2f60ef319d253d71870c6cb00774bfc5bdccf9e06c319678388f58f41/imageio-2.19.3-py3-none-any.whl (3.4 MB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/25/41/91f47808e99dd67bfc3aee53d0a7c8d10b01b221ca254bfd36cd51125866/imageio-2.19.2-py3-none-any.whl (3.4 MB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/b0/bc/2d9b381b00aaf19233ddc3468d3e0b98e70531873c19dab8a89a3b9b3051/imageio-2.19.1-py3-none-any.whl (3.4 MB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/23/49/8e420d84b570779c35245e1d9c093a5f92e3b9f6b888515d5faaad57ec98/imageio-2.19.0-py3-none-any.whl (3.4 MB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/77/eb/71dd16192f74f9c2007feca3f8c99bbcb86e7b2eec1194765445326440bf/imageio-2.18.0-py3-none-any.whl (3.4 MB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/e7/c1/cd2118b924b4b986e9393dd34e3c624b639884bcc91db8164cac1b60dfd1/imageio-2.17.0-py3-none-any.whl (3.4 MB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/0b/09/c5bfd94b3fd000f3f88adf91b23e8dd31e25af2ddc2ec69d01a6dd9c6a79/imageio-2.16.2-py3-none-any.whl (3.3 MB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/29/24/a3a7aa7f1e7f1c3a5c9fe2ff3fec8d9d17e10741eafb710f06705744b35f/imageio-2.16.1-py3-none-any.whl (3.3 MB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/49/f9/4986d7ea281875be92f7780b1d77c1e2e1d1b8f6669c9bb784065c7777cc/imageio-2.15.0-py3-none-any.whl (3.3 MB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a8/7d/170837197f87ccdb6a2ae075eb6699faf1684c81defc0173b413da926041/imageio-2.14.1-py3-none-any.whl (3.3 MB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/88/1e/62f8088805f7eb9cc9ce2b8ae7528a4083014f223c4e55d268dc48ac06c6/imageio-2.14.0-py3-none-any.whl (3.3 MB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c0/d5/16fd54b870551e69616ca872abced219d3a8640c4cb463ea9ea3de414dab/imageio-2.13.5-py3-none-any.whl (3.3 MB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/1f/e1/e84cd610b272ade158a9991438339f1203831fa47fce064a77b776337e2a/imageio-2.13.4-py3-none-any.whl (3.3 MB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d6/1c/e944fcf11c7ba079c1aeee888d451371be7514fc60e8405b7c3c6fc3a3ae/imageio-2.13.3-py3-none-any.whl (3.3 MB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ff/51/c23197aa296b9a872b436b88e690eecabd1fcdf40ba00d6b1474a2f4055c/imageio-2.13.2-py3-none-any.whl (3.3 MB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/93/46/cff0a5440eef59aef829c84cd4a40bd2131be738f61a604a21ab57fcdd9d/imageio-2.13.1-py3-none-any.whl (3.3 MB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/57/ac/790d08a3d1a76de30f943b4533bf6750c6135b6fc23ac804530f68c934a5/imageio-2.13.0-py3-none-any.whl (3.3 MB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/6b/35/7f716e84e6c7e6d66501aca3eb6248d49c1409b6401dd1da86693933e1cd/imageio-2.12.0-py3-none-any.whl (3.3 MB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c2/e1/d3b757a68f983e85bc44dbe55ee9965fc5de1ba58c1d15acc1f388efde88/imageio-2.11.1-py3-none-any.whl (3.3 MB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/28/2d/a9de5c9471a8dc8e1c56876840669428c22552b7ffeba3dd5aed9fc16077/imageio-2.11.0-py3-none-any.whl (3.3 MB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/85/6c/b286814a187ed707512a9dc5b7add733509aaed9baa04ce133cb4567c0f7/imageio-2.10.5-py3-none-any.whl (3.3 MB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/b9/39/6ee130ba4513076cbfe85c807b2c6ed7b187da67f9c1ee6cf442da8c12ea/imageio-2.10.4-py3-none-any.whl (3.3 MB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/17/be/4a836c9262b40454c2834c5ab1a20a35e2f23216b0744f666395fab8a046/imageio-2.10.3-py3-none-any.whl (3.3 MB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/08/8a/dc5482aec1b90015e8975a3402baf88837c8607fafe2929287dda27dfe82/imageio-2.10.2-py3-none-any.whl (3.3 MB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/67/e1/30c3a6f81841e3c2ca924a663317ce0624ca586fbc5b02279be30abeb867/imageio-2.10.1-py3-none-any.whl (3.3 MB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/6e/57/5d899fae74c1752f52869b613a8210a2480e1a69688e65df6cb26117d45d/imageio-2.9.0-py3-none-any.whl (3.3 MB)
+Requirement already satisfied: setuptools in /home/lei/anaconda3/envs/py37/lib/python3.7/site-packages (from imageio-ffmpeg>=0.2.0->moviepy==2.dev2->-r /home/lei/compatibility_analysis/compare/ReadPyE/experiment/result/pytorch-hed-pillow-8.2.0.txt (line 2)) (65.0.2)
+Collecting tqdm
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d0/30/dc54f88dd4a2b5dc8a0279bdd7270e735851848b762aeb1c1184ed1f6b14/tqdm-4.67.1-py3-none-any.whl (78 kB)
+Collecting urllib3<3,>=1.21.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d2/b2/b157855192a68541a91ba7b2bbcb91f1b4faa51f8bae38d8005c034be524/urllib3-2.0.7-py3-none-any.whl (124 kB)
+Collecting idna<4,>=2.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/76/c6/c88e154df9c4e1a2a66ccf0005a88dfb2650c1dffb6f5ce603dfbd452ce3/idna-3.10-py3-none-any.whl (70 kB)
+Requirement already satisfied: certifi>=2017.4.17 in /home/lei/anaconda3/envs/py37/lib/python3.7/site-packages (from requests<3.0,>=2.8.1->moviepy==2.dev2->-r /home/lei/compatibility_analysis/compare/ReadPyE/experiment/result/pytorch-hed-pillow-8.2.0.txt (line 2)) (2022.12.7)
+Collecting charset-normalizer<4,>=2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/27/9f/68c828438af904d830e680a8d2f6182be97f3205d6d62edfeb4a029b4192/charset_normalizer-3.4.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (138 kB)
+Installing collected packages: urllib3, typing-extensions, tqdm, pillow, numpy, imageio-ffmpeg, idna, decorator, charset-normalizer, torch, requests, proglog, imageio, moviepy
+Successfully installed charset-normalizer-3.4.0 decorator-4.4.2 idna-3.10 imageio-2.9.0 imageio-ffmpeg-0.5.1 moviepy-2.0.0.dev2 numpy-1.21.6 pillow-8.2.0 proglog-0.1.10 requests-2.31.0 torch-1.7.1 tqdm-4.67.1 typing-extensions-4.7.1 urllib3-2.0.7

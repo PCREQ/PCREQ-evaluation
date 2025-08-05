@@ -1,0 +1,13 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting torch==1.10.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/01/73/a8dcb6da2193980309bf2d605d0ff56698a7c6977ea954413b163baddf77/torch-1.10.2-cp37-cp37m-manylinux1_x86_64.whl (881.9 MB)
+Requirement already satisfied: typing-extensions in /home/lei/anaconda3/envs/nlp_classification-torch/lib/python3.7/site-packages (from torch==1.10.2) (4.7.1)
+Installing collected packages: torch
+  Attempting uninstall: torch
+    Found existing installation: torch 1.10.1
+    Uninstalling torch-1.10.1:
+      Successfully uninstalled torch-1.10.1
+Successfully installed torch-1.10.2
+
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+torchvision 0.6.0 requires torch==1.5.0, but you have torch 1.10.2 which is incompatible.

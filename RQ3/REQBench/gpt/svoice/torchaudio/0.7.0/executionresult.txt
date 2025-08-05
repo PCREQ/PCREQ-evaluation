@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/lei/compatibility_analysis/pytorch/1.6/svoice/svoice/evaluate.py", line 16, in <module>
+    from pesq import pesq
+  File "/home/lei/anaconda3/envs/py37-3/lib/python3.7/site-packages/pesq/__init__.py", line 6, in <module>
+    from .cypesq import cypesq
+  File "pesq/cypesq.pyx", line 1, in init cypesq
+ImportError: numpy.core.multiarray failed to import (auto-generated because you didn't call 'numpy.import_array()' after cimporting numpy; use '<void>numpy._import_array' to disable if you are certain you don't need it).

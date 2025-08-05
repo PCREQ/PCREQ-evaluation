@@ -1,0 +1,38 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting coloredlogs==15.0.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a7/06/3d6badcf13db419e25b07041d9c7b4a2c331d3f4e7134445ec5df57714cd/coloredlogs-15.0.1-py2.py3-none-any.whl (46 kB)
+Collecting cycler==0.10.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f7/d2/e07d3ebb2bd7af696440ce7e754c59dd546ffe1bbe732c8ab68b9c834e61/cycler-0.10.0-py2.py3-none-any.whl (6.5 kB)
+Collecting humanfriendly==10.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f0/0f/310fb31e39e2d734ccaa2c0fb981ee41f7bd5056ce9bc29b2248bd569169/humanfriendly-10.0-py2.py3-none-any.whl (86 kB)
+Collecting kiwisolver==1.0.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/5c/7e/d6cae2f241ba474a2665f24b480bf4e247036d63939dda2bbc4d2ee5069d/kiwisolver-1.0.1-cp37-cp37m-manylinux1_x86_64.whl (89 kB)
+Collecting matplotlib==3.0.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/e7/f9/5377596cb1c035c102396f5934237a046f80da69974026f90bee5db8b7ba/matplotlib-3.0.2-cp37-cp37m-manylinux1_x86_64.whl (12.9 MB)
+Collecting mpmath==1.2.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d4/cf/3965bddbb4f1a61c49aacae0e78fd1fe36b5dc36c797b31f30cf07dcbbb7/mpmath-1.2.1-py3-none-any.whl (532 kB)
+Collecting numpy==1.16.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/61/57/07c49e1a6d2706fb7336b3fb11dd285c1e96535c80833d7524f002f57086/numpy-1.16.1-cp37-cp37m-manylinux1_x86_64.whl (17.3 MB)
+Collecting Pillow==8.0.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/af/fa/c1302a26d5e1a17fa8e10e43417b6cf038b0648c4b79fcf2302a4a0c5d30/Pillow-8.0.1-cp37-cp37m-manylinux1_x86_64.whl (2.2 MB)
+Collecting pyparsing==2.3.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/de/0a/001be530836743d8be6c2d85069f46fecf84ac6c18c7f5fb8125ee11d854/pyparsing-2.3.1-py2.py3-none-any.whl (61 kB)
+Collecting python-dateutil==2.8.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/41/17/c62faccbfbd163c7f57f3844689e3a78bae1f403648a6afb1d0866d87fbb/python_dateutil-2.8.0-py2.py3-none-any.whl (226 kB)
+Collecting python-gflags==3.1.2
+  Using cached python_gflags-3.1.2-py3-none-any.whl
+Collecting six==1.12.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/73/fb/00a976f728d0d1fecfe898238ce23f502a721c0ac0ecfedb80e0d88c64e9/six-1.12.0-py2.py3-none-any.whl (10 kB)
+Collecting sympy==1.10.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d0/04/66be21ceb305c66a4b326b0ae44cc4f027a43bc08cac204b48fb45bb3653/sympy-1.10.1-py3-none-any.whl (6.4 MB)
+Collecting torch==1.0.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/4e/ba/d78f35357995297206790fe1af8688bc0403828c90f8e99190035196d56e/torch-1.0.1-cp37-cp37m-manylinux1_x86_64.whl (560.1 MB)
+Collecting torchvision==0.2.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ce/a1/66d72a2fe580a9f0fcbaaa5b976911fbbde9dce9b330ba12791997b856e9/torchvision-0.2.2-py2.py3-none-any.whl (64 kB)
+Collecting tqdm==4.19.9
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/b3/c4/b67cf1ab472b770e08e94105a0c7ca7032cd070627c435f5998c9cf6e64f/tqdm-4.19.9-py2.py3-none-any.whl (52 kB)
+Requirement already satisfied: setuptools in /home/lei/anaconda3/envs/py37-5/lib/python3.7/site-packages (from kiwisolver==1.0.1->-r /home/lei/compatibility_analysis/compare/LLM/result/deepseek/v3/siamese-pytorch-pillow-8.0.1.txt (line 4)) (59.5.0)
+WARNING: The candidate selected for download or install is a yanked version: 'torchvision' candidate (version 0.2.2 at https://pypi.tuna.tsinghua.edu.cn/packages/ce/a1/66d72a2fe580a9f0fcbaaa5b976911fbbde9dce9b330ba12791997b856e9/torchvision-0.2.2-py2.py3-none-any.whl (from https://pypi.tuna.tsinghua.edu.cn/simple/torchvision/))
+Reason for being yanked: <none given>
+Installing collected packages: tqdm, torch, python-gflags, pyparsing, mpmath, sympy, six, Pillow, numpy, kiwisolver, humanfriendly, torchvision, python-dateutil, cycler, coloredlogs, matplotlib
+Successfully installed Pillow-8.0.1 coloredlogs-15.0.1 cycler-0.10.0 humanfriendly-10.0 kiwisolver-1.0.1 matplotlib-3.0.2 mpmath-1.2.1 numpy-1.16.1 pyparsing-2.3.1 python-dateutil-2.8.0 python-gflags-3.1.2 six-1.12.0 sympy-1.10.1 torch-1.0.1 torchvision-0.2.2 tqdm-4.19.9

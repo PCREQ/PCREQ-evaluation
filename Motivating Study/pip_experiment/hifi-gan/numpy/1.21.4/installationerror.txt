@@ -1,0 +1,12 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting numpy==1.21.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/5b/0d/de55834c5ea0dd287cb1cb156c8bc120af2863c36e4d49b4dc28f174e278/numpy-1.21.4-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (15.7 MB)
+Installing collected packages: numpy
+  Attempting uninstall: numpy
+    Found existing installation: numpy 1.21.3
+    Uninstalling numpy-1.21.3:
+      Successfully uninstalled numpy-1.21.3
+Successfully installed numpy-1.21.4
+
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+numba 0.54.1 requires numpy<1.21,>=1.17, but you have numpy 1.21.4 which is incompatible.

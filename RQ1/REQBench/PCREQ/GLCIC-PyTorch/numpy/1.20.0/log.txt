@@ -1,0 +1,9 @@
+2025-06-29 19:00:23,551 - INFO - *************Upgrade numpy from 1.19.2 to 1.20.0 in GLCIC-PyTorch*************
+2025-06-29 19:00:23,551 - INFO - Checking GLCIC-PyTorch is compatible with numpy1.20.0?...
+2025-06-29 19:00:30,296 - INFO - GLCIC-PyTorch is compatible with numpy1.20.0
+2025-06-29 19:00:30,678 - INFO - Checking opencv-python4.5.2.54 is compatible with numpy1.20.0?...
+2025-06-29 19:00:30,681 - INFO - opencv-python4.5.2.54 is compatible with numpy1.20.0
+2025-06-29 19:00:30,681 - INFO - Checking torchvision0.10.0 is compatible with numpy1.20.0?...
+2025-06-29 19:00:33,136 - INFO - torchvision0.10.0 is compatible with numpy1.20.0
+2025-06-29 19:00:35,662 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 19:00:35,662 - INFO - Time cost: 12.112743616104126 s

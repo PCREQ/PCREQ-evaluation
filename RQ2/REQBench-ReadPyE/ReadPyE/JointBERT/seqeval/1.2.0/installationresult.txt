@@ -1,0 +1,26 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting numpy==1.19.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/14/32/d3fa649ad7ec0b82737b92fefd3c4dd376b0bb23730715124569f38f3a08/numpy-1.19.5-cp36-cp36m-manylinux2010_x86_64.whl (14.8 MB)
+Collecting seqeval==1.2
+  Using cached seqeval-1.2.0-py3-none-any.whl
+Collecting torch==1.8.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/dd/b9/824df420f6abf551e41bbaacbaa0be8321dc104f9f3803051513844dc310/torch-1.8.1-cp36-cp36m-manylinux1_x86_64.whl (804.1 MB)
+Collecting torchcrf==1.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/0e/95/3490a6c67d543aca9af21a7a13197750e18e975a215fa4b6f5411902908d/TorchCRF-1.1.0-py3-none-any.whl (5.2 kB)
+Collecting tqdm==4.64
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/8a/c4/d15f1e627fff25443ded77ea70a7b5532d6371498f9285d44d62587e209c/tqdm-4.64.0-py2.py3-none-any.whl (78 kB)
+Collecting transformers==3.3.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/19/22/aff234f4a841f8999e68a7a94bdd4b60b4cebcfeca5d67d61cd08c9179de/transformers-3.3.1-py3-none-any.whl (1.1 MB)
+INFO: pip is looking at multiple versions of <Python from Requires-Python> to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of numpy to determine which version is compatible with other requirements. This could take a while.
+ERROR: Cannot install -r /home/lei/compatibility_analysis/compare/ReadPyE/experiment/result/JointBERT-seqeval-1.2.0.txt (line 2) and numpy==1.19.5 because these package versions have conflicting dependencies.
+
+The conflict is caused by:
+    The user requested numpy==1.19.5
+    seqeval 1.2.0 depends on numpy==1.19.2
+
+To fix this you could try to:
+1. loosen the range of package versions you've specified
+2. remove package versions to allow pip attempt to solve the dependency conflict
+
+ERROR: ResolutionImpossible: for help visit https://pip.pypa.io/en/latest/user_guide/#fixing-conflicting-dependencies

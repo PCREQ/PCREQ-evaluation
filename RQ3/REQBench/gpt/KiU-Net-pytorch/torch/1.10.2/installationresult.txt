@@ -1,0 +1,79 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting certifi==2021.5.30
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/05/1b/0a0dece0e8aa492a6ec9e4ad2fe366b511558cdc73fd3abc82ba7348e875/certifi-2021.5.30-py2.py3-none-any.whl (145 kB)
+Collecting cycler==0.11.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/5c/f9/695d6bedebd747e5eb0fe8fad57b72fdf25411273a39791cde838d5a8f51/cycler-0.11.0-py3-none-any.whl (6.4 kB)
+Collecting decorator==4.4.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ed/1b/72a1821152d07cf1d8b6fce298aeb06a7eb90f4d6d41acec9861e7cc6df0/decorator-4.4.2-py2.py3-none-any.whl (9.2 kB)
+Collecting imageio==2.15.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/49/f9/4986d7ea281875be92f7780b1d77c1e2e1d1b8f6669c9bb784065c7777cc/imageio-2.15.0-py3-none-any.whl (3.3 MB)
+Collecting kiwisolver==1.3.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a7/1b/cbd8ae738719b5f41592a12057ef5442e2ed5f5cb5451f8fc7e9f8875a1a/kiwisolver-1.3.1-cp36-cp36m-manylinux1_x86_64.whl (1.1 MB)
+Collecting matplotlib==3.3.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/09/03/b7b30fa81cb687d1178e085d0f01111ceaea3bf81f9330c937fb6f6c8ca0/matplotlib-3.3.4-cp36-cp36m-manylinux1_x86_64.whl (11.5 MB)
+Collecting networkx==2.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/9b/cd/dc52755d30ba41c60243235460961fc28022e5b6731f16c268667625baea/networkx-2.5-py3-none-any.whl (1.6 MB)
+Collecting numpy==1.19.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/0e/f7/a7d7e0de99a7b43bd95aaddcf29e65b5a185ca389dd1329a53cc986edc38/numpy-1.19.3-cp36-cp36m-manylinux2010_x86_64.whl (14.9 MB)
+Collecting opencv-python==4.5.3.56
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/7f/45/32b09b11c76c354beb94c6549d844241709366fac02f253aa7f7b9ec9861/opencv_python-4.5.3.56-cp36-cp36m-manylinux2014_x86_64.whl (49.9 MB)
+Collecting pandas==1.1.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c3/e2/00cacecafbab071c787019f00ad84ca3185952f6bb9bca9550ed83870d4d/pandas-1.1.5-cp36-cp36m-manylinux1_x86_64.whl (9.5 MB)
+Collecting Pillow==8.4.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ea/0f/2fa195c2d8c6fe0b3dc2df5fc6ac6b8dbd005ea30aaa0fa43eca88b8c664/Pillow-8.4.0-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.1 MB)
+Collecting pyparsing==2.4.7
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/8a/bb/488841f56197b13700afd5658fc279a2025a39e22449b7cf29864669b15d/pyparsing-2.4.7-py2.py3-none-any.whl (67 kB)
+Collecting python-dateutil==2.8.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/36/7a/87837f39d0296e723bb9b62bbb257d0355c7f6128853c78955f57342a56d/python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+Collecting pytz==2021.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/70/94/784178ca5dd892a98f113cdd923372024dc04b8d40abe77ca76b5fb90ca6/pytz-2021.1-py2.py3-none-any.whl (510 kB)
+Collecting PyWavelets==1.1.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/59/bb/d2b85265ec9fa3c1922210c9393d4cdf7075cc87cce6fe671d7455f80fbc/PyWavelets-1.1.1-cp36-cp36m-manylinux1_x86_64.whl (4.4 MB)
+Collecting scikit-image==0.17.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/0e/ba/53e1bfbdfd0f94514d71502e3acea494a8b4b57c457adbc333ef386485da/scikit_image-0.17.2-cp36-cp36m-manylinux1_x86_64.whl (12.4 MB)
+Collecting scipy==1.5.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c8/89/63171228d5ced148f5ced50305c89e8576ffc695a90b58fe5bb602b910c2/scipy-1.5.4-cp36-cp36m-manylinux1_x86_64.whl (25.9 MB)
+Collecting six==1.16.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting tifffile==2020.9.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/42/6b/93a8ee61c6fbe20fa9c17928bd3b80484902b7fd454cecaffba42f5052cb/tifffile-2020.9.3-py3-none-any.whl (148 kB)
+Collecting torch==1.10.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a4/54/81b1c3c574a1ffde54b0c82ed2a37d81395709cdd5f50e59970aeed5d95e/torch-1.10.2-cp36-cp36m-manylinux1_x86_64.whl (881.9 MB)
+Collecting torchvision==0.11.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/1c/e6/d05bd5325f5c285360609fa7b9beeb9b7b54f052fa73cb95a1833bc06d0a/torchvision-0.11.1-cp36-cp36m-manylinux1_x86_64.whl (23.3 MB)
+Collecting dataclasses
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/fe/ca/75fac5856ab5cfa51bbbcefa250182e50441074fdc3f803f6e76451fab43/dataclasses-0.8-py3-none-any.whl (19 kB)
+Collecting typing-extensions
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/45/6b/44f7f8f1e110027cf88956b59f2fad776cca7e1704396d043f89effd3a0e/typing_extensions-4.1.1-py3-none-any.whl (26 kB)
+INFO: pip is looking at multiple versions of torch to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of tifffile to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of six to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of scipy to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of scikit-image to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of pywavelets to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of pytz to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of python-dateutil to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of pyparsing to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of pillow to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of pandas to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of opencv-python to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of numpy to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of networkx to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of matplotlib to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of kiwisolver to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of imageio to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of decorator to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of <Python from Requires-Python> to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of cycler to determine which version is compatible with other requirements. This could take a while.
+INFO: pip is looking at multiple versions of certifi to determine which version is compatible with other requirements. This could take a while.
+ERROR: Cannot install -r /home/lei/compatibility_analysis/compare/LLM/result/chatgpt/KiU-Net-pytorch-torch-1.10.2.txt (line 21) and torch==1.10.2 because these package versions have conflicting dependencies.
+
+The conflict is caused by:
+    The user requested torch==1.10.2
+    torchvision 0.11.1 depends on torch==1.10.0
+
+To fix this you could try to:
+1. loosen the range of package versions you've specified
+2. remove package versions to allow pip attempt to solve the dependency conflict
+
+ERROR: ResolutionImpossible: for help visit https://pip.pypa.io/en/latest/user_guide/#fixing-conflicting-dependencies

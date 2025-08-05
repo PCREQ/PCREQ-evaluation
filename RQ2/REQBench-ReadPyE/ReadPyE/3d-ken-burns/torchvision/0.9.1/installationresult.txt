@@ -1,0 +1,33 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting h5py==3.7
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/fe/f9/c53bfbd9da31cd56058f7c4552ac634bf71f17413cb36f151b6e956eb0bd/h5py-3.7.0-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (4.1 MB)
+Collecting torchvision==0.13.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/b3/32/afee55c60af3d4229e445eda9b8f77bc7fb3fb1efac3fab73cfcab671023/torchvision-0.13.1-cp37-cp37m-manylinux1_x86_64.whl (19.1 MB)
+Collecting moviepy==2.dev2
+  Using cached moviepy-2.0.0.dev2-py3-none-any.whl
+Collecting gevent==0.12.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f9/9d/34801e8a25656bbb02f4e7bf361ac8b69b5bdb08e1a3a758042085d587b6/gevent-0.12.2.tar.gz (206 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'error'
+  error: subprocess-exited-with-error
+  
+  × python setup.py egg_info did not run successfully.
+  │ exit code: 1
+  ╰─> [7 lines of output]
+      Traceback (most recent call last):
+        File "<string>", line 36, in <module>
+        File "<pip-setuptools-caller>", line 34, in <module>
+        File "/tmp/pip-install-mkxtkx_f/gevent_47d137abf86b49388d1a866a2c2f6b28/setup.py", line 81
+          print 'Linking %s to %s' % (path_to_build_core_so, path_to_core_so)
+                                 ^
+      SyntaxError: invalid syntax
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+error: metadata-generation-failed
+
+× Encountered error while generating package metadata.
+╰─> See above for output.
+
+note: This is an issue with the package mentioned above, not pip.
+hint: See above for details.

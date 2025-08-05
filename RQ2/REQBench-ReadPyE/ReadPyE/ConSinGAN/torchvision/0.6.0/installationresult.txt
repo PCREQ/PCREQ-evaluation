@@ -1,0 +1,24 @@
+DEPRECATION: Python 3.5 reached the end of its life on September 13th, 2020. Please upgrade your Python as Python 3.5 is no longer maintained. pip 21.0 will drop support for Python 3.5 in January 2021. pip 21.0 will remove support for this functionality.
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting matplotlib==1.1.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c5/01/be962989489dfda03f5f049fbe53c0e10c7f771f3ced5fcc724851ad4bad/matplotlib-1.1.1.tar.gz (9.2 MB)
+    ERROR: Command errored out with exit status 1:
+     command: /home/lei/anaconda3/envs/py35/bin/python -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-8pfk3zuq/matplotlib_3b03b8e99e5544e08fa22340c35105fd/setup.py'"'"'; __file__='"'"'/tmp/pip-install-8pfk3zuq/matplotlib_3b03b8e99e5544e08fa22340c35105fd/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-ncj4xm_i
+         cwd: /tmp/pip-install-8pfk3zuq/matplotlib_3b03b8e99e5544e08fa22340c35105fd/
+    Complete output (12 lines):
+    basedirlist is: ['/usr/local', '/usr']
+    ============================================================================
+    BUILDING MATPLOTLIB
+                matplotlib: 1.1.1
+                    python: 3.5.6 |Anaconda, Inc.| (default, Jun  4 2021,
+                            13:57:47)  [GCC 7.5.0]
+                  platform: linux
+    
+    REQUIRED DEPENDENCIES
+                     numpy: no
+                            * You must install numpy 1.4 or later to build
+                            * matplotlib.
+    ----------------------------------------
+WARNING: Discarding https://pypi.tuna.tsinghua.edu.cn/packages/c5/01/be962989489dfda03f5f049fbe53c0e10c7f771f3ced5fcc724851ad4bad/matplotlib-1.1.1.tar.gz#sha256=f6848b2ab86a5a3664ed59e96ad0fa0226d76afe3bd28b1ae1c4b88a943ab9ec (from https://pypi.tuna.tsinghua.edu.cn/simple/matplotlib/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+ERROR: Could not find a version that satisfies the requirement matplotlib==1.1.1
+ERROR: No matching distribution found for matplotlib==1.1.1

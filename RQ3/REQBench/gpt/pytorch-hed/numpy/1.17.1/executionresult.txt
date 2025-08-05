@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "run.py", line 146, in <module>
+    tenOutput = estimate(tenInput)
+  File "run.py", line 129, in estimate
+    netNetwork = Network().cuda().eval()
+  File "run.py", line 92, in __init__
+    self.load_state_dict({ strKey.replace('module', 'net'): tenWeight for strKey, tenWeight in torch.hub.load_state_dict_from_url(url='http://content.sniklaus.com/github/pytorch-hed/network-' + arguments_strModel + '.pytorch', file_name='hed-' + arguments_strModel).items() })
+TypeError: load_state_dict_from_url() got an unexpected keyword argument 'file_name'

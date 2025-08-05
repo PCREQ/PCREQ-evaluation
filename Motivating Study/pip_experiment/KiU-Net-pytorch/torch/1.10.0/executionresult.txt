@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "train.py", line 5, in <module>
+    import torchvision
+  File "/dataset/lei/anaconda3/envs/KiU-Net-pytorch-torch-1.10.0/lib/python3.6/site-packages/torchvision/__init__.py", line 4, in <module>
+    from torchvision import datasets
+  File "/dataset/lei/anaconda3/envs/KiU-Net-pytorch-torch-1.10.0/lib/python3.6/site-packages/torchvision/datasets/__init__.py", line 1, in <module>
+    from .lsun import LSUN, LSUNClass
+  File "/dataset/lei/anaconda3/envs/KiU-Net-pytorch-torch-1.10.0/lib/python3.6/site-packages/torchvision/datasets/lsun.py", line 19, in <module>
+    from .utils import verify_str_arg, iterable_to_str
+  File "/dataset/lei/anaconda3/envs/KiU-Net-pytorch-torch-1.10.0/lib/python3.6/site-packages/torchvision/datasets/utils.py", line 11, in <module>
+    from torch._six import PY3
+ImportError: cannot import name 'PY3'

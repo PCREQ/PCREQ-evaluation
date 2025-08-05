@@ -1,0 +1,49 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting absl-py==1.0.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/2c/03/e3e19d3faf430ede32e41221b294e37952e06acc96781c417ac25d4a0324/absl_py-1.0.0-py3-none-any.whl (126 kB)
+Collecting coloredlogs==14.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/5c/2f/12747be360d6dea432e7b5dfae3419132cb008535cfe614af73b9ce2643b/coloredlogs-14.0-py2.py3-none-any.whl (43 kB)
+Collecting graphviz==0.8.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/53/39/4ab213673844e0c004bed8a0781a0721a3f6bb23eb8854ee75c236428892/graphviz-0.8.4-py2.py3-none-any.whl (16 kB)
+Collecting grpcio==1.19.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/83/60/b58313c04365bd2b3c63d077bedb9c28723b9b22b399d3e89c96a16bc5bc/grpcio-1.19.0-cp37-cp37m-manylinux1_x86_64.whl (10.8 MB)
+Collecting humanfriendly==9.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/93/66/363d01a81da2108a5cf446daf619779f06d49a0c4426dd02b40734f10e2f/humanfriendly-9.1-py2.py3-none-any.whl (86 kB)
+Collecting importlib-metadata==2.0.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/6d/6d/f4bb28424bc677bce1210bc19f69a43efe823e294325606ead595211f93e/importlib_metadata-2.0.0-py2.py3-none-any.whl (31 kB)
+Collecting Markdown==3.3.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/6e/33/1ae0f71395e618d6140fbbc9587cc3156591f748226075e0f7d6f9176522/Markdown-3.3.4-py3-none-any.whl (97 kB)
+Collecting MarkupSafe==2.0.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/09/f1/5ca5da61ec071ce1e9c423f66a5bde508957601118be9cd37aeccfeab2f6/MarkupSafe-2.0.1-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl (31 kB)
+Collecting mpmath==1.2.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d4/cf/3965bddbb4f1a61c49aacae0e78fd1fe36b5dc36c797b31f30cf07dcbbb7/mpmath-1.2.1-py3-none-any.whl (532 kB)
+Collecting numpy==1.15.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/38/39/f73e104d44f19a6203e786d5204532e214443ea2954917b27f3229e7639b/numpy-1.15.4-cp37-cp37m-manylinux1_x86_64.whl (13.8 MB)
+Collecting Pillow==6.2.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/34/b7/fb24ad352b747340ec1975c84c30cca37bb93a0079e037d1f0930afd65ad/Pillow-6.2.0-cp37-cp37m-manylinux1_x86_64.whl (2.1 MB)
+Collecting protobuf==3.6.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/3a/30/289ead101f94998d88e8961a3548aea29417ae0057be23972483cddebf4f/protobuf-3.6.1-cp37-cp37m-manylinux1_x86_64.whl (1.1 MB)
+Collecting six==1.11.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/67/4b/141a581104b1f6397bfa78ac9d43d8ad29a7ca43ea90a2d863fe3056e86a/six-1.11.0-py2.py3-none-any.whl (10 kB)
+Collecting sympy==1.3
+  Using cached sympy-1.3-py3-none-any.whl
+Collecting tensorboard==1.13.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/0f/39/bdd75b08a6fba41f098b6cb091b9e8c7a80e1b4d679a581a0ccd17b10373/tensorboard-1.13.1-py3-none-any.whl (3.2 MB)
+Collecting tensorboardX==1.6
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/5c/76/89dd44458eb976347e5a6e75eb79fecf8facd46c1ce259bad54e0044ea35/tensorboardX-1.6-py2.py3-none-any.whl (129 kB)
+Collecting torch==1.0.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/4e/ba/d78f35357995297206790fe1af8688bc0403828c90f8e99190035196d56e/torch-1.0.1-cp37-cp37m-manylinux1_x86_64.whl (560.1 MB)
+Collecting torchvision==0.2.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ca/0d/f00b2885711e08bd71242ebe7b96561e6f6d01fdb4b9dcf4d37e2e13c5e1/torchvision-0.2.1-py2.py3-none-any.whl (54 kB)
+Collecting typing_extensions==3.7.4.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/03/92/705fe8aca27678e01bbdd7738173b8e7df0088a2202c80352f664630d638/typing_extensions-3.7.4.1-py3-none-any.whl (20 kB)
+Collecting Werkzeug==0.14.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/20/c4/12e3e56473e52375aa29c4764e70d1b8f3efa6682bef8d0aae04fe335243/Werkzeug-0.14.1-py2.py3-none-any.whl (322 kB)
+Collecting zipp==1.2.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/96/0a/67556e9b7782df7118c1f49bdc494da5e5e429c93aa77965f33e81287c8c/zipp-1.2.0-py2.py3-none-any.whl (4.8 kB)
+Requirement already satisfied: setuptools in /home/lei/anaconda3/envs/py37-6/lib/python3.7/site-packages (from protobuf==3.6.1->-r /home/lei/compatibility_analysis/compare/LLM/result/chatgpt/pt.darts-torch-1.0.1.txt (line 12)) (65.6.3)
+Requirement already satisfied: wheel>=0.26 in /home/lei/anaconda3/envs/py37-6/lib/python3.7/site-packages (from tensorboard==1.13.1->-r /home/lei/compatibility_analysis/compare/LLM/result/chatgpt/pt.darts-torch-1.0.1.txt (line 15)) (0.38.4)
+WARNING: The candidate selected for download or install is a yanked version: 'torchvision' candidate (version 0.2.1 at https://pypi.tuna.tsinghua.edu.cn/packages/ca/0d/f00b2885711e08bd71242ebe7b96561e6f6d01fdb4b9dcf4d37e2e13c5e1/torchvision-0.2.1-py2.py3-none-any.whl (from https://pypi.tuna.tsinghua.edu.cn/simple/torchvision/))
+Reason for being yanked: <none given>
+Installing collected packages: Werkzeug, typing_extensions, torch, six, mpmath, zipp, sympy, protobuf, Pillow, numpy, MarkupSafe, humanfriendly, grpcio, graphviz, absl-py, torchvision, tensorboardX, importlib-metadata, coloredlogs, Markdown, tensorboard
+Successfully installed Markdown-3.3.4 MarkupSafe-2.0.1 Pillow-6.2.0 Werkzeug-0.14.1 absl-py-1.0.0 coloredlogs-14.0 graphviz-0.8.4 grpcio-1.19.0 humanfriendly-9.1 importlib-metadata-2.0.0 mpmath-1.2.1 numpy-1.15.4 protobuf-3.6.1 six-1.11.0 sympy-1.3 tensorboard-1.13.1 tensorboardX-1.6 torch-1.0.1 torchvision-0.2.1 typing_extensions-3.7.4.1 zipp-1.2.0

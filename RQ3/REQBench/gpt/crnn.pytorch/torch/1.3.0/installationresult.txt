@@ -1,0 +1,23 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting coloredlogs==15.0.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a7/06/3d6badcf13db419e25b07041d9c7b4a2c331d3f4e7134445ec5df57714cd/coloredlogs-15.0.1-py2.py3-none-any.whl (46 kB)
+Collecting humanfriendly==10.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f0/0f/310fb31e39e2d734ccaa2c0fb981ee41f7bd5056ce9bc29b2248bd569169/humanfriendly-10.0-py2.py3-none-any.whl (86 kB)
+Collecting lmdb==0.97
+  Using cached lmdb-0.97-cp37-cp37m-linux_x86_64.whl
+Collecting mpmath==1.2.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d4/cf/3965bddbb4f1a61c49aacae0e78fd1fe36b5dc36c797b31f30cf07dcbbb7/mpmath-1.2.1-py3-none-any.whl (532 kB)
+Collecting numpy==1.17.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/00/4a/e34fce8f18c0e052c2b49f1b3713469d855f7662d58ae2b82a88341e865b/numpy-1.17.3-cp37-cp37m-manylinux1_x86_64.whl (20.0 MB)
+Collecting Pillow==6.2.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/34/b7/fb24ad352b747340ec1975c84c30cca37bb93a0079e037d1f0930afd65ad/Pillow-6.2.0-cp37-cp37m-manylinux1_x86_64.whl (2.1 MB)
+Collecting six==1.12.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/73/fb/00a976f728d0d1fecfe898238ce23f502a721c0ac0ecfedb80e0d88c64e9/six-1.12.0-py2.py3-none-any.whl (10 kB)
+Collecting sympy==1.10.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d0/04/66be21ceb305c66a4b326b0ae44cc4f027a43bc08cac204b48fb45bb3653/sympy-1.10.1-py3-none-any.whl (6.4 MB)
+Collecting torch==1.3.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/b4/0b/9d33aef363b6728ad937643d98be713c6c25d50ce338678ad57cee6e6fd5/torch-1.3.0-cp37-cp37m-manylinux1_x86_64.whl (773.1 MB)
+Collecting torchvision==0.4.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/72/b9/5e22c25a201b80cd599af910200b66872af5f5404a13dc76e9ce1a988bed/torchvision-0.4.1-cp37-cp37m-manylinux1_x86_64.whl (10.1 MB)
+Installing collected packages: mpmath, lmdb, sympy, six, Pillow, numpy, humanfriendly, torch, coloredlogs, torchvision
+Successfully installed Pillow-6.2.0 coloredlogs-15.0.1 humanfriendly-10.0 lmdb-0.97 mpmath-1.2.1 numpy-1.17.3 six-1.12.0 sympy-1.10.1 torch-1.3.0 torchvision-0.4.1

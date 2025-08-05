@@ -1,0 +1,5 @@
+2025-06-29 15:22:35,236 - INFO - *************Upgrade tensorboardx from 1.8 to 2.6.2.2 in RetinaFace_Pytorch*************
+2025-06-29 15:22:35,236 - INFO - Checking RetinaFace_Pytorch is compatible with tensorboardx2.6.2.2?...
+2025-06-29 15:22:35,733 - INFO - RetinaFace_Pytorch is compatible with tensorboardx2.6.2.2
+2025-06-29 15:22:38,011 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 15:22:38,011 - INFO - Time cost: 2.7765352725982666 s

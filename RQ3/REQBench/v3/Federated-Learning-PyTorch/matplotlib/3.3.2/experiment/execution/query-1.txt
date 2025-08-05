@@ -1,0 +1,73 @@
+
+                        **Debug Mission** 
+                        Resolve runtime crash caused by code-level incompatibilities in dependency chain.
+
+                        **Input Context**
+                        - Current environment: coloredlogs==15.0.1
+cycler==0.11.0
+humanfriendly==10.0
+kiwisolver==1.4.5
+matplotlib==3.3.2
+mpmath==1.2.1
+numpy==1.21.6
+Pillow==6.2.2
+protobuf==4.24.4
+pyparsing==3.1.2
+python-dateutil==2.9.0.post0
+six==1.16.0
+sympy==1.10.1
+tensorboardX==1.4
+torch==1.2.0
+torchvision==0.4.0
+tqdm==4.66.4
+typing_extensions==4.7.1
+
+                        - Python version: 3.7
+                        - Crash traceback: Traceback (most recent call last):
+  File "baseline_main.py", line 88, in <module>
+    plt.figure()
+  File "/home/lei/anaconda3/envs/py37-2/lib/python3.7/site-packages/matplotlib/pyplot.py", line 693, in figure
+    **kwargs)
+  File "/home/lei/anaconda3/envs/py37-2/lib/python3.7/site-packages/matplotlib/pyplot.py", line 315, in new_figure_manager
+    return _backend_mod.new_figure_manager(*args, **kwargs)
+  File "/home/lei/anaconda3/envs/py37-2/lib/python3.7/site-packages/matplotlib/backend_bases.py", line 3494, in new_figure_manager
+    return cls.new_figure_manager_given_figure(num, fig)
+  File "/home/lei/anaconda3/envs/py37-2/lib/python3.7/site-packages/matplotlib/backends/_backend_tk.py", line 885, in new_figure_manager_given_figure
+    window = tk.Tk(className="matplotlib")
+  File "/home/lei/anaconda3/envs/py37-2/lib/python3.7/tkinter/__init__.py", line 2023, in __init__
+    self.tk = _tkinter.create(screenName, baseName, className, interactive, wantobjects, useTk, sync, use)
+_tkinter.TclError: couldn't connect to display "localhost:12.0"
+
+
+                        **Analysis Protocol**
+                        1. Traceback Pattern Matching：
+                        a. Identify error type (ImportError/AttributeError/TypeError)
+                        b. Map to possible API changes in matplotlib v3.3.2 or its dependencies
+                        2. Compatibility Matrix Check：
+                        a. Verify library-to-library API compatibility through version ranges
+                        b. Confirm project-to-library interface compatibility
+                        3. Breakpoint Isolation：
+                        b. Determine if conflict originates from：
+                            • Direct API changes in matplotlib
+                            • Transitive dependency API shifts
+
+                        **Resolution Rules**
+                        - PRIMARY CONSTRAINT: Maintain matplotlib==3.3.2
+                        - SECONDARY ADJUSTMENTS: 
+                        • Modify dependency versions only when API contracts allow
+                        • Prefer backward-compatible minor version changes
+
+                        **Output Mandates**
+                        STRICT FORMAT:
+                        lib1==x.y.z  
+                        lib2==a.b.c
+                        ...
+                        PROHIBITED:
+                        • Any non-version text.
+                        • Library additions/removals
+                        • Version placeholders
+                        MANDATORY:
+                        • Preserve original library names and count
+                        • Pin EXACT versions
+                        • Zero explanations/comments
+                        

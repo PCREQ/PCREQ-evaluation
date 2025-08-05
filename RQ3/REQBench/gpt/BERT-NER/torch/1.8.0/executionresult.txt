@@ -1,0 +1,133 @@
+05/28/2025 20:07:22 - INFO - __main__ -   device: cuda n_gpu: 3, distributed training: False, 16-bits training: False
+05/28/2025 20:07:22 - INFO - pytorch_transformers.tokenization_utils -   loading file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-cased-vocab.txt from cache at /home/lei/.cache/torch/pytorch_transformers/5e8a2b4893d13790ed4150ca1906be5f7a03d6c4ddf62296c383f6db42814db2.e13dbb970cb325137104fb2e5f36fe865f27746c6b526f6352861b1980eb80b1
+05/28/2025 20:07:23 - INFO - pytorch_transformers.modeling_utils -   loading configuration file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-cased-config.json from cache at /home/lei/.cache/torch/pytorch_transformers/b945b69218e98b3e2c95acf911789741307dec43c698d35fad11c1ae28bda352.9da767be51e1327499df13488672789394e2ca38b877837e52618a67d7002391
+05/28/2025 20:07:23 - INFO - pytorch_transformers.modeling_utils -   Model config {
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "finetuning_task": "ner",
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "num_labels": 12,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "pad_token_id": 0,
+  "torchscript": false,
+  "type_vocab_size": 2,
+  "vocab_size": 28996
+}
+
+05/28/2025 20:07:24 - INFO - pytorch_transformers.modeling_utils -   loading weights file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-cased-pytorch_model.bin from cache at /home/lei/.cache/torch/pytorch_transformers/35d8b9d36faaf46728a0192d82bf7d00137490cd6074e8500778afed552a67e5.3fadbea36527ae472139fe84cddaa65454d7429f12d543d80bfc3ad70de55ac2
+05/28/2025 20:07:27 - INFO - pytorch_transformers.modeling_utils -   Weights of Ner not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+05/28/2025 20:07:27 - INFO - pytorch_transformers.modeling_utils -   Weights from pretrained model not used in Ner: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias']
+05/28/2025 20:07:30 - INFO - pytorch_transformers.modeling_utils -   loading configuration file out_base/config.json
+05/28/2025 20:07:30 - INFO - pytorch_transformers.modeling_utils -   Model config {
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "finetuning_task": "ner",
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "num_labels": 12,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "pad_token_id": 0,
+  "pruned_heads": {},
+  "torchscript": false,
+  "type_vocab_size": 2,
+  "vocab_size": 28996
+}
+
+05/28/2025 20:07:30 - INFO - pytorch_transformers.modeling_utils -   loading weights file out_base/pytorch_model.bin
+05/28/2025 20:07:33 - INFO - pytorch_transformers.tokenization_utils -   Model name 'out_base' not found in model shortcut name list (bert-base-uncased, bert-large-uncased, bert-base-cased, bert-large-cased, bert-base-multilingual-uncased, bert-base-multilingual-cased, bert-base-chinese, bert-base-german-cased, bert-large-uncased-whole-word-masking, bert-large-cased-whole-word-masking, bert-large-uncased-whole-word-masking-finetuned-squad, bert-large-cased-whole-word-masking-finetuned-squad, bert-base-cased-finetuned-mrpc). Assuming 'out_base' is a path or url to a directory containing tokenizer files.
+05/28/2025 20:07:33 - INFO - pytorch_transformers.tokenization_utils -   loading file out_base/vocab.txt
+05/28/2025 20:07:33 - INFO - pytorch_transformers.tokenization_utils -   loading file out_base/added_tokens.json
+05/28/2025 20:07:33 - INFO - pytorch_transformers.tokenization_utils -   loading file out_base/special_tokens_map.json
+05/28/2025 20:07:33 - INFO - __main__ -   *** Example ***
+05/28/2025 20:07:33 - INFO - __main__ -   guid: dev-0
+05/28/2025 20:07:33 - INFO - __main__ -   tokens: CR ##IC ##KE ##T - L ##EI ##CE ##ST ##ER ##S ##H ##IR ##E T ##A ##KE O ##VE ##R AT TO ##P A ##FT ##ER IN ##NI ##NG ##S VI ##CT ##OR ##Y .
+05/28/2025 20:07:33 - INFO - __main__ -   input_ids: 101 15531 9741 22441 1942 118 149 27514 10954 9272 9637 1708 3048 18172 2036 157 1592 22441 152 17145 2069 13020 16972 2101 138 26321 9637 15969 27451 11780 1708 7118 16647 9565 3663 119 102 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+05/28/2025 20:07:33 - INFO - __main__ -   input_mask: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+05/28/2025 20:07:33 - INFO - __main__ -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+05/28/2025 20:07:33 - INFO - __main__ -   *** Example ***
+05/28/2025 20:07:33 - INFO - __main__ -   guid: dev-1
+05/28/2025 20:07:33 - INFO - __main__ -   tokens: L ##ON ##D ##ON 1996 - 08 - 30
+05/28/2025 20:07:33 - INFO - __main__ -   input_ids: 101 149 11414 2137 11414 1820 118 4775 118 1476 102 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+05/28/2025 20:07:33 - INFO - __main__ -   input_mask: 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+05/28/2025 20:07:33 - INFO - __main__ -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+05/28/2025 20:07:33 - INFO - __main__ -   *** Example ***
+05/28/2025 20:07:33 - INFO - __main__ -   guid: dev-2
+05/28/2025 20:07:33 - INFO - __main__ -   tokens: West Indian all - round ##er Phil Simmons took four for 38 on Friday as Leicestershire beat Somerset by an innings and 39 runs in two days to take over at the head of the county championship .
+05/28/2025 20:07:33 - INFO - __main__ -   input_ids: 101 1537 1890 1155 118 1668 1200 5676 14068 1261 1300 1111 3383 1113 5286 1112 21854 3222 8860 1118 1126 6687 1105 3614 2326 1107 1160 1552 1106 1321 1166 1120 1103 1246 1104 1103 2514 2899 119 102 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+05/28/2025 20:07:33 - INFO - __main__ -   input_mask: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+05/28/2025 20:07:33 - INFO - __main__ -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+05/28/2025 20:07:33 - INFO - __main__ -   *** Example ***
+05/28/2025 20:07:33 - INFO - __main__ -   guid: dev-3
+05/28/2025 20:07:33 - INFO - __main__ -   tokens: Their stay on top , though , may be short - lived as title rivals Essex , Derbyshire and Surrey all closed in on victory while Kent made up for lost time in their rain - affected match against Nottinghamshire .
+05/28/2025 20:07:33 - INFO - __main__ -   input_ids: 101 2397 2215 1113 1499 117 1463 117 1336 1129 1603 118 2077 1112 1641 9521 8493 117 15964 1105 9757 1155 1804 1107 1113 2681 1229 5327 1189 1146 1111 1575 1159 1107 1147 4458 118 4634 1801 1222 21942 119 102 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+05/28/2025 20:07:33 - INFO - __main__ -   input_mask: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+05/28/2025 20:07:33 - INFO - __main__ -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+05/28/2025 20:07:33 - INFO - __main__ -   *** Example ***
+05/28/2025 20:07:33 - INFO - __main__ -   guid: dev-4
+05/28/2025 20:07:33 - INFO - __main__ -   tokens: After bowling Somerset out for 83 on the opening morning at Grace Road , Leicestershire extended their first innings by 94 runs before being bowled out for 29 ##6 with England disc ##ard Andy C ##ad ##dick taking three for 83 .
+05/28/2025 20:07:33 - INFO - __main__ -   input_ids: 101 1258 11518 8860 1149 1111 6032 1113 1103 2280 2106 1120 4378 1914 117 21854 2925 1147 1148 6687 1118 5706 2326 1196 1217 21663 1149 1111 1853 1545 1114 1652 6187 2881 4827 140 3556 25699 1781 1210 1111 6032 119 102 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+05/28/2025 20:07:33 - INFO - __main__ -   input_mask: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+05/28/2025 20:07:33 - INFO - __main__ -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+05/28/2025 20:07:35 - INFO - __main__ -   ***** Running evaluation *****
+05/28/2025 20:07:35 - INFO - __main__ -     Num examples = 3250
+05/28/2025 20:07:35 - INFO - __main__ -     Batch size = 8
+Evaluating:   0%|          | 0/407 [00:00<?, ?it/s]Evaluating:   0%|          | 0/407 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "run_ner.py", line 594, in <module>
+    main()
+  File "run_ner.py", line 563, in main
+    logits = model(input_ids, segment_ids, input_mask,valid_ids=valid_ids,attention_mask_label=l_mask)
+  File "/home/lei/anaconda3/envs/py37-4/lib/python3.7/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "run_ner.py", line 33, in forward
+    sequence_output = self.bert(input_ids, token_type_ids, attention_mask,head_mask=None)[0]
+  File "/home/lei/anaconda3/envs/py37-4/lib/python3.7/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/lei/anaconda3/envs/py37-4/lib/python3.7/site-packages/pytorch_transformers/modeling_bert.py", line 715, in forward
+    head_mask=head_mask)
+  File "/home/lei/anaconda3/envs/py37-4/lib/python3.7/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/lei/anaconda3/envs/py37-4/lib/python3.7/site-packages/pytorch_transformers/modeling_bert.py", line 437, in forward
+    layer_outputs = layer_module(hidden_states, attention_mask, head_mask[i])
+  File "/home/lei/anaconda3/envs/py37-4/lib/python3.7/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/lei/anaconda3/envs/py37-4/lib/python3.7/site-packages/pytorch_transformers/modeling_bert.py", line 415, in forward
+    attention_outputs = self.attention(hidden_states, attention_mask, head_mask)
+  File "/home/lei/anaconda3/envs/py37-4/lib/python3.7/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/lei/anaconda3/envs/py37-4/lib/python3.7/site-packages/pytorch_transformers/modeling_bert.py", line 372, in forward
+    self_outputs = self.self(input_tensor, attention_mask, head_mask)
+  File "/home/lei/anaconda3/envs/py37-4/lib/python3.7/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/lei/anaconda3/envs/py37-4/lib/python3.7/site-packages/pytorch_transformers/modeling_bert.py", line 299, in forward
+    mixed_query_layer = self.query(hidden_states)
+  File "/home/lei/anaconda3/envs/py37-4/lib/python3.7/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/lei/anaconda3/envs/py37-4/lib/python3.7/site-packages/torch/nn/modules/linear.py", line 94, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/home/lei/anaconda3/envs/py37-4/lib/python3.7/site-packages/torch/nn/functional.py", line 1753, in linear
+    return torch._C._nn.linear(input, weight, bias)
+RuntimeError: CUDA error: CUBLAS_STATUS_INTERNAL_ERROR when calling `cublasCreate(handle)`

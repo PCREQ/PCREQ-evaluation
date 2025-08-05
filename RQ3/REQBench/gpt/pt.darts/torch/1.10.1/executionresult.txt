@@ -1,0 +1,35 @@
+05/28 02:05:00 PM | 
+05/28 02:05:00 PM | Parameters:
+05/28 02:05:00 PM | AUX_WEIGHT=0.4
+05/28 02:05:00 PM | BATCH_SIZE=256
+05/28 02:05:00 PM | CUTOUT_LENGTH=16
+05/28 02:05:00 PM | DATA_PATH=./data/
+05/28 02:05:00 PM | DATASET=cifar10
+05/28 02:05:00 PM | DROP_PATH_PROB=0.2
+05/28 02:05:00 PM | EPOCHS=1
+05/28 02:05:00 PM | GENOTYPE=Genotype(normal=[[('sep_conv_3x3', 0), ('dil_conv_5x5', 1)], [('skip_connect', 0), ('dil_conv_3x3', 2)], [('sep_conv_3x3', 1), ('skip_connect', 0)], [('sep_conv_3x3', 1), ('skip_connect', 0)]], normal_concat=range(2, 6), reduce=[[('max_pool_3x3', 0), ('max_pool_3x3', 1)], [('max_pool_3x3', 0), ('skip_connect', 2)], [('skip_connect', 3), ('max_pool_3x3', 0)], [('skip_connect', 2), ('max_pool_3x3', 0)]], reduce_concat=range(2, 6))
+05/28 02:05:00 PM | GPUS=[0, 1, 2]
+05/28 02:05:00 PM | GRAD_CLIP=5.0
+05/28 02:05:00 PM | INIT_CHANNELS=36
+05/28 02:05:00 PM | LAYERS=20
+05/28 02:05:00 PM | LR=0.025
+05/28 02:05:00 PM | MOMENTUM=0.9
+05/28 02:05:00 PM | NAME=cifar10
+05/28 02:05:00 PM | PATH=augments/cifar10
+05/28 02:05:00 PM | PRINT_FREQ=200
+05/28 02:05:00 PM | SEED=2
+05/28 02:05:00 PM | WEIGHT_DECAY=0.0003
+05/28 02:05:00 PM | WORKERS=4
+05/28 02:05:00 PM | 
+05/28 02:05:00 PM | Logger is set - training start
+Files already downloaded and verified
+Traceback (most recent call last):
+  File "augment.py", line 177, in <module>
+    main()
+  File "augment.py", line 39, in main
+    config.dataset, config.data_path, config.cutout_length, validation=True)
+  File "/home/lei/compatibility_analysis/pytorch/1.0/pt.darts/utils.py", line 31, in get_data
+    shape = trn_data.train_data.shape
+  File "/home/lei/anaconda3/envs/py37-6/lib/python3.7/site-packages/torch/utils/data/dataset.py", line 83, in __getattr__
+    raise AttributeError
+AttributeError

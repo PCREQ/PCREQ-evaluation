@@ -1,0 +1,5 @@
+2025-06-29 11:09:18,203 - INFO - *************Upgrade torch from 1.6.0 to 1.10.2 in pytorch-spynet*************
+2025-06-29 11:09:18,203 - INFO - Checking pytorch-spynet is compatible with torch1.10.2?...
+2025-06-29 11:09:20,585 - INFO - pytorch-spynet is compatible with torch1.10.2
+2025-06-29 11:09:22,557 - INFO - *************New requirements.txt has been generated!*************
+2025-06-29 11:09:22,558 - INFO - Time cost: 4.355236053466797 s
